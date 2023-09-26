@@ -1,0 +1,746 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=3782&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=3782&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - PNL traumas (?)</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="pnl-traumas-vt3782.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">PNL traumas (?)</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3782"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="todo-sobre-pnl-vf3.html" class="nav">Todo Sobre PNL</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt3782.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt3782.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="pnl-traumas-vt3782.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">PNL traumas (?)</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="31707"></a>Gido</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 242<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp31707.html#31707"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> PNL traumas (?)</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=31707"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Holaa, nose si seran traumas, quizas exagere con la palabra.
+<br />
+Lo que pasa es que cuando era menor había gente que me pasaba a llevar, me molestaba, etc.
+<br />
+
+<br />
+Ahora desde que conocí la comunidad he estado en un proceso de evolución en mi persona, pero ocurre que pese a lo poco que me importa la opinión de la mayoría de las personas, pese a que he aprendido a centrarme en mi vida, etc. de solo leer el nombre de estas personas se me estremece el cuerpo. Y siento que esto va más haya de mis creencias, o como viva la vida. Ya que aunque todo de mi no quiera darle importancia a estas personas, aún así de puro leer el nombre me estremezco y después de leer lo que dicen (me pasó recien con un comentario en facebook) me quedo pensando en ello (aunque intente evitarlo).
+<br />
+
+<br />
+Supongo que esto me ocurre por algún trauma sicológico que han creado en mi después de los años de burlas, etc. Y mi pregunta va en si la PNL es capaz de ayudar en esto de alguna manera.
+<br />
+
+<br />
+He estado leyendo &quot;Use su cabeza para Variar&quot; de Bandler, pero hasta ahora, pese que dice como curar fobias etc, creo que no dice nada acerca de mi problema.
+<br />
+
+<br />
+Espero que alguno me pueda ayudar con mi problema, que realmente es una carga para mi. Ya sea recomendandome algún libro, dándome algún ejercicio, algún consejo, lo que sea.
+<br />
+
+<br />
+Les agradezco mucho a los que lean mi post, y aún más a los que contesten. Si alguno tiene la respuesta a mi problema, realmente le deberé más de lo que puedo pagar jeje.
+<br />
+
+<br />
+Saludos
+<br />
+Joakov17
+<br />
+
+<br />
+P.S:  <span style="font-weight: bold">mi idea es que la PNL me ayude a ver a estas personas como personas normales</span>, en lugar de SuperVillanos dignos de temer. Es como que están en un pedestal, y estoy seguro de que si los saco de ese pedestal me las voy a poder arreglar solo.<br /><span class="gensmall"><br /><br />Ultima edición por Gido el Lun 23 Feb , 2009 3:53 pm; editado 1 vez</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 22 Feb , 2009 6:49 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="31727"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1860<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp31727.html#31727"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=31727"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">cool
+<br />
+
+<br />
+te tiro mi opinion sobre la aplicacion de pnl y las precausiones (A), la otra salida que tenes... que son las lecturas que te aportan datos para no caer en las mismas situaciones y tratar varios aspectos de lo que te PUDO haber pasado (B) por ultimo... si no dispones de mucho tiempo, lo minimo... (C)
+<br />
+
+<br />
+A) mi opinion
+<br />
+
+<br />
+mira man...
+<br />
+
+<br />
+lo que yo me autoaplico es poco (metamodelo, disociaciones, preguntas, objetivos, modalidad MUY poco, lo de aprendizaje, confusion, lo de no asociar identidad a problemas y modelaje) y tene en cuenta que leo sobre esto de hobbye casi (sigo psicologia)
+<br />
+
+<br />
+es preferible que vayas con alguien que sepa o que al menos leas las bases de la pnl o vayas a algun curso o conozcas efectos contrarios (algunos los vas a encontrar leyendo varios libros de pnl que cada tanto  te dicen &quot;no hagas x, hacelo asi&quot; por ejemplo).
+<br />
+
+<br />
+un ejemplo es
+<br />
+
+<br />
+con disociarte de la imagen, podes sacarte esa sensacion... incluso lo podes hacer con spinning feelings... el tema es... sacartela por sentirte bien puede ser, en un extremo, el resultado de vivir una ilusion de que esta todo ok
+<br />
+
+<br />
+en mi caso me paso, algunas sensaciones me indicaban &quot;hace algo respecto a esto&quot;. pero era HACE, no pajeate mentalmente. a eso voy
+<br />
+
+<br />
+creo que sirve si estas en un momento en el que precisas un break, estar mejor y asi pdoer seguir, pero fijate si esto te esta indicando algo
+<br />
+
+<br />
+si te interesa conocer las bases de la pnl estan en el &quot;la estructura de la magia 1 y 2&quot;
+<br />
+
+<br />
+sino segui leyendo, el intro a pnl, el get the life that you want te va a servir para esto (tiene todo organizado), pero mi recomendacion es... si aplicas, suma lectura o/y aprendizaje y aplica con cuidado
+<br />
+
+<br />
+B) estos son libro que te pueden funcar. ESTO ES COMPLEMENTARIO si es que queres aplica pnl... tienen tecnicas para prevenir estas giladas o para identificar perfiles que hagan estas cosas
+<br />
+
+<br />
+otros d elos libros que te tiro, te cambian a medida que los lees
+<br />
+
+<br />
+por lo que contaste en el post, se me ocurren estos
+<br />
+
+<br />
+1) verbal self defense lillian glass, buscalo en el ares o manda un pm
+<br />
+2) who´s pulling your strings de braiker (creo esta en google &quot;libros&quot; online, sino fijate ares)
+<br />
+3) simpleology (simpleologia)
+<br />
+
+<br />
+1) el 1ro es sobre ataques verbales, como identificarlos, como defenderte, cuando darte cuenta por body languaje quien va a hacerlo, como &quot;ocultar&quot; tu bl que indica que sos blanco facil (cosa que me parece util, pero soluciona corto plazo...) y... creo labura los &quot;core&quot; (la raiz digamos) del problema para que estes mas confiado y no te pisen
+<br />
+
+<br />
+no lo lei, pero se que la minita es considerada buena en el tema
+<br />
+
+<br />
+2) el 2do libro lo estoy leyendo y creo que es EXELENTE, pero es de otro tema (manipulacion)
+<br />
+
+<br />
+como la baja autoestima es consecuencia de ataques verbales y los perfiles mas manipulados por manipuladores son los de baja autoestima, te tiro ese tambien
+<br />
+
+<br />
+ese es exelente porque aparte te enumera el funcionamiento, las tacticas, como es la gente que lo hace, que metodos usan, como cubrirte y como cambiar el &quot;core&quot; (lo que genera que seas target de manipulador mas alla de la proteccion que son las tacticas)
+<br />
+
+<br />
+3) los ataques verbales generan impacto en el criterio de que esta bien mal, etc para yuno y... a veces hacen que uno no arranque a hacer cosas... si es tu caso (SINO NI LO LEAS), leete ese
+<br />
+
+<br />
+C) lo mimimo...
+<br />
+
+<br />
+1) verbal self defense lilian glass
+<br />
+2) metamodelo de bandler, leelo MUY bien (son 12 preguntas, aprendete BIEN cuando hacerlas)
+<br />
+3) busca el get the life you want, mira el indice y fijate cuales de las tecnicas te sirve (estan todas las tecnicas ordenadas segun el uso que les puedas dar)
+<br />
+
+<br />
+hay otros temas relacionados (ser nice guy por ejemplo, si te interesa, esta le libro &quot;no more mr nice guy&quot;), pero ni idea, fijate vos
+<br />
+
+<br />
+en español ni idea... si no sabes ingles avisame que te mando un virus a tu maquina ajjajajaj
+<br />
+
+<br />
+saludos<br /><br />_________________<br />Screening-mode one game<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 23 Feb , 2009 12:59 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="31734"></a>Gido</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 242<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp31734.html#31734"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=31734"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Alive! <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+Gracias por tu respuesta, mira.
+<br />
+
+<br />
+De la idea de disociarme de la imagen lo intenté, pero la verdad no me dió mucho resultado.
+<br />
+
+<br />
+Spinning Feelings aún no tengo idea de que es.
+<br />
+
+<br />
+De los libros de la parte B de tu post, de seguro voy a leer los tres, pero no creo que sean precisamente lo que necesito (al final del post digo porque).
+<br />
+
+<br />
+ Y voy a revisar la parte C de lo que me dijiste.
+<br />
+
+<br />
+La verdad, ahora estoy apurado, pero después voy a volver a leer tu respuesta un par de veces.  Ya que se nota que manejas harta informacion, conoces hartos libros, y de seguro se me pasaron algunas ideas tuyas de largo.
+<br />
+
+<br />
+Decía que la parte B no creo que me sirva para mi problema porque el problema no es precisamente las situaciones en que me molestan, desde que lo intenté de a poco he aprendido a defenderme, de una u otra manera.
+<br />
+
+<br />
+El problema real no es con las personas que me pueden intentar molestar en el fúturo. Sino con las que me molestaron en el pasado, que inconscientemente cree algún tipo de respeto y miedo hacia ellos, y me pongo de una forma peculiarmente nerviosa cada vez que los veo, o los escucho.
+<br />
+
+<br />
+Por eso <span style="font-weight: bold">mi idea es que la PNL me ayude a ver a estas personas como personas normales</span>, en lugar de SuperVillanos dignos de temer. Es como que están en un pedestal, y estoy seguro de que si los saco de ese pedestal me las voy a poder arreglar solo.
+<br />
+
+<br />
+Voy a investigar de Spinning Feelings, quizas esa sea la respuesta.
+<br />
+
+<br />
+Al disociarme de algunos recuerdos pude hacer que ya no quisiera &quot;vengarme en secreto&quot; y no me molestaran  los recuerdos, pero aún así me queda un año más de colegio con ellos y planeo que este año sea excelente, significando eso que necesito resolver este problema. Y ponerlos en su lugar, cosa que no consigo hacer con este &quot;respeto&quot; o miedo que me inspiran con solo verlos.
+<br />
+
+<br />
+Denuevo muchas gracias por tu respuesta alive.
+<br />
+
+<br />
+Chau<br /><span class="gensmall"><br /><br />Ultima edición por Gido el Lun 23 Feb , 2009 7:42 pm; editado 1 vez</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 23 Feb , 2009 3:52 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="31740"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1860<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp31740.html#31740"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=31740"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">ja, oks
+<br />
+
+<br />
+a mi me paso esto de tenerle bronca a gente de un grupo por algo asi. lo que hice fue empezar a juntarme con los amigos mas cercanos y al grupo, decirles &quot;no me surge juntarme&quot; y sin excusas cortar contacto
+<br />
+
+<br />
+la ventaja de ser sincero
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Al disociarme de algunos recuerdos pude hacer que ya no quisiera &quot;vengarme en secreto&quot; y no me molestaran, pero aún así me queda un año más de colegio con ellos y planeo que este año sea excelente, significando eso que necesito resolver este problema. </td>	</tr></table></center>
+<br />
+ok, para mi no es la forma de usar la pnl, pero fijate vos
+<br />
+
+<br />
+para mi no esta mal que un chabon escuche una puteada porque sepas de la raya. de hecho esta perfecto, sino este chabon sigue haciendo lo que quiere...
+<br />
+
+<br />
+no hace falta que estemos siempre felices... hay lugares donde la pnl dice esto... a mi no me parece la solucion a TODO
+<br />
+
+<br />
+para mi es una suma, pnl+sinceridad
+<br />
+
+<br />
+yo en el caso de arriba podria haber cambiado algo de sgeuro... verlos color de rosa... no... fuck them, no los ves y juntas gente con la pases buenos momentos y ya<br /><br />_________________<br />Screening-mode one game<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 23 Feb , 2009 5:30 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="31768"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 678<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp31768.html#31768"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=31768"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">jeje proba ponerlos a todos en una imagen y movela para los costados y que se sacudan, como si estan en una pecera.
+<br />
+
+<br />
+proba imaginarte que sos un puma de 12 metros y les rugis fuerte y ellos -estan chiquititos, ahi abajo- se mean encima... 
+<br />
+
+<br />
+y conta que onda. 
+<br />
+
+<br />
+pd: si en alguna parte no te reis que es no lo estas haciendo bien, agregale color y sonidos mas fuertes <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 24 Feb , 2009 3:22 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="33641"></a>Markez</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/6936424148dc6631ed61a.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Sep 2008<br />Mensajes: 26<br />Ubicación: Peru</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp33641.html#33641"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=33641"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">imaginate que es lo peor que te pueda pasar, ahora piensa que la muerte no es nada asi que deja de temerle, ahora piensa tu eres un hombre y que por tanto tienes que defender tu honor a toda costa, y al precio que fuera preciso pagar. no te importa nada solo tu honor
+<br />
+Si no te puedes enfrentar al mas grandote, ya porque sabes que vas a perder, entonces encaras con uno de tu talla y fuerza o con el flaco que se te pone lizo y sabes que le puedes ganar, y cuando todo comienze le mandas pura lisura te le acercas lo miras a los ojos y lo empujas y si sigue jodiendote le adelantas cualkier golpe todo esto delante de todos para que se enteren con quien hablan. y listo eso es todo con esto es suficiente para que todos te feliciten y te miren con respeto, desde ahi solo te queda ser congruente con tu nueva personalidad funciona de maravilla  <img src="images/smiles/icon_cool.gif" alt="Cool" border="0" /> 
+<br />
+
+<br />
+olvida el resultado porque mas duelen los golpes del alma que los fisicos, que cicatrizan y se olvidan
+<br />
+
+<br />
+si encaras el miedo lo pierdes 
+<br />
+
+<br />
+mira la peli 300 te inspira bastante 
+<br />
+
+<br />
+si actuas no olvides postear el resultado ok  <img src="images/smiles/icon_twisted.gif" alt="Twisted Evil" border="0" /><br /><br />_________________<br />No se fracasa si existe un comienzo, ser transparente te transporta ileso
+<br />
+      &quot;decidir lo que vamos a sentir y sentir lo que hay que decidir&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 24 Mar , 2009 5:34 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm956.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=956"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=956"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a> <a href="http://www.hi5.com/friend/profile/displaySameProfile.do?userid=19734412" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm956.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=3782&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3782"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="todo-sobre-pnl-vf3.html" class="nav">Todo Sobre PNL</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3"selected="selected">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="bf25bd6de4330f63bcb68e64a8a232ac" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

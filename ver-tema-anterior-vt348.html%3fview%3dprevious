@@ -1,0 +1,636 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=38&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=38&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Qué Hacer si Tenes una Mala Noche</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="que-hacer-si-tenes-una-mala-noche-vt38.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Qué Hacer si Tenes una Mala Noche</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=38"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt38.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt38.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="que-hacer-si-tenes-una-mala-noche-vt38.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Qué Hacer si Tenes una Mala Noche</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="101"></a>styltop</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1968354952480e15cb5d8ea.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 20 Oct 2007<br />Mensajes: 912<br />Ubicación: Mendoza</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp101.html#101"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Qué Hacer si Tenes una Mala Noche</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=101"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><span style="text-decoration: underline">Consejos para que tener una mala noche nos afecte lo menos posible </span>
+<br />
+
+<br />
+Estás a full. Tus últimas noches han sido gloriosas: has fcloseado y kcloseado con Hb8, Hb8.5 y hasta Hb 9. Y esta noche vas a confirmar tu postura: &quot;soy un PUA&quot;. Te ponés tu mejor pilcha, quedas con tus wings,llegán al boliche al ritmo de &quot;JumP&quot;, abordas a un grupo de chicas... y no te hacen caso. Como te da igual, abordas a otro grupo... y no enganchas. Y así uno tras otro. Empezas a pensar... ¿qué me pasa? ¿he perdido mis habilidades de repente? ¿acaso soy peor de lo que creía? Nada de eso, lo que te pasa es que tienes una Mala Noche.
+<br />
+
+<br />
+Hay noches en las que nos comemos el mundo, son nuestras Noches Buenas. Y otras veces parece que no damos pie con bola, son nuestras Noches Malas.
+<br />
+
+<br />
+Y tener una Mala Noche es algo que nos pasa a todos de vez en cuando (¡y si a alguien no le pasa que me diga el truco!). Puede ser por muchas razones:
+<br />
+
+<br />
+* estás cansado
+<br />
+* estás enfermo y no estás mentalmente a un 110%
+<br />
+* te has confiado demasiado por tus últimos éxitos
+<br />
+* de pura casualidad, te has encontrado con varios grupos de chicas poco receptivas y muy chetitas y agrandaditas de mierda.
+<br />
+* o millones de causas mas
+<br />
+
+<br />
+
+<br />
+En fin, ¡pueden ser tantas las variables! Lo que está claro es que si normalmente te va bien, y de repente una noche específica ves que todo te sale mal, ¡no es tu culpa! seguis teniendo la habilidad, pero algo en las circunstancias ha cambiado.
+<br />
+
+<br />
+En este momento es cuando a algunos de nosotros ntro subonsciente nos empieza a darnos la paliza: &quot;no sos tan groso como te creés&quot;, &quot;te sale todo mal&quot;, &quot;las chicas no quieren nada contigo&quot;, &quot;sos un frustrado y encima por partida doble porque sabes algo e seducción&quot;. Y se puede entrar en una espiral de negatividad que realmente acabará por amargarnos la noche, ¡y eso es muy malo!
+<br />
+
+<br />
+Lo que jamás debemos hacer es amargarnos, por ejemplo irnos a un rincón con nuestro trago a pensar sobre lo torpes que somos, o empezar a darles la paliza a nuestros amigos con nuestras miserias. ¡Eso lo único que hace es acelerar la espiral de negatividad! Hay que cortarla por lo sano. Para ello tenemos dos opciones:
+<br />
+
+<br />
+*Mañana Será Otro Día*
+<br />
+
+<br />
+Simplemente, si vemos que la noche está saliendo como Arg Brasil en la copa America ultima, y no tenes chances de mejorar,&quot;nos vamos a casita y nos echamos a dormir&quot;. Mañana será otro día y seguramente estaremos más contentos.
+<br />
+
+<br />
+¡Ojo! Esto sólo sirve si ya llevas un tiempo en esto, y si sales a gamear de forma regular. Si estás empezando, esto puede ser una excusa para retirarte en cuanto te agobias, ¡así no aprendes! Pero si normalmente te va bien por la noche, y un día en concreto te va mal sin una razón aparente, pues puedes dar la noche por concluída, sabiendo que al día siguiente volverás a intentarlo con renovadas fuerzas.
+<br />
+
+<br />
+Esto está especialmente indicado si no te encuentras del todo bien: si estás cansado o medio enfermo. Porque no estás al 100%, y te compensa descansar hoy, y volver al juego al día siguiente.
+<br />
+
+<br />
+
+<br />
+*El Partido No Se Acaba Hasta El Último Minuto*
+<br />
+
+<br />
+
+<br />
+¡Bancatela! Si unas chicas te dicen que NO, ¡ellas se lo pierden! Andate rápidamente a hablar con otras, y así hasta que enganches en algún set. Muchas veces parece que la noche te va para el culo, y de repente encontras a unas chicas super simpáticas que están encantadas de hablar con un flaco top como vos, e incluso podes llegar a algo con ellas. ¡De repente lo negro es blanco, y tu noche se ha vuelto &quot;Buena&quot;! Muchas veces, una noche que parecía perdida se convertirá en una noche estupenda, simplemente persistiendo y gameando hasta el último momento.
+<br />
+
+<br />
+Algunas cosas que podemos hacer para detener la espiral de negatividad, y recuperar nuestro estado de ánimo positivo:
+<br />
+
+<br />
+--Cambia de Ambiente
+<br />
+
+<br />
+Si estás en la vip de Sunset y te está yendo la cosa mal, cambia de pista (a nivel psicológico es parecido a empezar de nuevo). Si podes ir a una pista donde estés cómodo, conozcas a la gente y te sientas como en casa, mejor. ¡Y gamea nada más llegar! Muchas de las negatividades se producen por entrar en un sitio y esperar mucho antes de abordar.
+<br />
+
+<br />
+--Que te Animen tus Amigos
+<br />
+
+<br />
+Si estás con el estado emocional bajo, simplemente informa a tus friends: &quot;hey, recargame q no ando bien&quot;. Si te conocen bien, seguramente sabrán como hacerlo.
+<br />
+
+<br />
+--Que Entren tus Amigos
+<br />
+
+<br />
+Si ves que cuando abordas no logras tu propósito, es hora de que entren tus amigos, y una vez que ya hayan enganchado, y las chicas estén más sociables, te presenten. Así podrás charlar animadamente con las chicas, lo que te devolverá el ánimo, y además aprovechas para echar tus técnicas. Ya tendrás tiempo de entrar tú luego.
+<br />
+
+<br />
+--Anclas
+<br />
+
+<br />
+Fotos: puedes llevar fotos en tu cámara digital que te traigan buenos recuerdos: tus amigos de toda la vida, chicas con las que te fue bien, tu mascota, etc. Al verlas te sentirás mejor sin duda alguna.
+<br />
+
+<br />
+Música: si a vos la música te sube el estado de ánimo, puedes llevar un reproductor MP3 pequeñito en el bolsillo, con las canciones que más te gusten. Así, en el momento en que te encuentras un poco bajo de ánimo, te pones la canción que más te anima, y ya verás como sacas fuerzas de flaqueza.
+<br />
+
+<br />
+
+<br />
+Resumiendo, es importante que si tenemos una mala noche, esto no nos afecte mucho: bien porque aguantemos hasta el final y en algún momento nos recuperemos, o bien porque nos vayamos a la mierda en cto antes.
+<br />
+
+<br />
+Recordarte que no hay que tomarse nada demasiado en serio, incluyendo las noches bajas. Y sobre todo, si seguís practicando y agarrando experiencia, cada vez nuestras noches malas se parecerán más a nuestras noches buenas, y habrá muy pocas cosas que consigan afectar nuestro estado de ánimo.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Oct 23, 2007 2:04 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm2.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1208"></a>falso_conejo</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 23 Oct 2007<br />Mensajes: 43<br />Ubicación: CAPITAL ARGENTINA</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1208.html#1208"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> No agas igual que un afc</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1208"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Por que tenemos que gemear solo en un boliche?
+<br />
+ la mayoria de los afc tratan de levantar a alguien cuando van a bailar, y si no dicen ...
+<br />
+&quot; hay otro sabado perdido . . . .&quot;
+<br />
+
+<br />
+ me parece que uno puede gamear en cuanquier lado.
+<br />
+ Eso nos da una ventaja que el boliche es solo un esenario de todos los que tenemos para gamear
+<br />
+
+<br />
+  haci que la proxima ves que te valla mal en el boliche no te agarres los que venga como todos los
+<br />
+afc y dejan la dignidad en la cancha total , cuando salis del voliche sigue el juego en otro esenario!!!<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Nov 09, 2007 1:10 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm24.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=24"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=24"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a> <a href="http://WWW.ALTOINTERNET.BLOGSPOT.COM" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm24.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1283"></a>gachebi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/20620967594771cd39be649.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 30 Oct 2007<br />Mensajes: 59<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1283.html#1283"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Siempre pilas!</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1283"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Coindico mucho con lo que decis styltop. Para reforzar esto hay una frase que dice &quot;no te des por vencido, ni aún vencido&quot; y hay muchas historias que por el golpe del final un boxeador que venia mal terminó ganando: David y Goliat es un ejemplo clásico. 
+<br />
+El otro dia estaba en Sunset y no venia muy bien, tenia el state bajo, no habia encarado y nos estabamos por ir y ahi fue cuando un amigo para darme ánimo me dijo &quot;no nos vamos hasta que no abris un set&quot;. Uno de mis amigos habia ido al guardarropa y estaba volviendo entonces pense &quot;tengo que ir ahora sin pensar&quot; y fui, me quede un  toque y me fui. Pero me fui mucho mejor de lo que estuve toda la noche, es como hacer un gol en el último minuto.
+<br />
+Otra vez me paso a mi pensar cuando ya nos estabamos llendo y habia abierto varios sets decirme a mi mismo o a un amigo: &quot;no me voy hasta abrir 3 sets más&quot; y fue asi.
+<br />
+Asi que a darse pilas siempre!.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom Nov 11, 2007 4:04 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm60.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=60"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm60.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1289"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2791<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1289.html#1289"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1289"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">bueno, esto lo escribí en un FR de Chill, tiene q ver con el tema
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">ahora q estoy agarrando el ritmo del sarge y todo eso me doy cuenta q ya no me duermo en los boliches, me divierto cada vez más, y q realmente la paso bien.. y no digo: uff q hago acá en un boliche, aca se viene a levantar minas, a socializar y yo no doy pie con bola... o cuando me rechaza una minita me cago de risa y casi no me afecta el state y puedo saltar a otro set re bien..
+<br />
+
+<br />
+Creo q saber y conocer sobre seducción, y rodearme de gente q tmb sabe mucho, me da cierta tranquilidad y mucha más auto confianza... es más, cuando estoy solo en alguna fiesta o algo así tmb me siento re bien, pq me acuerdo del state q tenía otras veces q me fué bien. Es otra onda la q agarrás, no necesitás quedarte tomando toda la noche en la barra pq no tenés otra cosa q hacer, es notable la diferencia cuando sabés y estás acostumbrado.. y realmente es divertido
+<br />
+
+<br />
+Por eso el sarge se vuelve cada vez más adictivo jejej, chequeen el FR de Alive cuando queda poseído x el direct y se van a dar cuenta Razz</td>	</tr></table></center><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom Nov 11, 2007 4:37 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1458"></a>Deal</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Nov 2007<br />Mensajes: 48<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1458.html#1458"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1458"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo me daba la cabeza contra al pared antes, pero cai en la cuenta d elo que me estaba pasando...
+<br />
+NO ESTABA DISFRUTANDO EL PROCESO DE SARGEAR...ERA UN TRABAJO O ALGO RARAS VECES PLACENTERO.
+<br />
+
+<br />
+Asi que con Girl Hunter salimos una noche e hicimos algo: No gamear hasta no divertirnos con nosotros mismos.
+<br />
+
+<br />
+Es facil, te vas a la pista (yo no se bailar y el...tampoco) y te pones a bailar, te dejas llevar por la musica, bailas con alguien si de verdad NO queres gamear (incluso chabones), hasta que sientas que te estas divirtiendo de vos mismo.
+<br />
+Esto pasa tambien si te pones a hacer el ridiculo en un boliche y aunque todos te miren mal seguis haciendo el ridiculo, porque llega un momento que te reis de vos mismo,  no te importa nadie mas.
+<br />
+
+<br />
+Pero como eso puede ser adictivo y sacarte las ganas de gamear, solo digo: Diviertanse con uds mismos antes que con los demas.
+<br />
+
+<br />
+Entonces nunca vas a tener una mala noche, y nunca la vas a pasar mal. Recuerden que la diferencia entre un dancey monkey y un sex worthy guy es que el el ultimo no hace las cosas para entretener al set sino para entretenerse EL.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Nov 13, 2007 4:29 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm67.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=67"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=38&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=38"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22"selected="selected">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="7340a8433b39e01a24ccb772fe6de822" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

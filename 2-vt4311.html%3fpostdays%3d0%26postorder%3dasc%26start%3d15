@@ -1,0 +1,1482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=4311&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=4311&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Pregunta: La belleza importa?</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="pregunta-la-belleza-importa-vt4311.html?start=15&amp;postdays=0&amp;postorder=asc&amp;highlight=">Pregunta: La belleza importa?</a><br />
+	  <span class="gensmall"><b>Ir a página  <a href="anterior-vt4311.html?postdays=0&amp;postorder=asc&amp;start=0">Anterior</a>&nbsp;&nbsp;<a href="1-vt4311.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <b>2</b>, <a href="3-vt4311.html?postdays=0&amp;postorder=asc&amp;start=30">3</a>, <a href="4-vt4311.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt4311.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>&nbsp;&nbsp;<a href="siguiente-vt4311.html?postdays=0&amp;postorder=asc&amp;start=30">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4311"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="novatos-vf42.html" class="nav">Novatos</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt4311.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt4311.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="pregunta-la-belleza-importa-vt4311.html?start=15&amp;postdays=0&amp;postorder=asc&amp;highlight=">Pregunta: La belleza importa?</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37093"></a>strato</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1292174798489d27f7a2576.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Jun 2008<br />Mensajes: 307<br />Ubicación: Gran.BS</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37093.html#37093"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37093"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">si esta bien importa...pero hasta cierto punto...para mi la seguridad es todo sino mira esto <a href="http://www.youtube.com/watch?v=mo6jUXEpECI" target="_blank">http://www.youtube.com/watch?v=mo6jUXEpECI</a>
+<br />
+
+<br />
+ahora que me decis?<br /><br />_________________<br />que no te caguen la ilusion...Don't be a fucking nice guy 
+<br />
+***soy social...soy divertido..no me importa la opinion de los demás...no me importa rebotar...soy la fiesta***<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 7:55 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm462.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=462"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37097"></a>MARKO</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1187248401496555b45f49f.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Jul 2008<br />Mensajes: 164<br />Ubicación: Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37097.html#37097"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37097"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Gido escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+mira viejo, voy a partir diciendo tres cosas. Uno, si cree este post es porque pienso de corazon que tengo razón y me molesta que se vendan mentiras.
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+como es que los que son como tu te dicen mentiras, no son mentiras son opiniones diferentes
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+A tu primera pregunta, mis &quot;estadisticas&quot; las saco de minimo unas 20 o 30 minitas (amigas, conocidas y hasta desconocidas) con las que he hablado del tema.
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+solo porque sean mujeres las que te lo dicen, eso ya lo hace una VERDAD O LEY?????
+<br />
+
+<br />
+mira son opiniones diferentes, que importa si la belleza es importante o no????
+<br />
+
+<br />
+deja interesarte en lo que piensan los demas ya que si decis &quot;la belleza si importa&quot; 
+<br />
+
+<br />
+ponete a pensar a quien?????
+<br />
+
+<br />
+la belleza importa a los demas ???????
+<br />
+o la belleza te importa a vos?????
+<br />
+
+<br />
+con todo respeto a tus amigas:  &quot;LAS MUJERES NUNCA SABEN LO QUE QUIEREN&quot;
+<br />
+
+<br />
+lo que importa no es lo que vean los demas...Lo importante es como te veas vos
+<br />
+
+<br />
+
+<br />
+si vos le pones importancia a las apariencias eso va a empezar a afectar tu realidad creelo,si vos le pones importancia, los demas le pondran importancia tambien
+<br />
+
+<br />
+a todos aqui que no se consideren muy guapos les aconsejo que no le pongan importancia a la apariencia saquen esa creencia limitante de su realidad; si vos le pones importancia, los demas le pondran importancia tambien<br /><br />_________________<br /><span style="color: yellow">nO eStAs aQuI pArA cOnOcErTe A tI mIsMo....   eStAs aQuI pArA cReArTe A tI mIsMo</span> <span style="color: red"><span style="font-size: 24px; line-height: normal">CARPE DIEM</span></span>
+<br />
+
+<br />
+JEFE-------&gt;MARKO<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 8:03 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm530.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=530"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37098"></a>Gian Franco</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 525<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37098.html#37098"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37098"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">strato escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">si esta bien importa...pero hasta cierto punto...para mi la seguridad es todo sino mira esto <a href="http://www.youtube.com/watch?v=mo6jUXEpECI" target="_blank">http://www.youtube.com/watch?v=mo6jUXEpECI</a>
+<br />
+
+<br />
+ahora que me decis?</td>	</tr></table></center>
+<br />
+
+<br />
+te digo que ahora estamos los dos de acuerdo <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+
+<br />
+si yo ni he tocado el tema de la seguridad, porque es un tema aparte... el cual es mega importante.
+<br />
+
+<br />
+Solo toqué el tema de la belleza.
+<br />
+
+<br />
+Y si tu me dices que SI importa, hasta cierto punto.
+<br />
+
+<br />
+Estamos de acuerdo los dos <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><br /><br />_________________<br />una importante etapa de mi vida, pero como todo... se va con el viento. Ahora solo vivir lo que la vida me presenta <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 8:06 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37099"></a>Gian Franco</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 525<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37099.html#37099"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37099"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">MARKO escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+como es que los que son como tu te dicen mentiras, no son mentiras son opiniones diferentes
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+eso es muy cierto <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /> me equivoqué con la palabra
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">MARKO escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+<span style="font-weight: bold">solo porque sean mujeres las que te lo dicen, eso ya lo hace una VERDAD O LEY?????
+<br />
+</span>
+<br />
+no digo que sea ley, solo que si es verdad... a ti te gustan las mujeres guapas? a mi igual! porque te cuesta tanto aceptar que a las mujeres igual les gustan los hombres guapos?
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+mira son opiniones diferentes, que importa si la belleza es importante o no????
+<br />
+</span>
+<br />
+importa que es otro factor que influye, y esto es un foro de seduccion.
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+deja interesarte en lo que piensan los demas ya que si decis &quot;la belleza si importa&quot; 
+<br />
+
+<br />
+ponete a pensar a quien?????
+<br />
+</span>
+<br />
+a mi me importa, a ti te importa, al flaco que se acaba de registrar le importa, a los moderadores les importa, a david x le importa y a LAS MINAS les importa.
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+con todo respeto a tus amigas:  &quot;LAS MUJERES NUNCA SABEN LO QUE QUIEREN&quot;</span>
+<br />
+
+<br />
+eso te lo dice la experiencia o lo leiste por ahi?
+<br />
+
+<br />
+Estoy de acuerdo en que las mujeres son emocionales, en que las mujeres pueden decir una cosa y querer otra, pero no son tontas.
+<br />
+
+<br />
+Son humanas igual que tu. Pareces misogino con algunas afirmaciones que haces.
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+lo que importa no es lo que vean los demas...Lo importante es como te veas vos</span>
+<br />
+
+<br />
+En esto estoy harto de acuerdo, pero aún así te voy a contradecir en cierto punto. 
+<br />
+Si una mina que es chica gorda y fea se ve a si mismo como una modelo exquisita, justo como esa modelo que a ti te encanta (ella se ve a si misma)... por que ella se vea asi, tu le vas a dar bola?
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+si vos le pones importancia a las apariencias eso va a empezar a afectar tu realidad creelo,si vos le pones importancia, los demas le pondran importancia tambien</span>
+<br />
+
+<br />
+tu ya le pones importancia desde el momento en que te sargeas a las mejores minitas.
+<br />
+
+<br />
+Y depende de cuanta importancia le pongas, tener buen físico es fácil. Basta con que le pongas lo suficiente para tener buen físico. No te digo que te compres maquillaje ni mucho menos (y nunca que dejes de comportarte como hombre o que seas metrosexual <img src="images/smiles/icon_confused.gif" alt="Confused" border="0" />)
+<br />
+
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+en negrita lo que tu escribiste, y normal lo que yo contesto <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />una importante etapa de mi vida, pero como todo... se va con el viento. Ahora solo vivir lo que la vida me presenta <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 8:19 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37102"></a>MARKO</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1187248401496555b45f49f.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Jul 2008<br />Mensajes: 164<br />Ubicación: Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37102.html#37102"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37102"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">no digo que sea ley, solo que si es verdad... a ti te gustan las mujeres guapas? a mi igual! porque te cuesta tanto aceptar que a las mujeres igual les gustan los hombres guapos? 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+a las minitas les gustan guapos, no te lo voy a negar pero no es un factor determinante
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">a mi me importa, a ti te importa, al flaco que se acaba de registrar le importa, a los moderadores les importa, a david x le importa y a LAS MINAS les importa. 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+talvez a ti te importa más que a otros, te lo digo porque yo me he propuesto en pasar eso por alto (no te digo que me descuido fisicamente) pero no me importa mucho a la hora de encarar.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">eso te lo dice la experiencia o lo leiste por ahi? 
+<br />
+
+<br />
+Estoy de acuerdo en que las mujeres son emocionales, en que las mujeres pueden decir una cosa y querer otra, pero no son tontas. 
+<br />
+
+<br />
+Son humanas igual que tu. Pareces misogino con algunas afirmaciones que haces. 
+<br />
+
+<br />
+</td>	</tr></table></center>
+<br />
+si crees que lo lei en algun lado es porque tambien lo leiste, francamente te digo que lo he PRESENCIADO como una mujer sufre con un hombre que la maltrata y sigue alli con el, como dice que quiere un chico bueno que la consienta y lo egaña con un imbecil que no tiene ni trabajo y no la respeta para nada.
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Si una mina que es chica gorda y fea se ve a si mismo como una modelo exquisita, justo como esa modelo que a ti te encanta (ella se ve a si misma)... por que ella se vea asi, tu le vas a dar bola? 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+he alli una diferencia entre atractivo femenino y masculino
+<br />
+
+<br />
+nosotros vemos en las mujeres rasgos atractivos que denotan fertilidad y propension al exito reproductivo (grandes senos, labios carnosos, caderas anchas, etc)
+<br />
+
+<br />
+en cambio las mujeres buscan rasgos en los hombres que denoten exito para sobrevivir
+<br />
+
+<br />
+<span style="font-weight: bold">fisicos</span>
+<br />
+ torso fuerte (altura, fueza)
+<br />
+ movimientos asertivos
+<br />
+ bl relajado (seguridad, la cual te da un INNER bien afinado esto es emocional)
+<br />
+ buena piel, dientes, pelo,( saludable)
+<br />
+ etc
+<br />
+<span style="font-weight: bold">mentales</span>
+<br />
+ inteligencia
+<br />
+ acertividad
+<br />
+ buen humor( denota inteligencia social)
+<br />
+ decisividad
+<br />
+ fuerza de voluntad
+<br />
+ etc.
+<br />
+
+<br />
+no puedo seguir listando porque me extenderia demaciado
+<br />
+
+<br />
+un hombre &quot;de las cavernas&quot; podria sobrevivir con su inteligencia si no tuviera fisico que lo ayudara y esto lo haria exitoso
+<br />
+
+<br />
+lo que vemos como bello o atractivo, son rasgos de nuestro instinto el cual nos hacia elejir al mejor compañero para pasar los mejores genes a nuestros bebes 
+<br />
+
+<br />
+en resumen quiero que te des cuenta de que desafortunadamente para las mujeres la belleza es en su mayoria fisica
+<br />
+
+<br />
+en cambio un hombre atractivo tiene muchos aspectos de su personalidad que pueden inclinar la balanza a su favor si carece de caracteristicas fisicas atractivas
+<br />
+
+<br />
+mala suerte para la gordita que me pusiste de ejemplo ya que nosotros los hombres no buscamos en las mujeres tanta personalidad 
+<br />
+
+<br />
+creo que la &quot;belleza fisica&quot; si importa para primeras impresiones pero de alli nada mas.
+<br />
+
+<br />
+yo no le pongo importancia ya que soy yo el que sale a buscar la minita que quiero y me puedo dar el lujo de decir &quot;la quiero asi y asa&quot;
+<br />
+
+<br />
+me importaria más mi apariencia si fuera yo el que estuviera esperando que una minita me venga a hablar cosa que nunca voy a hacer<br /><br />_________________<br /><span style="color: yellow">nO eStAs aQuI pArA cOnOcErTe A tI mIsMo....   eStAs aQuI pArA cReArTe A tI mIsMo</span> <span style="color: red"><span style="font-size: 24px; line-height: normal">CARPE DIEM</span></span>
+<br />
+
+<br />
+JEFE-------&gt;MARKO<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 8:50 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm530.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=530"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37108"></a>MARKO</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1187248401496555b45f49f.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Jul 2008<br />Mensajes: 164<br />Ubicación: Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37108.html#37108"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37108"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><a href="http://www.youtube.com/watch?v=fNGIzUQ6hns" target="_blank">ugly guys</a>
+<br />
+
+<br />
+
+<br />
+te cagas de risa pero  tiene mucha razon ajajaja  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br /><span style="color: yellow">nO eStAs aQuI pArA cOnOcErTe A tI mIsMo....   eStAs aQuI pArA cReArTe A tI mIsMo</span> <span style="color: red"><span style="font-size: 24px; line-height: normal">CARPE DIEM</span></span>
+<br />
+
+<br />
+JEFE-------&gt;MARKO<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 9:56 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm530.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=530"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37109"></a>Revolution</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/975069418499a5d3a318a2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 17 Jul 2008<br />Mensajes: 678<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37109.html#37109"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37109"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">La belleza es un factor que de ninguna manera es determinante. El problema es que un día salís a bailar y a la misma mina que le querés dar le quiere dar jonnhy deep, vos te rompés el lomo tratando de levantártela y el viene y dice dame un beso linda y la tiene. Ahí es cuando volvés a tu casa puteando y diciendo loco si no sos lindo no ganás.
+<br />
+
+<br />
+Claro lo que pasa es que por más que vos tengas mucho más para aportar que el otro pelotudito, es muy difícil que en una noche proyectes todo lo que sos. Se me ocurre esta metáfora, ponele que se van a pelear 2 flacos, uno grandote, fierrero y con cara de loquito y por otro lado uno chiquito, medio flacucho, si tengo que apostar apuesto por el primero poco me va a importar que el otro me diga yo peleo re bien, soy campeón de tal cosa, etc; voy a tenerle confianza al segundo cuando vea que le rompa la cabeza a 3 flacos, que vea que no tuvo suerte y que sabe lo que hace.
+<br />
+
+<br />
+En el boliche es así, tenés poco tiempo para transmitir lo que tenés para ofrecer y lo que más se absorbe es lo que entra por lo ojos. Además a eso sumale, que hay minas que capaz esa noche no quieren una relación, no les interesa que seas re seguro, confianzble y todo lo que quieras, solo quiere chaparse/garcharse a un flaco que sea re fachero y nada más.
+<br />
+
+<br />
+Si la facha mucho no te beneficia (y si lo hace también), las claves son la actitud y tu poder para llevara por estados emocionales. La actitud porque ahí se ve si sos o no como decís o como aparentás ser, hay flacos que ya con verlo y hablar 5 minutos te das cuenta que el flaco sabe, que es un capo, lo mismo en el caso contrario también te podés dar cuenta que es un tarado. Lo segundo porque las minas son muy emocionales y si podés hacerlas sentir como vos querés las volvés locas.
+<br />
+
+<br />
+Para concluir, todo lo de arriba es en un ámbito de boliche/bar/fiesta, porque ahi es donde nace este prejuicio, fijate como las minas dejan a los flacos que son lindos pero boludos y se van quedando con los que las hacen sentir mejor. Pasa que si vos vas al boliche y veses lo que dije arriba tendés a generalizar y no ves las cosas bien en perspectiva y a futuro, y ahi ya la cagaste.
+<br />
+
+<br />
+Eso es todo, espero que entienda la causa de este prejuicio tonto.<br /><br />_________________<br />No juego para la tribuna, juego para ganar.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 10:04 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=544"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37110"></a>Gian Franco</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 525<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37110.html#37110"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37110"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">MARKO escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+<span style="font-weight: bold">a las minitas les gustan guapos, no te lo voy a negar pero no es un factor determinante
+<br />
+</span>
+<br />
+no he dicho que sea determinante... solo digo que es importante, y hace rato que hablo de belleza física por buen físico y no por simetria de cara, frente grande, blablabla
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+talvez a ti te importa más que a otros, te lo digo porque yo me he propuesto en pasar eso por alto (no te digo que me descuido fisicamente) pero no me importa mucho a la hora de encarar.</span>
+<br />
+
+<br />
+te refieres que pasas por alto la belleza de las mujeres? la verdad creo que eres uno de pocos ja <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+<span style="font-weight: bold">
+<br />
+
+<br />
+si crees que lo lei en algun lado es porque tambien lo leiste, francamente te digo que lo he PRESENCIADO como una mujer sufre con un hombre que la maltrata y sigue alli con el, como dice que quiere un chico bueno que la consienta y lo egaña con un imbecil que no tiene ni trabajo y no la respeta para nada.</span>
+<br />
+
+<br />
+sip, yo tambien lo leí y por eso te saque en cara que lo habías leido por ahí.
+<br />
+
+<br />
+Sigue allí porque es emocional, no porque no sepa lo que quiere. Si sufre por alguien que la trata mal es porque sus sentimientos le dicen que tenga la esperanza de que va a cambiar, pero ella sabe que se esta haciendo daño.
+<br />
+
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+ torso fuerte (altura, fueza)
+<br />
+ bl relajado (seguridad, la cual te da un INNER bien afinado esto es emocional)
+<br />
+ fuerza de voluntad</span>
+<br />
+
+<br />
+esas son algunas de las que desarrollas preocupandote por tu fisico <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />
+<br />
+<span style="font-weight: bold">
+<br />
+
+<br />
+en cambio un hombre atractivo tiene muchos aspectos de su personalidad que pueden inclinar la balanza a su favor si carece de caracteristicas fisicas atractivas</span>
+<br />
+
+<br />
+una vez más, estoy de acuerdo en eso. Pero eso no significa que no importe la belleza externa de los hombres, porque si importa.
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+creo que la &quot;belleza fisica&quot; si importa para primeras impresiones pero de alli nada mas.
+<br />
+</span>
+<br />
+
+<br />
+una vez más, hablando de una disco (o un boliche o antro como quieras llamarle) la primera impresion importa bastante, ya que si no le gustas de primera impresion simplemente te rechaza... 
+<br />
+
+<br />
+y tu vas a la siguiente y dices como david x &quot;es una zorra&quot;. O si te preocupas un poco por tu apariencia física, evitas que te rechaze <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+yo no le pongo importancia ya que soy yo el que sale a buscar la minita que quiero y me puedo dar el lujo de decir &quot;la quiero asi y asa&quot;
+<br />
+</span>
+<br />
+Da lo mismo que elijas puras modelos, si ellas no gustan de ti igual te van a rechazar.
+<br />
+
+<br />
+<span style="font-weight: bold">
+<br />
+me importaria más mi apariencia si fuera yo el que estuviera esperando que una minita me venga a hablar cosa que nunca voy a hacer
+<br />
+</span>
+<br />
+si una mina te viene a hablar y es fea le vas a dar bola? igual la vas a rechazar. Es lo mismo</td>	</tr></table></center>
+<br />
+
+<br />
+lo tuyo en negrita <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />una importante etapa de mi vida, pero como todo... se va con el viento. Ahora solo vivir lo que la vida me presenta <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 10:07 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37113"></a>Lean</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/104696035849064dc924a5d.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 20 Ago 2008<br />Mensajes: 181<br />Ubicación: Buenos Aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37113.html#37113"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37113"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">la facha ayuda un montonazo, mas en un ambiente careta como es un boliche o similar.
+<br />
+pero yo pienso q a las minitas le gustan los hombres divertidos, masculinos, q tienen onda (forma de vestir , de moverse) y confianza (tmb ver sobre &quot;atributos de la masculindad&quot;)
+<br />
+y podes ser re feo, pero si cumplis con lo de arriba, podes tener mujeres igual (la cantidad y calidad depende de q tan bueno sea el player, pero eso no entra en discusion ahora)<br /><br />_________________<br />&quot;Mis éxitos y mis fracasos, lo bueno y lo malo que he experimentado, todo me ha demostrado que este mundo, tanto físico como moral, el bien sale siempre del mal, igual que el mal del bien.&quot; Casanova<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 10:53 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm617.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=617"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37115"></a>SuperBolivian</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2072121498491e1b0a3f696.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Nov 2008<br />Mensajes: 318<br />Ubicación: Bolivia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37115.html#37115"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37115"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">hablando para nosotros mismos  que  te da ser fachero:  yo creo que solo confianza
+<br />
+
+<br />
+fisico es importante para solo darte un poco de confianza ahora ya tu si lo cagas  por no ser intersante.
+<br />
+
+<br />
+es importante cultivar el fisico para sentirte mejor contigo  mismo  pero mas alla de ello creo que es mas importante cultivar la actitud y la personalidad que tienes respecto a ello...
+<br />
+
+<br />
+yo soy un chico delgado  la verdad  me gustaria ser un poco mas rellenito no es para gustarle a la chica si no para  sentirme mejor conmigo mismo yo me acepto tal como soy  no por algo paso mas tiempo tratando de ser mejor personar y superarme en todo sentido. 
+<br />
+
+<br />
+
+<br />
+las discotecas son un lugar donde no puedes demostrar la personalidad que tienes ya sea por la musica  y otros factores pero   pero hay chicas de todos los gustos
+<br />
+
+<br />
+suerte...........<br /><br />_________________<br />la gente y las situaciones no te hacen infeliz lo haces tu mismo con tus propios pensamientos........<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 11:04 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1079.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1079"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>   <a href="aim:goim?screenname=bad.3000@hotmail.com&amp;message=Hello+Are+you+there?"><img src="templates/AcidTech/images/lang_english/icon_aim.gif" alt="Dirección AIM" title="Dirección AIM" border="0" /></a>   <a href="http://wwp.icq.com/scripts/search.dll?to=0000"><img src="templates/AcidTech/images/lang_english/icon_icq.gif" alt="Número de ICQ" title="Número de ICQ" border="0" /></a></td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37117"></a>MARKO</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1187248401496555b45f49f.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Jul 2008<br />Mensajes: 164<br />Ubicación: Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37117.html#37117"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37117"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">torso fuerte (altura, fueza) 
+<br />
+bl relajado (seguridad, la cual te da un INNER bien afinado esto es emocional) 
+<br />
+fuerza de voluntad 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="code-table"><tr>	<td width="19" height="19" class="code-corner"><img src="templates/AcidTech/images/code_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="code-header">Código:</td></tr><tr>	<td class="code-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="40" alt="" /></td>	<td class="code-text">esas son algunas de las que desarrollas preocupandote por tu fisico&nbsp; </td>	</tr></table></center>
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+si tenes razon. pero depende para que lo haces a mi el mejor concejo que me dieron fue &quot; cuando hagas pesas, preocupate en ejercitar para poder maximizar tu potencial no para lucirlo&quot;, me refiero a que si haces bicep que sea porque lo queres fortalecer para poder levantar mas peso, no para que se vea lindo. Si se ve bien eso ya es un extra  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /> 
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">me importaria más mi apariencia si fuera yo el que estuviera esperando que una minita me venga a hablar cosa que nunca voy a hacer 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">si una mina te viene a hablar y es fea le vas a dar bola? igual la vas a rechazar. Es lo mismo </td>	</tr></table></center>
+<br />
+
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+como escribi en el post anterior hay diferencias entre lo que encuentra atractivo un hombre y lo que encuentra atractivo una mujer. si la mina me viene a hablar y yo lo que busco son rasgos que indiquen atributos de sobrevivencia (grandes senos, caderas anchas etc etc) claro que no me va a gustar la pobre
+<br />
+
+<br />
+no quiere decir eso que la mina no sea agradable y buena en la cama ademas solo que tendra que demostrarlo si no se va a quedar solita
+<br />
+
+<br />
+entonces tiene que cultivar lo que tiene 
+<br />
+
+<br />
+igual yo no soy bello, tengo que cultivar la actitud si mi primera impresion no es tan buen pues tengo que aprender a demostrar mi valor de alguna manera
+<br />
+
+<br />
+lo que quiero decir es el nivel de belleza de cada quien es diferente pero no hay que dejar que eso te limite
+<br />
+
+<br />
+nunca nunca hay que pensar que una minita esta fuera de tu alcance por tu apariencia eso es la peor estupidez que podes pensar, no te apartes de la demas gente porque es bella y tu no, somos todos humanos al fin.
+<br />
+
+<br />
+no te digo que tu apariencia no importa
+<br />
+
+<br />
+<span style="color: yellow">te digo que a mi mi apariencia no me importa para ir a encarar a la minita que me gusta.</span><br /><br />_________________<br /><span style="color: yellow">nO eStAs aQuI pArA cOnOcErTe A tI mIsMo....   eStAs aQuI pArA cReArTe A tI mIsMo</span> <span style="color: red"><span style="font-size: 24px; line-height: normal">CARPE DIEM</span></span>
+<br />
+
+<br />
+JEFE-------&gt;MARKO<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 11:22 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm530.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=530"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37118"></a>Naitsirc</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/173162853349819c8ea4bd5.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2009<br />Mensajes: 28<br />Ubicación: Bogota Colombia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37118.html#37118"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37118"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">SuperBolivian escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+es importante cultivar el fisico para sentirte mejor contigo  mismo  pero mas alla de ello creo que es mas importante cultivar la actitud y la personalidad que tienes respecto a ello...
+<br />
+
+<br />
+yo soy un chico delgado  la verdad  me gustaria ser un poco mas rellenito no es para gustarle a la chica si no para  sentirme mejor conmigo mismo yo me acepto tal como soy  no por algo paso mas tiempo tratando de ser mejor personar y superarme en todo sentido. 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+De esto se trata, de hacer las cosas por que te gustan a ti. 
+<br />
+El fisico importa tanto como te llegue a importar a ti.
+<br />
+En las mujeres importa, yo creo que llega un punto en el que ellas pueden tambien llegar a ser exigentes, quieren un tipo bien posicionado, con buen fisico y buena actitud.... pero uno solo puede ofrecerle quien es uno (la mejor version de uno mismo dirian algunos), si no le sirve.... hacer lo que diria un famoso programa de MTV &quot;NEXT!&quot;.
+<br />
+
+<br />
+Saludos!<br /><br />_________________<br />&quot;Call an optimist, she's turning blue
+<br />
+Such a lovely color for you
+<br />
+Call an optimist, she's turning blue
+<br />
+While I just sit and stare at you&quot;
+<br />
+Maynard J. Keenan!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 03 May , 2009 11:48 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1242"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37119"></a>Gian Franco</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 Ago 2008<br />Mensajes: 525<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37119.html#37119"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37119"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Naitsirc escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la mejor version de uno mismo dirian algunos</td>	</tr></table></center>
+<br />
+
+<br />
+para mi esa es la clave, mostrar la mejor version de uno mismo.
+<br />
+
+<br />
+No solo mostrarla, ser la mejor versión de ti mismo.
+<br />
+
+<br />
+Y por eso que no puedo dejar de lado el hecho de que digan que el físico no importa.
+<br />
+
+<br />
+Pero ya apuntamos a casi el mismo lado, así que me quedo conforme <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />una importante etapa de mi vida, pero como todo... se va con el viento. Ahora solo vivir lo que la vida me presenta <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 04 May , 2009 12:26 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm585.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=585"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37126"></a>Spex</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/127126998449fbcf87b8086.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 19 Ago 2008<br />Mensajes: 292<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37126.html#37126"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37126"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo no creo que puedas pensar como una minita, podes hacerte una idea, pero a ciencia cierta uno solo puede saber bien como ser un hombre. Osea, no podes pensar por ellas. De esto trata de que no importa lo que piensen ellas. Asi que hacerte la cabeza sobre lo que es lindo o feo  (para ellas) es al pedo.
+<br />
+
+<br />
+Tampoco te podes guiar por los canones de belleza actuales por que son &quot;excesivamente estrictos&quot; a tal punto que ni las modelos se pueden ajustar a estos estandares: bulimia anorexia ¿te suena? Como ex-estudiante de Diseño Grafico te puedo asegurar de que incluso las fotos que ves en las publicidades, en internet o en las maxim estan super retocadas con photoshop... No digo que las minas no esten buenas pero las trabajan hasta el punto de que sean PERFECTAS. En los videos hay trucos de camara para hacerlas mas altas,
+<br />
+
+<br />
+<a href="http://www.youtube.com/watch?v=-Ik3qFoHlaA" target="_blank">http://www.youtube.com/watch?v=-Ik3qFoHlaA</a>
+<br />
+
+<br />
+Si lees un poco de antropologia te sorprenderia saber que la concepcion de la belleza es algo de lo mas subjetivo, lo mismo pasa con los conceptos como estetica en el arte, cambia de una sociedad a otra. Creo que los mayas o los incas (no lo recuerdo) las preferian gorditas por que pensaban que al ser caderonas eso aumentaba las chances de tener mas cria. Mientras que en algunas tribus de Africa las prefieren las negras altas con cuello largo (esteticamente se ven re-lindas) Pero para esto desde pendejas les ponen anillos en el cuello para forzar el crecimiento.
+<br />
+
+<br />
+En china les re gustaban los pies vendados que emulan la flor de loto:
+<br />
+
+<br />
+<a href="http://www.escalofrio.com/n/Curiosidades/Pies_Vendados_-_Costumbre_China/Pies_Vendados_-_Costumbre_China.php" target="_blank">http://www.escalofrio.com/n/Curiosidades/Pies_Vendados_-_Costumbre_China/Pies_Vendados_-_Costumbre_China.php</a>
+<br />
+
+<br />
+La belleza a que precio y por que? Radiohead en creep lo ilustran de una forma increible, esta es una de las razones por
+<br />
+que tovavia me encanta este tema:
+<br />
+
+<br />
+I'm a weirdo / Soy un extraño
+<br />
+What the hell am I doin' here? / ¿Que mierda hago aca?
+<br />
+I don't belong here / Yo no encajo aca
+<br />
+
+<br />
+I don't care if it hurts, / No importa si duele
+<br />
+I wanna have control / Quiero tener el control
+<br />
+I want a perfect body / Quiero un cuerpo perfecto
+<br />
+I want a perfect soul / Un alma perfecta
+<br />
+
+<br />
+I want you to notice / Quiero que me notes
+<br />
+when I'm not around / Cuando no esoty aqui
+<br />
+You're so fuckin' special / Sos tan especial
+<br />
+I wish I was special / Quisiera ser especial
+<br />
+
+<br />
+Chode adrede, pero ilustra perfecto el autodesprecio. Este tema me hace acordar cuando lo atropellan a Jake en revolver &quot;todos queremos que vean lo inteligentes, encantadores y especiales que somos&quot;
+<br />
+
+<br />
+Ahora en el tema de la apariencia y el tema del cuidado personal, creo que hay una diferencia entre aceptarse a uno mismo y dejarse estar... Me acuerdo que una gordita que conocia, la mina me daba ASCO!! No por que fuera de cara horrible, no por que fuera petisa o gorda... Era por que tenia la cara llena de acné. O sea no tenia ningun control sobre su estatura, hasta cierto punto sobre su peso tampoco (o sea si tu estructura osea es ancha no la podes cambiar) la cara era fiera tampoco lo podia cambiar sin hacerce cirujia! pero la chabona me daba ASCO por que no se curaba el acne, hay lociones, dermatologos hasta yo uso un Clean &amp; Clear... dejate de joder, eso era DEJADEZ!
+<br />
+
+<br />
+Por otro lado me acuerdo de una renguita la cual a mi gusto no era muy linda, pero el hecho de que se produciera a mis ojos le sumaba puntos...
+<br />
+
+<br />
+En este sentido (si todavia alguien tiene dudas sobre esto) SI no es EXCUSA para no mantenerte saludable y bien presentado, como dijieron mas arriba no hace que seas un metrosexual, con que andes limpio y bien vestido ya esta. No hace falta que sea ropa de marca, no toda la ropa que uso yo es de marca. Como no tengo laburo y tengo que cuidar mucho la guita que me tira mi vieja, ella es la que me corta el pelo. Dentro de todo me lo corta bastante bien, pero estuve pensando prestarle mi cabeza a estudiantes de peluqueria para que practiquen y asi tener un corte aun mas profesional. Podria ir al GYM por que me gustaria tener alguien que me entrene y de paso interactuar minitas bien formadas... Pero por ahora me arreglo con estiramientos y hace poco me compre unas pesas para desarrollar un poco de musculo (soy un palito)
+<br />
+
+<br />
+En los boliches se hace duro gamear, mas si tenes miedo a abordar, en eso ves a Mr Musculo con su remerita marca pasar de la mano con LA MAS PERRA del boliche. No es raro que asumas los musculos y la remera y la plata tienen algo que ver.
+<br />
+Pero tambien puede ser que Mr Musculo base su SEGURIDAD en el fisico y la remera y por eso es amigo de la MAS PERRA del boliche. Hasta que no te pones en la situacion NO SABES NADA!<br /><br />_________________<br />Don't Think it about, Just DO! DO! DO!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 04 May , 2009 2:30 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm612.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=612"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="37129"></a>SuperBolivian</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2072121498491e1b0a3f696.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 10 Nov 2008<br />Mensajes: 318<br />Ubicación: Bolivia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp37129.html#37129"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Re: Pregunta: La belleza importa?</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=37129"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Gido escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Leí algunos post de la sección de novatos... y note que en alrededor de tres decía que la belleza no importa.
+<br />
+
+<br />
+Me quedó dando vueltas que eso lo considere muy general... y en cierto punto erroneo.
+<br />
+
+<br />
+Estoy de acuerdo en que no necesitas ser Brad Pitt para conseguir minitas.
+<br />
+
+<br />
+Y también estoy de acuerdo que siendo gordo chico feo, etc igual puedes conseguir minitas.
+<br />
+
+<br />
+Pero no estoy de acuerdo en que la belleza no importe.
+<br />
+
+<br />
+Ya que un mino que es músculoso al lado de uno que es gordo aunque el gordo tenga mucha más actitud, en una disco, la minita que este al frente igual va a preferir el músculoso.
+<br />
+
+<br />
+En una relación puede importar mucho más la actitud que el físico.
+<br />
+
+<br />
+Pero en la disco (boliche, antro, como quieras llamar), incluso las mismas minitas dicen, que el físico SI importa.
+<br />
+
+<br />
+Si me equivoco corrijanme.
+<br />
+
+<br />
+Si esta mal creerles a las minitas lo que prefieren porque eso va encontra de una de las reglas de David X, corrijamne igual (según lo que yo entiendo de david x, esto no va en contra de ninguna de sus reglas).
+<br />
+
+<br />
+A lo que voy, es que yo considero que lo correcto es aceptarse uno tal cual es y aprovecharse al máximo de acuerdo esa idea; como consecuencia de esto, ir al gimnasio, comer santo, etc.
+<br />
+
+<br />
+Pero decir que no importa la belleza de forma tan general me parece erroneo.
+<br />
+
+<br />
+Que opinan?
+<br />
+
+<br />
+Si enrede mucho la idea diganme <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+
+<br />
+chau</td>	</tr></table></center>
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">superbolivian escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">hablando para nosotros mismos que te da ser fachero: yo creo que solo confianza
+<br />
+
+<br />
+fisico es importante para solo darte un poco de confianza ahora ya tu si lo cagas por no ser intersante.
+<br />
+
+<br />
+es importante cultivar el fisico para sentirte mejor contigo mismo pero mas alla de ello creo que es mas importante cultivar la actitud y la personalidad que tienes respecto a ello...
+<br />
+
+<br />
+yo soy un chico delgado la verdad me gustaria ser un poco mas rellenito no es para gustarle a la chica si no para sentirme mejor conmigo mismo yo me acepto tal como soy no por algo paso mas tiempo tratando de ser mejor personar y superarme en todo sentido.
+<br />
+
+<br />
+
+<br />
+las discotecas son un lugar donde no puedes demostrar la personalidad que tienes ya sea por la musica y otros factores pero pero hay chicas de todos los gustos</td>	</tr></table></center>
+<br />
+
+<br />
+
+<br />
+bueno para mi se resume en 2 reglas
+<br />
+
+<br />
+1.- a quien carajos le importa lo que ella piensa.
+<br />
+
+<br />
+2.- y la persona mas importante eres tu.<br /><br />_________________<br />la gente y las situaciones no te hacen infeliz lo haces tu mismo con tus propios pensamientos........<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 04 May , 2009 2:42 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1079.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1079"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>   <a href="aim:goim?screenname=bad.3000@hotmail.com&amp;message=Hello+Are+you+there?"><img src="templates/AcidTech/images/lang_english/icon_aim.gif" alt="Dirección AIM" title="Dirección AIM" border="0" /></a>   <a href="http://wwp.icq.com/scripts/search.dll?to=0000"><img src="templates/AcidTech/images/lang_english/icon_icq.gif" alt="Número de ICQ" title="Número de ICQ" border="0" /></a></td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=4311&amp;start=15">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4311"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="novatos-vf42.html" class="nav">Novatos</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página  <a href="anterior-vt4311.html?postdays=0&amp;postorder=asc&amp;start=0">Anterior</a>&nbsp;&nbsp;<a href="1-vt4311.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <b>2</b>, <a href="3-vt4311.html?postdays=0&amp;postorder=asc&amp;start=30">3</a>, <a href="4-vt4311.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt4311.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>&nbsp;&nbsp;<a href="siguiente-vt4311.html?postdays=0&amp;postorder=asc&amp;start=30">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>2</b> de <b>5</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42"selected="selected">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="57973d66e097fa8f2f29b0dccb968fd5" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

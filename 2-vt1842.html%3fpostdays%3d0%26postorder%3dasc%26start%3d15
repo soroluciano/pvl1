@@ -1,0 +1,1008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1842&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1842&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - El camino del Direct</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="el-camino-del-direct-vt1842.html?start=15&amp;postdays=0&amp;postorder=asc&amp;highlight=">El camino del Direct</a><br />
+	  <span class="gensmall"><b>Ir a página  <a href="anterior-vt1842.html?postdays=0&amp;postorder=asc&amp;start=0">Anterior</a>&nbsp;&nbsp;<a href="1-vt1842.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <b>2</b>, <a href="3-vt1842.html?postdays=0&amp;postorder=asc&amp;start=30">3</a>, <a href="4-vt1842.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt1842.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>, <a href="6-vt1842.html?postdays=0&amp;postorder=asc&amp;start=75">6</a>, <a href="7-vt1842.html?postdays=0&amp;postorder=asc&amp;start=90">7</a>, <a href="8-vt1842.html?postdays=0&amp;postorder=asc&amp;start=105">8</a>, <a href="9-vt1842.html?postdays=0&amp;postorder=asc&amp;start=120">9</a>, <a href="10-vt1842.html?postdays=0&amp;postorder=asc&amp;start=135">10</a>&nbsp;&nbsp;<a href="siguiente-vt1842.html?postdays=0&amp;postorder=asc&amp;start=30">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1842"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="direct-game-vf4.html" class="nav">Direct Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1842.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1842.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="el-camino-del-direct-vt1842.html?start=15&amp;postdays=0&amp;postorder=asc&amp;highlight=">El camino del Direct</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14737"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 700<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14737.html#14737"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14737"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">agrego: Paul Janka &quot;Attraction Formula&quot;, muy bueno!<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.
+<br />
+
+<br />
+AWA Style - El Encantador de Serpientes - Pedi info a &lt;quieroser@encantadordeserpientes.cx&gt;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 29 May , 2008 12:30 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14739"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3743<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14739.html#14739"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14739"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Agrego lo de cuánto te freakeó la comunidad en avanzado<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="font-style: italic">&quot;David Haye and my girlfriend are both 10 years my junior...the difference between her and David is that she likes it when I spank her ass&quot;</span> Monte Barratt<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 29 May , 2008 2:11 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14745"></a>Sazi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/10313977224826100cd2579.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 May 2008<br />Mensajes: 130<br />Ubicación: Santos Lugares, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14745.html#14745"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14745"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">muy bueno che, ya me lei el de currie, lo termino de leer por 2da vez y paso al de david x...
+<br />
+
+<br />
+y mientras ya estoy poniendo en practica todo <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+
+<br />
+Me paso al direct creo jaja<br /><br />_________________<br />Todos los recursos, estan en ti.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 29 May , 2008 4:35 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=409"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14896"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2148<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14896.html#14896"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14896"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Si se sienten seguros con lo que ya saben, NO SIGAN LEYENDO.</td>	</tr></table></center>
+<br />
+si siguen leyendo, siempre por algo es
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la manera de leer material</td>	</tr></table></center>
+<br />
+con ese post no estaba muy de acuerdo, la verdad uno lo lee y las fichas caen de golpe...
+<br />
+
+<br />
+lo comico es que recien AHORA empiezo a entender, no se si el direct, pero al menos mi game (el direct tubo que ver, de hecho si nunca hubiera leido esto, no hubiera cambiado actitudes que buscaba cambiar).
+<br />
+
+<br />
+y no me lo paso un libro, me lo paso este estado de reset y el ultimo fr.
+<br />
+
+<br />
+no se bien si hubo un camino previo a eso, la verdad, la primera vez que lo vez real, pensas &quot;guaw&quot; (y ni siquiera en el momento, porque estas tan volado que te parece normal...).
+<br />
+
+<br />
+incluso recien habiendo llegado a este punto es cuando sabes bien que quiero llegar a ser y vas viendo como ya estubiste avanzando en esto. esto te da mejor perspectiva acerca de que libros vas a &quot;fumar&quot;, que te sirvan... no se si es instintivo ir hacia el direct, pero yo evidentemente no busque ganar minitas en el direct. de hecho ganar minitas para mi era mas safe en el mm.
+<br />
+
+<br />
+para mi se busca un cambio de actitud... diria, el direct te acerca mas a sensaciones que te caben, pero que no haces... y definitivamente vas erradicando el nice guy, en la medida que no te cabe (lo bueno es que hay recomendaciones, al menos en el foro, de respetar tu parte nice guy, por tanto uno lleva esto al punto que mas comodo le parezca).
+<br />
+
+<br />
+de todas formas... el field te cambia la cabeza (un dia estas con miedo pidiendo msns... al rato estas diciendole putita a una flaca o agarrandole una teta a escondidas frente a los amigos... el camino lo arma uno igual).
+<br />
+
+<br />
+es la primera vez que podria decir que prefiero un cambio de 1 milimetro de actitud, que saberme el guion de rutinas desde el hola hasta el &quot;tomate un taxi&quot; (o el &quot;que haces aca todavia?&quot; jajaja, pero ese es muy garca).<br /><br />_________________<br />&quot;Once you realize what a joke everything is, being the Comedian is the only thing that makes sense.
+<br />
+
+<br />
+Control, direccion, asertividad, honestidad, rebeldia, boludeo, power y perversion
+<br />
+
+<br />
+Hall Monitor<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 31 May , 2008 3:59 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14907"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2148<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14907.html#14907"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14907"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">fuck... se me ocurrio salir a buscar days of being wild a un videoclub... mala idea... el director es de hong kong y los titulos que me tiraron son todo... menos esto.
+<br />
+
+<br />
+la pelicula se llama &quot;nuestros dias salvajes&quot; (encontre la ficha en internet con ese nombre, por si a alguien le pinta alquilarla y dios lo ama y la consigue...).
+<br />
+
+<br />
+me tiraron titulos que nada que ver (calles vilentas, chungking express y la caida de los angeles), pero CREO &quot;con animo de amar&quot; y &quot;2046&quot; son la 2da y la 3ra parte de days of being wild (por si a alguien le copo la pelicula, es una trilogia... por el resto, creo que la peli para caretear... es solo la otra jeje).
+<br />
+
+<br />
+resumiendo... si la quieren ver, bajensela.
+<br />
+
+<br />
+<span style="font-weight: bold">PD: evalualo vos (yo no la vi), pero falta talk dirty to me. ahora que considero que leslie es un groso, la pienso ver.</span><br /><br />_________________<br />&quot;Once you realize what a joke everything is, being the Comedian is the only thing that makes sense.
+<br />
+
+<br />
+Control, direccion, asertividad, honestidad, rebeldia, boludeo, power y perversion
+<br />
+
+<br />
+Hall Monitor<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 31 May , 2008 7:26 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14909"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 700<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14909.html#14909"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14909"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Alive escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"><span style="font-weight: bold">PD: evalualo vos (yo no la vi), pero falta talk dirty to me. ahora que considero que leslie es un groso, la pienso ver.</span></td>	</tr></table></center>
+<br />
+jaja no puedo creer que no nos hayamos dado cuenta antes!<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.
+<br />
+
+<br />
+AWA Style - El Encantador de Serpientes - Pedi info a &lt;quieroser@encantadordeserpientes.cx&gt;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 31 May , 2008 8:05 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15790"></a>glex</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 16 Jun 2008<br />Mensajes: 37<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15790.html#15790"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15790"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">......................<br /><span class="gensmall"><br /><br />Ultima edición por glex el Mar 26 Ago , 2008 3:30 am; editado 1 vez</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 17 Jun , 2008 6:49 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm481.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=481"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15947"></a>Ezeq</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1090824865483e1bdbad395.png" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 20 Abr 2008<br />Mensajes: 234<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15947.html#15947"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15947"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">mersault escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Alive escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"><span style="font-weight: bold">PD: evalualo vos (yo no la vi), pero falta talk dirty to me. ahora que considero que leslie es un groso, la pienso ver.</span></td>	</tr></table></center>
+<br />
+jaja no puedo creer que no nos hayamos dado cuenta antes!</td>	</tr></table></center>
+<br />
+
+<br />
+Yo la vi, el personaje de leslie sigue con ese direct matador, buena peli
+<br />
+
+<br />
+Tiene onda, mirenla.
+<br />
+
+<br />
+Salutes<br /><br />_________________<br />Ezeq <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 18 Jun , 2008 3:46 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm359.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=359"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16204"></a>Baco</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/19393748064815140510290.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Abr 2008<br />Mensajes: 429<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16204.html#16204"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16204"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Antes de empezar a leer cualquier libro del camino del direct, deben leer primero este libro:
+<br />
+
+<br />
+Para aprender qué es ser y cómo ser un macho alfa (Las cualidades que uno debe reunir para ser un buen candidato y las mujeres se fijan más en vos) Leer:
+<br />
+John Alexander - Como Llegar A Ser Un Macho Alfa<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 21 Jun , 2008 2:50 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=341"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16211"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3743<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16211.html#16211"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16211"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Baco escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Antes de empezar a leer cualquier libro del camino del direct, deben leer primero este libro:
+<br />
+
+<br />
+Para aprender qué es ser y cómo ser un macho alfa (Las cualidades que uno debe reunir para ser un buen candidato y las mujeres se fijan más en vos) Leer:
+<br />
+John Alexander - Como Llegar A Ser Un Macho Alfa</td>	</tr></table></center>
+<br />
+
+<br />
+El título de ese libro no me gusta mucho. No lo leí, así que no puedo opinar. Para mí ya está bien ordenado el thread. Mersault, qué opinás?<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="font-style: italic">&quot;David Haye and my girlfriend are both 10 years my junior...the difference between her and David is that she likes it when I spank her ass&quot;</span> Monte Barratt<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 21 Jun , 2008 6:04 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16223"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 510<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16223.html#16223"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16223"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">es porque el titulo te recuerda a cuando lo sobre analizabas todo... pero si lo vemos desde otro punto de vista, saber estas cosas nos puede ayudar a ser concientes de nuestras actitudes; ej: si sos conciente de tu lenguaje corporal, actitudes, etc,  vas a tener una mayor capacidad para identificar tus puntos muertos<br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 21 Jun , 2008 8:27 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16256"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3743<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16256.html#16256"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16256"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Sabiendo body language y teniendo un buen inner game ya sos alfa. Antes que leerse ese libro, cómprense de vez en cuando la revista Men`s Health y listo.
+<br />
+
+<br />
+Todo lo que sea &quot;como ser un macho alfa&quot;, o &quot;guía del macho alfa&quot;, todas esas cosas me parecen boludeces. Es una cuestión de mentalidad volverse alfa, una cuestión de actitud ANTE LA VIDA, no hay recetas para ser macho alfa.
+<br />
+
+<br />
+Sabés por qué me parecen perjudiciales esas cosas? porque te dicen que un alfa tiene que tener buen estado físico siempre, entonces vos te mentalizás que hasta que seas un hi-man, no vas a ser alfa y vas a ser percibido como beta, entonces te ponés a preocuparte por boludeces. Los alfas no se preocupan por si son alfas o no, lo son y nisiquiera se ponen a pensarlo, punto.
+<br />
+
+<br />
+Lo que va a pasar, es que vas a tener una imagen de lo que es un macho alfa totalmente errada, y vas a empezar a compararla con un montón de tipos que considerás alfa, y no van a coincidir.
+<br />
+
+<br />
+Tener confianza, saber lo que querés y cómo lo querés, tener objetivos en la vida, tener una misión, tener valores, estar contento o a gusto con uno mismo, tener una pasión... ESO es alfa. Eso es inner game, y en cualquier método con un poco de sentido común van a ver que les dice que el inner es lo más importante, hasta el MM te lo dice, pero noooo, siguen leyendo sobre técnicas y sobre machos alfa y no se dan cuenta de todo el poder que tienen dentro. Por algo hice este post alguna vez:
+<br />
+
+<br />
+<a href="http://proyectovagnerlover.tu-foro-gratis.com/conociendote-a-vos-mismo-vt635.html" target="_blank">Conociéndote a vos mismo</a>
+<br />
+
+<br />
+Este post de Rusty tmb les va a enseñar algo:
+<br />
+
+<br />
+<a href="http://proyectovagnerlover.tu-foro-gratis.com/pua-o-no-pua-dot-dot-he-ahi-el-dilema-dot-dot-dot-vt667.html" target="_blank">PUA o no PUA? he ahí el dilema</a>
+<br />
+
+<br />
+Ser alfa es mucho más que un tipo con minitas. Está lleno de boludos con minitas, y sin embargo no son alfas pero ni en pedo.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="font-style: italic">&quot;David Haye and my girlfriend are both 10 years my junior...the difference between her and David is that she likes it when I spank her ass&quot;</span> Monte Barratt<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 22 Jun , 2008 3:56 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16260"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 510<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16260.html#16260"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16260"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Sabés por qué me parecen perjudiciales esas cosas? porque te dicen que un alfa tiene que tener buen estado físico siempre, entonces vos te mentalizás que hasta que seas un hi-man, no vas a ser alfa y vas a ser percibido como beta, entonces te ponés a preocuparte por boludeces. </td>	</tr></table></center>
+<br />
+
+<br />
+mm...
+<br />
+
+<br />
+probablemente tengas en tu configuracion neurolinguistica alguna experiencia que no te haya gustado... es normal,  pero en realidad  esas cosas  te las dice mario luna
+<br />
+
+<br />
+yo estudiaba psicologia evolucionista antes de entrar al sargeo, y en realidad esta es una ciencia donde se investigan acciones como la atraccion, el altruismo, entre otros porque estos fenomenos son en realidad biologicos... pero un cientifico jamas te va a decir bobadas del tipo &quot;decile x rutina&quot;, repito que eso lo dice el sexcode, te lo digo porque yo pase por la etapa del indirecto
+<br />
+
+<br />
+fue al leer el sexcode que yo me mentalizaba &quot;tengo que hacer esto para ganar valor&quot; y era un cagadal porque me refujiaba inconcientemente en mi miedo... ahora he dejado eso atras y he hecho concientes mis miedos
+<br />
+
+<br />
+estos libros te ayudan a que vos veas lo que en psicoterapia se diria &quot;hacer conciente lo inconciente&quot;, por ejemplo, yo inconcientemente estaba refujiandome en rutinas (mecanismos de defensa de  la mente) y hasta que hize conciente esta actitud, pude tomar la decicion de cambiarla mejorando mi marco (razon principal por la que me pase al direct)
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Es una cuestión de mentalidad volverse alfa, una cuestión de actitud ANTE LA VIDA, no hay recetas para ser macho alfa. 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+totalmente deacuerdo... no es lo mismo estar rascandote la panza y leyendo todo el dia en la computadora a salir y comportarte mode one<br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 22 Jun , 2008 4:35 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16265"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 700<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16265.html#16265"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16265"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">para mi ese libro se deberia llamar &quot;como tratar de PARECER un macho alfa (y que se rian de vos en el intento)&quot; jajeje
+<br />
+
+<br />
+cuando empezas a leer el body-lang mejor, te das cuenta enseguida quien trata de parecer alfa segun lo que dicen los libros y quien no. el que lo hace segun los textos, esta siempre muy TENSO tratando de parecer relajado, porque siempre esta posando para la foto que se imagina que le sacan los demas, especialmente las mujeres <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+
+<br />
+para aprender de BL <a href="http://proyectovagnerlover.tu-foro-gratis.com/body-language-by-allan-pease-vt626.html" target="_blank">el libro de Alan Pease</a> que habia posteado Creed en media o en sites de interes, es todo lo que necesitas. hay un documental de la BBC que se llama &quot;body lang - the lang of love&quot; o the lang of attraction o algo asi, que tenia un par de buenos demos. y me acuerdo que Eduz habia posteado alguna pagina que tenia buenos videos tambien (&quot;my genitals are not available&quot; jejeje). Eduz tenes el link?
+<br />
+
+<br />
+pecador, en mi opinion, esos libros de psicologia evolucionista no sirven para mejorar con las minitas. te sirven para contestarte preguntas y mieditos internos, pero no para mejorar. son otra manera de evitar decirte a vos mismo &quot;bueno, a esta no le guste&quot; cuando una minita te rechaza, en lugar de decir que no &quot;calibraste&quot; o &quot;te pasaste con dhv&quot; o etc, decis &quot;es que no tengo suficiente valor&quot; o algo por el estilo. excusas.
+<br />
+
+<br />
+en el prologo de &quot;el gen egoista&quot; (en la edicion de los 30 anios) el autor dice algo como que &quot;el libro es de valor o interes cientifico, pero en el mundo real las cosas no son tan frias como en el laboratorio, sino que se mueven por cosas mas tibias y mas humanas como el amor, la compasion, etc&quot;. 
+<br />
+
+<br />
+si te interesan cienficamente, ok, pero si los estudias para mejorar con las mujeres, lo mejor que podes hacer es tirarlos al rio, porque lo que necesitas es liberarte de miedos, no explicarte a vos mismo porque las cosas no te salen. este es el unico punto que tenes que hacer consciente, los demas solamente demuestran que todavia tenes miedo y se disuelven solos cuando perdes ese miedo. cuando cambias por adentro, automaticamente cambias por afuera.<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.
+<br />
+
+<br />
+AWA Style - El Encantador de Serpientes - Pedi info a &lt;quieroser@encantadordeserpientes.cx&gt;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 22 Jun , 2008 7:24 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16276"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2148<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16276.html#16276"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16276"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">el que lo hace segun los textos, esta siempre muy TENSO tratando de parecer relajado, porque siempre esta posando para la foto que se imagina que le sacan los demas, especialmente las mujeres Smile</td>	</tr></table></center>
+<br />
+no lo habia tenido en cuenta cuando descarte toda esta cuestion de copiar bl, pero en el fondo calculo lo deje por esto.
+<br />
+
+<br />
+de repente encontrarte pensando como deberias de estar, al menso a mi me hace empezar a limar tecnica y mas tecnica, que si estoy asi como deberia de estar... la otra contrapartida es que no es natural, entonces jamas va a imitarlo, jamas va a llegar a serlo.
+<br />
+
+<br />
+no se si sera algo mio (capaz sea algo propio que deberia cambiar), pero me sentia un nabo haciendo esto, estar pensando como iba a ponerme por la siguiente flaca... fuck. por mi parte lo largue hace un tiempo (con esporadicas exepciones). para lo unico que utilizaria los resultados de este libro es para evaluar el contrapeso de bl. cuando lo haces (te pinta hacerlo) es porque corresponde a una rta (ejemplo, podria ser que te sentis poco alfa), es algo asi como un compensador, de ahi pensaras por que y tendras que laburar eso.
+<br />
+
+<br />
+PD:
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">probablemente tengas en tu configuracion neurolinguistica alguna experiencia que no te haya gustado... es normal, pero en realidad esas cosas te las dice mario luna</td>	</tr></table></center>
+<br />
+alguna vez lime que esto puede ser cierto (ejemplo que muchos de los rechazos que tenes a imitar a un macho alfa sea que no te cabe jugar papeles por libreto por alguna mala experiencia respecto a algo que te haya pasado similar)<br /><br />_________________<br />&quot;Once you realize what a joke everything is, being the Comedian is the only thing that makes sense.
+<br />
+
+<br />
+Control, direccion, asertividad, honestidad, rebeldia, boludeo, power y perversion
+<br />
+
+<br />
+Hall Monitor<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 22 Jun , 2008 6:13 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1842&amp;start=15">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1842"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="direct-game-vf4.html" class="nav">Direct Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página  <a href="anterior-vt1842.html?postdays=0&amp;postorder=asc&amp;start=0">Anterior</a>&nbsp;&nbsp;<a href="1-vt1842.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <b>2</b>, <a href="3-vt1842.html?postdays=0&amp;postorder=asc&amp;start=30">3</a>, <a href="4-vt1842.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt1842.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>, <a href="6-vt1842.html?postdays=0&amp;postorder=asc&amp;start=75">6</a>, <a href="7-vt1842.html?postdays=0&amp;postorder=asc&amp;start=90">7</a>, <a href="8-vt1842.html?postdays=0&amp;postorder=asc&amp;start=105">8</a>, <a href="9-vt1842.html?postdays=0&amp;postorder=asc&amp;start=120">9</a>, <a href="10-vt1842.html?postdays=0&amp;postorder=asc&amp;start=135">10</a>&nbsp;&nbsp;<a href="siguiente-vt1842.html?postdays=0&amp;postorder=asc&amp;start=30">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>2</b> de <b>10</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4"selected="selected">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="e687685771963d51d8e64ef54de4a923" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

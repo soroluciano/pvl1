@@ -1,0 +1,900 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1909&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1909&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Nadie Puede Detenerte!!</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="nadie-puede-detenerte-vt1909.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Nadie Puede Detenerte!!</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1909"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1909.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1909.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="nadie-puede-detenerte-vt1909.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Nadie Puede Detenerte!!</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15054"></a>eldios</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 28 Dic 2007<br />Mensajes: 28<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15054.html#15054"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Nadie Puede Detenerte!!</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15054"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">tuve una caida en mi innergame...pues aka estoy resucitado y con mas fuerza que antes
+<br />
+
+<br />
+comparto este video con ud.
+<br />
+
+<br />
+<a href="http://www.youtube.com/watch?v=yYubO_3WzCg&amp;feature=related" target="_blank">http://www.youtube.com/watch?v=yYubO_3WzCg&amp;feature=related</a><br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 05 Jun , 2008 4:05 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm159.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=159"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24112"></a>TylerpDurden</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 24 Oct 2008<br />Mensajes: 6<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24112.html#24112"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24112"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Rebueno!, gracias x compartirlo!<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 27 Oct , 2008 11:10 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1032.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1032"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24150"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 516<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24150.html#24150"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24150"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">este tipo de pensamientos positivos  hacen que tu cerebro cree mas endorfinas y se te quite lo bajoniado de tu estado de animo... pero hay algunos que lo utilizan como un tipo de ritual porque piensa que con eso se le va a resolver todos sus problemas, es un mecanismo de defensa para evadir realidades
+<br />
+
+<br />
+salu!<br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 2:36 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24152"></a>Sazi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/10313977224826100cd2579.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 May 2008<br />Mensajes: 130<br />Ubicación: Santos Lugares, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24152.html#24152"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24152"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">pecador escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">este tipo de pensamientos positivos  hacen que tu cerebro cree mas endorfinas y se te quite lo bajoniado de tu estado de animo... pero hay algunos que lo utilizan como un tipo de ritual porque piensa que con eso se le va a resolver todos sus problemas, es un mecanismo de defensa para evadir realidades
+<br />
+
+<br />
+salu!</td>	</tr></table></center>
+<br />
+
+<br />
+Paraaaaaaa nabooo jajaja
+<br />
+
+<br />
+
+<br />
+Deja de flashearla jajaja
+<br />
+
+<br />
+
+<br />
+Este tipo de positivismo, pensamientos y estructura de creencias no solo crean una realidad taaan positiva que te dan ganas de preguntarte a vos mismo si realmente vale la pena seguir pensando las demas giladas que pasan por tu cabeza bajonendote  o si es mas facil creer que todo es posible y nada puede detenerte!
+<br />
+
+<br />
+Que la vida es una, y hay que vivirla. Que la vida es una y hay que disfrutarla.
+<br />
+
+<br />
+Que la vida se VIVE no se llora, que la vida se GANa no se pierte, que la vida se CREA en uno, y uno CREA el mundo en el que vive!.
+<br />
+
+<br />
+
+<br />
+Y si tenes ganas, miralo de nuevo, y si tenes ganas, creelo, y si tenes ganas... soña que lo crees, y que estasssssssssssssss tan pero tan bien en ese mundo, que podes vivirlo todos los dias!
+<br />
+
+<br />
+
+<br />
+
+<br />
+Go Go Go!<br /><br />_________________<br />Todos los recursos, estan en ti.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 2:46 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=409"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24166"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 516<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24166.html#24166"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> 3 cosas estas confundiendo aqui</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24166"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">la terapia de gestalt: alli estamos hablando de una cosa TOTALMENTE DIFERENTE, es aprender a verle el lado positivo a las cosas, es una buena terapia.
+<br />
+
+<br />
+la motivacion: (alli entra la piramide de maslow). es lo que nos impulsa a realizar una accion a nuestra conveniencia instintiva; ej, lo que nos motiva para ir al refrigerador a comer, o  que nos hayamos motivado a estudiar determinada carrera porque nos hemos identificado con ella. 
+<br />
+
+<br />
+condicionamiento clasico: es lo mismo que los anclajes y las creencias
+<br />
+
+<br />
+esto es psicologia cognitiva, y man, me parece que deberias &quot;amplear tus creencias&quot; (para ser politicamente correcto)  <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 8:15 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24168"></a>Sazi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/10313977224826100cd2579.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 May 2008<br />Mensajes: 130<br />Ubicación: Santos Lugares, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24168.html#24168"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Re: 3 cosas estas confundiendo aqui</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24168"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">pecador escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la terapia de gestalt: alli estamos hablando de una cosa TOTALMENTE DIFERENTE, es aprender a verle el lado positivo a las cosas, es una buena terapia.
+<br />
+
+<br />
+la motivacion: (alli entra la piramide de maslow). es lo que nos impulsa a realizar una accion a nuestra conveniencia instintiva; ej, lo que nos motiva para ir al refrigerador a comer, o  que nos hayamos motivado a estudiar determinada carrera porque nos hemos identificado con ella. 
+<br />
+
+<br />
+condicionamiento clasico: es lo mismo que los anclajes y las creencias
+<br />
+
+<br />
+esto es psicologia cognitiva, y man, me parece que deberias &quot;amplear tus creencias&quot; (para ser politicamente correcto)  <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /></td>	</tr></table></center>
+<br />
+
+<br />
+
+<br />
+No contestaste nada de mi post, directamente emitiste una serie de interpretaciones (lineales) acerca de como vos crees que funciona el mundo.
+<br />
+
+<br />
+La realidad (o por lo menos lo que logramos captar de esta) nos muestra que hay personas que poseen creencias como las que vos llamas ''mecanismo de defensa'' que son totalmente eficientes en la vida, llevan vidas felices, llevan trabajos con gran motivacion, buscan crear un mundo mejor, etc mientras que por el otro lado tenemos las creencias que vos debes tener (lo asumo porque contrasto las creencias que para vos son mecanismo de defensa, contra las que en ''realidad'' es TU mundo) que tal vez te hagan sentir que el mundo es una mierda, o que todo condicionamiento se crea por la necesidad de interpretar y no de sentir, de accionar y no de vivir, de realizar y no de danzar con un sin numero de estimulos simultaneos.
+<br />
+
+<br />
+
+<br />
+Entonces, mi pregunta hacia vos y hacia cualquier mortal es, para que vamos a teñir nuestro mundo de tonos opacos o amargos (dada mi experiencia de la realidad, tiendo a ''subjetivizar'' hacia el opaco o el amargo sensaciones displacenteras, para uds puede variar la metafora) cuando existen una inmensa cantidad de estimulos, de posibilidades de interpretacion, de realidades congruentes con uno, que estan llenas de matices claros, suaves, intensos, alegres... etc...
+<br />
+
+<br />
+
+<br />
+Desde mi humilde posicion pecador, te pregunto, directamente hacia vos... dado el conocimiento que tenes sobre psicologia, no te parece un poco añejo el comunicarle hacia las demas personas, que creencias y/o condicionamiento positivo como vos lo llamas (deberias leer bateson sobre condicionamiento en distintos niveles logicos, tal vez lo sabes no lo se) que pueden subirle el animo, aumentar la autoestima, el orgullo, el nivel de satisfaccion en la vida, sean todas estas cosas lo que sean en la cabeza de cada uno, cosas que lo ayuden a vivir en este mundo y a disfrutar del dia a dia, que son simplemente un ''escudo'' hacia una realidad contraria??
+<br />
+
+<br />
+Esto es el legado de un Cocainomano llamado Freud, que creyo que el mundo era una basura, y se dedico a analizar solo lo malo. Despues los poco concientes de los seguidores, se dedicaron a etiquetar a la humanidad de ''enferma'' (aunque sea en un poquitito).
+<br />
+
+<br />
+
+<br />
+Esta es la era del Positivismo, New Age, y el descubrimiento de la Tecnologia neurocognitiva, procesos y estudio de la subjetividad, mas alla que desde la simple interpretacion de un hemisferio bastante ineficiente para ser feliz. Actualizate jaja...y no es que le quiera dar una orden a tu inconciente, para que te muestre la posibilidad de ver, escuchar y sentir un nuevo mundo... y no es que tampoco quiera que te plantees si realmente hay cosas que sabes que sabes, y cosas que sabes que no sabes pero que en realidad las sabes muy dentro tuyo, y darte cuenta que sabes que las sabes podria hacerte entender las cosas de otro modo.<br /><br />_________________<br />Todos los recursos, estan en ti.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 11:17 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=409"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24224"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24224.html#24224"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24224"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">si te sirvio copado, yo no se muy definidamente quien soy, ni soy ambiciosop como dice el video... sin embargo... PUEDO!
+<br />
+
+<br />
+NADA PUEDE DETENERNOS
+<br />
+
+<br />
+yeah...<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 7:58 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24249"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 516<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24249.html#24249"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24249"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">hay personas que poseen creencias como las que vos llamas ''mecanismo de defensa'' </td>	</tr></table></center>
+<br />
+
+<br />
+nada que ver. los mecanismo de defensa (de la psicologia psicodinamica) no tienen nada que ver con el aprendizaje y el condicionamiento clasico (alli meto a la adaptacion de creencias tambien)
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">llevan trabajos con gran motivacion, buscan crear un mundo mejor, etc mientras que por el otro lado tenemos las creencias que vos debes tener (lo asumo porque contrasto las creencias que para vos son mecanismo de defensa, contra las que en ''realidad'' es TU mundo) que tal vez te hagan sentir que el mundo es una mierda, o que todo condicionamiento se crea por la necesidad de interpretar y no de sentir, de accionar y no de vivir, de realizar y no de danzar con un sin numero de estimulos simultaneos. 
+<br />
+
+<br />
+no te parece un poco añejo el comunicarle hacia las demas personas, que creencias y/o condicionamiento positivo como vos lo llamas (deberias leer bateson sobre condicionamiento en distintos niveles logicos, tal vez lo sabes no lo se) que pueden subirle el animo, aumentar la autoestima, el orgullo, el nivel de satisfaccion en la vida, sean todas estas cosas lo que sean en la cabeza de cada uno, cosas que lo ayuden a vivir en este mundo y a disfrutar del dia a dia, que son simplemente un ''escudo'' hacia una realidad contraria?? </td>	</tr></table></center>
+<br />
+
+<br />
+en esto estas equivocado: el papel de un psicologo no es meterle ideales de comportamiento a un paciente solo para agradar al psicologo. es por eso que solo se le orienta a que vea su realidad, y que el mismo se de la respuesta; porque el ego evita todas las cosas que le hacen daño. lo podes comprobar en las investigaciones de psicologia forence. dehecho las enfermedades mentales no las diagnostica un pisocologo, sino un neurologo.
+<br />
+
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">no te parece un poco añejo el comunicarle hacia las demas personas, que creencias y/o condicionamiento positivo como vos lo llamas (deberias leer bateson sobre condicionamiento en distintos niveles logicos, tal vez lo sabes no lo se) que pueden subirle el animo, aumentar la autoestima, el orgullo, el nivel de satisfaccion en la vida, sean todas estas cosas lo que sean en la cabeza de cada uno, cosas que lo ayuden a vivir en este mundo y a disfrutar del dia a dia, que son simplemente un ''escudo'' hacia una realidad contraria?? </td>	</tr></table></center>
+<br />
+ si te referis a la terapia de gestalt, me parece una buena terapia.<br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 9:37 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24254"></a>Sazi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/10313977224826100cd2579.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 May 2008<br />Mensajes: 130<br />Ubicación: Santos Lugares, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24254.html#24254"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24254"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">pecador escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+nada que ver. los mecanismo de defensa (de la psicologia psicodinamica) no tienen nada que ver con el aprendizaje y el condicionamiento clasico (alli meto a la adaptacion de creencias tambien)
+<br />
+
+<br />
+ </td>	</tr></table></center>
+<br />
+
+<br />
+No conozco sobre psicologia psicodinamica. Pero si lamento informate que los seres vivos evolucionados (ejemplo marsopias, delfines, perros, etc) incluyendonos nosotros en niveles mas altos NO respondemos al condicionamiento clasico. Existen niveles logicos de aprendizaje, cada uno meta del inferior, existen modelados relacionales y hasta de comportamiento contextual. Te quedaste muy en Pablov.
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">pecador escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+en esto estas equivocado: el papel de un psicologo no es meterle ideales de comportamiento a un paciente solo para agradar al psicologo. es por eso que solo se le orienta a que vea su realidad, y que el mismo se de la respuesta; porque el ego evita todas las cosas que le hacen daño. lo podes comprobar en las investigaciones de psicologia forence. dehecho las enfermedades mentales no las diagnostica un pisocologo, sino un neurologo.
+<br />
+ </td>	</tr></table></center>
+<br />
+
+<br />
+El papel del terapeuta es enriquecer el modelo del mundo del cliente que le falta. Si lo puede lograr completandoselo simplemente destrabando cuestiones, o mostrarle distintos puntos de vista desde su propio mapa, perfecto. Si no le es suficiente el terapeuta puede Y debe (a mi parecer) ofrecerle alguna posibilidad nueva, que este terapeuta alla adquirido previamente.
+<br />
+
+<br />
+Ejemplo: si alguien tiene problemas con sus metas porque no sabe como visualizarse a si mismo alcanzandolas y generando una serie de imagenes a travez de un marco temporal adecuado y contextualizado, el terapeuta puede transferir este modelo propio de el a su cliente, enriqueciendole el modelo del mundo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">pecador escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+ si te referis a la terapia de gestalt, me parece una buena terapia.</td>	</tr></table></center>
+<br />
+
+<br />
+No me referia a terapia de gestalt :s
+<br />
+
+<br />
+Me referia a que creer que Una creencia que dice: PODES LOGRAR LO QUE TE PROPOGAS, es un escudo de defensa al mundo real... estas haciendo esto:
+<br />
+
+<br />
+1) Asumis que en el mundo real NO se puede lograr lo que te propongas, o existen innumerables dificultades a esto.
+<br />
+2) Destruyendo sistematicamente cualquier posibilidad de que alguna creencia positiva y motivadora encaje en el modelo del cliente, ya que vos mismo crees que es una defensa hacia un mundo hostil.
+<br />
+
+<br />
+
+<br />
+No comprendo de que forma este sistema de conocimientos te es funcional a vos como persona, pero desde mi modelo del mundo, la intencion es MOTIVAR, y GENERAR opciones, no VENDER la idea de que este mundo es hostil.
+<br />
+
+<br />
+
+<br />
+Ahh pd:
+<br />
+
+<br />
+Prefiero vivir en un mundo de fantasia en el que las personas son amables conmigo, puedo lograr lo que me proponga, puedo disfrutar de la vida, etc etc... que vivir en un mundo de fantasia en el que se me hace hostil la vida, las personas son maquinas patologicas y simplemente condicionadas por estimulos respuesta basicos.<br /><br />_________________<br />Todos los recursos, estan en ti.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 28 Oct , 2008 9:55 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=409"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="24287"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 516<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp24287.html#24287"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=24287"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> Pero si lamento informate que los seres vivos evolucionados (ejemplo marsopias, delfines, perros, etc) incluyendonos nosotros en niveles mas altos NO respondemos al condicionamiento clasico. </td>	</tr></table></center>   
+<br />
+
+<br />
+... conste que eso lo estas diciendo vos
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">El papel del terapeuta es enriquecer el modelo del mundo del cliente que le falta. Si lo puede lograr completandoselo simplemente destrabando cuestiones, o mostrarle distintos puntos de vista desde su propio mapa, perfecto<span style="text-decoration: underline">. Si no le es suficiente el terapeuta puede Y debe (a mi parecer) ofrecerle alguna posibilidad nueva, que este terapeuta alla adquirido previamente. </span></td>	</tr></table></center> perfecto.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">No me referia a terapia de gestalt :s 
+<br />
+
+<br />
+Me referia a que creer que Una creencia que dice: PODES LOGRAR LO QUE TE PROPOGAS, es un escudo de defensa al mundo real... estas haciendo esto: 
+<br />
+
+<br />
+1) Asumis que en el mundo real NO se puede lograr lo que te propongas, o existen innumerables dificultades a esto. 
+<br />
+2) Destruyendo sistematicamente cualquier posibilidad de que alguna creencia positiva y motivadora encaje en el modelo del cliente, ya que vos mismo crees que es una defensa hacia un mundo hostil.</td>	</tr></table></center>
+<br />
+
+<br />
+ahora te entiendo... vos te referis a la motivacion. ahora, el caso de la motivacion es este: la motivacion es intrinseca cuando el estimulo es interior y extrinseca cuando el estimulo es exterior. hacemos lo que nos es a nuestra conveniencia insitintivamente, y se supone que las acciones que hacemos realmente con deseo son las intrinsecas. yo lo que recomendaria cuando alguien quiere motivarse a estudiar una carrera (ej) es que descubra su identidad, asi se va a motivar intrinsecamente porque va a saber cual es su identidad; y alli estoy de acuerdo con vos, el terapeuta pone opciones, pero es el chabon el que las elige. aparte es cuando te queres meter ideales a la fuerza; yo siempre he pensado en esto: si una persona esta falto de motivacion es por razones humas, lo mas comun es la crisis de identidad (no es la unica, aparte el estado de animo por ej)... y si no tiene una identidad definida no se va a motivar a hacer algo por su vida ni aunque el sepa que tiene la capasidad de hacerlo
+<br />
+
+<br />
+----------------------------------------------------------------------------------------------------
+<br />
+sazi:
+<br />
+tengo que reconocer que me pase de arrogante, y que no supe comunicarme mejor con vos <img src="images/smiles/icon_sad.gif" alt="Sad" border="0" /><br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 29 Oct , 2008 4:18 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1909&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1909"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="728cdcd7ac2c9dfa9f4f8609057a4096" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

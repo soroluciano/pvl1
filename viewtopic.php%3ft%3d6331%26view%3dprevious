@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=6336&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=6336&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - AUDIO de Autohipnosis/Autoayuda - HCM SEDUCCIÓN</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="audio-de-autohipnosisautoayuda-hcm-seducciOn-vt6336.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">AUDIO de Autohipnosis/Autoayuda - HCM SEDUCCIÓN</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6336"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="media-y-sitios-de-interes-vf26.html" class="nav">Media y Sitios de Interés</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt6336.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt6336.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="audio-de-autohipnosisautoayuda-hcm-seducciOn-vt6336.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">AUDIO de Autohipnosis/Autoayuda - HCM SEDUCCIÓN</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="42563"></a>Bandido</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/486017454a33d19e8fc84.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Abr 2009<br />Mensajes: 83<br />Ubicación: Argentina Cba.</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp42563.html#42563"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> AUDIO de Autohipnosis/Autoayuda - HCM SEDUCCIÓN</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=42563"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hola gente, como veran ando buscando audios para ayudar a mi juego y cada vez me encuentro con algo entretenido como esto.
+<br />
+
+<br />
+espero les sirva 
+<br />
+
+<br />
+
+<br />
+HCM SEDUCCIÓN
+<br />
+(AUDIO de Autohipnosis/Autoayuda)
+<br />
+- HCM Métodos -
+<br />
+
+<br />
+Este SÍ es el método COMPLETO que consta de CINCO (5) audios.
+<br />
+
+<br />
+
+<br />
+
+<br />
+HCM SEDUCCION te ayudará a:
+<br />
+
+<br />
+* Conseguir a la persona que siempre has deseado tener a tu lado.
+<br />
+* Conseguir una mirada seductora, ya que está comprobado que cuando nuestros ojos se cruzan con los de otra persona, enviamos un mensaje. Como el primer contacto es visual, es muy importante que estos mensajes sean positivos.
+<br />
+* Manejar el lenguaje corporal y la forma de moverse, ya que es el atractivo físico más efectivo para seducir a otros.
+<br />
+* Vencer los obstáculos tales como: la timidez, el miedo, la vergüenza, los pensamientos negativos y la apatía, a la hora de ligar.
+<br />
+* Conocerte y quererte. Es esencial que estemos en armonía con nuestro ser interno: querernos mucho, mimarnos y sonreir con optimismo.
+<br />
+
+<br />
+Concepto
+<br />
+
+<br />
+A través de la comunicación directa con tu subconsciente, HCM SEDUCCIóN es el primer programa de ordenador que te ayudará de forma sistemática a encontrar y mantener el amor que tanto anhelas.
+<br />
+
+<br />
+Sencillo
+<br />
+
+<br />
+* Basta con escuchar las sesiones antes de ir a dormir (o en el momento que se escoja).
+<br />
+
+<br />
+Eficaz
+<br />
+
+<br />
+* El sistema HCM DE AUTOAYUDA es el fruto del estudio, maduración y fabricación de terapias funcionales basadas en los trabajos de los mejores hipnotizadores a nivel mundial.
+<br />
+* Los trabajos hipnóticos aquí expuestos contienen la sabiduría de las terapias creadas por Milton Erickson, Corydon Hammond, Helen Watkins, Erik Wright así como algunos de sus discípulos más aventajados.
+<br />
+
+<br />
+Este método de autohipnosis consta de:
+<br />
+
+<br />
+* Autoinducciones que te sumergirán en metáforas de cambio que tu subconsciente asimilará fácilmente y hará suyos nuevos mensajes que se imbuyen en la grabación.
+<br />
+* Emisiones de ondas cerebrales (Alfa, Beta, Delta, y Theta) solo perceptibles por el subconsciente, ya que corresponden con las frecuencias emitidas en los diferentes estados cerebrales.
+<br />
+
+<br />
+FORMA DE USO
+<br />
+
+<br />
+La forma de uso de estas terapias, consiste en escuchar una vez al día la terapia escogida, estando tumbado o sentado de forma relajada.
+<br />
+
+<br />
+Escuchando la terapia, entrarás en un estado de trance ligero en el que te resultará fácil realizar los cambios que deseas.
+<br />
+
+<br />
+No necesitas conocimientos ni habilidades especiales, bastará con que escuches tranquilamente la terapia escogida.
+<br />
+
+<br />
+SI QUIERES PUEDES, con el sistema HCM SEDUCCIóN y tu voluntad dejarás atrás el problema que tanto te esclaviza.
+<br />
+
+<br />
+El SISTEMA HCM SEDUCCIóN es un método eficaz, te ayudará a desarrollar tu personalidad al mismo tiempo que una serie de habilidades que aumentarán tu capacidad de seducción y de conquista.
+<br />
+
+<br />
+La SEDUCCIóN no es sólo un conocimiento, es sobre todo un talento que todos tenemos. Utilizando El SISTEMA HCM SEDUCCIóN, explotarás todas las estrategias posibles para SEDUCIR con éxito a la persona que tú quieras.
+<br />
+Es sistema HCM SEDUCCION te ayudará a conseguirlo.
+<br />
+
+<br />
+EL SISTEMA HCM SEDUCCIóN está especialmente indicado para:
+<br />
+
+<br />
+* Personas que quieren dejar de ser ignoradas y convertirse en seductoras irresistibles.
+<br />
+* Personas que quieren conseguir a las mujeres y los hombres mas atractivos.
+<br />
+* Personas tímidas que no actúan con seguridad cuando se relacionan con el sexo contrario.
+<br />
+
+<br />
+¿Es adecuado el SISTEMA HCM SEDUCCIóN para usted?
+<br />
+
+<br />
+Antes de adquirir el sistema HCM SEDUCCION debe saber si es adecuado para usted. Y lo es, si quieres superar todos los miedos que se te plantean cuando decides ligar y no te atreves.
+<br />
+
+<br />
+CóMO FUNCIONA EL SISTEMA HCM SEDUCCIóN
+<br />
+
+<br />
+Continuamente recibes impulsos desde el exterior que tu cerebro utiliza para modelar sus propias creencias.
+<br />
+
+<br />
+Estas experiencias dan mucha fuerza a esas creencias porque de una forma u otra has sido capaz de 'palpar' esas situaciones, y puedes dar fe de que aquello que crees, tiene sentido.
+<br />
+
+<br />
+Cuando se instalan creencias negativas en tu cerebro pasan a conformar hábitos, reacciones y estados de ánimo poco deseables o perjudiciales para ti mismo.
+<br />
+
+<br />
+Los métodos de terapia mediante el sistema HCM SEDUCCIóN, es un conjunto de metáforas y autosugestiones que mediante la repetición ayuda a cambiar los hábitos y de forma gradual y progresiva las creencias que controlan y dirigen esos hábitos.
+<br />
+
+<br />
+El cambio de creencias en hipnoterapia es un campo especialmente desarrollado y ampliado por Milton Ericsson. Una de las principales revoluciones que ha introducido Milton Ericsson es sin duda el haber sido capaz de ver el gran potencial del ser humano, incluso para ayudar a su propia curación.
+<br />
+
+<br />
+Cuando recibes de forma sistemática y repetitiva (una vez al día), este conjunto de metáforas y autosugestiones observas mejoras en tus hábitos. Desde la primera semana iras viendo como estas mejoras se hacen mucho más fáciles de seguir ya que también irán cambiando tus creencias y creando otras nuevas.
+<br />
+
+<br />
+Modelar el éxito es fácil, conseguir que otra persona adquiera los patrones y estrategias de éxito que han servido a otras personas, también lo es.
+<br />
+
+<br />
+DESCRIPCIóN DEL SISTEMA HCM SEDUCCIóN
+<br />
+
+<br />
+La grabación del sistema de HCM SEDUCCIóN, debes utilizarla por la noche antes de dormir o mientras duermes. Las sugestiones que recibirás van orientadas a organizar tu mente para liberarla de todas esas fobias y temores que te origina la falta de seguridad en tí mismo a la hora de enfrentarte a una persona desconocida con la que quieres establecer una relación.
+<br />
+
+<br />
+El sistema HCM SEDUCCIóN te proporcionará autocontrol y, al mismo tiempo, ésto te dará Confianza en tí mismo y serás capaz de seducir a la chica o chico más deseado del grupo.
+<br />
+
+<br />
+Los puntos claves tratados en este programa de autohipnosis, son:
+<br />
+
+<br />
+* Aprender a hablar, con moderación y sentido del humor, ya que éste es uno de los puntos claves de todo buen seducor.
+<br />
+* Serás capaz de transmitir un aire de seguridad y autosuficiencia, que te ayudará en tu propósito.
+<br />
+* Mantener la cabeza fría.
+<br />
+* Hacerte una persona indispensable, interesante a los ojos de los demás.
+<br />
+
+<br />
+EFECTOS SECUNDARIOS
+<br />
+
+<br />
+El sistema HCM SEDUCCIóN, no es un medicamento y en ningún caso se puede considerar como tal.
+<br />
+
+<br />
+Efectos secundarios o contraindicaciones. No se han descrito.
+<br />
+
+<br />
+PREGUNTAS FRECUENTES
+<br />
+
+<br />
+¿Cuando empezaré a notar resultados?
+<br />
+Con esta terapia empezará a notar resultados a partir de la 2ª o 3ª sesión, aunque serán necesarios varios meses para corregir completamente las creencias y hábitos incorrectos.
+<br />
+
+<br />
+¿Estaré consciente mientras escuche la terapia?
+<br />
+Si usted lo desea puede estar completamente consciente mientras escuche las terapias, aunque si se duerme no debe preocuparle en absoluto (su subconsciente seguirá escuchando y asimilando lo que reciba).
+<br />
+
+<br />
+¿Qué pasa si me distraigo mientras escucho las terapias?
+<br />
+Tenga en cuenta que dichas terapias van orientadas a la comunicación con su subconsciente. No debe preocuparle en absoluto distraerse ya que los mensajes no requieren de su atención consciente.
+<br />
+
+<br />
+¿Esta legitimada la hipnosis como método terapéutico?
+<br />
+La hipnosis actualmente es impartida en las principales universidades y facultades de Psicología y es ampliamente admitida como una terapia alternativa.
+<br />
+
+<br />
+¿Puedo utilizar la autohipnosis aunque no me haya hipnotizado nunca?
+<br />
+Mediante la autohipnosis enviamos mensajes al subconsciente para ayudar a solucionar un determinado problema. Por medio de una relajación previa y el envío de una serie de mensajes subliminales a continuación, por lo que cualquier persona aunque no sea fácilmente hipnotizable o no soporte dicha técnica puede realizar la autohipnosis.
+<br />
+
+<br />
+¿La hipnosis es como un sueño?
+<br />
+No tienen nada que ver aunque si bien durante la realización de la autohipnosis en ocasiones se puede quedar dormido. la hipnosis no requiere de un estado mental alterado. En el estado de autohipnosis el sujeto siempre esta en un estado de consciencia, lo que no ocurre durante el sueño, además el subconsciente en el estado de hipnosis esta mucho más receptivo a los mensajes enviados.
+<br />
+
+<br />
+¿Para que problemas es indicada la hipnosis?
+<br />
+La sugestión es un método para fomentar la regulación y auto-control del organismo, disminuyendo el esfuerzo requerido para ello. Es especialmente útil para terapias que requiere la puesta en marcha de habilidades cognitivas o conductuales.
+<br />
+
+<br />
+BIBLIOGRAFíA
+<br />
+
+<br />
+* Hypnotic Ego-Assertive Retraining. DAVID WAXMAN, L.R.C.P., M. R. C. S.
+<br />
+* Fruit and Vegetables: A Simple Metaphor for Understanding People Better. GERALD J. MOZDZIERS, Ph. D.
+<br />
+* Suggestions to Increase Interpersonal Effectiveness. DON E. GIBBONS, Ph. D.
+<br />
+* Suggestions for Difficulties in Interpersonal Situations. KERMIT E. PARKER, Jr., Ph. D.
+<br />
+* The symbolic Imagery Letter Writing Technique. MARK S. CARICH, Ph. D.
+<br />
+* The Jazz Band Metaphor for Family Interaction. PHILIP BARKER, M. B.
+<br />
+* Golden Retriever Metaphor. D. CORYDON HAMMOND, Ph. D.
+<br />
+* The Pygmalion Metaphor. D. CORYDON HAMMOND, Ph. D.
+<br />
+
+<br />
+Links de descarga:
+<br />
+
+<br />
+<a href="http://rapidshare.com/files/107846457/Seducc01.rar" target="_blank">http://rapidshare.com/files/107846457/Seducc01.rar</a>
+<br />
+<a href="http://rapidshare.com/files/107857437/Seducc02.rar" target="_blank">http://rapidshare.com/files/107857437/Seducc02.rar</a>
+<br />
+<a href="http://rapidshare.com/files/107873650/Seducc03.rar" target="_blank">http://rapidshare.com/files/107873650/Seducc03.rar</a>
+<br />
+<a href="http://rapidshare.com/files/107873651/Seducc04.rar" target="_blank">http://rapidshare.com/files/107873651/Seducc04.rar</a>
+<br />
+<a href="http://rapidshare.com/files/107873652/Seducc05.rar" target="_blank">http://rapidshare.com/files/107873652/Seducc05.rar</a>
+<br />
+
+<br />
+Contraseña para todos los archivos: mongo
+<br />
+
+<br />
+ <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />  <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><br /><br />_________________<br />Mujeriego ¡No! .... Seductor, Si. 
+<br />
+Acuerdate de Saber siempre lo que quieres.
+<br />
+
+<br />
+<a href="http://www.goear.com/listen/e07f8aa/Bandido-Sebastian" target="_blank"><span style="font-weight: bold">Me dicen el Bandido, escuchar online</span></a><img src="http://www.mexanime.org/smf/Smileys/smilies/drunk.gif" />
+<br />
+<span style="color: PaleGreen">BandidoPua@hotmail.com</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 26 Jun , 2009 1:34 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=6336&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6336"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="media-y-sitios-de-interes-vf26.html" class="nav">Media y Sitios de Interés</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26"selected="selected">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="2edeadeb0d584de59c78e84163d71090" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

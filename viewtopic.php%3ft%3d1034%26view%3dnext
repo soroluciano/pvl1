@@ -1,0 +1,1396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=668&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=668&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Soy un guitarrista / Soy un PUA</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="soy-un-guitarrista-soy-un-pua-vt668.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Soy un guitarrista / Soy un PUA</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=668"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt668.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt668.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="soy-un-guitarrista-soy-un-pua-vt668.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Soy un guitarrista / Soy un PUA</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4037"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4037.html#4037"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Soy un guitarrista / Soy un PUA</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4037"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo toco la guitarra, tengo una banda, estudié casi 7 años con dos profesores, consumí un montón de &quot;material&quot; sobre guitarra, toqué varias veces en vivo, grabé muchos temas, compuse muchos temas, practiqué cientos y cientos de horas.
+<br />
+
+<br />
+&gt;Soy un guitarrista???/Soy un PUA??
+<br />
+
+<br />
+Nunca toqué en ninguna banda famosa ni nada. No tengo ningún título q diga &quot;CERTIFICADO DE GUITARRISTA&quot;. Sin embargo, me considero guitarrista, por todas las horas q le dediqué a la guitarra, por todos los conocimientos q obtuve y por mi experiencia con el instrumento. Por las veces q toqué en un escenario, por las veces q me felicitaron por los temas, por la plata q invertí en pagar los ensayos, por los equipos q fui comprando a lo largo de mi vida, por la cantidad de &quot;fans&quot;, por los contactos q me hice, por las bandas en las q estuve, por los estilos q toqué, etc.
+<br />
+
+<br />
+&gt;Soy músico o guitarrista?? / Soy un hombre o soy un PUA??
+<br />
+
+<br />
+La guitarra es una de mis habilidades, es lo que estudié y es lo q más practiqué. Pero, escencialmente soy un músico, pq al aprender guitarra tmb tuve q aprender música, y puedo tocar el piano, el bajo, la batería y unas cuantas cosas más, pq soy músico y para aprender un instrumento nada más necesito la técnica, pq la teoría ya la tengo, aunque todavía puedo seguir ampliándola mucho más. Yo compongo para varios instrumentos, y tengo muchos temas compuestos por mí que no llevan guitarra. SOY UN MÚSICO, PORQUE ABARCO LA MÚSICA EN SÍ, NO SOLO LA GUITARRA.
+<br />
+
+<br />
+&gt;Jimmy Hendrix nunca estudió guitarra, toca de oído / Tito nunca leyó material de seducción, es un natural.
+<br />
+
+<br />
+Jimmy Hendrix fue un guitarrista de puta madre, y no sabía leer un pentagrama. Sin embargo grabó varios discos, tocó en vivo muchas veces, estuvo en varias bandas, tuvo muchísimos fans y se lo considera uno de los mejores guitarristas de todos los tiempos. Nunca le enseñaron música, fue autodidacta, por ende le costó muchísimo más aprender q a un guitarrista que haya estudiado. Sin embargo fue uno de los mejores. Fue un guitarrista y un músico de puta madre.
+<br />
+
+<br />
+&gt;Soy un artista musical / Soy un artista venusiano
+<br />
+
+<br />
+Si toco un instrumento musical, practico, aprendo, y disfruto interpretándolo soy un artista musical.
+<br />
+
+<br />
+&gt;Si me vuelvo sordo, sigo siendo músico?? / Si me quedo estéril, sigo siendo un PUA??
+<br />
+
+<br />
+Beethoven compuso la 9na sinfonía estando sordo. Es una de las mejores obras musicales de todos los tiempos y una de las más reconocidas. Nunca pudo escuchar su obra.
+<br />
+
+<br />
+&gt;Puedo improvisar un tema en el momento, sin usar melodías de otros músicos usando todos mis conocimientos, mi experiencia como guitarrista y mi estilo, soy consistente / Puedo levantarme una mina en el momento, sin usar rutinas de otros PUAs usando todos mis conocimientos, mi experiencia como PUA y mi estilo, soy consistente.
+<br />
+
+<br />
+Esto lo logro porque confío en mi experiencia y porque practiqué cientos de horas improvisación. A veces tiro una nota desafinada porque estoy improvisando y no lo tengo todo calculado, pero sé como arreglarla y hacer q quede bien.
+<br />
+
+<br />
+&gt;El material de guitarra me sirvió, pero la práctica definió mi estilo / El material de seducción me sirvió, pero la práctica definió mi estilo
+<br />
+
+<br />
+El material de guitarra, todos esos libros, esas canciones tan lindas q escuché de otros músicos q me inspiraron para ser guitarrista, esa mística, ese poder q tienen algunos guitarristas al tocar, mis profesores, mis ídolos, se llaman &quot;INFLUENCIAS&quot;.
+<br />
+
+<br />
+&gt;Toqué en vivo en las peores condiciones con público q no le gustaba lo q yo hacía, sin embargo les encantó lo q toqué / Sargee en las peores condiciones con hbs q no les gustaba mi personalidad, sin embargo me las cogí.
+<br />
+
+<br />
+Toqué con tanta confianza, aún cuando sabía q todo estaba para la mierda, el sonido era un desastre, los equipos eran malísimos, y lo disfruté tanto estando en el escenario q a la gente le encantó y me vinieron a abrazar después del concierto, y todo el mundo quedó satisfecho. Me sentí muy bien.
+<br />
+
+<br />
+&gt;Cuánto tardo en ser un guitarrista?? / Cuanto tardo en ser un PUA??
+<br />
+
+<br />
+Yo estuve dedicado 100% a la música durante varios años y aún así me falta mucho por aprender. Hay mucha gente muy pero muy buena, con muchísima experiencia. Yo estoy conforme con mi nivel, porque toco lo que quiero, y si no puedo tocar lo q quiero practico y lo consigo, pero estoy en un nivel en el que tengo bastante libertad para tocar. No existe el &quot;guitarrista perfecto&quot;, pq hay guitarristas de rock legendarios, pero si les das una guitarra acústica no son tan buenos.
+<br />
+
+<br />
+&gt;Hay demasiadas bandas, hay demasiados guitarristas / Hay demasiados hombres, hay demasiados PUAs.
+<br />
+
+<br />
+No, guitarristas buenos escasean. Lo que pasa es q todo el mundo quiere ser guitarrista y se jacta de ser guitarrista con solo tener una guitarra criolla y tocar tres acordes. Cuando uno de estos idiotas creídos sube a un escenario y empieza a tocar me cago de risa, miro a la gente y me doy cuenta q algunos piensan &quot;es una cagada lo que está tocando&quot; o &quot;no es mi estilo&quot; pero aún así se hacen los interesados en lo q están escuchando y se muestran felices. Yo fui uno de esos idiotas creídos. Una vez, unas personas estaban buscando un guitarrista para tocar en un acto del colegio, yo había estudiado un año nada más pero después dejé, en realidad mucho no practicaba y hacía un año q no agarraba la guitarra. Les dije que era guitarrista, y me tomaron. Fue mi primer concierto, &quot;hice de cuenta&quot; que tocaba, pq tenía el amplificador apagado para no pasar vergüenza. Desde ese momento empecé a practicar y me conseguí un profesor de guitarra.
+<br />
+
+<br />
+&gt;Cómo te das cuenta cuándo una persona es un guitarrista?? / Cómo te das cuenta cuándo una persona es un PUA??
+<br />
+
+<br />
+Cuando esa persona tiene dedicación a su instrumento, cuando practica, cuando toca bien una canción, cuando se nota que tiene algo de experiencia, cuando toca.
+<br />
+
+<br />
+&gt;Marty Friedman es un guitarrista de altísimo nivel y es reconocido en todo el mundo, puede seguir aprendiendo, pero decidió quedarse donde está. Practica tocando en vivo por todo el mundo / Tito es un PUA de altísimo nivel y es reconocido en todo el mundo, puede seguir aprendiendo, pero decidió quedarse donde está. Practica haciendo ONS.
+<br />
+
+<br />
+Marty Friedman es tan buen guitarrista que está conforme con su nivel, porque ya puede hacer lo que le gusta. No sabe tocar jazz avanzado, pero a el no le interesa aprender.
+<br />
+
+<br />
+&gt;Después de todo esto... soy un guitarrista?? / Después de todo esto... soy un PUA??
+<br />
+
+<br />
+Nadie me nombró formalmente guitarrista con un título ni nada por el estilo. La gente me considera guitarrista. Hace tiempo yo pensaba... como la gente puede pensar que soy un guitarrista si todavía no toqué nunca en vivo?? no escucharon nunca a Jimmy Hendrix?? ese es un guitarrista de verdad. Hoy en día yo me considero solo un músico. Solo con la práctica y con la experiencia puedo decir que me siento un guitarrista, aún así nunca salí por la tele tocando con una banda famosa, ni llené ningún estadio. Sin dudas no soy el mejor guitarrista del mundo, y no me interesa serlo porque no es mi objetivo.
+<br />
+
+<br />
+Dejen de paranoiquear por si son o no PUAs, llegado el momento lo van a sentir.
+<br />
+
+<br />
+Espero que les sirva para su desarrollo en el PU y para todos los ámbitos en la vida <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 3:20 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4041"></a>Gambler</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2165633481c913f32833.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 30 Oct 2007<br />Mensajes: 510<br />Ubicación: Buenos Aires Capital</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4041.html#4041"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4041"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">muy grosa la reflexion, yo por mi parte la idea de ser pua o no ser pua no le presto atencion, la idea en si es superarse en el campoo conseguir mas cierres y sentirse bien con uno mismo, nadie 
+<br />
+
+<br />
+va a venir con un titulo de posgrado que diga pick up artist manga cunlaud, y de ultima pensa y decite por dentro SOY UN PUA o SACA EL pua que hay en vos (onda zucaritas) y capas eso te motive.
+<br />
+Me quedo una sola duda,  ¿tocas la guitarra? jajaj.  De hecho yo tambien y tengo una banda, el guitar pro es lo mas jajja. Un abrazo<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 3:44 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm58.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=58"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4046"></a>Chill</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/504843556472525d0aa679.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 24 Oct 2007<br />Mensajes: 253<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4046.html#4046"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4046"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">me encantó el post che!
+<br />
+muy buena analogía!
+<br />
+tenés razón en todo lo que decís, y es muy profundo.
+<br />
+
+<br />
+un abrazo
+<br />
+
+<br />
+<span style="font-style: italic">Chill</span><br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 4:38 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm34.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=34"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4049"></a>Rusty</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/122583279347febc28c06b9.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Nov 2007<br />Mensajes: 147<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4049.html#4049"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4049"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo en los ultimos 5 años y pico...me he dedicado a entrenar kick boxing, Muahy thai, jiu-jitsu, vale tudo, boxeo, escrima kali, combate con cuchillo, y otras cositas...
+<br />
+
+<br />
+Cuando empezaba, me frustraba por que no conseguia resultados como los que esperaba...
+<br />
+
+<br />
+En una pelicula de Vin Diesel (el hijo de la mafia), el esta por armar un quilombo con un Gordo que lo apura, y el le dice:;
+<br />
+
+<br />
+VD: 500 peleas...
+<br />
+
+<br />
+G:que?
+<br />
+
+<br />
+VD: 500 peleas..yo cuando era chico, me fije la meta de 500 peleas, para ¨ser un tipo duro¨..luego te metes en probloemas, te lastiman, lastimas, mas problemas, y vas por las 200 peleas...300 peleas...un dia, me di cuenta de que ya tenia muchas mas de 500 peleas...
+<br />
+
+<br />
+G: de que mierda hablas?
+<br />
+
+<br />
+VD: y me di cuenta de que cuando deje de preocuparme por ser un tipo duro...ya lo era hace rato...pero hay algo que no debes olvidar nunca...
+<br />
+
+<br />
+G: que?
+<br />
+
+<br />
+VD: (aca Vin Diesel le pega una cagada imrpesionante y se arma un quilombo marca acme)
+<br />
+
+<br />
+Yo me senti muy identificado con esto, por que realmente queria llegar a ser un tipo que pueda pelear con cualquiera..y aun si me ¨ganan¨.. dañarlo mucho, o permanentemente...deje de prestarle atencion a eso a medida que paso el tiempo..y hoy, se de lo que soy capaz, y estoy satisfecho, aunque sigo aprendiendo, y entrenando...
+<br />
+
+<br />
+Lo mismo me paso con el PU, cuando tenia apenas unos meses en esto, me preocupaba por dar la talla...cuando me empezo a chupar un huevo, empeze a tener resultados satisfactorios...
+<br />
+
+<br />
+Por cierto,repito esto para algunos de los señores que respondieron, por que se ve que no alcanzaron a comprender, o leer...
+<br />
+
+<br />
+No estoy proponiendo que me digan cuando soy un pua...
+<br />
+
+<br />
+Este thread fue para los que tienen esto rondando..o sea, no es que te quite el sueño, pero aun asi podes pensar en eso...
+<br />
+
+<br />
+Este thread NO fue para gente que busca aprobacion ¨demostrando¨ que no le interesa el tema..es  para los que SI le interesa...
+<br />
+
+<br />
+Por que, por mas que todos los que respondieron a este thread, sean seres sumamente superados...quizas haya chicos nuevos que necesitan que alguien les diga ¨man, no necesitas ni que te digan, ni catalogarte de pua,no pua, afc, o las pelotas¨
+<br />
+
+<br />
+NOTA: que grosos algunos eh...sera que yo he tenido la ¨unica y extraña¨ experiencia de conocer gente que se plantea esto...aca en cordoba hay varios, y en otras provincias tambien..pero quizas solo yo los conozca,y no existan en el universo real..
+<br />
+
+<br />
+Por ultimo, dejen de aprovechar cada oportunidad para hacer un despliegue de su habilidad para venderse...a mi, Rusty, con estar en esto, y no ser un KJ mentiroso,me basta para respetarte,no necesito que se muestren inalcanzable por los problemas que una vez me alcanzaron..
+<br />
+
+<br />
+Y digo cada oportunidad,porque lo vengo viendo desde hace rato, y en varias ocasiones, que un pibe dice:
+<br />
+
+<br />
+¨Mira, le dije a la chica que le compraba un trago si ella compraba el primero¨
+<br />
+
+<br />
+y le responden cosas analogas a: 
+<br />
+
+<br />
+Pero como le vas a comprar un trago!!!! sos boludo?? nooo..muy flojo lo tuyo, morite y volve a nacer!!! forro!!!
+<br />
+
+<br />
+y despues, siguen con : ¨yo lo que hago, es decirle que el alcohol hace mal al higado, y asi las cago...JEJE (RISA DE BEAVIS &amp; BUTHEAD)...CAPAZ QUE ES TU ESTILO Y LO RESPETO, ESTO ES UNA CRITICA CONTRUCTIVA...PERO NUNCA HARIA SEMEJANTE CAGADA!!! ES MUY DESESPERADO!!!
+<br />
+
+<br />
+
+<br />
+NOTA: si bien esto es una satirizacion, algunas partes, son de diferentes respuestas que los grandes maestros dieron a pibes nuevos que solo pedian ayuda...
+<br />
+
+<br />
+Que placer hay en mostrarse sapiente ante un pibe que te esta pidiendo ayuda?????
+<br />
+
+<br />
+ yo trate esto para ayudar a NO necesitar esta clase de aprobacion, y me responden como si yo la buscara, aun estando muuy claro de que se trata..pero bue...la inseguridad puede llevar a hacer este tipo de cosas...
+<br />
+
+<br />
+De ultima, en el field se ven los pingos...
+<br />
+
+<br />
+No tengo animos de iniciar discuciones, pero algunos deberian cuidar las suceptibilidades de los chicos nuevos, y cuidar de no romper los huevos a los que tratan de ayudar..
+<br />
+
+<br />
+Saludos a todos<br /><br />_________________<br />100% ACTITUD
+<br />
+
+<br />
+Queres ser un AS, o un 4 de copas?
+<br />
+
+<br />
+<a href="http://www.actitudases.com.ar" target="_blank">www.actitudases.com.ar</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 6:21 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm91.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4050"></a>Rusty</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/122583279347febc28c06b9.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Nov 2007<br />Mensajes: 147<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4050.html#4050"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4050"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Y SON ESTA CLASE DE ACTITUDES, QUE HACEN QUE LOS QUE TENGAN PROBLEMAS PARECIDOS A ESTOS, LOS OCULTEN EN VEZ DE TRATARLOS ACA, DONDE PODRIAN HACERLO, POR EL HECHO DE UN FULANO XX DIJO QUE ERA UNA BOLUDEZ, ENTONCES EL PIBE SE LO GUARDA..
+<br />
+
+<br />
+Y A LA LARGA, LA MIERDA SALE POR ALGUN LADO...SEAN MAS BUENA ONDA, ESTO NO ES PARA COMPETIR<br /><br />_________________<br />100% ACTITUD
+<br />
+
+<br />
+Queres ser un AS, o un 4 de copas?
+<br />
+
+<br />
+<a href="http://www.actitudases.com.ar" target="_blank">www.actitudases.com.ar</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 6:24 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm91.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4059"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4059.html#4059"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4059"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Rusty tenés razón. Igual creo q me mal interpretaste, no estoy tratando de demostrarte q soy lo más grande del mundo, pq la verdad no lo soy, ni ahí. Además, yo hice una analogía sobre el pick up y la guitarra (ambito en el q si puedo decir q tengo un nivel aceptable).
+<br />
+
+<br />
+Lo q intento mostrar es la actitud frente a una disciplina, uno cuando empieza a tocar la guitarra tmb se siente frustrado pq no consigue &quot;resultados&quot;. Tanto como con la guitarra como con el PU, con kick boxing, boxeo, muay thai, esgrima, fútbol, básquet, etc etc etc.
+<br />
+
+<br />
+Yo te mal interpreté pq pensé q te sentías identificado con el thread, q tenías esa &quot;duda&quot;. Sos más PUA q muchos de acá, justamente pq tenés experiencia y pq estuviste bastante en el field, igual eso lo sabés vos, yo me guío por tus posts y FRs.
+<br />
+
+<br />
+Eso es todo, no veo pq tanto bardo.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 1:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4061"></a>El Mandala</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/14837346534952564494572.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Nov 2007<br />Mensajes: 139<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4061.html#4061"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4061"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NicoRod: un guitarrista es alguien que ama y dusfruta tocar su instrumento, y expande ese disrute a quienes gustan de la &quot;musica&quot;.
+<br />
+
+<br />
+Esa es mi definicion.
+<br />
+
+<br />
+Interesantes tus reflexiones y muy inteligentes tus analogias.
+<br />
+Se nota que del tema sabes, no que estas &quot;guitarreando&quot;.
+<br />
+<img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+(una mandaleada, obvio, no podia faltar)
+<br />
+
+<br />
+saludos<br /><br />_________________<br />“I can easier teach twenty what were good to be done, than be one of the twenty to follow mine own teaching.” – Shakespeare 
+<br />
+
+<br />
+&quot;Hallaría más fácil enseñar a veinte la senda del bien, que ser una de esos veinte y seguir mis propias recomendaciones.&quot; – Shakespeare<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 1:25 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm93.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=93"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4075"></a>Ka0sX</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2323454475ed58d2771d.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 11 Dic 2007<br />Mensajes: 109<br />Ubicación: Córdoba</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4075.html#4075"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4075"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Buena analoguía haces, pero tambien opino que no importa mucho el titulo, no importa si te consideran o si te consideras pua o no lo importante son tus objetivos... es lo mismo que si te consideras guitarrista o no... lo importante es que vos estas cómodo con tus logros, con tus capacidades...
+<br />
+
+<br />
+no importa que digan por ahi, no importa que se necesita para ser un pua, lo importante es seguir, lo importante es competir con uno mismo y lograr ser cada dia un poco mejor, porque eso es el motor para seguir, es ver que ayer una mina ni te daba la hora y ahora estas en un day2 con ella... no tanto el titulo, al final de cuentas eso no te hace mas, no te hace menos, lo que te define son las cosas que logras, tu sabiduria, tus conocimientos, tus habilidades...
+<br />
+
+<br />
+Saludos.
+<br />
+_Ka0sX_<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 8:23 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm130.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=130"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4077"></a>El Mandala</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/14837346534952564494572.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Nov 2007<br />Mensajes: 139<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4077.html#4077"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4077"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Quotativo como estoy, comparto otra rebanada de este hermoso pan llamado Juggler (!?)
+<br />
+(las metaforas me parece que te van mejor a vos, nicoRod... en fin.
+<br />
+
+<br />
+Aca esta el &quot;pan&quot;, <span style="font-weight: bold">untenle lo que quieran..</span>.. y a comeeerlaaaaa! <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"><span style="font-weight: bold">Being in the Moment</span>
+<br />
+
+<br />
+
+<br />
+Want to have fun and passion with a woman? Then start out that way. Many of us are more interested in planning how to get to the next step with a woman rather than being fully present in the moment. 
+<br />
+
+<br />
+You walk up and start a conversation with a woman. Guess what? You are with her as much as you ever can be. A passing bus could go out of control and kill you both. It would be a shame if you spent your last moments on Earth planning and calculating how to have fun instead of actually having fun. 
+<br />
+
+<br />
+The 'content' of any interaction is having fun, relating to someone, being spontaneous and creating sexual tension. Keep the planning and calculating to a minimum. That stuff is there only to facilitate getting to the content. That stuff should be reduced to the occasional administrative task. 
+<br />
+
+<br />
+The goal is not getting a telephone number. The goal is enjoying your time together so much that is obvious that you two are going to see each other again. 
+<br />
+
+<br />
+The goal is not kissing the girl. The goal is creating anticipation so exciting that your heads may pop. 
+<br />
+
+<br />
+The goal is not having sex. The goal is to create sexual tension so strong that you fear being alone with her. 
+<br />
+
+<br />
+You will laugh at guys who make administrative tasks into goals. You will intentionally put those things off. Girls will chase you down to give you their number. Heads will pop. You will be battered and bruised and have perfectly good shirts ripped from your body. 
+<br />
+
+<br />
+Juggler</td>	</tr></table></center>
+<br />
+
+<br />
+
+<br />
+The goal is not to be a pua. The goal is <span style="font-weight: bold">be yourself</span>, not to <span style="font-style: italic">hide</span> yourself.
+<br />
+(Esta ultima la traduzco porque es mia. &quot;El objetivo no es ser un pua, el objetivo es ser vos mismo sin ocultarte ni avergonzarte de quien sos.
+<br />
+
+<br />
+
+<br />
+(Si alguien <span style="font-style: italic">se copa</span> en traducir el resto para la muchachada no angloparlante, adelante.
+<br />
+
+<br />
+Saludos, mandala.<br /><br />_________________<br />“I can easier teach twenty what were good to be done, than be one of the twenty to follow mine own teaching.” – Shakespeare 
+<br />
+
+<br />
+&quot;Hallaría más fácil enseñar a veinte la senda del bien, que ser una de esos veinte y seguir mis propias recomendaciones.&quot; – Shakespeare<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 8:45 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm93.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=93"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4080"></a>Nightwing</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/92958514448f2bc8055dd0.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Nov 2007<br />Mensajes: 44<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4080.html#4080"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4080"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">wow larguisimo tu post  <img src="images/smiles/icon_eek.gif" alt="Shocked" border="0" /> 
+<br />
+
+<br />
+lo lei todo, yo tambien toco la guitarra pero nunca estudie a fondo, sirvo para acompañar nomas ja
+<br />
+
+<br />
+buena refelxion man
+<br />
+
+<br />
+
+<br />
+nos vemos<br /><br />_________________<br />Think Possitive<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 04 Ene , 2008 10:06 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm73.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=73"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4105"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4105.html#4105"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4105"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Muy inteligente lo que dicen Kaosx y El Mandala.
+<br />
+
+<br />
+Como en toda disciplina, hay algo q te bloquea el camino del aprendizaje que usualmente llamamos &quot;ego&quot; y creo q en esta disciplina, la seducción, es donde más ego veo.
+<br />
+
+<br />
+Entre los guitarristas, especialmente los de heavy metal q son muy técnicos y rápidos, tenés mucho ego, especialmente entre los q son 1era guitarra (los que hacen los solos). Siempre vas a ver competencia entre los guitarristas de las bandas de metal, especialmente los solistas. No se puede creer la cantidad de ego q hay en ellos, es increíble. Los cantantes tmb <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> fijate cerati. Bueno, me estoy llendo un poco de tema, el punto es: cuando hay alguien q no sabe tocar la guitarra, dice... no soy guitarrista, no tengo una guitarra en mi casa (siempre hay algún boludo q se cree lo más y cuando lo escuchás da lástima).
+<br />
+
+<br />
+En cuanto a la seducción... CASI TODO EL MUNDO alardea (pq no hace falta tener una guitarra) <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> se entiende??
+<br />
+
+<br />
+Cuántos AFCs admiten que no saben seducir a una mujer???
+<br />
+
+<br />
+Para poder seducir a una mujer, la única condición es ser hombre, entonces tenés a la mayoría de los hombres haciendo alarde de sus &quot;proezas&quot;. Por dentro un PUA (o una mujer con experiencia) se caga de risa cuando los escuchan.
+<br />
+
+<br />
+Es más... seguramente a la mayoría de nosotros cuando vimos por primera vez un &quot;manual de levante&quot; dijimos... NAAAAHHHH esto es puro chamuyo.. si yo sé como levantar minas, pasa q me falta una ferrari, músculos, plata, etc etc etc
+<br />
+
+<br />
+Pasa q a los hombres nos cuesta aceptar la realidad de las cosas cuando afectan nuestro ego. La seducción es uno de los casos más claros de esto.
+<br />
+
+<br />
+EL EGO ES EL ENEMIGO DE TU APRENDIZAJE
+<br />
+
+<br />
+Simplemente, porque cuando te creés lo más grande del mundo, asumís q no necesitás aprender nada y q ya la tenés re clara.
+<br />
+
+<br />
+Disfrutar el aprendizaje, disfrutar el momento, disfrutar el saber que poniéndole pilas es imposible q te vaya peor q antes. Eso es escencial.
+<br />
+
+<br />
+CONCLUSIÓN:
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">no importa mucho el titulo, no importa si te consideran o si te consideras pua o no lo importante son tus objetivos... es lo mismo que si te consideras guitarrista o no... lo importante es que vos estas cómodo con tus logros, con tus capacidades...
+<br />
+
+<br />
+no importa que digan por ahi, no importa que se necesita para ser un pua, lo importante es seguir, lo importante es competir con uno mismo y lograr ser cada dia un poco mejor, porque eso es el motor para seguir, es ver que ayer una mina ni te daba la hora y ahora estas en un day2 con ella... no tanto el titulo, al final de cuentas eso no te hace mas, no te hace menos, lo que te define son las cosas que logras, tu sabiduria, tus conocimientos, tus habilidades...</td>	</tr></table></center>
+<br />
+
+<br />
+La competencia es con vos mismo, si aprendés a seducir solo para q tus amiguitos digan q sos lo más grande q hay y así poder agrandar tu ego vas por mal camino.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 05 Ene , 2008 4:06 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4111"></a>Rusty</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/122583279347febc28c06b9.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Nov 2007<br />Mensajes: 147<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4111.html#4111"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4111"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Muy bueno el post de Mandala, no recuerdo haber visto eso de juggler...
+<br />
+
+<br />
+Debo decir: 
+<br />
+
+<br />
+1) Me parece que ninguno de los que estamos aca esta fuera de la influencia de la aprobacion, ni del EGO..por lo tanto, solo estan REPITIENDO lo que esta mal, no estan dando soluciones para lo que se dan cuenta de esto...
+<br />
+
+<br />
+2) Siguen en plan de decir lo mal que esta, y como dije, asi no ayudan a nadie...
+<br />
+
+<br />
+Lo ongo un poquito mas claro...
+<br />
+
+<br />
+NO ESTOY HACIENDO APOLOGIA A LAS CLASIFICACIONES (pua o no pua)..
+<br />
+
+<br />
+Estoy planteando un hecho REAL, que se puede solucionar temprano en el proceso de aprendizaje...pero ciertamente no se arregla comentando todo lo mal que te parece...
+<br />
+
+<br />
+Pero aclaro que estoy de acuerdo con lo que dijeron..solo no estoy de acuerdo con la forma de tratar el tema..
+<br />
+
+<br />
+La forma de ayudar a alguien a solucionar un problema, no es decirle lo boludo que te parece su problema.
+<br />
+
+<br />
+Como dije, esto es algo que normalmente se da en los principios del entrenamiento...
+<br />
+
+<br />
+Lo importante es pensar en los objetivos, y el ¨ser pua¨, es muy superficial y vacio al final, y solo lo que ¨puede parecer¨ una meta, pero estoy seguro que hay mucho mas detras.
+<br />
+
+<br />
+Asi como detras del miedo al aproach, o otras ansiedades en la interaccion, se dan por problemas mucho mas profundos.. y repito, la forma, no decirle 
+<br />
+
+<br />
+¨tener AA es una boludez, rescatate gil!!¨ (lo que implica lo picante que sos vos por no darle bola a ese tipo de cosas...totally brag)
+<br />
+
+<br />
+Saludos a todos
+<br />
+
+<br />
+
+<br />
+Nico Rodrigo: Aguante Yngwie Malmsteem!!! Eso es velocidad!!!
+<br />
+
+<br />
+
+<br />
+Saludos<br /><br />_________________<br />100% ACTITUD
+<br />
+
+<br />
+Queres ser un AS, o un 4 de copas?
+<br />
+
+<br />
+<a href="http://www.actitudases.com.ar" target="_blank">www.actitudases.com.ar</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 05 Ene , 2008 4:56 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm91.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=91"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="4126"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp4126.html#4126"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=4126"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Nico Rodrigo: Aguante Yngwie Malmsteem!!! Eso es velocidad!!!</td>	</tr></table></center>
+<br />
+
+<br />
+QUEE GRAAANDEEE!!!
+<br />
+
+<br />
+Bueno, concuerdo con Rusty sobre q estamos sobre-analizando el tema, pero no damos soluciones.
+<br />
+
+<br />
+El punto es... q no le encuentro soluciones lógicas más q la práctica, la paciencia y el disfrutar el proceso <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">¨tener AA es una boludez, rescatate gil!!¨ (lo que implica lo picante que sos vos por no darle bola a ese tipo de cosas...totally brag)</td>	</tr></table></center>
+<br />
+
+<br />
+Lo mismo, pasa q si ya sabés de qué se trata, no hay otra manera de solucionarlo q con la práctica, la paciencia y el disfrutar del proceso...
+<br />
+
+<br />
+Ahora... la verdad q me parece medio forro decirle eso a un chabón q recién empieza, TENGA RAZÓN O NO.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 05 Ene , 2008 9:08 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="6813"></a>tatox</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 777<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp6813.html#6813"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=6813"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">la verdad q este post eran uno de esos q me hacian falta leer. yo tambien toco la guitarra, de hecho estuve MUY obsesionado en el buen sentido, practico muchisimas horas, bandas, etc.
+<br />
+ahora ekilibre un poco mas las cosas.
+<br />
+
+<br />
+
+<br />
+( kizas me desvio un poco del tema ) pero la verdad me resulto muy raro q alguien q este en este mundo, tambien este en el mundo de la musica ( como lo q realmente considero q es estar en ese mundo y creo q vos nicolas rodrigo lo estas ) q es ese total compromiso y dedicacion q ya fue descrito mas arriba. simplemente eso, me gustaria q en alguna oportunidad q salgamos charlemos mas a fondo esto, porq tengo muchas preguntas para hacerte. 
+<br />
+
+<br />
+actualmente estoy en un momento en el q la seduccion o como kieran llamarlo me esta atrapando cada vez mas, con los exitos MUCHO mas todavia.
+<br />
+
+<br />
+y lo q me esta pasando es q por ahi estoy dejando un poco de lado otras cosas.. como por ejemplo, no estoy practicando 12 hs por dia de guitarra..
+<br />
+
+<br />
+por otro lado me di cuenta q tambien le estaba poniendo un peso al instrumento q no era el q le correspondia .... ( si muchachos estaba muy solo ), y creo q compensaba eso con un exceso en ese ambito..
+<br />
+
+<br />
+que se yo, esto q acabo de escribir no debe decir mucho y es probable q no me haya expresado bien. pero realmente me siento muy identificado con lo q se dijo aca. lo q si se es q para realmente lograr algo hay q darle mucha dedicacion y paciencia y con la guitarra se aprende mucho eso. en especial si keres tocar los arpegios del gordo
+<br />
+
+<br />
+gracias chicos por estar
+<br />
+
+<br />
+
+<br />
+un abrazo
+<br />
+
+<br />
+
+<br />
+P.D.: satriani y petrucci.. dioses en la tierra<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 18 Feb , 2008 2:04 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="6880"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp6880.html#6880"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=6880"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">tatox escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la verdad q este post eran uno de esos q me hacian falta leer. yo tambien toco la guitarra, de hecho estuve MUY obsesionado en el buen sentido, practico muchisimas horas, bandas, etc.
+<br />
+ahora ekilibre un poco mas las cosas.
+<br />
+
+<br />
+
+<br />
+( kizas me desvio un poco del tema ) pero la verdad me resulto muy raro q alguien q este en este mundo, tambien este en el mundo de la musica ( como lo q realmente considero q es estar en ese mundo y creo q vos nicolas rodrigo lo estas ) q es ese total compromiso y dedicacion q ya fue descrito mas arriba. simplemente eso, me gustaria q en alguna oportunidad q salgamos charlemos mas a fondo esto, porq tengo muchas preguntas para hacerte. 
+<br />
+
+<br />
+actualmente estoy en un momento en el q la seduccion o como kieran llamarlo me esta atrapando cada vez mas, con los exitos MUCHO mas todavia.
+<br />
+
+<br />
+y lo q me esta pasando es q por ahi estoy dejando un poco de lado otras cosas.. como por ejemplo, no estoy practicando 12 hs por dia de guitarra..
+<br />
+
+<br />
+por otro lado me di cuenta q tambien le estaba poniendo un peso al instrumento q no era el q le correspondia .... ( si muchachos estaba muy solo ), y creo q compensaba eso con un exceso en ese ambito..
+<br />
+
+<br />
+que se yo, esto q acabo de escribir no debe decir mucho y es probable q no me haya expresado bien. pero realmente me siento muy identificado con lo q se dijo aca. lo q si se es q para realmente lograr algo hay q darle mucha dedicacion y paciencia y con la guitarra se aprende mucho eso. en especial si keres tocar los arpegios del gordo
+<br />
+
+<br />
+gracias chicos por estar
+<br />
+
+<br />
+
+<br />
+un abrazo
+<br />
+
+<br />
+
+<br />
+P.D.: satriani y petrucci.. dioses en la tierra</td>	</tr></table></center>
+<br />
+
+<br />
+Entiendo lo q querés decir. Yo pasé x lo mismo q vos.
+<br />
+
+<br />
+La enseñanza q te deja es q más alla de la seducción y todo esto, en cualquier disciplina/ámbito la dedicación y la constancia son fundamentales.
+<br />
+
+<br />
+Vos lo sabés porque tocás la guitarra y sabés qué es lo q puede tocar un chabón con miles de horas de práctica q uno q empezó hace 6 meses.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 19 Feb , 2008 12:35 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=668&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=668"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="ce2f516aca3d9182b56f71aee32a3d97" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

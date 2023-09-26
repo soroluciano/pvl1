@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1390&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1390&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Un poco de HISTORIA!</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="un-poco-de-historia-vt1390.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Un poco de HISTORIA!</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1390"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1390.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1390.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="un-poco-de-historia-vt1390.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Un poco de HISTORIA!</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10106"></a>crazyricardo</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/6964809424816a7f8d624f.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 36<br />Ubicación: Rosario, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10106.html#10106"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Un poco de HISTORIA!</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10106"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hola banda, nuevo posteo...hoy estoy con ganas de tipear. Este es un árticulo que les escribi a mi grupo de amigos aca en Rosario, luego de una charla que tuvimos en la que me di cuenta que ninguno sabia que carajo hacer frente a una mina.
+<br />
+
+<br />
+<span style="font-weight: bold">&quot;Desconexión....la excusa perdida&quot; </span>
+<br />
+ 
+<br />
+Desconexión, ¿un sentimiento? ¿o la ausencia de él? Es esa sensación de incerteza que rodea a la imagen femenina para la mente del hombre. Es esa idealización/denigración que muchos hombres de nuestra generación experimentamos hacia el sexo opuesto. 
+<br />
+Es de conocimiento general que las mujeres disfrutan igual o más del contacto humano que los hombres, ¿entonces porqué la distancia, la frialdad, la máscara social? 
+<br />
+A lo largo de la historia hubo algo que caracterizó las relaciones hombre-mujer, ésto fue la necesidad de éstas últimas de tener una <span style="font-weight: bold">excusa</span>, un motivo (algunos lo llaman racionalización del deseo) que justifique la atracción sexual hacia el hombre. 
+<br />
+
+<br />
+El hecho de que estemos vivos significa algo muy importante :  desde hace generaciones nuestros abuelos, bisabuelos, tatarabuelos, etc se las ingeniaron para tener sexo con al menos una mujer y lograr embarazarla. Nuestros queridos ancestros jugaban bajo reglas claras, tiempos en donde la <span style="font-weight: bold">excusa</span> era conocida y de mutua aceptación entre ambos generos. En las sociedades pre-modernas el hombre no tenia demasiadas opciones, su vida era la vida del guerrero. El hecho de exponer su vida en combate y de velar por la seguridad y el bienestar de su tribu era la excusa que justificaba la reproducción a los ojos de la hembra. 
+<br />
+
+<br />
+Salto adelante en el tiempo hasta los años 50, en donde la estructura social ,se puede decir, era predominantemente patriarquica. La imagen del varon jefe de familia, una persona autoritaria e incluso tirana en ocasiones, sentado en la cabecera de la mesa, era el modelo a seguir para los demás hombres. La mujer , quién tenia escaso acceso al sistema financiero y laboral, permanecia en una relación de dependencia con el jefe de familia. Ella sabía que si no toleraba el autoritarismo y la violencia del jefe, no le quedaban demasiadas opciones para autosustentarse (salvo trabajar en algun burdel). Por otro lado, el jefe  de familia sentía cierto poderio y autorealización al tener sometida a su compañera, ya que estaba cumpliendo con el rol social que se le habia sido asignado. Si bien suena injusto, al menos hombre y mujer convivian en un &quot;equilibrio&quot; durante estos años : una relación del tipo dominada/dominador que ,aunque neurótica,  dejaba al menos en claro los roles que cada uno debía jugar.
+<br />
+
+<br />
+Sin embargo en estos años ocurrió algo inesperado : la revolución feminista, quizás el movimiento mas importante de todo el siglo pasado, cuyas consecuencias forjaron nuestra estructura de pensamiento actual. Algunas mujeres con tendencias masculinas, cansadas del sometimiento, decidieron revelarse contra la autoridad del jefe de familia y contra el modelo patriarquico en general. ¿Que demandaban? : igualdad, poder, libertad, todo lo que se les habia sido negado. Este movimiento fue ganando adeptas. La mujer poco a poco decidió dejar de jugar su viejo rol y adoptar uno nuevo. El hombre pasivamente lo observó, sin saber como reaccionar. 
+<br />
+
+<br />
+Las mujeres comenzaron a obtener igualdad de oportunidades laborales, tenian su propio dinero  y no solo esto, las nuevas ideas de igualdad se propagaron por supuesto al campo sexual. La mujer comenzo a reconciliarse con su goce, con su placer y abandono las viejas fantasías de pasividad sexual , de ser violada por un hombre mayor y las sustituyó por fantasias en las que ella ejercía el rol dominante. La mujer fue adoptando el rol de guerrero y comenzó a apreciar a los hombres que estaban mas en contacto con sus sentimientos, se puede decir que durante los 80´y 90´ la <span style="font-weight: bold">EXCUSA </span>que necesitaba la mujer para justificar su deseo sexual era la presencia de una &quot;emotividad&quot; en los hombres. Un tipo que sea capaz de llorar, seguirla y servirle de apoyo durante esta etapa de cambios en su rol. Esto queda claramente reflejado en el estereotipo del &quot;hombre suave&quot; de principios de los ´90 perfectamente caracterizado por el querido Gaston Pauls en Montaña Rusa. 
+<br />
+Podemos decir que durante los 90 , si bien hubo una inversión de roles, al menos nuevamente se lograba ese equilibrio, esa &quot;conexion&quot; entre los generos, ya que la excusa era clara : &quot;Queremos un hombre capaz de expresar sus sentimientos&quot;. 
+<br />
+¿Que es lo que sucede ahora, en éste nuevo milenio?. En mi opinión las feministas despertaron un fantasma que ellas mismas no desean.
+<br />
+Completa ya la transformación desde ama de casa a empresaria, la mujer dejo de necesitar esa contención emocional que el hombre suave podia brindarle en  la decada pasada. Afirmada en su postura y con un mundo lleno de opciones la mujer sale a la calle y se siente libre. Tiene todo lo que siempre deseó....¿TODO?....en realidad no.
+<br />
+
+<br />
+Las relaciones sexuales casuales ,si bien les proporcionan placer y ese sentimiento de libertad e igualdad que siempre buscaron, no logran llenar ese vacío presente en la psiquis de toda hembra, vacío que sólo la presencia de un hombre capaz de cumplir simultaneamente con el rol de amante y proveedor puede llenar. Tampoco encuentran  la plenitud espiritual en compañia del hombre suave, ya que al haber renunciado a su rol de hombre en la naturaleza, se volvió monótono, predecible y poco atractivo y dejó de serles util a las mujeres. 
+<br />
+
+<br />
+Entonces ¿que quiere la mujer?.....cuantas veces nos preguntamos esto no?....en realidad creo que la pregunta esta mal enfocada. Por si no se dieron cuenta, hay un patrón común en todo el texto : que el hombre siempre establecio su identidad en REACCION a la mujer, sea mediante su capacidad de someterla (antiguamente) o de comprenderla (recientemente). Es por eso que los hombres de nuestros tiempos nos encontramos confundidos, ya que no tenemos un mandato claro a seguir, una posición clara a adoptar en el mundo de las relaciones interpersonales, o mejor dicho, somos bombardeados por muchisimos mandatos sobre nuestro rol a seguir, pero al aplicarlos en la vida cotideana vemos que ninguno es realmente efectivo y gratificante. Para recuperar nuestro poder como género, los hombres no debemos tratar de someter nuevamente a las mujeres volviendonos un gran Casanova, ni de obsesionarnos por comprenderlas volviendonos un gran poeta, simplemente tenemos que aprender a definir nuestra masculinidad de forma independiente de la mujer. Sam Keen lo llama : Pasar un tiempo en la &quot;No man´s land&quot;  , un lugar en donde no se es ni niño ni hombre, un lugar donde se aprenden los secretos del mundo natural, donde los antiguos instruyen a los jovenes para que aprendan su rol, para luego volver al corazon de lo cotideano a amar a una mujer ordinaria pero de una forma completamente nueva y reconfortante. 
+<br />
+A los que llegaron a leerlo entero, espero que les haya gustado.<br /><br />_________________<br />-&quot;Hi!!&quot;  
+<br />
+-&quot;Hi&quot;  
+<br />
+-&quot;huhu huhu...Wanna do it? huhuhu huhuhu&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Abr 03, 2008 3:21 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm165.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=165"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=165"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10138"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/175418210547f63fc4c6c49.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1218<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10138.html#10138"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10138"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">no lei todo, pero...
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Es de conocimiento general que las mujeres disfrutan igual o más del contacto humano que los hombres, ¿entonces porqué la distancia, la frialdad, la máscara social?</td>	</tr></table></center>
+<br />
+creo... el problema es el hecho de considerarlo frio... y, tambien el problema es considerarlo una mascara social.  bah... &quot;problema&quot;, el punto es que hay algo en esto... groso, que exede a una ganacia de copadez o de masculinidad... que es algo personal (y tiene que ver con la frase de abajo)
+<br />
+
+<br />
+la frase &quot;be an animal, be a man&quot;, no tiene que ver con la sociedad, tiene que ver con uno. cuando considere el hecho de soltarme de todo lo que me hiciera feliz, ajeno a mi, tambien considere alejarme del hecho de tener que se querido.
+<br />
+
+<br />
+that´s for girls jajjajaj, nah, pero si tu felicidad se basa en que una mina te quiera... es jodido. te puede querer, todo ok, pero el que esta para medir que se hace, sos vos... si te gusta algo, te gusta querer, no ser querido... bah, al menos creo eso te da libertad.
+<br />
+
+<br />
+tal vez en el fondo sigo sinedo un osito de peluche (hay cambios que perduran y cambios que se arraigan), pero a lo que voy es a que en esto de la comu, no todo es basura.
+<br />
+
+<br />
+algo que podria ser como frio, es el c&amp;F. en alguna epoca me quejaba de tener que sre c&amp;F, ahora no puedo dejar de ser asi porque esta barbaro... acaso quiero hacer chistes y ponerme el celular en el cinturon (todo ok si lo usas, pero es mas simbolico lo que digo)? al carajo! no se si me contagiaron en este foro (que comparando con otros, se va al carajo), pero man... pensar frio=sexual, no va
+<br />
+
+<br />
+es el enfoque que se le da a las cosas, el frame que tenes asociado a ser natural (hombre)... si e0s una presion por ser mas cool... es culauqiera, ahora si es las ganas de &quot;devorar&quot;, es otra cosa
+<br />
+
+<br />
+igual man, el &quot;en el fondo uno es asi&quot;, siempre es cualquiera, lo mejor es que no enfoques esto desde tener mas minas sino desde ver que queres. ahi veras que planteas vos para interactuar con flacas.<br /><br />_________________<br />&quot;Let go&quot; and learn...<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Abr 03, 2008 7:24 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10144"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 523<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10144.html#10144"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Re: Un poco de HISTORIA!</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10144"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">crazyricardo escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">A lo largo de la historia hubo algo que caracterizó las relaciones hombre-mujer, ésto fue la necesidad de éstas últimas de tener una <span style="font-weight: bold">excusa</span>, un motivo (algunos lo llaman racionalización del deseo) que justifique la atracción sexual hacia el hombre.</td>	</tr></table></center>
+<br />
+esta parte se saltea la idea moralistas de que si sienten deseo abiertamente son putas... planteo obviamente masculino.
+<br />
+
+<br />
+esta frase:
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Por si no se dieron cuenta, hay un patrón común en todo el texto : que el hombre siempre establecio su identidad en REACCION a la mujer, sea mediante su capacidad de someterla (antiguamente) o de comprenderla (recientemente).</td>	</tr></table></center>
+<br />
+me parece en contradiccion con esta:
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> Para recuperar nuestro poder como género, ...  simplemente tenemos que aprender a definir nuestra masculinidad de forma independiente de la mujer. </td>	</tr></table></center>
+<br />
+esta ultima frase me parece mas real. los hombres reaccionando frente a las mujeres? eso es super afc. David X: vos decis &quot;salta!&quot; y ellas preguntan &quot;que tan alto?&quot;. eso hay que lograr y es facil. es natural.
+<br />
+
+<br />
+no te enojes pero en tu post da la impresion de que entendes poco o nada a las mujeres. estudialas un poco mas, usa a tus amigas o familiares. son bastante divertidas jaja<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Abr 03, 2008 8:16 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10152"></a>crazyricardo</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/6964809424816a7f8d624f.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 36<br />Ubicación: Rosario, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10152.html#10152"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10152"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Mersault, gracias por leer el texto y tomarte el tiempo de responder. 
+<br />
+En realidad este post no apunta al &quot;exito&quot; con minas, como dije al principio, fue un mail que le mande a mis amigos luego de escuchar una noche los temas que tocaban sobre que hacer para levantar minas y me causaba gracia el solo hecho de pensar &quot;que diria una mina si escuchara todo esto&quot;. Para cualquier persona de esta &quot;comunidad&quot;, lo que escribi es redundante y es como enseñarle a sumar 2+2....A lo que apunto es a transmitir una cuestion social tipica de nuestros tiempos (al menos del mio, tengo 25). La gente de mi edad sabe seguramente que de hace 10 años a ahora hubo un cambio  re groso en la estructura social y los valores culturales que nos movilizaban al exito y en parte esta relacionado con lo que trate de transmitir. Me podria poner a volarme hablando de como afecta el marketing y bla bla bla, pero no le veo sentido porque parece que no transimiti la idea lo suficientemente bien como para que sea interpretada correctamente...asi que la proxima me voy a tomar el tiempo de redactarlo de forma mas explicita y abierta.
+<br />
+Saludos a todos!<br /><br />_________________<br />-&quot;Hi!!&quot;  
+<br />
+-&quot;Hi&quot;  
+<br />
+-&quot;huhu huhu...Wanna do it? huhuhu huhuhu&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Abr 03, 2008 10:45 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm165.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=165"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=165"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1390&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1390"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas</option><option value="-1">----------------</option><option value="8">Relaciones</option><option value="9">Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="a255069c025467c509c250e18744c24b" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

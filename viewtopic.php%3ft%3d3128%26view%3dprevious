@@ -1,0 +1,786 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=3123&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=3123&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Sobre el condicionamiento social ,algo referente a Castaneda</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="sobre-el-condicionamiento-social-algo-referente-a-castaneda-vt3123.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Sobre el condicionamiento social ,algo referente a Castaneda</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3123"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt3123.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt3123.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="sobre-el-condicionamiento-social-algo-referente-a-castaneda-vt3123.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Sobre el condicionamiento social ,algo referente a Castaneda</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="26478"></a>EnLightenmentSeed</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2008<br />Mensajes: 380<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp26478.html#26478"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Sobre el condicionamiento social ,algo referente a Castaneda</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=26478"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">LOS CUATRO ACUERDOS  
+<br />
+ &quot;Los toltecas eran un pueblo de cultura milenaria del centro de México. Comparables a los Aztecas, aunque menos numerosos y también menos conocidos. Eran considerados &quot;hombres y mujeres de conocimiento&quot;... algunos antropólogos les definieron como una nación o raza, sin embargo, algunos estudios les consideran científicos y artistas que formaron una sociedad para estudiar y conservar el conocimiento espiritual y las prácticas  
+<br />
+ 
+<br />
+ de sus antepasados. Después de la colonización se vieron dispersados, pero su sabiduría ancestral fue transmitida de generación a generación. El Dr. Miguel Ruiz lo que hace en su libro &quot;los cuatro acuerdos&quot; es resumirla y darla a conocer. Los párrafos entre comillas son trozos textuales del libro.
+<br />
+ 
+<br />
+ 
+<br />
+El conocimiento tolteca surge de la misma unidad esencial de la verdad de la que parten todas las tradiciones esotéricas sagradas del mundo. Aunque no es una religión, respeta a todos los maestros espirituales que han enseñado en la tierra, y si bien abarca el espíritu, resulta más preciso describirlo como una manera de vivir que se distingue por su fácil acceso a la felicidad y el amor.&quot;
+<br />
+&quot;Los adultos que nos rodeaban captaron nuestra atención y, por medio de la repetición, introdujeron información en nuestra mente. Así es como aprendimos todo lo que sabemos. Utilizando nuestra atención aprendimos una realidad completa, un sueño completo. Aprendimos cómo comportarnos en sociedad: qué creer y qué no creer; qué es aceptable y qué no lo es; qué es bueno y qué es malo; qué es bello y qué es feo; qué es correcto y qué es incorrecto. Ya estaba todo allí: todo el conocimiento, todos los conceptos y todas las reglas sobre la manera de comportarse en el mundo.&quot;
+<br />
+&quot;Tú no escogiste tu lengua, ni tu religión ni tus valores morales: ya estaban ahí antes de que nacieras. Nunca tuvimos la oportunidad de elegir qué creer y qué no creer. Nunca escogimos ni el más insignificante de estos acuerdos. Ni siquiera elegimos nuestro propio nombre. 
+<br />
+De niños no tuvimos la oportunidad de escoger nuestras creencias, pero estuvimos de acuerdo con la información&quot;
+<br />
+&quot;El resultado es que nos rendimos a las creencias mediante nuestro acuerdo&quot;.
+<br />
+
+<br />
+Con esta introducción nos lleva a ver que nada elegimos: idioma, creencias, religión, conceptos, comportamientos sociales, etc........... Defiende (me refiero siempre al libro) el agradecimiento a lo recibido basándose en que nos ofrecieron lo mejor que supieron y pudieron. Nos enseñaron lo que sabían y aquello en lo que creían.. Así que, teniendo en cuenta esto, hemos de agradecer lo recibido. 
+<br />
+Lo cual no quita que todo lo anterior es cierto y también las personas a título individual consideren que muchas de las cosas que nos enseñaron y en las que creemos sean erróneas. Esto es referido a la &quot;domesticación (enseñanzas recibidas) del individuo&quot;. 
+<br />
+Insiste en la idea de que fuimos enseñados en base al miedo, la culpa, la censura de que somos malos y hemos de ser buenos..... etc
+<br />
+La ATENCIÓN es la capacidad que tenemos de discernir y centrarnos en aquello que queremos percibir.
+<br />
+Utilizando la atención aprendimos una realidad completa. Aprendimos cómo compórtanos en sociedad: qué creer y que no creer.
+<br />
+La necesidad de atención se vuelve muy fuerte y continua en la edad adulta.
+<br />
+EL LENGUAJE ES EL CÓDIGO QUE UTILIZAMOS LOS SERES HUMANOS PARA COMPRENDERNOS Y COMUNICARNOS. CADA LETRA, CADA PALABRA DE CADA LENGUA, ES UN ACUERDO.
+<br />
+Nunca tuvimos la oportunidad de elegir que creer y qué no creer.
+<br />
+Ni siquiera elegir nuestro propio nombre.
+<br />
+La única forma de almacenar es por acuerdo.
+<br />
+Tan pronto como estamos de acuerdo con algo, nos lo creemos y a eso le llamamos Fe. 
+<br />
+TENER FE ES CREER INCONDICIONALMENTE. 
+<br />
+Aprendemos a juzgar: Nos juzgamos a nosotros mismos, juzgamos a otras personas a nuestros vecinos...
+<br />
+Armamos un sistema de creencias y aunque esté mal armado nos sentimos culpables por lo que hacemos o dejamos de hacer de acuerdo a este sistema y éste es el que nos genera miedo.
+<br />
+A los seres humanos les resulta normal sufrir, vivir con miedo y crear dramas emocionales.
+<br />
+Si observamos la sociedad humana, comprobamos que es un lugar en el que resulta muy difícil vivir, porque está gobernado por el miedo. En el mundo entero vemos sufrimiento, cólera, venganza,
+<br />
+adicciones, violencia en las calles y una tremenda injusticia
+<br />
+Seguimos buscando cuando todo ya está en nosotros. No hay ninguna verdad que encontrar.
+<br />
+Donde quiera que miremos todo lo que vemos es la verdad pero, debido a los acuerdos y creencias que hemos almacenado en nuestra mente, no tenemos ojos para verla.
+<br />
+No vemos la verdad porque estamos ciegos. Lo que nos ciega son todas esas falsas creencias que tenemos en la mente. Necesitamos sentir que tenemos razón y que los demás están equivocados. Confiamos en lo que creemos, y nuestras creencias nos invitan a sufrir.
+<br />
+Nos resulta imposible ver que no somos libres.
+<br />
+Estar vivos es nuestro mayor miedo. No es la muerte; nuestro mayor miedo es arriesgarnos a vivir: Correr el riesgo de estar vivos y de expresar lo que realmente somos.
+<br />
+Hemos aprendido a vivir intentando satisfacer las exigencias de otras personas. Hemos aprendido a vivir según los puntos de vista de los demás por el miedo a no ser aceptados y de no ser lo
+<br />
+suficientemente buenos para otras personas.
+<br />
+Intentamos complacer especialmente a las personas que nos aman, como papá y mamá, nuestros hermanos o hermanas mayores, nuestros maestros, sacerdotes. Al tratar de ser lo suficientemente bueno para ellos, creamos una imagen de perfección, pero no encajamos en ella.
+<br />
+Nos da mucho miedo que alguien descubra que no somos lo que pretendemos ser. También juzgamos a los demás según nuestra propia imagen de perfección y, naturalmente, no alcanzan nuestras 
+<br />
+expectativas.
+<br />
+NADIE EN TODA TU VIDA, TE HA MALTRATADO MÁS QUE TÚ MISMO.
+<br />
+Si cometemos un error delante de los demás, intentamos negarlo y taparlo.
+<br />
+LOS ACUERDOS QUE SURGEN DEL MIEDO REQUIEREN UN GRAN GASTO DE ENERGÍA, PERO LOS QUE SURGEN DEL AMOR, DE LO EMOTIVO NOS AYUDAN A CONSERVAR NUESTRA ENERGÍA E INCLUSO A AUMENTARLA.
+<br />
+Si somos capaces de reconocer que nuestra vida está gobernada por nuestros acuerdos y el sueño de nuestra vida no nos gusta, necesitamos cambiar los acuerdos. Cuando finalmente estemos dispuestos a cambiarlos, habrá cuatro acuerdos que nos ayudaran a romper aquellos otros que surgen del miedo y agotan nuestra energía.
+<br />
+EL PRIMER ACUERDO
+<br />
+SÉ IMPECABLE CON TUS PALABRAS
+<br />
+El primer acuerdo es el más importante y también el más difícil de cumplir. Es tan importante que sólo con él ya serás capaz de alcanzar el nivel de existencia que yo denomino ¨El cielo en la tierra¨.
+<br />
+Este primer acuerdo parece simple, pero es sumamente poderoso.
+<br />
+TU INTENCIÓN SE PONE DE MANIFIESTO A TRAVÉS DE TUS PALABRAS. LO QUE SUEÑAS, LO QUE SIENTES Y LO QUE REALMENTE ERES, LO MUESTRAS POR MEDIO DE LAS PALABRAS.
+<br />
+Las palabras son la herramienta más poderosa que tiene como ser humano, el instrumento de la magia. Pero son como una espada de doble filo: Pueden crear el sueño más bello o destruir todo lo que te rodea. 
+<br />
+Uno de los filos es el uso erróneo de las palabras, que crean un infierno en vida. El otro es la impecabilidad de las palabras, qué sólo engendrará belleza, amor... 
+<br />
+Según cómo las utilices, las palabras te liberarán o te esclavizarán aún más de lo que te imaginas. Toda la magia que posees se basa en tus palabras. Son pura magia y si las utilizas mal, se convierten en magia negra. Esta magia es tan poderosa, que una sola palabra puede cambiar una vida o destruir millones de personas. Hace años, en Alemania, mediante el uso de las palabras, un hombre manipuló a un país entero de gente muy inteligente. Los llevo a una guerra mundial sólo con el poder de sus palabras.
+<br />
+Convenció a otros para que cometieran los más atroces actos de violencia. Activó el miedo de la gente y, de pronto, como una gran explosión, empezaron las matanzas y el mundo estalló en guerra.
+<br />
+Tú plantas una semilla, un pensamiento, y éste crece. Las palabras son como semillas ¡y la mente humana es muy fértil!
+<br />
+Fíjate en el ejemplo de Hitler: Sembró todas aquellas semillas de miedo, que crecieron muy fuertes y consiguieron una extraordinaria destrucción masiva.
+<br />
+Debemos comprender cuál es el poder que emana de nuestra boca.
+<br />
+Una palabra es como un hechizo, y los humanos utilizamos las palabras como magos de magia negra, hechizándonos los unos a los otros imprudentemente.
+<br />
+Todo ser humano es un mago y, por medio de las palabras, puede hechizar a alguien o liberarlo de un hechizo. Continuamente estamos lanzando hechizos con nuestras opiniones. Por ejemplo, me encuentro con un amigo y le doy una opinión que se me acaba de ocurrir. Le digo: ¨!Mmmm! Veo en tu cara el color de los que acaban teniendo cáncer¨. Si escucha estas palabras y está de acuerdo,
+<br />
+desarrollará un cáncer en menos de un año. Ese es el poder de las palabras.
+<br />
+Las palabras captan nuestra atención, entran en nuestra mente y cambian, para bien o para mal, nuestras creencias.
+<br />
+SER IMPECABLE CON TUS PALABRAS ES NO UTILIZARLAS CONTRA TI MISMO. Si te veo en la calle y te llamo estúpido, puede parecer que utilizo esa palabra contra ti, pero en realidad la utilizo contra mí
+<br />
+mismo, porque tú me odiarás por ello y tu odio no será bueno para mí.
+<br />
+Si te amo tú me amarás, si te doy odio tú me odiarás. Acción y reacción. Si siento gratitud por ti, tú la sentirás por mí. Si soy egoísta contigo tú lo serás conmigo.
+<br />
+Ser impecable con tus palabras significa utilizar tu energía correctamente, en la dirección de la verdad y el amor por ti mismo.
+<br />
+Si llegas a un acuerdo contigo para ser impecable con tus palabras, eso bastará para que la verdad se manifieste a través de ti y limpie todo el veneno emocional que hay en tu interior. Pero llegar a 
+<br />
+este acuerdo es difícil porque hemos aprendido a hacer precisamente todo lo contrario. Hemos aprendido a hacer de la mentira un hábito al comunicarnos con los demás y, aún más importante, al
+<br />
+hablar con nosotros mismos. No somos impecables con nuestras palabras.
+<br />
+MUCHAS VECES USAMOS LAS PALABRAS PARA MALDECIR, PARA CULPAR, PARA REPROCHAR, PARA DESTRUIR. EN GENERAL, UTILIZAMOS LAS PALABRAS PARA PROPAGAR NUESTRO VENENO PERSONAL: PARA EXPRESAR RABIA, CELOS, ENVIDIA Y ODIO.
+<br />
+Con el uso erróneo de las palabras, nos perjudicamos los unos a los otros y nos mantenemos mutuamente en estado de miedo y duda.
+<br />
+Los chismes son magia negra de la peor clase, porque son puro veneno.
+<br />
+Aprendimos a contar chismes por acuerdo.
+<br />
+Contar chismes se ha convertido en la principal forma de comunicación en la sociedad humana.
+<br />
+El chismorreo es comparable a un virus informático. Pero con unaintención dañina. Uno ni se percata de ello pero es mucho el daño que hace.
+<br />
+Si eres impecables con tus palabras verás cuantos cambios ocurren en tu vida. En primer lugar, cambios en tu manera de tratarte y en tuforma de tratar a otras personas, especialmente a aquellas a las que más quieres.
+<br />
+La impecabilidad en tus palabras también te proporcionara inmunidad frente a cualquier persona que te lance un hechizo.Solamente recibirás una idea negativa si tu mente es un campo fértil para ella.
+<br />
+TÚ DECIDES SI LLEGAS O NO A ESTABLECER UN ACUERDO CONTIGO MISMO: SOY IMPECABLE CON MIS PALABRAS. ESTE ES EL PRIMER ACUERDO AL QUE DEBES LLEGAR SI QUIERES SER LIBRE, SER FELIZ Y TRASCENDER EL NIVEL DE EXISTENCIA DEL INFIERNO. 
+<br />
+Dite a ti mismo que eres una persona maravillosa, fantástica. Dite cuánto te amas. Utilizas las palabras para romper todos esos acuerdos que te hacen sufrir.
+<br />
+SEGUNDO ACUERDO
+<br />
+NO TE TOMES NADA PERSONALMENTE
+<br />
+Suceda lo que suceda a tu alrededor, no te lo tomes personalmente.
+<br />
+Si te encuentro en la calle y te digo: ¨Eh, eres unestúpido&quot;, sin conocerte, no me refiero a ti, sino a mí. Si te lo tomas personalmente, tal vez te creas que eres un estúpido.
+<br />
+Te lo tomas personalmente porque estás de acuerdo con cualquier cosa que se diga. Tan pronto como estás de acuerdo, el veneno te recorre y te encuentras atrapado en el sueño del infierno.
+<br />
+El motivo de que estés atrapado es lo que llamamos &quot;la importancia personal&quot;.
+<br />
+La importancia personal, o el tomarse las cosas personalmente, esconsiderar que todo gira a nuestro alrededor.
+<br />
+Creemos que somos responsables de todo. ¡Yo, yo, yo y siempre yo!
+<br />
+NADA DE LOS QUE LOS DEMAS HACEN ES POR TI. LO HACEN POR ELLOS MISMOS.
+<br />
+Todos vivimos en nuestro propio sueño, en nuestra propia mente; los demás están en un mundo completamente distinto de aquel en que vive cada uno de nosotros.
+<br />
+Cuando nos tomamos personalmente lo que alguien nos dice, suponemos que sabe lo que hay en nuestro mundo.
+<br />
+Incluso cuando una situación parece muy personal, por ejemplo, cuando alguien te insulta directamente, eso no tiene nada que vercontigo.
+<br />
+Lo que esa persona dice, lo que hace y las opiniones que expresaresponden a los acuerdos que ha establecido en su propia mente.
+<br />
+Si alguien te da una opinión y te dice ¡Oye, estás muy gordo!, no te lo tomes personalmente, porque la verdad es que serefiere a sus propios sentimientos, creencias y opiniones.
+<br />
+Esa persona intentó enviarte veneno y si tú lo tomas personalmente, lo recoges y se convierte en tuyo.
+<br />
+Hay gente que te atrapa fácil con una simple opinión, después te alimentan con el veneno que quieren, y como te lo tomaspersonalmente, te lo tragas sin rechistar.
+<br />
+
+<br />
+Te comes toda su basura emocional y la conviertes en tu propia basura. Pero si no te lo tomas personalmente, serás inmune a todoveneno que te encuentres. Esa inmunidad es un don de este acuerdo.
+<br />
+Cuando te tomas las cosas personalmente, te sientes ofendido y reaccionas defendiendo tus creencias y creando conflictos. Haces una montaña de un grano de arena porque sientes la necesidad de tener
+<br />
+la razón y de que los demás estén equivocados. También te esfuerzas en demostrarles que tienen la razón dando tus propias opiniones.
+<br />
+Lo que dices, lo que haces y las opiniones que tienes se basan en los acuerdos que tú has establecido, y no tienen nada que ver conmigo. 
+<br />
+Pienses lo que pienses, sientas lo que sientas, sé que se trata de tu problema y no del mío. Es tu manera de ver el mundo. Te refieres a ti mismo y no a mí. 
+<br />
+Los demás tienen sus propias opiniones según su sistema de creencias. Sea lo que sea lo que la gente haga, piense o diga, no te lo tomes personalmente.
+<br />
+Únicamente si hacemos un inventario de nuestros acuerdos destaparemos todos los conflictos de la mente y con el tiempo llegaremos a extraer el orden del caos.
+<br />
+No te tomes nada personalmente por que si lo haces te expones a sufrir por nada.
+<br />
+Los seres humanos somos adictos al sufrimiento en diferentes niveles y distintos grados; nos apoyamos los unos a los otros para mantener esa adicción. Hemos acordado ayudarnos mutuamente a sufrir. Si tienes la necesidad de que te maltraten, será fácil que los demás lo hagan.
+<br />
+Del mismo modo si estás con personas que tienen necesidad de sufrir, algo en ti hará que las maltrates. Piden una justificación para su sufrimiento. Su adicción al sufrimiento no es más que un acuerdo que se refuerza a diario.
+<br />
+Vayas donde vayas, encontrarás gente que te mentirá, pero a medida que tu conciencia se expanda, descubrirás que tú también te mientes a ti mismo. No esperes que los demás te digan la verdad, porque ellos también se mienten a sí mismos.Tienes que confiar en ti y decidir si crees o no lo que alguien te dice.
+<br />
+Cuando realmente vemos a los demás tal como son sin tomárnoslo personalmente, lo que hagan o digan no nos dañará. Aunque losdemás te mientan no importa. Te mienten porque tienen miedo.
+<br />
+Tienen miedo de que descubras que no son perfectos. Quitarse la máscara social resulta doloroso.
+<br />
+SI LOS DEMÁS DICEN UNA COSA, PERO HACEN OTRA COSA, Y TÚ NO PRESTAS ATENCIÓN A TUS ACTOS, TE MIENTES A TI MISMO. Pero si eres veraz contigo mismo, te ahorrarás mucho dolor emocional. Decirte la verdad quizá resulte doloroso, pero no necesitas aferrarte al dolor. 
+<br />
+La curación está en camino; que las cosas te vayan mejor es
+<br />
+sólo cuestión de tiempo.
+<br />
+Si alguien no te trata con amor y respeto que se aleje de ti es un regalo. Si esa persona no se va lo más probable es que soportes muchos años de sufrimiento con ella.
+<br />
+PARA ELEGIR CORRECTAMENTE, MÁS QUE CONFIAR EN LOS DEMÁS, ES NECESARIO QUE CONFÍES EN TI MISMO.
+<br />
+Cuando no tomarte nada personalmente se convierta en un hábito firme y sólido, te evitará muchos disgustos en la vida.
+<br />
+Tu rabia, tus celos, tu envidia desaparecerán, y si no te tomas nada personalmente, incluso tu tristeza desaparecerá.
+<br />
+Si conviertes el segundo acuerdo en un hábito, descubrirás que nada podrá volverte al infierno.
+<br />
+Escribe este acuerdo en un papel y engánchalo a tu nevera, en tu oficina en tu lugar de trabajo para recordarlo en todo momento: NO TE TOMES NADA PERSONALMENTE.
+<br />
+Cuando te acostumbres a no tomarte nada personalmente, no necesitarás depositar tu confianza en lo que hagan o digan los demás. Basta que confíes en ti mismo para elegir con responsabilidad.
+<br />
+Nunca eres responsable de los actos de los demás; sólo eres responsable de tus actos. Cuando comprendas esto, de verdad, y te niegues a tomarte las cosas personalmente, será muy difícil que los comentarios insensibles o los actos negligentes de los demás te hieran.
+<br />
+Si mantienes este acuerdo, viajarás por todo el mundo con el corazón abierto por completo y nadie te herirá. Dirás te amo, sin miedo a que te ridiculicen o rechacen. Pedirás lo que necesites. Dirás sí o dirás no. Lo que tú decidas, sin culparte ni juzgarte.
+<br />
+EL TERCER ACUERDO
+<br />
+NO HAGAS SUPOSICIONES
+<br />
+El tercer acuerdo consiste en no hacer suposiciones.
+<br />
+Tendemos a hacer suposiciones sobre todo.
+<br />
+El problema es que, al hacerlo, creemos que lo que suponemos es cierto.
+<br />
+Hacemos suposiciones sobre lo que los demás hacen o piensan, nos lo tomamos personalmente y después, los culpamos y reaccionamos enviando veneno emocional con nuestras palabras.
+<br />
+
+<br />
+Todas las tristezas y los dramas que has experimentado tienen sus raíces en las suposiciones que hiciste y en las cosas que te tomaste personalmente.
+<br />
+Toda cuestión del dominio entre los seres humanos gira alrededor de suposiciones.
+<br />
+Producimos mucho veneno emocional haciendo suposiciones y tomándonoslas personalmente, porque por lo general empezamos a chismorrear a partir de nuestras suposiciones.
+<br />
+Recuerda que chismorrear es nuestra forma de comunicarnos y enviarnos veneno los unos a los tros.
+<br />
+COMO TENEMOS MIEDO DE PEDIR UNA ACLARACIÓN HACEMOS SUPOSICIONES Y CREEMOS QUE SON CIERTAS, DESPUÉS LAS DEFENDEMOS, E INTENTAMOS QUE SEA OTRO EL QUE NO TENGA LA RAZÓN, SIEMPRE ES MEJOR PREGUNTAR QUE HACER UNA SUPOSICIÓN, PORQUE LAS SUPOSICIONES CREAN SUFRIMIENTO.
+<br />
+SÓLO VEMOS LO QUE QUEREMOS VER Y OÍMOS LO QUE QUEREMOS OÍR. NO PERCIBIMOS LAS COSAS TAL COMO SON.
+<br />
+Tenemos la costumbre de soñar sin basarnos en la realidad.
+<br />
+Hacer suposiciones en nuestras relaciones significa buscarse problemas.
+<br />
+Hacer suposiciones en las relaciones conduce a muchas disputas, dificultades y malentendidos con las personas que supuestamente amamos.
+<br />
+Muchas veces suponemos que la otra persona sabe lo que queremos.
+<br />
+El funcionamiento de la mente humana es bastante interesante. Necesitamos justificarlo, explicarlos y comprenderlo todo para sentirnos seguros.
+<br />
+Si los demás nos dicen algo hacemos suposiciones, y si no nos dicen nada también. Las hacemos para satisfacer nuestra necesidad de saber y reemplazar la necesidad de comunicarnos. Incluso si oímos algo y no lo entendemos, hacemos suposiciones sobre lo que significa, y después, creemos en ellas. Hacemos todo tipo de suposiciones porque no tenemos el valor de preguntar.
+<br />
+Cuando creemos algo, suponemos que tenemos la razón hasta el punto de llegar a destruir nuestras relaciones por defender nuestra posición.
+<br />
+Suponemos que todo el mundo ve la vida del mismo modo que nosotros. Suponemos que los demás piensan, sienten, juzgan y maltratan como nosotros lo hacemos. Esta es la mayor suposición que podemos hacer y esta es la razón por la cual nos da miedo ser nosotros mismos ante los demás, porque creemos que nos juzgarán, nos convertirán en sus víctimas, nos maltratarán. Y nos culparán como nosotros mismos lo hacemos. 
+<br />
+De modo que antes de que los demás tengan la oportunidad de rechazarnos, nosotros mismos ya nos hemos rechazado. Así es como funciona la mente.
+<br />
+También hacemos suposiciones sobre nosotros mismos y esto crea muchos conflictos internos. Por ejemplo, supones que eres capaz dehacer algo y después descubres que no lo eres. Te sobreestimas o te subestimas a ti mismo porque no te has tomado el tiempo necesario para hacerte preguntas y contestártelas a ti mismo.
+<br />
+NO ES NECESARIO QUE JUSTIFIQUEMOS EL AMOR; ESTÁ PRESENTE O NO LO ESTÁ. EL AMOR VERDADERO ES ACEPTAR A LOS DEMÁS TAL COMO SON SIN TRATAR DE CAMBIARLOS. SI INTENTAMOS CAMBIARLOS SIGNIFICA QUE EN REALIDAD NO NOS GUSTAN.
+<br />
+Si no entiendes algo, en lugar de hacer suposiciones es mejor que preguntes y que seas claro. El día que dejes de hacer suposiciones, te comunicarás con habilidad y claridad, libre de veneno emocional.Cuando ya no hagas suposiciones tus palabras se volverán impecables.
+<br />
+Con una comunicación clara todas tus relaciones cambiarán, no sólo las que tienes con tu pareja, sino también con todos los demás. No será necesario que hagas suposiciones porque todo se volverá muy claro. Esto es lo que yo quiero y esto es lo que tú quieres.
+<br />
+LO QUE REALMENTE HARÁ QUE LAS COSAS CAMBIEN ES LA ACCIÓN.
+<br />
+CUARTO ACUERDO
+<br />
+HAZ SIEMPRE LO MÁXIMO QUE PUEDAS
+<br />
+Sólo hay un acuerdo más, pero es el que permite que los otros tres se conviertan en hábitos profundamente arraigados. El Cuarto Acuerdo se refiere a la realización de los tres primeros: Haz siempre lo máximo que puedas. 
+<br />
+BAJO CUALQUIER CIRCUNSTANCIA, HAZ SIEMPRE LO MÁXIMO QUE PUEDAS, NI MÁS NI MENOS.
+<br />
+Pero piensa que eso va a variar de un momento a otro. Todas las cosas están vivas y cambian continuamente, de modo que, en ocasiones, lo máximo que podrás hacer tendrá una gran calidad y en otras no será tan bueno. Cuando te despiertas renovado y lleno de vigor por la mañana tu rendimiento es mejor que por la noche cuando estás agotado. Lo máximo que puedas hacer será distinto cuando estés sano que cuando estés enfermo o cuando estés sobrio que cuando hayas bebido. 
+<br />
+Tu rendimiento dependerá de que te sientas de maravilla y feliz o disgustado, enfadado o celoso.
+<br />
+En tus estados de ánimo diarios lo máximo que podrás hacer cambiará de un momento a otro de una hora a otra de un día a otro. También cambiará con el tiempo. A medida que vayas adquiriendo el hábito de los cuatro nuevos acuerdos tu rendimiento será mejor de lo que solía ser. 
+<br />
+Independientemente del resultado sigue haciendo siempre lo máximo que puedas, ni más ni menos. Si intentas esforzarte demasiado para hacer más de lo que puedes gastarás más energía de la necesaria y al final tu rendimiento no será suficiente. 
+<br />
+CUANDO TE EXCEDES AGOTAS TU CUERPO Y VAS CONTRA TI Y POR CONSIGUIENTE TE RESULTA MÁS DIFÍCIL ALCANZAR TUS OBJETIVOS.
+<br />
+Por otro lado si haces menos de lo que puedes hacer te sometes a ti mismo a frustraciones, juicios, culpas y reproches. 
+<br />
+Limítate a hacer lo máximo que puedas, en cualquier circunstancia de tu vida. 
+<br />
+No importa si estás enfermo o cansado, si siempre haces lo máximo que puedas, no te juzgarás a ti mismo en modo alguno. 
+<br />
+Y si no te juzgas, no te harás reproches, ni te culparás ni tecastigarás en absoluto. 
+<br />
+Si haces siempre lo máximo que puedas, romperás el fuerte hechizo al que estás sometido.
+<br />
+Había una vez un hombre que quería trascender su sufrimiento, de modo que se fue a un templo budista para encontrar a un maestroque le ayudase. Se acercó a él y le dijo: 
+<br />
+«Maestro, si medito cuatro horas al día, ¿cuánto tiempo tardaré en alcanzar la iluminación?».
+<br />
+El maestro le miró y le respondió: «Si meditas cuatro horas al día, tal vez loconsigas dentro de diez años».
+<br />
+El hombre, pensando que podía hacer más, le dijo: «Maestro, y si medito ocho horas al día, ¿cuánto tiempo tardaré en alcanzar la iluminación». 
+<br />
+El maestro le miró y le respondió: «Si meditas ocho horas al día, tal vez lo lograrás dentro de veinte años». 
+<br />
+«Pero ¿por qué tardaré más tiempo si medito más?» Preguntó el hombre. 
+<br />
+El maestro contestó: «No estás aquí para sacrificar tu alegría ni tu vida. Estás aquí para vivir, para ser feliz y para amar. 
+<br />
+Si puedes alcanzar tu máximo nivel en dos horas de meditación pero utilizas ocho sólo conseguirás agotarte, apartarte del verdadero sentido de la meditación y no disfrutar de tu vida. Haz lo máximo que puedas y tal vez aprenderás que independientemente del tiempo que medites puedes vivir amar y ser feliz. 
+<br />
+Si haces lo máximo que puedas vivirás con gran intensidad. Serás productivo y serás bueno contigo mismo porque te entregarás a tu familia, a tu comunidad, a todo. Pero la acción es lo que te hará sentir inmensamente feliz. Siempre que haces lo máximo que puedes, actúas. 
+<br />
+HACER LO MÁXIMO QUE PUEDAS SIGNIFICA ACTUAR EN CADA MOMENTO COMO UN FIN EN SI MISMO NO PORQUE ESPERAS UNA RECOMPENSA. La mayor parte de las personas hacen exactamente lo contrario: sólo emprenden la acción cuando esperan una recompensa y no disfrutan de ella. Y ese es el motivo por el que no hacen lo máximo que pueden.
+<br />
+Por ejemplo, la mayoría de las personas van a trabajar y piensan únicamente en el día de pago y en el dinero que obtendrán por su trabajo. Están impacientes esperando a que llegue el viernes o el sábado, el día en el que reciben su salario y pueden tomarse unas horas libres. Trabajan por su recompensa y elresultado es que se resisten al trabajo. 
+<br />
+Intentan evitar la acción; ésta entonces se vuelve cada vez más difícil y esas personas no hacen lo máximo que pueden. 
+<br />
+Trabajan muy duramente durante toda la semana, soportan el trabajo, soportan la acción, no porque les guste, sino porque sienten que es lo que deben hacer. 
+<br />
+Tienen que trabajar porque han de pagar el alquiler y mantener a su familia. 
+<br />
+Son personas frustradas, y cuando reciben su paga, no se sientenfelices. Tienen dos días para descansar, para hacer lo que les apetezca, ¿y qué es lo que hacen? Intentan escaparse. Se emborrachan porque no se gustan a sí mismos. No les gusta su vida. Cuando no nos gusta cómo somos, nos herimos de muy diversas maneras. Sin embargo, si emprendes la acción por la honestidad y continuar por puro placer de hacerlo, Haces lo máximo que puedes. 
+<br />
+Te debes el aceptarte a ti mismo, tienes que arriesgarte a expresarte y aprender de tus errores. 
+<br />
+Cuando haces lo máximo que puedes no parece que trabajes, porque disfrutas de todo lo que haces. Sabes que haces lo máximo que puedes cuando disfrutas de la acción o la llevas a cabo de una manera que no te repercute negativamente. 
+<br />
+Haces lo máximo que puedes porque quieres hacerlo, no porque tengas que hacerlo, ni por complacer a los demás. 
+<br />
+Si emprendes la acción porque te sientes obligado, entonces, deninguna manera harás lo máximo que puedas. En ese caso, es mejor no hacerlo. Cuando haces lo máximo que puedes, siempre te sientes muy feliz; por eso lo haces. Cuando haces lo máximo que puedes por el mero placer de hacerlo, emprendes la acción porque disfrutas de ella. 
+<br />
+LA ACCIÓN CONSISTE EN VIVIR CON PLENITUD.
+<br />
+La inacción es nuestra forma de negar la vida y consiste en sentarse delante del televisor cada día durante años porque te da miedo estar vivo y arriesgarte a expresar lo que eres. Expresar lo que eres es emprender la acción. 
+<br />
+Puede que tengas grandes ideas en la cabeza, pero lo que importa es la acción.
+<br />
+Una idea, si no se lleva a cabo, no producirá ninguna manifestación, ni resultados ni recompensas. 
+<br />
+La historia de Forrest Gump es un buen ejemplo. No tenía grandes ideas, pero actuaba. Era feliz porque hacía lo máximo que podía en todo lo que empren día. Recibió importantes recompensas que no había esperado. Emprender la acción es estar vivo. 
+<br />
+Es arriesgarse a salir y expresar tu sueño. Esto no significa que se lo impongas a los demás, porque todo el mundo tiene derecho aexpresar su propio sueño.
+<br />
+Hacer lo máximo que puedas es un gran hábito que te conviene adquirir. Yo hago lo máximo que puedo en todo lo que emprendo y siento. Hacerlo se ha convertido en un ritual que forma parte de mi vida, porque yo escogí que así fuese. Es una creencia, como cualquier otra de las que he elegido tener. Lo convierto todo en un ritual y siempre hago lo máximo que puedo. Para mí, ducharse es un ritual; con esta acción le digo a mi cuerpo lo mucho que lo amo. Disfruto al sentir el agua correr por mi cuerpo.
+<br />
+
+<br />
+Hago lo máximo que puedo para que las necesidades de mi cuerpo se vean satisfechas, para cuidarlo y para recibir lo que me da.
+<br />
+En la India celebran un ritual denominado puja. En él cogen unasimágenes que representan a Dios de muy diversas maneras y las bañan, les dan de comer y les ofrecen su amor. 
+<br />
+Incluso les cantan mantras.Las imágenes no son importantes en sí. Lo que importa es la forma en que celebran el ritual.
+<br />
+Es dejar de ir al pasado y vivir el momento presente, aquí y ahora.Sea lo que sea que la vida te arrebate, permite que se vaya. Cuandote entregas y dejas ir el pasado, te permites estar plenamente vivoen el momento presente. Dejar ir el pasado significa disfrutar del sueño que acontece ahora mismo. 
+<br />
+Si vives en un sueño del pasado, no disfrutas de lo que sucede en el momento presente, porque siempre deseas que sea distinto. No hay tiempo para que te pierdas nada ni a nadie, porque estás vivo. No disfrutar de lo que sucede ahora mismo es vivir en el pasado, es vivir sólo a medias. Esto conduce a la autocompasión, al sufrimiento y las lágrimas. 
+<br />
+NACISTE CON EL DERECHO DE SER FELIZ. NACISTE CON EL DERECHO DE AMAR, DE DISFRUTAR Y DE COMPARTIR TU AMOR. ESTÁS VIVO, ASÍ QUE TOMA TU VIDA Y DISFRÚTALA. NO TE RESISTAS A QUE LA VIDA PASE POR TI.
+<br />
+No necesitamos saber ni probar nada. Ser, arriesgarnos a vivir y disfrutar de nuestra vida, es lo único que importa. Di que no cuando quieras decir que no, y di que sí cuando quieras decir que sí. 
+<br />
+Tienes derecho a ser tú mismo. Y sólo puedes serlo cuando haces lo máximo que puedes. Cuando no lo haces, te niegas el derecho a ser tú mismo. Esta es una semilla que deberías nutrir en tu mente.
+<br />
+No necesitas muchos conocimientos ni grandes conceptos filosóficos.
+<br />
+No necesitas que los demás te acepten. 
+<br />
+Expresas tu propia divinidad mediante tu vida y el amor por ti mismo y por los demás. Los tres primeros acuerdos sólo funcionarán si haces lo máximo que puedas. 
+<br />
+No esperes ser siempre impecable con tus palabras. Tus hábitosrutinarios son demasiado fuertes y están firmemente arraigados en tu mente. Pero puedes hacer lo máximo posible. No esperes no volver nunca más a tomarte las cosas personalmente; sólo haz lo máximo que puedas. No esperes no hacer nunca más ninguna suposición, pero sí puedes hacer lo máximo posible. 
+<br />
+Si haces lo máximo que puedas, hábitos como emplear mal tus palabras, tomarte las cosas personalmente y hacer suposiciones sedebilitará y con el tiempo, serán menos frecuentes. No es necesario que te juzgues a ti mismo, que te sientas culpable o que tecastigues por no ser capaz de mantener estos acuerdos. Cuando haces lo máximo que puedes, te sientes bien contigo mismo aunque todavía hagas suposiciones, aunque todavía te tomes las cosas personalmente y aunque todavía no seas impecable con tus palabras. 
+<br />
+Si siempre haces lo máximo que puedas, una y otra vez, te convertirás en un maestro de la transformación. La práctica forma al maestro. Cuando haces lo máximo que puedes, te conviertes en un maestro. Todo lo que sabes has aprendido mediante la repetición. Aprendiste así a escribir, a conducir e incluso a andar... Eres un maestrohablando tu lengua porque la has practicado. LA ACCIÓN ES LO QUE IMPORTA. 
+<br />
+Si haces lo máximo que puedas en la búsqueda de tu libertad personal y de tu autoestima, descubrirás que encontrar lo que buscas es sólo cuestión de tiempo. No se trata de soñar despierto ni de sentarse varias horas a soñar mientras meditas.
+<br />
+Debes ponerte en pie y actuar como un ser humano. Debes honrar alhombre o la mujer que es. 
+<br />
+Debes respetar tu cuerpo, disfrutarlo, amarlo, alimentarlo, limpiarloy sanarlo. Ejercítalo y haz todo lo que le haga sentirse bien. Esto es una puja para tu cuerpo, es una comunión entre el universo y tú. 
+<br />
+Cuando des amor a todas las partes de tu cuerpo, plantarás semillas de amor en tu mente, y cuando crezcan, amarás, honrarás y respetarás tu cuerpo inmensamente. 
+<br />
+Cuando honres estos cuatro acuerdos juntos, ya no vivirás más en el infierno. Definitivamente, no.
+<br />
+Los Cuatro Acuerdos son un resumen de la maestría de latransformación, una de las maestrías de los toltecas.
+<br />
+TRANSFORMAS EL INFIERNO EN CIELO. El sueño del planeta se transforma en tu sueño personal del cielo. 
+<br />
+El conocimiento está ahí; sólo espera a que tú lo utilices. Los Cuatro Acuerdos están ahí; sólo tienes que adoptarlos y respetar su significado y su poder. 
+<br />
+Lo único que tienes que hacer es lo máximo que puedas para honrar estos acuerdos. Establece hoy este acuerdo: «Elijo respetar los Cuatro Acuerdos». Son tan sencillos y lógicos que incluso un niño puede entenderlos. Pero para mantenerlos, necesitas una voluntad fuerte. ¿Por qué? Porque vayamos donde vayamos descubrimos que nuestro camino está lleno de obstáculos. Todo el mundo intenta sabotear nuestro compromiso con estos nuevos acuerdos y todo lo que nos rodea está estructurado para que los rompamos. El problema reside en los otros acuerdos que forman parte del sueño del planeta. Están vivos y son muy fuertes. 
+<br />
+Por esta razón es necesario que seas un gran cazador, un gran guerrero capaz de defender los Cuatro Acuerdos con tu vida. Tu felicidad, tu libertad, toda tu manera de vivir dependen de ello. El objetivo del guerrero es trascender este mundo, escapar de este infierno y no regresar jamás a él. La recompensa consiste en trascender la experiencia humana del sufrimiento. Esa es la recompensa. 
+<br />
+Verdaderamente, para triunfar en el cumplimiento de estos acuerdos, necesitamos utilizar todo el poder que tenemos. Al principio, yo no creía que pudiera ser capaz de hacerlo. He fracasado muchas veces, pero me levanté y seguí adelante. No me compadecí de mí mismo. De ninguna manera iba a compadecerme de mí mismo. Dije: «Si me caigo, soy lo bastante fuerte, bastante inteligente, puedo hacerlo. 
+<br />
+Me levanté y seguí adelante. Me caí y seguí adelante, y adelante, y cada vez me resultó más y más fácil. Sin embargo, al comienzo era tan duro y tan difícil... 
+<br />
+De modo que, si te caes, no te juzgues. No le des a tu Juez la satisfacción de convertirte en una víctima. No, sé firme contigo mismo. Levántate y establece el acuerdo de nuevo: «Está bien, rompí el acuerdo de ser impecable con mis palabras. Empezaré otra vez desde el principio. Voy a mantener los Cuatro Acuerdos sólo por hoy. Hoy seré impecable con mis palabras, no me tomaré nada personalmente, no haré suposiciones y haré lo máximo que pueda». 
+<br />
+Si rompes un acuerdo, empieza de nuevo mañana y de nuevo al día siguiente. Al principio será difícil, pero cada día te parecerá más y más fácil hasta que, un día, descubrirás que los Cuatro Acuerdos dirigen tu vida. Te sorprenderá ver cómo se ha transformado tu existencia.
+<br />
+Tu amor y tu respeto por ti mismo crecen incesantemente. Puedes hacerlo. Si yo lo hice, también tú puedes hacerlo. No te inquietes por el futuro; mantén tu atención en el día de hoy y permanece en el momento presente. Vive el día a día. Haz siempre lo máximo que puedas por mantener estos cuerdos, y pronto te resultará sencillo. Hoy es el principio de un nuevo sueño.
+<br />
+Extraído del Libro&quot;Los Cuatro Acuerdos&quot;del Dr. Miguel Ruiz.<br /><br />_________________<br /><span style="color: red">
+<br />
+No se necesita desarrollar talento para reproducirse (ya esta todo ahi).
+<br />
+A la naturaleza le importan solo dos cosas sobrevivir y reproducirse.
+<br />
+Todo lo que pongan encima de eso,todo lo que es cultura,es responsable del aburrimiento.
+<br />
+U.G krishnamurti</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Nov 27, 2008 1:10 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=186"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=3123&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3123"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6"selected="selected">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="9be57f59a197bec73b11cc9f3ea36aeb" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

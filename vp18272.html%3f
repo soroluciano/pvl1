@@ -1,0 +1,1370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=2249&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=2249&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Se me viene bariloche</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="se-me-viene-bariloche-vt2249.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Se me viene bariloche</a><br />
+	  <span class="gensmall"><b>Ir a página <b>1</b>, <a href="2-vt2249.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt2249.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=2249"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt2249.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt2249.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="se-me-viene-bariloche-vt2249.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Se me viene bariloche</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18244"></a>Augustt</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/103727191348419f27cab74.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 May 2008<br />Mensajes: 106<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18244.html#18244"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Se me viene bariloche</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18244"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Bueno, anets que nada, si está mal ubicado, muevanlo ddonde corresponda.
+<br />
+
+<br />
+  La cosa es así, el 2 de agosto (dentro de NADA) me voy a Bariloche, de viaje de estudios, tipico viaje de fin de secundaria.
+<br />
+  Ahora bien, me coparía que los que se hayan ido, me tiren algunos consejos de cómo es la onda de las minas allá, preferiblemente los que hayan viajado recientemente. Porque no conozco nadie de la comu que halla ido, o porlomenos no me enteré. Y de paso, no sólo de las minas, en general, lo que sea, de barilo.
+<br />
+
+<br />
+ Huevadas, experiencias, lo que sea que me puedea venir bien.
+<br />
+
+<br />
+  10 dias y alta fiestaaa.
+<br />
+
+<br />
+  gracias y abrazos desde ahora<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 3:45 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm441.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=441"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18258"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2803<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18258.html#18258"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18258"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">1ero: Es el lugar del direct, y eso no te lo va a discutir nadie. Hacé direct man, tirate super frontal y huevudo a todas las que te gusten, porque en bariloche &quot;está bien&quot; jajajja. Yo cuando fui era un cagón, y me arrepiento todos los días de no haber tenido huevos, porque cada día que pasa me digo &quot;si yo hubiese ido como estoy ahora, hubiese hecho una hecatombe de sexo, pero no pude ser tan boludo en ese momento&quot;. Y creo que todos piensan eso.
+<br />
+
+<br />
+NO SEAS BOLUDO, NO DES VUELTAS PORQUE BARILOCHE ES EL LUGAR MÁS CONCENTRADO EN MINAS DE 18 AÑOS CALIENTES Y SEDIENTAS DE SEXO EN TODA LA ARGENTINA.
+<br />
+
+<br />
+Una agarró a un amigo mío antes de irnos y le dijo &quot;vos no te vas de acá sin hacerme la cola&quot;. Y se la garchó.
+<br />
+
+<br />
+Las que son re lindas y no cogen, se sienten mal, y esto te lo aseguro 100%. Las que tienen novio, quizás dudan. &quot;Quizás&quot; <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> . Haceles el favor y garchate a las más lindas, vos sos una buena persona jajajaj.
+<br />
+
+<br />
+2do: Está lleno de droga. Alejate de eso. En serio te digo, no vale la pena. Si estás cansado en el boliche, volvete al hotel y dormí todo lo que puedas para estar mejor el siguiente día. Y a alguna excursión vas a tener que faltar para recuperar un poco de energía, porque lo vas a necesitar.
+<br />
+
+<br />
+3ero: Ahora con el tema del alcohol están re estrictos. Si los pescan con una botella o algo así en el micro o en el hotel, están al horno. Cada tanto cuando no estén van a pasar guardias o la policía para ver si hay droga o botellas escondidas. No les conviene que encuentren algo. Y esos tipos ya se saben todos los escondites posibles.
+<br />
+
+<br />
+4to: El game lo empezás cuando subís al micro. No en el 4to día, no en el 5to... o sea, subís al micro y ya empezás a hacer relaciónes. En los boliches te va a ser fácil.
+<br />
+
+<br />
+5to: Dejá la AA en tu casa, porque no te van a rebotar si hacés las cosas con confianza. No te va a servir, es totalmente inútil la AA en Bariloche.
+<br />
+
+<br />
+6to: Dejá el alcohol para el final de la noche. Ni siquiera te diría que te &quot;entones&quot; un poco, porque vas a ver la ventaja que vas a tener estando lúcido con respecto a los que tomaron algo. Todos toman, y las chicas borrachas son muy fáciles, pero asquerosas, es tu elección jajajaj.
+<br />
+
+<br />
+7to: Andá hardcore e insistí todo lo que quieras si hay una mina que te guste. Si te rebota, simplemente te vas con otras y volvés más tarde cuando haya tomado un poquito más esa mina y vas direct de vuelta. Push it to the limit. En bariloche, hay más coladas de dedos en los boliches de lo que vos te imaginás. Mode One baby... make it happen.
+<br />
+
+<br />
+8vo: Es jodido hacer un ONS con una mina que no es de tu mismo hotel. Te la vas a tener que rebuscar ahí. Recién subís al micro para ir, hablalo con tus coordinadores para ver cómo se puede hacer. Ah, y que te pasen el cel por cualquier cosa. No tengas miedo de pedírselos y de decirles que pensás coger.
+<br />
+
+<br />
+9no: Hay un dicho re conocido en Bariloche, que es &quot;el que más lleva forros, es el que más presta&quot; ajjajajaj, llevá un paquete nada más por las dudas <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> . Podés comprar otro día. Ah, y comprá super finos, o mejor, extra lubricados, porque las minas a esta edad no tienen la concha re abierta y si usás con tachas en vez de hacerles sentir más placer las vas a hacer sufrir.
+<br />
+
+<br />
+10mo: Divertite muuuuuuuuuuuuucho, pero muuuuuuuuuuucho muuuucho. Tratá de estar todo el tiempo posible boludeando con tus amigos, pero diferenciá &quot;la hora de los amigos&quot; con &quot;la hora de las minas&quot;. Cuando ellos estén en la hora de las minas, no te van a dar mucha bola. Otra cosa, hay mucha competencia, así que hacele honor a PVL y gameá como Drogba en su famoso FR.
+<br />
+
+<br />
+Saludos!
+<br />
+
+<br />
+PD: No lleves guitarra que es re molesto. Mejor usar la de otro jajajajja.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 2:34 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18260"></a>Gambler</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2165633481c913f32833.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 30 Oct 2007<br />Mensajes: 376<br />Ubicación: Buenos Aires Capital</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18260.html#18260"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18260"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Bueno que agregar a lo que te dijo Nico.
+<br />
+A parte de que es mejor no ponerte en pedo al pedo no vas a gastar dinerales que esta re caro el alcohol.
+<br />
+A los drogones no le des bola, ni aunque se de el coordinador.
+<br />
+
+<br />
+Segun ultimos testimonios de un amigo esta llena de brasucass, con decir eu argentinoo ya chapaba. 
+<br />
+A Parte de los forros LLevate cafiaspirina, iburpirac etc.
+<br />
+El game empieza en el micro, y tambien sigue en el hotel, los pasillos son lugares propensos para los cometidos, si vez piezas abiertas metete y saluda y si podes mas tambien.
+<br />
+Escupilo al paisa, y si te largas a llorar en la noche de velass sos maricon jjaja  <img src="images/smiles/icon_twisted.gif" alt="Twisted Evil" border="0" />  naa.  
+<br />
+No se disfracen de presos, en grisuu perdete, en rocket andate adonde estan las gradas, en by pass habia un &quot;show&quot; de lasers despues como aca, cerebro el boliche mas clasico. 
+<br />
+Saca fotoss y despues subis algunas a pvl jajja. DISFRUTALO muchoo.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 2:49 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm58.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=58"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18264"></a>KidlokO</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1448283819471c1f85ec5cc.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 957<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18264.html#18264"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18264"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo me fui hace dos años.
+<br />
+
+<br />
+Te voy a contar como me fue, pero primero una pequeña introduccion de lo que hacia yo en ese momento.
+<br />
+
+<br />
+Venia de 2 años de salir TODOS los findes, escabiar mucho y ir a chamuyar. Con el tiempo habia logrado un &quot;state control&quot; bastante respetable con ayuda de nuestro etilico amigo. Olvidate de que conocia el game, chamuyaba con lo que salia, tiradas de boca, etc. Conseguia bastantes Kcloses (en Bs As todos los findes me llevaba algo, llengando muchas noches hasta conseguir 5 K). 
+<br />
+
+<br />
+No era un super chode pero distaba bastante de ser el alpha male.
+<br />
+
+<br />
+En nuestro hotel con el tema del alcohol no nos jodieron, la verdad no revisaban un carajo, todas las noches encontrabamos la manera de pasar cantidades insanas. Lo cual se pontenciaba por que antes del boliche siempre nos llevaban a un bar que tenia los mismos precios que Bs As. Por lo que cuando llegaba al boliche: its game on!
+<br />
+
+<br />
+Como te dijeron por ahi, con un &quot;hola tranzemos&quot; dicho con seguridad ya estas, a mi me gustaba perderme solo en el boliche chamuyando.
+<br />
+
+<br />
+
+<br />
+Anecdotas rapidas:
+<br />
+
+<br />
+- Habia unas amigas que me buscaban extranjeras en el boliche, un ida apenas caigo a grisu estaban hablando con dos que no se de que provincia eran, me dicen que les parecio que eran extranjeras. &quot;no importa&quot;les digo yo, &quot;me las llevo igual&quot;, les paso la mano alrededor del cuello, me voy caminando con las dos, sin decir nada mas &quot;mmm, vos veni conmigo, vamos a ese sillon&quot; kclose.
+<br />
+
+<br />
+- Voy caminando por la pista y veo una mina que viene en direccion contraria, hacemos eye contact, llego a ella y directamente le tiro la boca para besarla, me la corre, sin que pase un segundo vuelvo a intentar, agarra viaje pero la saca a los dos segundos, ahi yo me tiro como diciendo &quot;WTF??!, decidite nena&quot;, y ahi aunque estaba super wasted me doy cuenta de la situacion, la mina iba de la mano con un flaco!! la cara del chabon era increible, no lo podia creer, yo simplemente sonrei y me las tome.
+<br />
+
+<br />
+- Veo ds minas en la pista, habia una cancion para saltar (debia ser &quot;como ali&quot; o algo por el estilo), las agarro de la cintura y nos ponemos a saltar en circulo, paramos y me pongo a tranzarme a las dos. Nunca nos dijimos una palabra.
+<br />
+
+<br />
+- Habia una flaca mirando como un ventanal que daba a la pista en grisu, le digo algo como &quot;que linda vista no?&quot; flaca &quot;jajaj blabla&quot; , me siento en un sillon de al lado, y le hago la seña de que se siente, se sienta y tranzamos.
+<br />
+
+<br />
+- En una noche de gloria en grisu estube alrededor de los 15 Kclose, record que todavia no puse superar, todavia.....
+<br />
+
+<br />
+
+<br />
+Bueno como veras es REALMENTE facil al menos el Kclose, yo no cogi, es jodido si no son minas de tu hotel, asi que veo dos opciones:
+<br />
+
+<br />
+- Buscas extranjeras y te las llevas a tu hotel.
+<br />
+- Tratas de conocer a todas las minas posibles de TU hotel.
+<br />
+
+<br />
+
+<br />
+Consejos:
+<br />
+
+<br />
+- En el micro a los unicos que tenes que gamear es a los cordinadores!!, ellos te van dar acceso a vips, consumiciones, te van a hacer la gamba si tenes que ir al hotel antes.
+<br />
+
+<br />
+- Si te gusta escabiar:hacelo, tene limites, pero todos van a estar escabiando asi que no te mortifiques.
+<br />
+
+<br />
+- Trata de llevarte un disfraz copado de tu casa para genux, peackoing bro!
+<br />
+
+<br />
+- Grisu es el mejor boliche!! el mas grande,con espacios sin musica para gamear, rincones oscuros y sillones hasta en el techo.
+<br />
+
+<br />
+- Gamea en el hotel! nada por los pasillos, por las baticiones, en la recepcion, en las excurciones, en todos lados!
+<br />
+
+<br />
+- Cuando llegas al hotel despues de una noche de locura es logico irse a dormir para esta bien el dia siguiente, no??...................... NO!!! es el mejor momento para gamear minas de otros colegios!! el game se acaba cuando te acostas en la cama, extendelo lo mas que puedas.
+<br />
+
+<br />
+- Esto va a parecer una boludez pero es vital, VI-TAl!!: NO PARANOIQUEES CON EL TEMA DEL CANSANCIO, es pura bullshit, podes estar perfectamente bien toda la semana durmiendo 4 horas por dia mas alguna siestita ocacional, los que van con la mentalidad &quot; uyy voy a estar con el re sueño&quot; con los que terminan chodeando en el boliche y llendose al hotel en la primer combi.
+<br />
+
+<br />
+- Traeme un balde de grisu 
+<br />
+
+<br />
+- Gamea cada noche como si fuera la ultima de tu vida
+<br />
+
+<br />
+- mmmm, just have fun!
+<br />
+
+<br />
+
+<br />
+
+<br />
+Suerte man! y esperamos un reporte COMPLETO para cuando vuelvas<br /><br />_________________<br />&quot;Hay un momento y un lugar para todo&quot; Jeffy
+<br />
+
+<br />
+Jeet Kun Do style rocks!!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 4:16 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm8.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=8"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18271"></a>Nahuel</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/142349913480cd2f83289d.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 19 Abr 2008<br />Mensajes: 474<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18271.html#18271"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18271"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NO BOLUDO!! JODEME!!!!!!
+<br />
+
+<br />
+
+<br />
+
+<br />
+YO ME VOY MAÑANA VIERNES 25 A BARILO!!!! JAJAJAJAJAJAJAA
+<br />
+
+<br />
+
+<br />
+CONQ EMPRESA VAS?? YO CON SNOW 
+<br />
+
+<br />
+CREO Q ME VUELO EL 3 O EL 4... Q VERGA Q NO COINCIDEN MAS LOS DIAS...
+<br />
+
+<br />
+FIJATE Q ONDA 1530419637
+<br />
+
+<br />
+YO ME VOY MAÑANA Y SON 10 DIAS Y 8 NOCHES, PERO NOC SI MAÑANA SE CUENTA COMO DIA 1 :s
+<br />
+
+<br />
+ME MATÓ ESO, PERO SI LLEGAS POR ALLA MANDA MJS MAN, SI LLEGA A COINCIDIR UNA NOCHE EN EL MISMO BOLICHE NOS RE WINGUEAMOS, = PARA CUANDO VOS LLEGUES ESPERO ESTAR RE LIMADO CON EL DIRECT JAJAJA
+<br />
+
+<br />
+
+<br />
+ME ALOJO EN EL HOTEL CAMBRIA ME DIJERON... 
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+RE FLASH BOLO xD 
+<br />
+
+<br />
+
+<br />
+CUALQIER COSA MANDAME PM... PERO ANTES DE MAÑANA Q ME VOY JAJA
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+A COJER MUCHO!!
+<br />
+
+<br />
+
+<br />
+
+<br />
+YA VAN A VER NUESTROS FR'S!!
+<br />
+
+<br />
+
+<br />
+YO ME VOY A LLEVAR ALGO PARA ESCRIBIR... SINO DPS SE ME VAN A RE OLVIDAR   :S   JAJA
+<br />
+
+<br />
+
+<br />
+
+<br />
+ <img src="images/smiles/icon_twisted.gif" alt="Twisted Evil" border="0" /><br /><br />_________________<br />"Hay mucho por cubrir así que comencemos."
+<br />
+BadBoy
+<br />
+
+<br />
+"...El que ama menos controla la relación. Si querés 
+<br />
+controlar la relación, ¡no te enamores de ella tan rápido!..."
+<br />
+David X<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 6:18 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18272"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2803<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18272.html#18272"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18272"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Cuánta confianza que les tengo a estos dos...  <img src="images/smiles/icon_cry.gif" alt="Crying or Very sad" border="0" />
+<br />
+
+<br />
+Che, yo me fui el año pasado a barilo... no somos taaaan diferentes en edad...<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 6:23 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18276"></a>Augustt</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/103727191348419f27cab74.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 May 2008<br />Mensajes: 106<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18276.html#18276"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18276"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">WOW
+<br />
+
+<br />
+ No pensé que iban a responder tanto, gracias primero, pongo el fuego para el asado y leo.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 8:48 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm441.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=441"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18277"></a>Augustt</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/103727191348419f27cab74.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 May 2008<br />Mensajes: 106<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18277.html#18277"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18277"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NR, cuánto te debo?, jajaja
+<br />
+
+<br />
+Gambler, muy ccierto lo de no ponerse en pedo, me lo dijeron varios, y de droga, mis mejores amigos se drogan de hace rato y nunca probé un porro, será cosa de seguir así.
+<br />
+
+<br />
+Kid, esos fr me inspiraron...a empezar a hacer fr! como nahuel me llevo algo para anotar y cuando vuelvo lo paso en la compu.
+<br />
+
+<br />
+Nahuel, tu cel de dónde es? porque soy de rosario yo, asi que ni idea que tengo que marcar, el mío es 0341(caracteristica de rosario)156097912, igual, ahora te mando pm, nos llegamos a encontrar y la descosemos.
+<br />
+
+<br />
+Gracias a todos, el AA me acaba de desaparecer, y me vineiron unas terribles ganas de estar alla YAAAAA.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 9:19 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm441.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=441"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18281"></a>Nahuel</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/142349913480cd2f83289d.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 19 Abr 2008<br />Mensajes: 474<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18281.html#18281"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18281"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">[quote=&quot;Augustt&quot;]
+<br />
+Nahuel, tu cel de dónde es? porque soy de rosario yo, asi que ni idea que tengo que marcar, el mío es 0341(caracteristica de rosario)156097912, igual, ahora te mando pm, nos llegamos a encontrar y la descosemos.
+<br />
+
+<br />
+[quote]
+<br />
+
+<br />
+
+<br />
+bien ahi, es de capital...
+<br />
+
+<br />
+mira la caracteristica es 011... suppongo q sera 011-15-30419637
+<br />
+
+<br />
+
+<br />
+ahora me anoto el tuyo en el cel  <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /> 
+<br />
+
+<br />
+en cuanto llegues manda sms y arreglamos para salir un rato, a gamear o a conocernos por lo menos jaja, pero game hay seguro <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /><br /><br />_________________<br />"Hay mucho por cubrir así que comencemos."
+<br />
+BadBoy
+<br />
+
+<br />
+"...El que ama menos controla la relación. Si querés 
+<br />
+controlar la relación, ¡no te enamores de ella tan rápido!..."
+<br />
+David X<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue Jul 24, 2008 11:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18313"></a>As</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/214532173247ceecb0975e3.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 04 Mar 2008<br />Mensajes: 123<br />Ubicación: Cba Capital, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18313.html#18313"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18313"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Todavia no se cumplio un año desde que me fui a bariloche, aunque no falta mucho tampoco  <img src="images/smiles/icon_rolleyes.gif" alt="Rolling Eyes" border="0" /> 
+<br />
+
+<br />
+voy a quotear lo que me parece mas importante, porque casi todo se dijo... y de paso pongo algunas experiencias  <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1ero: Es el lugar del direct, y eso no te lo va a discutir nadie. Hacé direct man, tirate super frontal y huevudo a todas las que te gusten, porque en bariloche &quot;está bien&quot; jajajja. Yo cuando fui era un cagón, y me arrepiento todos los días de no haber tenido huevos, porque cada día que pasa me digo &quot;si yo hubiese ido como estoy ahora, hubiese hecho una hecatombe de sexo, pero no pude ser tan boludo en ese momento&quot;. Y creo que todos piensan eso. </td>	</tr></table></center>
+<br />
+
+<br />
+Mmm si, usa direct
+<br />
+
+<br />
+Me acuerdo de una que hicimos un amigo y yo el primer dia en grisu, fue para la historia jjaja...
+<br />
+Nos habiamos tomado un balde de espumante entre 3, asique teniamos nuestro toque... empezamos a caminar y mi amigo sin mediar palabra agarra a una mina y se la tranza. Yo venia caminando atras de el, y vi a la amiga de la minita cerca, por lo que fui y sin mediar palabra me la tranze. 
+<br />
+
+<br />
+Cuando nos cansamos de meterle manos a las minas, nos miramos y sin mediar palabra alguna, intercambiamos minitas y empezamos a tranzar jajajajja... estuvo exelente <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /> (como bonus agrego que estaban re calientes, me chupaban el cuello, me lo mordian, etc), y asi fue que nos aburrimos de esas minas y nos fuimos sin mediar palabra. Otra que BL de macho alpha jjaja
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">2do: Está lleno de droga. Alejate de eso. En serio te digo, no vale la pena. Si estás cansado en el boliche, volvete al hotel y dormí todo lo que puedas para estar mejor el siguiente día. Y a alguna excursión vas a tener que faltar para recuperar un poco de energía, porque lo vas a necesitar.</td>	</tr></table></center>
+<br />
+
+<br />
+Nunca, pero NUNCA aceptes tomar de el trago de alguien que no haya ido con vos al viaje. Un amigo termino tirado en el piso porque le dieron un trago con droga. Y faltar a una excursion.... ni lo pienses, no te vayaas a perder ninguna.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">3ero: Ahora con el tema del alcohol están re estrictos. Si los pescan con una botella o algo así en el micro o en el hotel, están al horno. Cada tanto cuando no estén van a pasar guardias o la policía para ver si hay droga o botellas escondidas. No les conviene que encuentren algo. Y esos tipos ya se saben todos los escondites posibles.</td>	</tr></table></center>
+<br />
+
+<br />
+Nahh, es verdad no lleves alcohol, lleva guita para comprar alla <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /> 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">4to: El game lo empezás cuando subís al micro. No en el 4to día, no en el 5to... o sea, subís al micro y ya empezás a hacer relaciónes. En los boliches te va a ser fácil.</td>	</tr></table></center>
+<br />
+
+<br />
+Nose si el &quot;game&quot; empieza en el micro... pero que tenes que hacer sociales desde que estan subiendo los bolsos al bondi, eso si.
+<br />
+
+<br />
+No cometas el error de tirartela de &quot;llanero solitario&quot; porque este viaje es para estar jodiendo de principio a fin
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">6to: Dejá el alcohol para el final de la noche. Ni siquiera te diría que te &quot;entones&quot; un poco, porque vas a ver la ventaja que vas a tener estando lúcido con respecto a los que tomaron algo. Todos toman, y las chicas borrachas son muy fáciles, pero asquerosas, es tu elección jajajaj.</td>	</tr></table></center>
+<br />
+
+<br />
+Toma cuando quieras, si te queres poner en pedo, ponete. Eso si, no te pases... no lleges al punto de quebrar, ni tampoco al punto de no acordarte que es lo que hiciste la noche anterior, no es para nada divertido que te pase eso (vas a ver que a algun boludo le pasa y va a estar hecho percha el otro dia). Recomiendo las bebidas blancas o espumantes, porque (por lo menos a mi) no dejan resaca.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">7to: Andá hardcore e insistí todo lo que quieras si hay una mina que te guste. Si te rebota, simplemente te vas con otras y volvés más tarde cuando haya tomado un poquito más esa mina y vas direct de vuelta. Push it to the limit. En bariloche, hay más coladas de dedos en los boliches de lo que vos te imaginás. Mode One baby... make it happen.</td>	</tr></table></center>
+<br />
+
+<br />
+Bariloche es un mar de minas, hasta van a haber minas que van a venir a vos... no te obsesiones con ninguna. Nico, eso de esperar que se ponga mas en pedo me parece malisimo, man dejalas a las que te dicen que no, porque van a ser el 0,1%, tenes miles mas. Y ademas nunca mas las vas a ver (bah nunca se sabe, pero es dificilisimo)
+<br />
+
+<br />
+A mi me paso que estaba en cerebro bailando en la pista central (la de abajo) en ronda con 10 de mis amigos, y cayo una mina a bailar en el medio. Despues de unos 5 segundos, la agarre y me la tranze ahi nomas en el medio de la ronda. Por eso digo que a veces ni vas a tener que buscar  <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /> 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">9no: Hay un dicho re conocido en Bariloche, que es &quot;el que más lleva forros, es el que más presta&quot; ajjajajaj, llevá un paquete nada más por las dudas  . Podés comprar otro día. Ah, y comprá super finos, o mejor, extra lubricados, porque las minas a esta edad no tienen la concha re abierta y si usás con tachas en vez de hacerles sentir más placer las vas a hacer sufrir.</td>	</tr></table></center>
+<br />
+
+<br />
+Jajja... no te hagas la cabeza, si se da se da y sino no.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">10mo: Divertite muuuuuuuuuuuuucho, pero muuuuuuuuuuucho muuuucho. Tratá de estar todo el tiempo posible boludeando con tus amigos, pero diferenciá &quot;la hora de los amigos&quot; con &quot;la hora de las minas&quot;. Cuando ellos estén en la hora de las minas, no te van a dar mucha bola. Otra cosa, hay mucha competencia, así que hacele honor a PVL y gameá como Drogba en su famoso FR.</td>	</tr></table></center>
+<br />
+
+<br />
+Lo principal es que te diviertas, lo otro es secundario. Tampoco te pongas a pensar si haces direct, indirect, porongon, etc. Cagate de risa todo el viaje, pasala bien y punto. Deja el cerebro en la mesita de luz de tu casa, porque lo que menos tenes que hacer en ese viaje es ponerte a pensar en algo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">PD: No lleves guitarra que es re molesto. Mejor usar la de otro jajajajja.</td>	</tr></table></center>
+<br />
+
+<br />
+Es cierto, pero no ta vayas a olvidar de llevar la poronga <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- Trata de llevarte un disfraz copado de tu casa para genux, peackoing bro!</td>	</tr></table></center>
+<br />
+
+<br />
+Yo me disfraze de el zorro, no hay demasiado para elegir, pero busca algunos amigos para hacer un grupito de disfrazes, de piratas tambien es buena.
+<br />
+
+<br />
+Por nada del mundo te disfrazes de el chapulin colorado, no es divertido andar con los calzoncillos ensima del pantalon, y menos con antenitas en la cabeza jajajajaja. Tampoco te pongas mascara xq te va a joder a la hora de tranzar.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- Grisu es el mejor boliche!! el mas grande,con espacios sin musica para gamear, rincones oscuros y sillones hasta en el techo. 
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+En grisu te vas a perder de lo grande que es, roket tmb es grandisimo, cerebro es el mas chico, by pass tambien es masomenos chico como cerebro. Genux fue el que menos me gusto, pero estan buenisimos los 5. Coincido en que el mas discreto para gamear es grisu.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- Cuando llegas al hotel despues de una noche de locura es logico irse a dormir para esta bien el dia siguiente, no??...................... NO!!! es el mejor momento para gamear minas de otros colegios!! el game se acaba cuando te acostas en la cama, extendelo lo mas que puedas. </td>	</tr></table></center>
+<br />
+
+<br />
+El momento perfecto para dormir es en el bondi de la vuelta.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- Esto va a parecer una boludez pero es vital, VI-TAl!!: NO PARANOIQUEES CON EL TEMA DEL CANSANCIO, es pura bullshit, podes estar perfectamente bien toda la semana durmiendo 4 horas por dia mas alguna siestita ocacional, los que van con la mentalidad &quot; uyy voy a estar con el re sueño&quot; con los que terminan chodeando en el boliche y llendose al hotel en la primer combi.</td>	</tr></table></center>
+<br />
+
+<br />
+100% agree
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- Traeme un balde de grisu </td>	</tr></table></center>
+<br />
+
+<br />
+No andes por el boliche coleccionando baldes. Cuando yo fui habia giles con 12 baldes en cada brazo para llevarse al hotel. Si queres un balde, se lo choreas a alguno en el hotel jojoo. Necesitas los brazos y manos libres para hacer cavemaning
+<br />
+
+<br />
+Mucha suerte y disfrutalo como loco <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /> 
+<br />
+AS<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Jul 25, 2008 6:37 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm270.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=270"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm270.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18332"></a>snake</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/355657529488d070451b36.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 234<br />Ubicación: Buenos aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18332.html#18332"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18332"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">- En una noche de gloria en grisu estube alrededor de los 15 Kclose, record que todavia no puse superar, todavia.....
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+Cuando eras Direct arrasabas con todo , 
+<br />
+
+<br />
+Ya  te aburrio , ahora entiendo el KidLoco Diplomatico 
+<br />
+
+<br />
+  <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />Si crees que puedes o si crees que no puedes de cualquier forma estás en lo correcto&quot; Henry Ford
+<br />
+
+<br />
+
+<br />
+&quot;Es sólo una cuestión de actitud&quot;  Fito Páez<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Jul 25, 2008 11:44 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm164.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=164"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18340"></a>Baco</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/19393748064815140510290.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Abr 2008<br />Mensajes: 393<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18340.html#18340"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18340"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">AUGUSTT! CONCUERDO 100% CON LO QUE DIJERON TODOS!
+<br />
+
+<br />
+Puro direct man!, todo direct!
+<br />
+
+<br />
+LAS MINAS REGALADISIMAS!!
+<br />
+
+<br />
+Una cosa mas: Encará en los boliches, en el colectivo, en el hotel, en los pasillos, en las habitaciones, en las casas de chocolates, en el centro, en las montañas, mientras cenas, mientras merendas, mientras almorzas, mientras subis el ascensor, mientras habla el paisa, mientras una te haga un pete, ENCARA EN TODO MOMENTO. LAS MINAS SON GRATIS A TODA HORA!
+<br />
+
+<br />
+
+<br />
+
+<br />
+CHEEEEEE, CUANDO HACEMOS EL VIAJE DE EGRESADOS DE PVL A BARILOCHE?!?!?!
+<br />
+
+<br />
+JONGMAG CONSEGUINOS VIAJES GRATIS!!! VAMOS DE PROMOTORES DE BOLICHES!!!
+<br />
+jajaja<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Jul 26, 2008 3:44 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=341"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18342"></a>snake</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/355657529488d070451b36.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 234<br />Ubicación: Buenos aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18342.html#18342"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18342"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">CHAMULLATE  HASTA A EL POTE DE LUZ <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /> 
+<br />
+exitos loco<br /><br />_________________<br />Si crees que puedes o si crees que no puedes de cualquier forma estás en lo correcto&quot; Henry Ford
+<br />
+
+<br />
+
+<br />
+&quot;Es sólo una cuestión de actitud&quot;  Fito Páez<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Jul 26, 2008 4:02 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm164.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=164"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18464"></a>Augustt</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/103727191348419f27cab74.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 May 2008<br />Mensajes: 106<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18464.html#18464"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18464"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Bárbaro, ahora me falta un cosa nomás, que es que no se de que disfrazarme, pasa que queríamos ir  con la misma onda con algunos amigos, pero se ve jodido. A mi me iba la onda banda retro metal GLAMM, onda motley crue, twisted sister, o sino, kiss, pero arrugaron. daba para ir como los de la anranja emcanica tambien, pero muchos no la vieron...o los power rangers, 
+<br />
+
+<br />
+nose nose, quedan 5 dias todavia, se les ocurre algun disfraz copado?<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Jul 28, 2008 5:03 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm441.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=441"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18466"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2803<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18466.html#18466"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18466"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Augustt escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Bárbaro, ahora me falta un cosa nomás, que es que no se de que disfrazarme, pasa que queríamos ir  con la misma onda con algunos amigos, pero se ve jodido. A mi me iba la onda banda retro metal GLAMM, onda motley crue, twisted sister, o sino, kiss, pero arrugaron. daba para ir como los de la anranja emcanica tambien, pero muchos no la vieron...o los power rangers, 
+<br />
+
+<br />
+nose nose, quedan 5 dias todavia, se les ocurre algun disfraz copado?</td>	</tr></table></center>
+<br />
+
+<br />
+Andá de Darth Vader..
+<br />
+
+<br />
+<img src="http://tepasmas.com/img/darthvader-vespino.jpg" />
+<br />
+
+<br />
+O de Buzz Lightyear..
+<br />
+
+<br />
+<img src="http://www.ocompras.com/images/2007/09/buzz-costume.jpg" />
+<br />
+
+<br />
+ajajajja
+<br />
+
+<br />
+Recomendación... NO VAYAS CON TRAJES MUY CALUROSOS!!!!
+<br />
+
+<br />
+Andá con algo fresco, porque te vas a re cagar de calor. Acordate que allá hay temperaturas muy bajas, y en los boliches hay calefacción, además de todo el calor humano.
+<br />
+
+<br />
+Un amigo fue con un traje de mozo stripper jajajj.
+<br />
+
+<br />
+Yo que vos voy con uno onda Conan el Bárbaro, de gladiador o de romano.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Jul 28, 2008 5:30 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=2249&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=2249"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página <b>1</b>, <a href="2-vt2249.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt2249.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>2</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6"selected="selected">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="3d95384592dccc03ffd1a644afb0486d" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

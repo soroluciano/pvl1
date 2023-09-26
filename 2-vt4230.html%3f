@@ -1,0 +1,1422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=4230&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=4230&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Enfoque 100% nuevo del foro (accion)</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="enfoque-100-nuevo-del-foro-accion-vt4230.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Enfoque 100% nuevo del foro (accion)</a><br />
+	  <span class="gensmall"><b>Ir a página <b>1</b>, <a href="2-vt4230.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt4230.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4230"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="dudas-y-sugerencias-sobre-el-foro-vf7.html" class="nav">Dudas y Sugerencias sobre el Foro</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt4230.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt4230.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="enfoque-100-nuevo-del-foro-accion-vt4230.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Enfoque 100% nuevo del foro (accion)</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36306"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36306.html#36306"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Enfoque 100% nuevo del foro (accion)</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36306"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">bien, esto es ocmo una continuacion del post de chodelandia
+<br />
+
+<br />
+el problema no es que hacer con los chodes
+<br />
+
+<br />
+el tema es como mejorar el foro para que la gente que esta hace tiempo pueda encontrar algo que le facilite el RECORRIDO
+<br />
+
+<br />
+la idea es cambiar la porientaciond el foro de &quot;base de datos&quot; (o rejunte de info) a &quot;recorrido&quot; o &quot;accion&quot;
+<br />
+
+<br />
+1) diria poner un media review, no solo media (se dice que consiguieron cone se material)
+<br />
+
+<br />
+2) tambien no solo una seccion rutinas sino testing de rutinas (o de tecnicas)
+<br />
+
+<br />
+3) despues, una seccion planes u objetvos donde cadauno teien un post y selo ayuda a pulir mejor a que apunta
+<br />
+
+<br />
+4) la otra podria ser motivacion, la idea es que haya algo de info sobre antony robbins o algo de pnl ortientado a esto... ci nunca prgeuntas &quot;quien sabe de motivacion?&quot;, el foro no asume que puede ser util, cuando la prgeunta existe es que nace un laburo en esa zona.
+<br />
+
+<br />
+esta es la seccion que mas creo va a llevar armar porque no hay gente muy involucrada salvo quienes leyeron antonny robbins, pero... seria una inversion
+<br />
+
+<br />
+5) sticking points... digamos... en un post no solucionas un tema ais que... mas simple tener un thread sobre determinada cosa, ahi cuando estas estancado, no solo se te tira opiniones, sino que postaeas un plan a seguir para solucionarlo. el resto no te ayuda solo en decirte &quot;vos podes&quot; o &quot;hace esto&quot; (que no dice como y no te ayuda) sino que te aconsejan en el plan a realizar (algoq ue les haya servido.
+<br />
+
+<br />
+a cada paso, uno postea que va a hacer y cumple eso paar pulir ese sticking point.
+<br />
+
+<br />
+6) una seccion de habilidades sociales!!!!!!!
+<br />
+
+<br />
+7) lo ultimo, que las secciones mas de accion se muevan para arriba
+<br />
+
+<br />
+<img src="images/smiles/icon_cool.gif" alt="Cool" border="0" /> que el foro se divida y haya una seccion novatos.
+<br />
+
+<br />
+las secciones de los antiguos van a quedar medio vacias al principio... es la idea hasta que se vaya puliendo mas esas partes
+<br />
+
+<br />
+por ultimo, la orientacion de foro cambiaria en 3 aspactos con esto:
+<br />
+
+<br />
+1) pulir cosas relacionadas con el pu que tengan un impacto en el pu (motivacion, planes y habilidades sociales)
+<br />
+
+<br />
+2) que marquen un procesos mas que una acumulacion de data
+<br />
+
+<br />
+3) que este todo mas orientado a la practica
+<br />
+
+<br />
+la idea es... la gente pulio una parte... esto solo seria abrir un camino relacionado con los cambios de &quot;no acumular data&quot; a &quot;actuar&quot;
+<br />
+
+<br />
+bueno, vean que les parecen, para mi la etapa foro para filosofar ya fue
+<br />
+
+<br />
+incluso para aconsejar. ahora es hora de probar cosas y aportar no opiniones sino aportar a decirte &quot;hace esto, a mi me funco&quot;
+<br />
+
+<br />
+de hecho... es preferible que el foro diga menos, pero diga cosas mas concisas o material mas testeado
+<br />
+
+<br />
+para mi seria un cambio MUCHO mas que util, las secciones tardarian en llnarse, pero... mejor, la idea es que el foro se oriente a algo nuevo
+<br />
+
+<br />
+ok, leo sus opiniones<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 5:21 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36309"></a>tatox</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 777<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36309.html#36309"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36309"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">me parece una buena idea la verdad.<br /><br />_________________<br />AWA Style - El Encantador de Serpientes - Pedi info a  <a href="mailto:quieroser@encantadordeserpientes.cx">quieroser@encantadordeserpientes.cx</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 6:44 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36311"></a>Amilcar</span><br />
+			<span class="posterrank">Campeón del MTQN 2<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/46269000549ae7cdf154dd.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 18 Ene 2009<br />Mensajes: 142<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36311.html#36311"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36311"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Yo creo que Ya podria hacer un post( en misiones?) donde cada uno postee sus objetivos y un plazo para la revision de los mismos... es decir ponele
+<br />
+
+<br />
+Quiero tener dos ONS en los proximo dos meses. Y en dos meses vuelve y nos cuenta que onda... viene mas o menos pegado a un post de nico donde el postea sus pobjetivos que me parecio muy util<br /><br />_________________<br />El Seductor Cordobes
+<br />
+
+<br />
+[Be a Man!]
+<br />
+
+<br />
+Por salidas en Cordoba==&gt; <span style="font-weight: bold">amilcarpua@hotmail.com</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 6:51 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1252.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1252"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36313"></a>strato</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1292174798489d27f7a2576.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Jun 2008<br />Mensajes: 349<br />Ubicación: Gran.BS</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36313.html#36313"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36313"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">muy buena la idea...
+<br />
+
+<br />
+1) hay cosas que muchos ya utilizaron por lo pronto lo que me funco a mi fue...la pnl (cambio de creencias,miedos,anclas)...videos de la rsd(trabajo del inner y outer)...MM (logistica y teoria de grupos tmb uso del outer)...libro de Pase sobre bl (reconocimiento de estados emocionales)...Jeffries (algo de inner y creacion de patrones)
+<br />
+
+<br />
+2)lo de rutinas...ahora estoy haciendo rutinas...las pruebo por msn :p y con amigas antes del field
+<br />
+
+<br />
+3)objetivos:yo habia hecho un post para definir objetivos y mejorar tus sticks,ese conjunto a uno de Nico Rodrigo que creo que se basa en las preguntas de Mode One sirven mucho...
+<br />
+
+<br />
+4)motivacion...P.N.L a full no hubo nada mejor que la motivacion que me genero la P.N.L
+<br />
+
+<br />
+5)idem al 3
+<br />
+
+<br />
+6)toy mejorando el area de habilidad social...el indirecto me funca bien
+<br />
+
+<br />
+7)eso esta bueno
+<br />
+
+<br />
+8)mmm divir en novatos y avanzados? algunos se sentirian mal viendose como novato (a mi me pasaba de comerme la cabeza y sentirme para el culo por verme un novato de mierda y no alcanzaba objetivos....hasta que encontre la P.N.L) no se que opinaran los otros...igual hay foros que tienen esas secciones
+<br />
+
+<br />
+muy buena idea...aparte creo que a los moderadores les simplificaria la vida un poco<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 7:08 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm462.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=462"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36317"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36317.html#36317"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36317"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Quiero tener dos ONS en los proximo dos meses. Y en dos meses vuelve y nos cuenta que onda... viene mas o menos pegado a un post de nico donde el postea sus pobjetivos que me parecio muy util</td>	</tr></table></center>
+<br />
+ok, la idea es focalizar mas que en una mision, en la parte del plan, porque el plan es el eje. de ahi que se articule la mision con pulir tal tema con conseguir lo que buscas
+<br />
+
+<br />
+saltar a la accion de una sin organizarlo seria como tragarte la comida de una y terminar vomitando todo
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1) hay cosas que muchos ya utilizaron por lo pronto lo que me funco a mi fue...la pnl (cambio de creencias,miedos,anclas)...videos de la rsd(trabajo del inner y outer)...MM (logistica y teoria de grupos tmb uso del outer)...libro de Pase sobre bl (reconocimiento de estados emocionales)...Jeffries (algo de inner y creacion de patrones) </td>	</tr></table></center>
+<br />
+claro, el punto es no solo tirar la data, sino que quede articulado asi:
+<br />
+
+<br />
+x cosa me franaba--&gt; tal data--&gt; tal resultado
+<br />
+
+<br />
+la idea es no solo tirar el material sino si sirve o no y &quot;para que sirve&quot;. si tiro un post de motivacion puede que muchos pongan cara de what the fuck hago con esto? en cambio si pongo ese post y digo &quot;a mi me frenaba esto, use esto y funco&quot;... es otra la idea
+<br />
+
+<br />
+PD: hay otra propuesta, pero, ya es un BASTANTE mas ambiciosa. seria armar un subforo sobre CADA sticking point, focalizando las discusiones en la raiz de cada uno. el material recomendado seria para solucionar esto (los &quot;como&quot; resolverlo, ya no los &quot;que hacer&quot;)
+<br />
+
+<br />
+es ambicioso porque requiere juntar data para rastrear la raiz, conseguir el material sobre COMO solucionarlo y chequear que material REALMENTE funcione. aparte de lo complicado que es que haya gente con este interes.
+<br />
+
+<br />
+yo estaria en la 3ra etapa de los mios (leyendo los como), asi que con el tiempo podria (si sale ok) postear una especie de camino a seguir, aunque solo sea de lo que a mi me fue un problema.<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 7:37 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36325"></a>Revolution</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/975069418499a5d3a318a2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 17 Jul 2008<br />Mensajes: 703<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36325.html#36325"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36325"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">-Todavía no puedo ver mentalmente muy bien como quedaría la nueva organización pero lo que si veo es que algunas de las cosas que lo decís se podrían agregar como subforos. Por ej, motviación lo podés meter como subforo de inner game, media review, en media o en general de seducción.
+<br />
+
+<br />
+-Algunas secciones, antes de ponerse, me parece que había que definir con exactitud a que apunta. Ej: la sección habiliades sociales, y motivación.
+<br />
+
+<br />
+-Dividir a los novatos de los avanzados me parece bueno, el problema sería como determinás cuando dejan de ser novatos. Para mi un novato no es lo mismo que para vos, ni para el otro y así.<br /><br />_________________<br />No juego para la tribuna, juego para ganar.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 24 Abr , 2009 8:46 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=544"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36339"></a>KidlokO</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1448283819471c1f85ec5cc.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1326<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36339.html#36339"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36339"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la idea es cambiar la porientaciond el foro de &quot;base de datos&quot; (o rejunte de info) a &quot;recorrido&quot; o &quot;accion&quot;</td>	</tr></table></center>
+<br />
+
+<br />
+Me gusta la idea!
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1) diria poner un media review, no solo media (se dice que consiguieron cone se material)
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+Me parece que podria estar copado esto, de una.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">2) tambien no solo una seccion rutinas sino testing de rutinas (o de tecnicas)</td>	</tr></table></center>
+<br />
+
+<br />
+Esta no se si sera super util, pero tampoco creo que estaria de mas (tal vez me equivoco y resulta genial)
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">3) despues, una seccion planes u objetvos donde cadauno teien un post y selo ayuda a pulir mejor a que apunta</td>	</tr></table></center>
+<br />
+
+<br />
+Me copa tambien, pero esta bueno que la gente se comprometa a actualizarla (salga como salga).
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">4) la otra podria ser motivacion, la idea es que haya algo de info sobre antony robbins o algo de pnl ortientado a esto... ci nunca prgeuntas &quot;quien sabe de motivacion?&quot;, el foro no asume que puede ser util, cuando la prgeunta existe es que nace un laburo en esa zona. 
+<br />
+
+<br />
+esta es la seccion que mas creo va a llevar armar porque no hay gente muy involucrada salvo quienes leyeron antonny robbins, pero... seria una inversion</td>	</tr></table></center>
+<br />
+
+<br />
+Copado, ya tengo un par de cosas en la cabeza para esta seccion.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">5) sticking points... digamos... en un post no solucionas un tema ais que... mas simple tener un thread sobre determinada cosa, ahi cuando estas estancado, no solo se te tira opiniones, sino que postaeas un plan a seguir para solucionarlo. el resto no te ayuda solo en decirte &quot;vos podes&quot; o &quot;hace esto&quot; (que no dice como y no te ayuda) sino que te aconsejan en el plan a realizar (algoq ue les haya servido. </td>	</tr></table></center>
+<br />
+
+<br />
+mmmm, puede ser, yo soy mas de la escuela de que los sticking points se resuelven solos &quot;haciendo&quot; (osea gameando, etc), pero provemos haber que sale
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">6) una seccion de habilidades sociales!!!!!!! </td>	</tr></table></center>
+<br />
+
+<br />
+Esta no me convence, que clase contenido tendria??
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">7) lo ultimo, que las secciones mas de accion se muevan para arriba </td>	</tr></table></center>
+<br />
+
+<br />
+Eso lo vemos cuando armemos la nueva estructura del foro.
+<br />
+
+<br />
+
+<br />
+Me gusta las ideas que tiraste y me gusta mas todavia hacia donde apuntan esas ideas, apoyo totalmente el proyecto  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /> 
+<br />
+
+<br />
+
+<br />
+Yo agrego un par de cosas:
+<br />
+
+<br />
+1) Esto ya lo dijeron, crear un faq para los nuevos, con las preguntas mas comunes y los links a los post de &quot;El camino...&quot;
+<br />
+
+<br />
+2) Darle mucho mas bola a la seccion lifestyle, agregarle una parte de articulos sobre estilo de vida y otra seccion donde se organizen entre la gente para hacer cosas (onda quiero empesar a hacer tenis, yoga, stripdance, loquesea, quien se prende?, quien ya lo esta haciendo?. El lifestyle me parece VITAL.
+<br />
+
+<br />
+3) Siquiendo con lo de arriba, tenemos que organizar mas salidas para que los nuevos puedan ir, no puede ser que hagamos una por mes y gracias, todos los findes deberia haber algo posteado. Entiendo que muchos habeces queremos salir entre &quot;nosotros&quot; en salidas chicas con amigos, pero siempre puede haber dos o tres que organizen algo.
+<br />
+
+<br />
+4) Hacer salidas que no sean de game: un partido de lo que sea (futbol, voley, paintball, etc), un asado, estreno de pelicula grosa o lo que se les ocurra. Esto simplemente por que es copado  <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> 
+<br />
+
+<br />
+5) Tenemos que empesar a apuntar a una des-estilizacion del game, chau indirect game, direct game, natural game, no game, mersault game, pnl game, jacabo guinograft game..., hay que hacer &quot;El camino del player&quot; con el rejunte de las mejores cosas de cada estilo, hay que darle opciones a la gente, no limitarla, por que les paresca o no muchos de los que entran se van a creer que lo que les recomienda la mayoria es LA posta. Si mañana nos ponemos todos a hablar de que el game con pnl es lo mas blablabla, muchos se lo van a comer, vamos a ver presentaciones como esta: Hola soy jorgito, soy un chode, lei a Mystery, Jungler, David X, El mandala, pero lo que mas me gusta es Ross Jefries...... Aguante la pnl!!.
+<br />
+
+<br />
+
+<br />
+Armemos algo con todo lo que nos paresca escencial, y con etapas de lectura y aplicacion. Las secciones especificas de cada estilo que queden para cosas que esten intimamente relacionadas con ese estilo, asi la gente (con una base teorica y practica ya adquirida) pueden hacer lo que quieran con la info que encuentren ahi.
+<br />
+
+<br />
+
+<br />
+
+<br />
+Eso es todo amigos, que les parece?<br /><br />_________________<br />&quot;Cuando termines de cogerte a tus enemigos, cogetelos un poco mas&quot;
+<br />
+
+<br />
+Sun Tzu<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 12:24 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm8.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=8"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36343"></a>Baron Rojo</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/902398598492375d255d9a.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 03 Nov 2008<br />Mensajes: 363<br />Ubicación: Mexico</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36343.html#36343"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36343"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">5) Tenemos que empesar a apuntar a una des-estilizacion del game, chau indirect game, direct game, natural game, no game, mersault game, pnl game, jacabo guinograft game..., hay que hacer &quot;El camino del player&quot; con el rejunte de las mejores cosas de cada estilo, hay que darle opciones a la gente, no limitarla, por que les paresca o no muchos de los que entran se van a creer que lo que les recomienda la mayoria es LA posta. Si mañana nos ponemos todos a hablar de que el game con pnl es lo mas blablabla, muchos se lo van a comer, vamos a ver presentaciones como esta: Hola soy jorgito, soy un chode, lei a Mystery, Jungler, David X, El mandala, pero lo que mas me gusta es Ross Jefries...... Aguante la pnl!!.</td>	</tr></table></center>
+<br />
+
+<br />
+genial me encanta esa idea hacer de todo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">que el foro se divida y haya una seccion novatos. </td>	</tr></table></center>
+<br />
+yo soy un novato. pero como seria eso.
+<br />
+los expertos ( o de mayor experiencia praticando el juego) cambien opiniones para mejorar su juego.
+<br />
+y los novatos igual.
+<br />
+o que seria el camino de novato conseguir 10 kclose.
+<br />
+<span style="color: yellow">Como queda esa idea.</span>
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> 1) diria poner un media review, no solo media (se dice que consiguieron cone se material</td>	</tr></table></center>
+<br />
+
+<br />
+genial comparamos resultados. 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">3) despues, una seccion planes u objetvos donde cada uno tiene un post y selo ayuda a pulir mejor a que apunta</td>	</tr></table></center>
+<br />
+
+<br />
+muy bueno. pero nunca dejarlo en el olvido. 
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> 5) sticking points... digamos... en un post no solucionas un tema ais que... mas simple tener un thread sobre determinada cosa, ahi cuando estas estancado, no solo se te tira opiniones, sino que postaeas un plan a seguir para solucionarlo. el resto no te ayuda solo en decirte &quot;vos podes&quot; o &quot;hace esto&quot; (que no dice como y no te ayuda) sino que te aconsejan en el plan a realizar (algoq ue les haya servido. </td>	</tr></table></center>
+<br />
+
+<br />
+Bien como los demas salieron de ese bache.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+ 6) una seccion de habilidades sociales!!!!!!! </td>	</tr></table></center>
+<br />
+bien como relacionarte con los demas.
+<br />
+[quote]
+<br />
+
+<br />
+
+<br />
+Por que no se lanzan varias propuestas.
+<br />
+y que se vote.<br /><br />_________________<br />La vida es simple, toma decisiones y no voltees para atras.
+<br />
+No puedes aprender si no practicas, Aprende haciendolo.
+<br />
+
+<br />
+Las personas que no son capaces de hacer algo, te diran que tu tampoco puedes.
+<br />
+
+<br />
+&quot;Las opiniones son como el agujero del culo, todos tenemos uno y creemos que el de los demás apesta.&quot;
+<br />
+A Casa por Vacaciones<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 1:46 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1055.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1055"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1055.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36349"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36349.html#36349"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36349"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">listo...
+<br />
+
+<br />
+en la seccion novatos se postea un post it con los temas mas tipicos que preguntan los nuevos
+<br />
+
+<br />
+novato no es que es alguien sino...
+<br />
+
+<br />
+que si uno quiere preguntar algo de la lista de LOS TEMAS QUE DECIDAMOS QUE SEAN DE NOVATO, vayan y se consulte ahi
+<br />
+
+<br />
+para saber que temas se decide qu sean de novatos, se arma un post en el que se peude anotar cualquiera. los moderadores y admin ya estan depor si y sumnados a los que se anoten en ese post, se vota que va y que no. eso se puede retocar despues.
+<br />
+
+<br />
+que en &quot;novatos&quot; (mejor que se llame &quot;preguntas basicas&quot;) ya haya un post con los posts mas significativos del foro acerca de cada tema de esa lista y a la vez, la gente no esta solo restringida a leer ese post, sino que... ahi peude discutir sus temas.
+<br />
+
+<br />
+ahora, la gente que ya sabe la data de lo basic (los &quot;habitues&quot;) seguiria otro rumbo posible...
+<br />
+
+<br />
+seria armar una seccion que se llame &quot;armado de seccion&quot;. en esa seccion hay un post it con nombres de posibles secciones a crear (las que tire arriba podrian estar en la lista)
+<br />
+
+<br />
+en la seccion, el que quiera, psoteara &quot;quien se prende a pulir planeamiento?&quot; (el tiempo se acordara con la gente que se cope) y se arma esa seccion con la gente que se tire a esa idea
+<br />
+
+<br />
+de ahi, la gente qeu opto por dedicarse a esetema, se juntara en esa seccion a intercambiar material, discutir y ver entre si como van avanzando y que les sirvio, etc
+<br />
+
+<br />
+lo copado es que lo elegis vos, aparte de enfocarte en algo (orientado a un cambio) e intercambiar data con gente concentrada en lo mismo
+<br />
+
+<br />
+la idea seria que cada uno opte por una seccion hasta pulir ese sticking point o hasta lograr lo que se propuso
+<br />
+
+<br />
+puede haber secciones de todo tipo, competencia, practica intensiva o lo que sea. la s4eccion espara que se propongan secciones que te interese de cosas que quieras mejorar o por joder nomas (ejemplo competencia... y van a eso). la idea es que la gente ahi vaya ir tirando sus mayores inetreses y se junte gente con esos intereses o similares
+<br />
+
+<br />
+ahora lo charlo mejor por msn y planteo mi idea, igual creo va quedando un toque mas claro
+<br />
+
+<br />
+la idea es que las secciones que postee arriba, esten como optativas (sumando las que agregaron) y que la gente opte por abrir una para pulir algo o juntarse en tal seccion (ya creada) para mejorar ese tema en particular
+<br />
+
+<br />
+la idea serioa como una &quot;busqueda de gente con el mismo freno en el game&quot; y de ahi que surja la seccion o si ya existe que acuerden laburar ahi en grupo.
+<br />
+
+<br />
+bue, vayan viendo que les parece o si algo lo ven poco viable (y se veran soluciones)
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">2) Darle mucho mas bola a la seccion lifestyle, agregarle una parte de articulos sobre estilo de vida y otra seccion donde se organizen entre la gente para hacer cosas (onda quiero empesar a hacer tenis, yoga, stripdance, loquesea, quien se prende?, quien ya lo esta haciendo?. El lifestyle me parece VITAL. 
+<br />
+
+<br />
+3) Siquiendo con lo de arriba, tenemos que organizar mas salidas para que los nuevos puedan ir, no puede ser que hagamos una por mes y gracias, todos los findes deberia haber algo posteado. Entiendo que muchos habeces queremos salir entre &quot;nosotros&quot; en salidas chicas con amigos, pero siempre puede haber dos o tres que organizen algo. 
+<br />
+
+<br />
+4) Hacer salidas que no sean de game: un partido de lo que sea (futbol, voley, paintball, etc), un asado, estreno de pelicula grosa o lo que se les ocurra. Esto simplemente por que es copado  </td>	</tr></table></center>
+<br />
+la 2 y la 4 se pueden organizar proponiendolas en el foro. baile podria ser una para la 4
+<br />
+
+<br />
+style life no me queda del todo clara
+<br />
+
+<br />
+respecto al punto 3, la idea es que cada seccon que armen, cree un grupo mas chico que salga para probar lo que se va posteando. al ser un grupo mas reducido... se puede arreglar con mas facilidad si se testea o no, etc (no hace falta mover al foro etero, sinoq ue juntas gente que ya ELIGIO ese tema y que aparte es menos cantidad... hasta pueden salir por su lado, peor probar las rutinas para postearlas es otro compromiso)
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">5) Tenemos que empesar a apuntar a una des-estilizacion del game, chau indirect game, direct game, natural game, no game, mersault game, pnl game, jacabo guinograft game..., hay que hacer &quot;El camino del player&quot; con el rejunte de las mejores cosas de cada estilo, hay que darle opciones a la gente, no limitarla, por que les paresca o no muchos de los que entran se van a creer que lo que les recomienda la mayoria es LA posta. Si mañana nos ponemos todos a hablar de que el game con pnl es lo mas blablabla, muchos se lo van a comer, vamos a ver presentaciones como esta: Hola soy jorgito, soy un chode, lei a Mystery, Jungler, David X, El mandala, pero lo que mas me gusta es Ross Jefries...... Aguante la pnl!!. </td>	</tr></table></center>
+<br />
+uf, me re copo... yo diria que los tipos de game los tengamos extra foro de ultima y que las secciones laburen distintos temas... al estar separados, el game se va formando mezclando lo que a uno mas le inetrese. el eje no seria x estilo sino las cosdas que mas te gusten (de hehco una seccion podria ser baile y un grupo se junta a ir a clases, ya refiriendolo mas a las 3 propuestas anteriores)<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 4:07 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36359"></a>DrSaynt</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/4253962674848a5b8961e2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 27 Feb 2008<br />Mensajes: 904<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36359.html#36359"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36359"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">La idea está muy buena. Igualmente, banquen un toque, que con Nico teníamos la idea de armar una cosa muy buena. Pero muuuuy buena.
+<br />
+
+<br />
+Alive, nunca me aceptaste en el msn, así que no vamos a poder chatear nada por ahí <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+
+<br />
+Usás el que está en &quot;Lista de Mails&quot; o tenés otro super mega &quot;Alive Lama&quot; secreto?<br /><br />_________________<br />&quot;Just Close, MotherFucka!&quot; Ozzie by Jeffy
+<br />
+
+<br />
+¡Cada vez que chodeás, el Cyborg mata un gatito, se emperna a tu vieja y se chamuya una modelo en el bondi....todo al mismo tiempo!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 1:27 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm263.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=263"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36362"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36362.html#36362"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36362"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Usás el que está en &quot;Lista de Mails&quot; o tenés otro super mega &quot;Alive Lama&quot; secreto?</td>	</tr></table></center>
+<br />
+ja, exacto, hay que cuidar la identidad secreta, jeje<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 3:58 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36375"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 4001<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36375.html#36375"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36375"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hey, la idea está buenísima! Me gusta ver que le pongan tanta onda al foro y que haya tanto huevo. Hacía rato que no teníamos un aporte así!
+<br />
+
+<br />
+Igual hay que pensar cosa por cosa, así que manos a la obra:
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la idea es cambiar la porientaciond el foro de &quot;base de datos&quot; (o rejunte de info) a &quot;recorrido&quot; o &quot;accion&quot;</td>	</tr></table></center>
+<br />
+
+<br />
+Esto me parece muy buena idea.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1) diria poner un media review, no solo media (se dice que consiguieron cone se material)</td>	</tr></table></center>
+<br />
+
+<br />
+Se podría poner un anuncio en la sección media que diga que para postear en esa sección, de ahora en más tenés que poner descripción y al final de qué te sirvió.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">2) tambien no solo una seccion rutinas sino testing de rutinas (o de tecnicas)</td>	</tr></table></center>
+<br />
+
+<br />
+Igual que el anterior. Descripción + qué tan buena te resultó
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">3) despues, una seccion planes u objetvos donde cadauno teien un post y selo ayuda a pulir mejor a que apunta</td>	</tr></table></center>
+<br />
+
+<br />
+Puede ser, igual creo que es algo bastante personal.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">4) la otra podria ser motivacion, la idea es que haya algo de info sobre antony robbins o algo de pnl ortientado a esto... ci nunca prgeuntas &quot;quien sabe de motivacion?&quot;, el foro no asume que puede ser util, cuando la prgeunta existe es que nace un laburo en esa zona.
+<br />
+
+<br />
+esta es la seccion que mas creo va a llevar armar porque no hay gente muy involucrada salvo quienes leyeron antonny robbins, pero... seria una inversion</td>	</tr></table></center>
+<br />
+
+<br />
+No se, no sabría qué postear ahí. Creo que cada uno va encontrando su motivación con el tiempo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">6) una seccion de habilidades sociales!!!!!!!</td>	</tr></table></center>
+<br />
+
+<br />
+Mmmm, no me convence. Qué tipo de posts habría ahí? De qué cosas se hablaría?
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">7) lo ultimo, que las secciones mas de accion se muevan para arriba</td>	</tr></table></center>
+<br />
+
+<br />
+Si, tiene sentido.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Cool que el foro se divida y haya una seccion novatos.</td>	</tr></table></center>
+<br />
+
+<br />
+Creo que la sección &quot;novatos&quot; la podríamos cambiar por &quot;Temas Básicos&quot; así nadie se siente tocado jajajja.
+<br />
+
+<br />
+Y creo que lo de dividir el foro entre los que saben y los que no saben es un arma de doble filo, porque los novatos a veces te dan buenos consejos o te tiran data copada, y lo que veo un montón es gente que lleva mucho tiempo en el foro y se lo considera alguien que sabe, y esa razón le impide sacarse dudas boludas por miedo a lo que digan los demás. Esto lo veo mucho en el foro, y creo que también es por culpa de los que son muy duros con los que hacen preguntas muy básicas o tontas. Lo mejor sería no decir nada ofensivo y solo postear un link donde ya se haya hablado de ese tema y cerrar el thread, así no se hace bardo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">PD: hay otra propuesta, pero, ya es un BASTANTE mas ambiciosa. seria armar un subforo sobre CADA sticking point, focalizando las discusiones en la raiz de cada uno. el material recomendado seria para solucionar esto (los &quot;como&quot; resolverlo, ya no los &quot;que hacer&quot;)</td>	</tr></table></center>
+<br />
+
+<br />
+Esta versión del foro no soporta subforos, por eso no hay ninguno <img src="images/smiles/icon_confused.gif" alt="Confused" border="0" />
+<br />
+
+<br />
+Me gusta ver el foro avanzando de esa forma. El día que se logre lo que planeamos con DrSaynt va a ser un golazo al ángulo, lo van a disfrutar y el foro va a crecer de manera increíble <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" />
+<br />
+
+<br />
+Saludos!<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 7:09 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36381"></a>strato</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1292174798489d27f7a2576.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Jun 2008<br />Mensajes: 349<br />Ubicación: Gran.BS</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36381.html#36381"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36381"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">wooow lo que puede surgir de una idea...todo esto se dio por la idea que  plantie a Nico? jaja groso...
+<br />
+
+<br />
+parece que todos venian masticando una idea  parecida para hacer...veo que hay muchas ideas...me prendo con la idea de juntar post con similitudes y darle una estructura...
+<br />
+
+<br />
+yo ya estoy anotando preguntas que vi 10.000 veces...preguntas chodes...preguntas no tan chodes...
+<br />
+
+<br />
+y preguntas que nos gustaria que nos respondan o se ponga una idea en comun segun nuestras experiencias, a veces surgen...algo que surgio hoy fue...como hago para calentar bien a una mina...que frases ir tirando para escalar...pero ya lo resolvi...luego posteo y tmb hare rejunte de eso<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 7:22 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm462.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=462"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36393"></a>Levis</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/21093475504a5ddeb00af77.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 29 Dic 2008<br />Mensajes: 124<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36393.html#36393"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36393"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Las ideas que estan surgiendo estann muyy copadas. Lo veo como otro nivel pero vamos a ir llevandolas a cabo en orden y dejandolas bien pulidas. 
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+5) Tenemos que empesar a apuntar a una des-estilizacion del game, chau indirect game, direct game, natural game, no game, mersault game, pnl game, jacabo guinograft game..., hay que hacer &quot;El camino del player&quot; con el rejunte de las mejores cosas de cada estilo, hay que darle opciones a la gente, no limitarla, por que les paresca o no muchos de los que entran se van a creer que lo que les recomienda la mayoria es LA posta. Si mañana nos ponemos todos a hablar de que el game con pnl es lo mas blablabla, muchos se lo van a comer, vamos a ver presentaciones como esta: Hola soy jorgito, soy un chode, lei a Mystery, Jungler, David X, El mandala, pero lo que mas me gusta es Ross Jefries...... Aguante la pnl!!.
+<br />
+
+<br />
+
+<br />
+</td>	</tr></table></center>
+<br />
+Esta me parece fundamental.. Vamos a ponerle ganas y Manos a la obra
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">DrSaynt escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">La idea está muy buena. Igualmente, banquen un toque, que con Nico teníamos la idea de armar una cosa muy buena. Pero muuuuy buena.</td>	</tr></table></center>
+<br />
+
+<br />
+Cual es la idea?? tiren algo de data  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br />MODE ONE BABY! ===&gt; &quot;it's gonna be legendary&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 8:02 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1205.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1205"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="36395"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp36395.html#36395"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=36395"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Nico:
+<br />
+
+<br />
+ok, la seccion habilidades sociales puede haber temas de framing, la idea es... mas adelante postee que son cosas dinamicas. por eso puse lo de la aeccion creacion de seccion. HABRIA QUE DISCUTIRLO PARA PULIR LO ULTIMO; pero... desde esta seccion se elegirian las seciones. el punto es que una seccion no tiene porque servirle a todo el foro sino que... con que haya un grupo de gente y el foro permita que se unan para laburar eso enfocados... joya.
+<br />
+
+<br />
+asi se pule mas rapido un punto
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Puede ser, igual creo que es algo bastante personal. </td>	</tr></table></center>
+<br />
+
+<br />
+lo de los objetivos de que capaz es algo personal, la idea es que... si lo queres mantener cmo personal, podes ver como otros arman su plan o... podes encontrar material sobre planear aunque no publiques el tuyo.
+<br />
+
+<br />
+Strato:
+<br />
+
+<br />
+No hace falta que esten TODAS la preguntas. la idea es ir tirando.
+<br />
+
+<br />
+de ahi quela gente vaya posteando posts que se acuerde para sumar. algo ais como el camino de direct, peor el camino del novato, je
+<br />
+
+<br />
+soloq ue son &quot;temas de novatos&quot;
+<br />
+
+<br />
+por ultimo, lean los otros posts, ahi algunas ideas las fui cerrando mejor
+<br />
+
+<br />
+la idea seria determinar CUALES son estos temas de novato, durante la marcha (ir posteando, como el post camino del direct, que se sugiera y se agreguen)
+<br />
+
+<br />
+por pasos, lo 1ro seria hablar sobre como armamos esto. los pasos para mi... serian primero la seccion planes y seccion novatos juntos... despues la seccion ceacion de secciones y se ve lo de los grupos y como va progresando
+<br />
+
+<br />
+despues parlamos y vemos como juntar la idea que teian con saynt (ahi lo sume al msn secreto, je)
+<br />
+
+<br />
+por ultimo. la idea no es hiper laburar en el foro, es ir cambiando para que aporte. remarco esto proque la idea es que el foro no es un ente en si, sino que es una herramienta. puede servir o frenar, por eso la idea es que el enfoque no sea &quot;salvemos el foro&quot; o &quot;logremos que psoteen mas&quot;, sino que si posteas, te sirva. algo asi<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 25 Abr , 2009 8:15 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=4230&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4230"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="dudas-y-sugerencias-sobre-el-foro-vf7.html" class="nav">Dudas y Sugerencias sobre el Foro</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página <b>1</b>, <a href="2-vt4230.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt4230.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>2</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7"selected="selected">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="c8ab3bc2e11381943261089f80240abf" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

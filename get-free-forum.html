@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Registrar un foro - Tu-Foro-Gratis.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta name="keywords" content="foro gratis, hospedaje gratis, foros php, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="Proveemos hospedjae gratuito de foros phpbb con tráfico y mensajes ilimitados. 300 templates y modificaciones útiles preinstalados">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+
+<link href="http://www.tu-foro-gratis.com/style.css" rel="stylesheet" type="text/css">
+</head>
+
+		<script type="text/javascript">
+		function create_new_forum() {
+			xajax.$("submit").disabled = true;
+			xajax.$("submit").value = "Processing...";
+			if(!xajax_create_new_forum(xajax.getFormValues("mf_form"))) {
+				xajax.$("submit").disabled = false;
+			}
+		}
+		</script>
+			<script type="text/javascript">
+var xajaxRequestUri="signup.php";
+var xajaxDebug=false;
+var xajaxStatusMessages=false;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+var xajaxLoaded=false;
+function xajax_check_board_name(){return xajax.call("check_board_name", arguments, 1);}
+function xajax_check_board_title(){return xajax.call("check_board_title", arguments, 1);}
+function xajax_check_board_admin(){return xajax.call("check_board_admin", arguments, 1);}
+function xajax_check_pass(){return xajax.call("check_pass", arguments, 1);}
+function xajax_check_email(){return xajax.call("check_email", arguments, 1);}
+function xajax_check_keywords(){return xajax.call("check_keywords", arguments, 1);}
+function xajax_check_description(){return xajax.call("check_description", arguments, 1);}
+function xajax_check_abstract(){return xajax.call("check_abstract", arguments, 1);}
+function xajax_check_validation(){return xajax.call("check_validation", arguments, 1);}
+function xajax_check_terms(){return xajax.call("check_terms", arguments, 1);}
+function xajax_refresh_validation_image(){return xajax.call("refresh_validation_image", arguments, 1);}
+function xajax_create_new_forum(){return xajax.call("create_new_forum", arguments, 1);}
+	</script>
+	<script type="text/javascript" src="mf_functions/xajax_js/xajax.js"></script>
+	<script type="text/javascript">
+window.setTimeout(function () { if (!xajaxLoaded) { alert('Error: the xajax Javascript file could not be included. Perhaps the URL is incorrect?\nURL: mf_functions/xajax_js/xajax.js'); } }, 6000);
+	</script>
+
+<body>
+<table width="100%" style="height:100% " border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td width="50%" style="background:url(images/bg.gif) right top repeat-y ">
+  <table width="100%" style="height:100%; background:url(images/bg_l.gif) right top repeat-y " border="0" cellspacing="0" cellpadding="0"><tr><td>&nbsp;</td></tr></table>
+  </td>
+    <td valign="top">
+	<TABLE WIDTH=660 style="height:100%; background:#ffffff " BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
+	<TR>
+		<TD WIDTH=660 HEIGHT=118 valign="top" style=" padding-top:0px "><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+           codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+           width="658" height="118">
+    <param name="movie" value="flash/header.swf"> 
+    <param name="quality" value="high">
+    <param name="menu" value="false">
+	<param name="wmode" value="transparent">
+    <!--[if !IE]> <-->
+    <object data="flash/header.swf"
+            width="658" height="118" type="application/x-shockwave-flash">
+     <param name="quality" value="high">
+     <param name="menu" value="false">
+	 <param name="wmode" value="transparent">
+     <param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer">
+     FAIL (the browser should render some flash content, not this).
+    </object>
+    <!--> <![endif]-->
+  </object></TD>
+	</TR>
+	<TR>
+		<TD WIDTH=660 HEIGHT=113 valign="top" style="background:url(images/head.gif) top left no-repeat; padding-top:5px ">
+		<table width="660" style="height:10px; margin-bottom:16px " border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="524" valign="top">
+	
+	<div style="margin-left:31px "><!-- SiteSearch Google -->
+<form method="get" action="http://www.tu-foro-gratis.com/buscador.php" target="_top">
+ 
+<table border="0" align="center" bgcolor="#A2BCD5">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32"> <img alt="" src="images/find.gif" class="abs" />&nbsp;&nbsp;&nbsp;<strong class="white t">B&Uacute;SQUEDA:</strong>
+
+</td>
+<td nowrap="nowrap">
+<input type="hidden" name="domains" value="tu-foro-gratis.com"></input>
+<label for="sbi" style="display: none">Introduzca los términos de búsqueda.</label>
+<input type="text" name="q" size="31" maxlength="255" value="" id="sbi"></input>
+<label for="sbb" style="display: none">Envíe el formulario de búsqueda</label>
+<input type="submit" name="sa" value="Búsqueda de Google" id="sbb"></input></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td nowrap="nowrap">
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" id="ss0">
+</input>
+<label for="ss0" title="Buscar en la web"><font size="-1" color="#000000">Web</font></label></td>
+<td>
+<input name="sitesearch" type="radio" id="ss1" value="tu-foro-gratis.com" checked="checked">
+</input>
+<label for="ss1" title="Buscar tu-foro-gratis.com"><font size="-1" color="#000000">tu-foro-gratis.com</font></label></td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-0837526089384640"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="channel" value="1363167556"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="flav" value="0001"></input>
+<input type="hidden" name="sig" value="GchJSAdzC65obv1I"></input>
+<input type="hidden" name="cof" value="GALT:#E1771E;GL:1;DIV:#FFFFFF;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:2D6E89;LC:2D6E89;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:11"></input>
+<input type="hidden" name="hl" value="es"></input></td></tr></table>
+</form>
+<!-- SiteSearch Google -->
+	 </div>	</td> 
+    <td width="136" valign="top"><strong class="blue"><br>
+&bull; <a href="http://www.tu-foro-gratis.com/preguntas.html" class="blue a">Ayuda</a></strong>	</td>
+  </tr>
+</table>
+<div align="center" class="gray_l"></div>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=660 HEIGHT=420 valign="top">
+		<table width="660" style="height:420px " border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="262" valign="top" style="background:url(images/px.gif) right repeat-y ">
+<table width="260" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" height="37" style="background:url(images/noticias.gif) top left no-repeat;  padding:10px 10px 10px 47px ">
+<strong style="color:#B9771C ">Noticias</strong></td>
+  </tr></table>
+<div style="margin-left:21px; margin-right:17px ">
+<br style="line-height:6px ">
+<img alt="" src="images/1im1.gif" align="left" style="margin-right:14px ">
+<strong class="orange">(22-09-2007)</strong><br>
+<div align="justify"><strong class="blue">Inauguración de nuestro portal</strong><br>
+Nos complace presentarles nuestro nuevo portal de hospedaje gratuito de foros phpbb. Siempre con la última tecnología. Ahora usted puede administrar su propio foro de discusión gratis.<br></div>
+<div style="height:1px; background-image:url(images/dot1.gif); margin-top:18px; margin-bottom:12px "><img alt="" src="images/spacer.gif"></div>
+<img alt="" src="images/1im2.gif" align="left" style="margin-right:14px "><strong class="orange">(22-09-2007)</strong><br>
+<div align="justify"><strong class="blue">300 estilos disponibles</strong><br>
+Hemos instalado 300 estilos de diseño gráfico. Ahora puede elegir que apariencia desea para su foro con tan solo unos clicks. Inclusive puede integrar su propio logotipo.<br></div>
+
+<br style="line-height:11px ">
+</div>
+<table width="262" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" height="37" style="background:url(images/topforos.gif) top left no-repeat; padding:10px 10px 10px 47px "><strong class="white">Foros Destacados</strong></td>
+  </tr></table>
+<br style="line-height:6px ">
+<div style="margin-left:22px;"><table width="225" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="116" valign="top">
+	<table border="0" cellspacing="0" cellpadding="1" style="background:#CCCCCC ">
+  <tr>
+    <td valign="top"><table width="107" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+  <tr>
+    <td height="86" valign="top" style="padding:1px 1px 2px 1px ">
+	
+			            <div align="center"><a href="http://heroesteam.tu-foro.net" title="Heroes Team" target="_blank"><img alt="" src="http://images.websnapr.com/?size=t&key=H9O3ngIix263&url=heroesteam.tu-foro.net" border="0"></a></div>
+	<br style="line-height:4px ">
+			&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; <a href="http://heroesteam.tu-foro.net" title="Heroes Team" target="_blank">heroesteam</a> <br />
+<em>(Usua: 69 - Mens: 6.297)</em><br />															<br />
+				</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<br style="line-height:9px ">
+<table border="0" cellspacing="0" cellpadding="1" style="background:#CCCCCC ">
+  <tr>
+    <td valign="top"><table width="107" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+  <tr>
+    <td height="86" valign="top" style="padding:1px 1px 2px 1px ">
+									            <div align="center"><a href="http://cristianosaldia.tu-foro-gratis.com" title="Cristianos al día" target="_blank"><img alt="" src="http://images.websnapr.com/?size=t&key=H9O3ngIix263&url=cristianosaldia.tu-foro-gratis.com" border="0"></a></div>
+	<br style="line-height:4px ">
+			&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; <a href="http://cristianosaldia.tu-foro-gratis.com" title="Cristianos al día" target="_blank">cristianosaldia</a> <br />
+<em>(Usua: 493 - Mens: 1.212)</em><br />									<br />
+					</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+	</td>
+    <td width="109" valign="top">
+<table border="0" cellspacing="0" cellpadding="1" style="background:#CCCCCC ">
+  <tr>
+    <td valign="top"><table width="107" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+  <tr>
+    <td height="86" valign="top" style="padding:1px 1px 2px 1px ">
+							            <div align="center"><a href="http://perezososargentinos.tu-foro-gratis.com" title="*Club de Fans de Pereza en Argentina*" target="_blank"><img alt="" src="http://images.websnapr.com/?size=t&key=H9O3ngIix263&url=perezososargentinos.tu-foro-gratis.com" border="0"></a></div>
+	<br style="line-height:4px ">
+			&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; <a href="http://perezososargentinos.tu-foro-gratis.com" title="*Club de Fans de Pereza en Argentina*" target="_blank">perezososargentinos</a> <br />
+<em>(Usua: 190 - Mens: 2.699)</em><br />												<br />
+				</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<br style="line-height:9px ">
+<table border="0" cellspacing="0" cellpadding="1" style="background:#CCCCCC ">
+  <tr>
+    <td valign="top"><table width="107" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+  <tr>
+    <td height="86" valign="top" style="padding:1px 1px 2px 1px ">												            <div align="center"><a href="http://dm.tu-foro.net" title="Dioses de la Muerte" target="_blank"><img alt="" src="http://images.websnapr.com/?size=t&key=H9O3ngIix263&url=dm.tu-foro.net" border="0"></a></div>
+	<br style="line-height:4px ">
+			&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; <a href="http://dm.tu-foro.net" title="Dioses de la Muerte" target="_blank">dm</a> <br />
+<em>(Usua: 53 - Mens: 893)</em><br />						<br />
+				</td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+	</td>
+  </tr>
+</table>
+</div>
+<br style="line-height:6px ">
+<table width="260" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top" height="37" style="background:url(images/estadisticas.gif) top left no-repeat; padding:10px 10px 10px 47px "><strong class="white">Estadísticas del sitio</strong></td>
+  </tr></table>
+  <div style="margin-left:22px;"><table width="116" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="116" valign="top"><br style="line-height:9px ">
+<table width="225" border="0" cellspacing="0" cellpadding="0">
+
+</table>
+
+<table border="0" cellspacing="0" cellpadding="1" style="background:#CCCCCC ">
+  <tr>
+    <td valign="top"><table width="220" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+      <tr>
+        <td height="86" valign="top" style="padding:1px 1px 2px 1px "><a href="#"><img src="images/img_estadisticas.jpg" alt="" width="100%" height="54" border="0" /></a><br />
+              <br />
+        
+
+          
+          <span class="orange">&nbsp;&raquo; Total de foros hospedados: 720<br />
+            &nbsp;&raquo; Total de miembros en los foros: 17.071<br />
+            &nbsp;&raquo; Total de mensajes en todos los foros: 117.259<br />
+            &nbsp;&raquo; Total de dominios disponibles: 11<br />
+            &nbsp;&raquo; Total de categorias disponibles: 17</span><br /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table></td>
+    </tr>
+</table>
+</div>
+	</td>
+    <td width="398" valign="top">
+       			 
+   
+      <table width="398" border="0">
+        <tr>
+          <td> <div id="mf_content">
+			<table width="398" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" height="37" style="background:url(images/crear.gif) top left no-repeat; padding:9px 10px 5px 47px "><strong class="white">Crear un foro gratis</strong></td>
+  </tr>
+</table>
+<form action="javascript:void(null);" id="mf_form" name="mf_form"  method="post" onsubmit="create_new_forum();">
+
+<div align="justify" style="margin-left:5px ; margin-right:5px " ><br />
+  Usted se encuentra a tan solo un paso de crear su foro gratis. Por favor llene el siguiente formulario. El nombre de su foro es el que aparecera en la dirección url de su foro. Introduzca una dirección de correo electrónico válida ya que recibirá un correo de activación. <br />
+  <br />
+</div>
+<table width="100%" cellpadding="2" cellspacing="1" border="0">
+<tr>
+		<th colspan="2">Configuración Básica</th>
+	</tr>
+	<tr>
+		<td align="right" valign="top" class="row2">Nombre para su foro:</td>
+	  <td width="275" class="row2"><input name="board_name" type="text" id="board_name" onblur="xajax_check_board_name(xajax.getFormValues('mf_form'))" value="" size="10" maxlength="50" />
+	  .	  <select name="sel_domain" onchange="xajax_check_board_name(xajax.getFormValues('mf_form'))"><option value='1'>tu-foro-gratis.com</option><option value='2'>tu-foro.net</option><option value='3'>foros-gratis.us</option><option value='4'>hispa-foros.com</option><option value='5'>hispaforos.net</option><option value='6'>mundo-foros.com</option><option value='7'>mundo-foros.net</option><option value='8'>planeta-foros.com</option><option value='9'>planetaforos.net</option><option value='10'>super-foros.com</option><option value='11'>super-foros.net</option></select>			&nbsp;&nbsp;<span id="board_name_check" class="bold_green"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/dominio.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+		<div id="board_name_message" class="error_message"></div>
+			<!--Verificar disponibilidad-->		</td>
+	</tr>
+	<tr>
+		<td align="right" class="row2">Título del foro:</td>
+<td width="275" class="row2"><input type="text" id="board_title" name="board_title" value="" maxlength="255" onblur="xajax_check_board_title(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="board_title_check" class="bold_green"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/titulo.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+			<div id="board_title_message" class="error_message"></div></td>
+	</tr>
+	<tr>
+		<td align="right" class="row2">Seleccionar Idioma:</td>
+		<td width="275" class="row2"><select name="language"><option value="english">English</option><option value="spanish" selected="selected">Spanish</option></select> </td>
+	</tr>
+	<tr>
+		<td align="right" class="row2">Categor&iacute;a: </td>
+<td width="275" class="row2">
+		<select name="board_category" id="board_category">
+								<option value='1'>Artes y humanidades</option>
+								<option value='2'>Negocios y Econom&iacute;a</option>
+								<option value='3'>Computadoras e Internet</option>
+								<option value='4'>Educaci&oacute;n</option>
+								<option value='5'>Entretenimiento</option>
+								<option value='6'>Familia</option>
+								<option value='7'>Juegos</option>
+								<option value='8'>Gr&aacute;ficos y Dise&ntilde;o</option>
+								<option value='9'>Salud</option>
+								<option value='10'>M&uacute;sica</option>
+								<option value='11'>Recreaci&oacute;n y Deportes</option>
+								<option value='12'>Ciencia y Tecnolog&iacute;a</option>
+								<option value='13'>Mec&aacute;nica</option>
+								<option value='14'>Off Road</option>
+								<option value='15'>Telecomunicaciones</option>
+								<option value='16'>Motores</option>
+								<option value='17'>Politica y Gobierno</option>
+							</select></td>
+	</tr>
+	<tr>
+		<th colspan="2"><br />
+	    Configuraci&oacute;n del Administrador</th>
+	</tr>
+	<tr>
+		<td align="right" class="row2">Nombre de usuario Administrador: </td>
+<td width="275" class="row2"><input type="text" id="board_admin" name="board_admin" value="" onblur="xajax_check_board_admin(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="board_admin_check"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/admin.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+			<div id="board_admin_message" class="error_message"></div></td>
+	</tr>
+		<tr>
+		<td align="right" class="row2">Password: </td>
+  <td width="275" class="row2"><input type="password" name="pass1" id="pass1" value="" onblur="xajax_check_pass(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="pass1_check"></span>
+	  <div id="pass1_message" class="error_message"></div></td>
+	</tr>
+	<tr>
+		<td align="right" class="row2">Confirmar Password: </td>
+  <td width="275" class="row2"><input type="password" name="pass2" id="pass2" value="" onblur="xajax_check_pass(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="pass2_check"></span>
+	  <div id="pass2_message" class="error_message"></div></td>
+	</tr>
+		<tr>
+		<td align="right" class="row2">Su  correo electr&oacute;nico: </td>
+<td width="275" class="row2"><input type="text" name="email" id="email" maxlength="50" value="" onblur="xajax_check_email(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="email_check"></span>
+	  <div id="email_message" class="error_message"></div></td>
+	</tr>
+		<tr>
+		<th colspan="2"><br />
+	    Optimizacion para Motores de Búsqueda (SEO)</th>
+	</tr>
+		<tr>
+		<td align="right" class="row2">Palabras clave del foro: </td>
+<td width="275" class="row2"><input type="text" id="keywords" name="keywords" value="" maxlength="100" onblur="xajax_check_keywords(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="keywords_check"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/palabras_clave.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+			<div id="keywords_message" class="error_message"></div></td>
+	</tr>
+			<tr>
+		<td align="right" class="row2">Descripción del foro: </td>
+<td width="275" class="row2"><input type="text" id="description" name="description" value="" maxlength="255" onblur="xajax_check_description(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="description_check"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/descripcion.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+			<div id="description_message" class="error_message"></div></td>
+	</tr>
+			<tr>
+		<td align="right" class="row2">Resumen del foro: </td>
+<td width="275" class="row2"><input type="text" id="abstract" name="abstract" value="" maxlength="100" onblur="xajax_check_abstract(xajax.getFormValues('mf_form'))" />
+			&nbsp;&nbsp;<span id="abstract_check"></span><a href="javascript:openFrameless('http://www.tu-foro-gratis.com/ayuda/resumen.html')" title="Pop window"><img src="http://www.tu-foro-gratis.com/images/help.gif" border="0" /></a>
+			<div id="abstract_message" class="error_message"></div></td>
+	</tr>
+				<tr>
+		<td align="right" valign="bottom" class="row2">Código de validación:</td>
+<td width="275" class="row2"><img src="mf_functions/img.php?id=0O7IGX9OZUL76M6d0DnoBrXnXUQhgawM" name="validation_image" border="1" align="absmiddle" id="validation_image" /><br />
+					<a href="#" name="refresh_image" id="refresh_image" style="font-size: 9px;" onclick="javascript:xajax_refresh_validation_image(xajax.getFormValues('mf_form')); return false;">Recargar la imágen</a><br />
+			<br />
+					<input name="PSnYBd6kt4xoCPeOxOnYxuKB5CNX02cf" type="text" id="txtNumber" value="" maxlength="6" onblur="xajax_check_validation(xajax.getFormValues('mf_form'))" />
+			&lt;--MAY&Uacute;SCULAS&nbsp;<span id="validation_check"></span>
+	        <div id="validation_message" class="error_message"></div></td>
+	</tr>
+	<tr>
+	  <td colspan="2" align="right" valign="bottom" class="row2"><div align="justify" class="error_message">
+	    <p>IMPORTANTE: Si el proveedor de correo que usted est&aacute;  utilizando es muy severo filtrando su correo no deseado, por ejemplo  hotmail.com, puede que usted no reciba su email de activaci&oacute;n. Para evitar este  inconveniente por favor agregue las siguientes direcciones a su lista de correo  deseado o remitentes confiables: <br />
+	      <br />
+	      <strong>webmaster@tu-foro-gratis.com<br />
+            webmaster@server1.tu-foro-gratis.com</strong> <br />
+            <br />
+            HAGA ESTO ANTES DE PRESIONAR EL BOTON  &quot;CREAR MI FORO&quot;</p>
+	  </div></td>
+    </tr>
+			<tr>
+		<td class="row2" colspan="2" align="center"><label>
+			<input type="checkbox" id="agree_terms" name="agree_terms" value="1" onblur="xajax_check_terms(xajax.getFormValues('mf_form'));" />
+			Chequeando esta casilla  usted acepta nuestros <a href="terms.html" target="_blank">t&eacute;rminos de servicio</a></label>
+			&nbsp;&nbsp;<span id="terms_check"></span>
+			<div id="terms_message" class="error_message"></div></td>
+	</tr>
+		<tr>
+		<td class="catBottom" align="center" colspan="2"><div align="right"><br />
+	  <input type="submit" id="submit" name="submit" value="Crear mi foro" />
+	  </div></td>
+	</tr>
+</table>
+</form>
+			</div></td>
+        </tr>
+      </table>
+      <div style="margin-left:16px "></div>
+      
+      <br />
+      <table width="398" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" height="36" style="background:url(images/ultimos.gif) top left no-repeat; padding:10px 10px 5px 47px ">
+<strong class="white">&Uacute;ltimos foros</strong></td>
+  </tr></table>
+<br style="line-height:1px ">
+<div style="margin-left:15px ">
+<table width="362" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="126" valign="top" class="orange_d" style="line-height:14px ">
+       
+         <span class="orange_d" >&bull;</span> <a href="http://gatito.tu-foro-gratis.com" title="Gatito" target="_blank">gatito </a>(Usua: 1 - Mens: 1)<br />
+                 <span class="orange_d" >&bull;</span> <a href="http://rolyfantasia.tu-foro-gratis.com" title="rol y fantasia" target="_blank">rolyfantasia </a>(Usua: 1 - Mens: 1)<br />
+                 <span class="orange_d" >&bull;</span> <a href="http://everest.hispaforos.net" title="Everest" target="_blank">everest </a>(Usua: 1 - Mens: 0)<br />
+                 <span class="orange_d" >&bull;</span> <a href="http://deportestotal.mundo-foros.com" title="deportes-total/index.php.com" target="_blank">deportestotal </a>(Usua: 3 - Mens: 2)<br />
+                 <span class="orange_d" >&bull;</span> <a href="http://zonaolympista.tu-foro-gratis.com" title="Zona Olympista" target="_blank">zonaolympista </a>(Usua: 12 - Mens: 35)<br />
+                                                              
+        <br>            </td>
+    <td width="126" valign="top" class="orange_d" style="line-height:14px ">
+       
+                                                      <span class="orange_d" >&bull;</span> <a href="http://clansp.tu-foro.net" title="clan de film de samp" target="_blank">clansp </a>(Usua: 1 - Mens: 1)<br />         <span class="orange_d" >&bull;</span> <a href="http://enlinea.tu-foro-gratis.com" title="todosenlinea" target="_blank">enlinea </a>(Usua: 3 - Mens: 1)<br />         <span class="orange_d" >&bull;</span> <a href="http://clanzen.tu-foro-gratis.com" title="club belico" target="_blank">clanzen </a>(Usua: 1 - Mens: 1)<br />         <span class="orange_d" >&bull;</span> <a href="http://diarrea.tu-foro-gratis.com" title="aaaaaaaaaaaaaaaaaaaa" target="_blank">diarrea </a>(Usua: 1 - Mens: 4)<br />         <span class="orange_d" >&bull;</span> <a href="http://sanidadexterior.mundo-foros.com" title="Sanidad Exterior - AGE España" target="_blank">sanidadexterior </a>(Usua: 1 - Mens: 0)<br />         
+        <br>            </td>
+    </tr>
+</table>
+
+</div>	
+<br />
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top" height="37" style="background:url(images/dominios.gif) top left no-repeat; padding:10px 10px 10px 47px "><strong class="blue">Dominios Disponibles</strong></td>
+      </tr>
+    </table>
+      <br />
+      <div style="margin-left:10px; margin-right:10px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellpadding="1" cellspacing="0" style="background:#CCCCCC ">
+      <tr>
+        <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+          <tr>
+            <td width="100%" height="86" valign="top" style="padding:1px 1px 2px 1px "><a href="#"><img src="images/img_dominios.jpg" alt="" width="100%" height="54" border="0" /></a><br />
+                    <br style="line-height:4px " />
+              			</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; tu-foro-gratis.com</span><span class="orange_d"><br />
+						</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; tu-foro.net</span><span class="orange_d"><br />
+						</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; foros-gratis.us</span><span class="orange_d"><br />
+						</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; hispa-foros.com</span><span class="orange_d"><br />
+						</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; hispaforos.net</span><span class="orange_d"><br />
+						</span><span class="orange">&nbsp;<img alt="" src="images/arr.gif" class="abs">&nbsp; mundo-foros.com</span><span class="orange_d"><br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="get-free-forum.html" style="font-style: italic">Mas...</a>
+			<br />
+			 <br />
+</span></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+        <br style="line-height:9px " /></td>
+    </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+</div></td>
+    <td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top" height="37" style="background:url(images/aleatorio.gif) top left no-repeat; padding:10px 10px 10px 47px "><strong class="blue">Foros Aleatorios</strong></td>
+      </tr>
+    </table>
+      <br />
+      <div style="margin-left:5px; margin-right:15px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" valign="top"><table width="100%" border="0" cellpadding="1" cellspacing="0" style="background:#CCCCCC ">
+      <tr>
+        <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#F4F4F4 ">
+          <tr>
+            <td height="86" valign="top" style="padding:1px 1px 2px 1px "><a href="#"><img src="images/img_aleatorio.jpg" alt="" width="100%" height="54" border="0" /></a><br />
+                    <br style="line-height:4px " />
+			</span></span></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+        <br style="line-height:9px " /></td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+</div></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=660 HEIGHT=69 valign="top" style="background:url(images/bottom.gif) top left no-repeat; padding-top:16px " class="copy">
+		<div align="center">
+<a href="/">Inicio</a> | <a href="get-free-forum.html">Registrarse</a> | <a href="board_directory.html">Directorio de foros</a> | <a href="terms.html">Términos de servicio</a></div>
+		<br style="line-height:3px ">
+		<div align="center" class="bot_txt">Copyright &copy; 2007 Tu-Foro-Gratis.com. Todos los derechos reservados.
+		Powered by <a href="http://www.echophp.com" target="_blank">echoPHP phpBB MultiForums</a><br />
+		<a href="http://www.eduardodecastro.com">Dise&ntilde;o Gr&aacute;fico por Eduardo De Castro</a></div>
+		</TD>
+	</TR>
+	<tr><td style="height:100% "></td></tr>
+</TABLE>
+	</td>
+	<td width="50%" style="background:url(images/bg1.gif) left top repeat-y ">
+  <table width="100%" style="height:100%; background:url(images/bg_r.gif) left top repeat-y " border="0" cellspacing="0" cellpadding="0"><tr><td>&nbsp;</td></tr></table>
+  </td>
+  </tr>
+</table><br />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+</html>

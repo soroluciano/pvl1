@@ -1,0 +1,1002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1069&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1069&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Inner Game para 2days</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="inner-game-para-2days-vt1069.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Inner Game para 2days</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1069"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1069.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1069.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="inner-game-para-2days-vt1069.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Inner Game para 2days</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7107"></a>Almost</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186111902747bf195317382.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Feb 2008<br />Mensajes: 334<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7107.html#7107"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Inner Game para 2days</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7107"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Bueno, así trabaja mi cabeza cuando tengo un 2day. Pensar las cosas de esta forma me ayudó mucho. Acá lo comparto.
+<br />
+
+<br />
+Algunos cosas a tener en cuenta en un 2day, especialmente sobre IG
+<br />
+
+<br />
+<span style="font-weight: bold">1) SALIR CON LA IDEA FIFA O NO SALIR CON LA IDEA FIFA? </span>
+<br />
+
+<br />
+Bueno, yo he dudado mucho sobre si cuando uno sale con una mina es mejor estar convencido de que la va a poner o si es mejor estar tranquilo y salir a disfrutar y no estar mentalizandose de que si o si hay que ponerla. 
+<br />
+
+<br />
+Leí mucho sobre eso, y también experimente distintas posturas.
+<br />
+
+<br />
+Y la verdad, no tengo una respuesta única.
+<br />
+
+<br />
+<span style="font-weight: bold">En mi caso yo me mentalizo en unn 2day donde pueda tener una buena charla, pero sabiendo que si logro eso voy a conseguir lo otro. </span>
+<br />
+
+<br />
+Yo no voy con la paja en la cabeza de que hoy cojo. Yo pienso &quot;espero que la mina sea copada para charlar&quot;, y si eso pasa, lo demas va a fluir solo. Si hay conexión, todo lo que viene despues llega solo. 
+<br />
+
+<br />
+<span style="font-weight: bold">Yo prefiero dejar que las cosas fluyan y no ponerme la presion de que tengo que coger si o si, porque si vamos a los hechos eso pasa el 20% (por decir un numero) de las veces en un 2day, asique ............por que deberia tener esa presión?</span>
+<br />
+
+<br />
+<span style="font-weight: bold">2) CONVERSACION</span>
+<br />
+
+<br />
+Muchas veces pensamos que tenemos que generar conversación. 
+<br />
+
+<br />
+Eso, diria swinggcat o Juggler, es falta de autoestima porque creemos que no podemos ponerla incomoda generando silencios. 
+<br />
+
+<br />
+Pero sucede que a ellas tambien les  pasa por lo mismo. Ellas también sienten la presión de que tienen que generar conversación.
+<br />
+
+<br />
+<span style="font-weight: bold">Entonces, es preferible permanecer callado cómodamente antes que hablar boludeces para rellenar especios y sea ella quien se esfuerze en conversar.</span>
+<br />
+
+<br />
+3) COMO SALE EL FCLOSE?
+<br />
+
+<br />
+<span style="font-weight: bold">Si despues de la conversación, todo estuvo bien y hubo rapport, confort, etc, uno mismo siente ganas de seguir conversando con la mina. Uno NO debe sentir &quot;no me la banco más pero me la quiero garchar&quot;. </span>
+<br />
+
+<br />
+Con esa idea en la cabeza, es muy dificil lograr la conexión necesaria, la complicidad. Ella va a percibir que uno solo quiere acostarse con ella por el sexo. Ella debe sentir que hay conexión, y eso debe nacer de uno mismo.
+<br />
+
+<br />
+<span style="font-weight: bold">Estadísticamente si no logro conexión con una mujer, practicamente no logro tener sexo.</span>
+<br />
+
+<br />
+
+<br />
+
+<br />
+Saludos,
+<br />
+ALMOST<br /><br />_________________<br />PNL cambia creencias, Man!!
+<br />
+
+<br />
+Es bueno saber qué se quiere y que se quiere<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Feb 22, 2008 7:00 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm250.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=250"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7112"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1444<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7112.html#7112"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7112"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Pero sucede que a ellas tambien les pasa por lo mismo. Ellas también sienten la presión de que tienen que generar conversación. </td>	</tr></table></center>
+<br />
+totalmente de acuerdo. aca lo habia leido un avez en el foro en una discusion acerca de phone game... la mina quiero estar con vos y no quiere perderte, solo tenes que darle lugar a qu hable... y ella esta mucho mas acostumbrada a que el hombre empieze a hablar... pro tanto e sbueno ir pasando del 90/10 que dice juggler, al 50/50.
+<br />
+
+<br />
+yo estoy aplicando estop recien ahora y la verdad es algo que te damas valia y al menso a mi me permite estar seguro de que todo va a ir bien.
+<br />
+
+<br />
+respectoa lo de la conexion, creo es mejor sacarse la idea de que tiene que haberla para flcose. no todas las minas pueden llegar a pensar asi y si tene suna creencia de que es asi, eso puede anular algun estad interno tuyo que te permita ser congruente con salir a decirle que queres llevartela ya a la cama.
+<br />
+
+<br />
+pro el momento estoy laburando con esto asi que no quiero certificarlo dle todo, pero si tu estadon interno te dice que queres estar con ella, por mas que ella no este en la misma sintonia, si tu frame es real y le sos fiel, por mas que la mina te diga no, se va a enganchar y la proxima sera si.
+<br />
+
+<br />
+cool man, buena data<br /><br />_________________<br />&quot;When I'm on the road, I'm indestructible. No one can stop me... but they try.&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Feb 22, 2008 12:39 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7162"></a>zimzum</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.img-share.com/thumb/997.jpeg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 640<br />Ubicación: Capital</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7162.html#7162"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7162"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">bueno, tenemos alguien que sabe de esto!!!... 
+<br />
+
+<br />
+el valor de los silencios... el valor de mostrarte distante... algo valiosisimo...<br /><br />_________________<br />We have made the present obsolete.
+<br />
+What do you want?
+<br />
+What do you need?
+<br />
+We'll find a way,
+<br />
+When all hope is gone<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Feb 22, 2008 11:42 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm43.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=43"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=43"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>     </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7190"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2791<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7190.html#7190"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7190"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Me parece q la complican mucho, yo trato de estar alegre o feliz, nada más.
+<br />
+
+<br />
+Como ya sé lo que quiero con la minita le pregunto a ella qué quiere saber de mí, yo le hago las preguntas correspondientes, pero no me presiono para hablar todo el tiempo ni de conocerla a fondo. Creo q esto último se da naturalmente.
+<br />
+
+<br />
+La verdad, a mi no me gusta hablar demasiado con una minita. No me interesa.
+<br />
+
+<br />
+Me parece q genera más conexión un silencio... mirarla fijo a los ojos... hacerla poner colorada <img src="images/smiles/icon_redface.gif" alt="Embarassed" border="0" /> y sonreírle <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+Si no quiero hablar con ella no hablo. Punto.
+<br />
+
+<br />
+Y creo q besarla es la mejor forma de conectar con ella, hacerla sentir querida, acariciarla, decirle q está divina, darle órdenes (acariciame, poné la mano acá, abrazame, dame un beso, etc.)
+<br />
+
+<br />
+<span style="font-weight: bold">EL PEOR ERROR QUE PODÉS HACER ES DECIRLE TE AMO / TE QUIERO EN LAS PRIMERAS CITAS</span>
+<br />
+
+<br />
+(está fieldtesteado jajajajajajajajajajj)
+<br />
+
+<br />
+Si es una minita, con la cual yo quería algo totalmente sexual, pongo las cosas más hot de lo normal y listo.
+<br />
+
+<br />
+Para mí hay q preguntar lo que uno quiere saber de ella. Si ella quiere saber algo sobre vos, contáselo (si es algo q no le querés contar no le mentís, le decís q no querés hablar de ese tema y listo).
+<br />
+
+<br />
+La confianza se genera con la sinceridad.
+<br />
+
+<br />
+No veo la razón por la cual pensar &quot;me la garcho hoy&quot; o &quot;me la garcho después&quot;. No pienses directamente, hacé lo que vos querés.
+<br />
+
+<br />
+Si la querés conocer, conocela. Si querés saber algo de ella, preguntáselo. Si te la querés garchar, deciselo.
+<br />
+
+<br />
+Si te dice:
+<br />
+
+<br />
+&gt;aaayyy pero es muy pronto!!!
+<br />
+
+<br />
+Ok, tenés razón... y ahora?? y ahora?? y ahora??
+<br />
+
+<br />
+&gt;antes quiero conocerte mejor
+<br />
+
+<br />
+Ok, qué querés saber de mí?
+<br />
+
+<br />
+Hacé lo q se te canten los huevos. Cuando tratás de seguir un esquema o algo para hacer &quot;lo correcto&quot; estás siendo falso y no vas a conseguir el mismo nivel de confianza q cuando sos totalmente honesto.
+<br />
+
+<br />
+A mi me genera más incomodidad una charla larga y sin fin q estar besándomela 2 horas en una plazita (te deja hecho mierda eso jajajaj).
+<br />
+
+<br />
+Otra cosa... me parece más productivo jugar al pool con la minita o hacer algo competitivo y divertido q ir a un café a hacer nada y cagarte aburriendo.
+<br />
+
+<br />
+La verdad, q si el 2day te aburre a vos, la va a aburrir a ella también.
+<br />
+
+<br />
+Llevala al paintball y cagala a tiros; llevala a los fichines; llevala a pasear en auto por lugares lindos; llevala a jugar al tenis; llevala a tomar cerveza y escuchar heavy metal... pero por favor no la lleves ni a tomar un café ni a ver una peli. Y menos esto último en una primera cita (también está fieldtesteado jajajajajjajaj).<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 4:17 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7193"></a>Almost</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186111902747bf195317382.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Feb 2008<br />Mensajes: 334<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7193.html#7193"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7193"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Si hay algo que aprendí en los foros es que cada persona tiene un estilo diferente y muy probablemente aunque uno lo crea muy loco, le funcione.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+Si te la querés garchar, deciselo. 
+<br />
+
+<br />
+Si te dice: 
+<br />
+
+<br />
+&gt;aaayyy pero es muy pronto!!! 
+<br />
+
+<br />
+Ok, tenés razón... y ahora?? y ahora?? y ahora?? 
+<br />
+
+<br />
+&gt;antes quiero conocerte mejor 
+<br />
+
+<br />
+Ok, qué querés saber de mí? 
+<br />
+
+<br />
+Hacé lo q se te canten los huevos.</td>	</tr></table></center>
+<br />
+
+<br />
+
+<br />
+Decirle a una mina que querés garchar es romper PD (plausible deniability) y eso levanta sus defensas. Evidentemente tenemos estilos diferentes. Pero si así te está funcionando, JOYA!! 
+<br />
+
+<br />
+Yo rompo PD solo cuando la resistencia es demasiada, entonces ahí blanqueo mis intenciones. Si no ofrece resistencia, eso se da solo sin que en ningún momento tenga que decirle &quot;Vamos a garchar&quot;.
+<br />
+
+<br />
+Go on!!!!
+<br />
+
+<br />
+EDIT: Estuve leyendo algunos FR y hay un par que usan ese estilo de juego. Quedé asombrado!<br /><br />_________________<br />PNL cambia creencias, Man!!
+<br />
+
+<br />
+Es bueno saber qué se quiere y que se quiere<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 6:32 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm250.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=250"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7213"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 586<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7213.html#7213"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7213"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Almost escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Decirle a una mina que querés garchar es romper PD (plausible deniability) y eso levanta sus defensas. Evidentemente tenemos estilos diferentes. Pero si así te está funcionando, JOYA!! 
+<br />
+...
+<br />
+EDIT: Estuve leyendo algunos FR y hay un par que usan ese estilo de juego. Quedé asombrado!</td>	</tr></table></center>
+<br />
+las minitas no tienen ninguna defensa una vez que les comunicaste claramente que para vos no esta mal garchar en la primera &quot;cita&quot;, en la segunda o &quot;en un rato cuando estemos en casa&quot;. 
+<br />
+
+<br />
+el problema del ASD existe porque los tipos tienen prejuicios y/o inseguridades que se les hacen evidentes a ellas. me acuerdo un FR del dandy creo que un tipo habia ido hasta la puerta del telo con la minita y ella le dijo no, y el dijo &quot;ok, en realidad te estaba probando a ver si eras facil&quot;. jajajaj obvio, a partir de ahi ella se hizo la dificil, PORQUE EL SE LO PIDIO!
+<br />
+
+<br />
+y este concepto de PD es igual de problematico. si vos pensas que una minita que sale con vos no tiene en la cabeza irse a la cama con vos, lo vas a transmitir de todas las maneras imaginables. si pensas que una minita que habla abiertamente de sexo y/o se va a la cama cuando se convencio que no sos un asesino serial (aunque eso le tome 15 minutos o 1 o 2 horas) es una minita &quot;facil&quot;, tambien lo vas a transmitir, y eso es lo que te vas a encontrar por todos lados.
+<br />
+
+<br />
+el ASD y el PD son dos conceptos armados por tipos que claramente no tienen ni idea de como funciona la mente de una mujer. no digo que no sepan manejarse con una mujer, pero una vez que las empezas a conocer como son de verdad, te das cuenta que estas dos cosas son ridiculas y solamente se las encuentran los tipos que creen en ellas y/o los que todavia piensan que hay minas &quot;faciles&quot; y minas &quot;santas&quot; jajajaaaa
+<br />
+
+<br />
+si lo pensas al reves, te irias a la cama al toque con una mina que dice algo como &quot;si la primera vez que me encamo con un chabon no me hace acabar quiere decir que es puto e impotente&quot; ? o quizas tendrias tus dudas y darias algunas vueltas como para saber si lo dice en serio, si lo andaria contando por ahi, etc, en definitiva, te la encamarias de una o tratarias de saber si de verdad va a pensar mal de vos despues de ir a la cama?
+<br />
+
+<br />
+a quien le gusta relacionarse con alguien que piensa mal de el/ella?<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 7:34 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7217"></a>Creed</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/82195990847dee5581b279.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Oct 2007<br />Mensajes: 986<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7217.html#7217"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7217"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Almost escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Decirle a una mina que querés garchar es romper PD (plausible deniability) y eso levanta sus defensas. Evidentemente tenemos estilos diferentes. Pero si así te está funcionando, JOYA!!</td>	</tr></table></center>
+<br />
+
+<br />
+También es ser sincero con vos mismo. Por cierto, ¿Leiste alguna vez mode one?. No es solo ser sincero con vos mismo y demas, estamos hablando de no darle posibilidad de jugar con vos tambien (jugar con vos me refiero a que te boludee y things like that). Hasta ahora (tambien creo que en parte es suerte), desde que estoy siendo sincero no vi ningun caso de ASD ni PD, ya que vos decis &quot;A&quot; y ella te dice &quot;si&quot; o &quot;no&quot; <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+
+<br />
+salu2!<br /><br />_________________<br /><a href="http://www.mrcreed.com.ar" target="_blank">http://www.mrcreed.com.ar</a>
+<br />
+
+<br />
+Say what I want 'cause I know how to back it up
+<br />
+a cyko like me just straight don't give a fuck<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 7:49 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm4.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=4"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=4"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a> <a href="http://www.mrcreed.com.ar" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm4.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7223"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1444<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7223.html#7223"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7223"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Si te la querés garchar, deciselo.
+<br />
+
+<br />
+Si te dice:
+<br />
+
+<br />
+&gt;aaayyy pero es muy pronto!!!
+<br />
+
+<br />
+Ok, tenés razón... y ahora?? y ahora?? y ahora??
+<br />
+
+<br />
+&gt;antes quiero conocerte mejor
+<br />
+
+<br />
+Ok, qué querés saber de mí?
+<br />
+
+<br />
+Hacé lo q se te canten los huevos.</td>	</tr></table></center>
+<br />
+concuerdo mucho, los st son algo que tienen una forma de reducirlo para ser utilizado por la mente masculina (o sera la mente sargeadora desentrenada o no astuta).
+<br />
+
+<br />
+una vuelta tire el ejemplo del st de un fr de kid, el de &quot;esta mi mama&quot;, la frase no dice nada... solo dice &quot;no&quot;... si vos solo decis &quot;si&quot; (seguis)... ya esta. el &quot;hay gente en el colectivo&quot; (de tu fr) o el &quot;esos no son tus amigos?&quot; (de un fr que no postee, mia que me dijo eso cuando estaba bailando con ella, mi pensamiento fue... &quot;la estoy pasando bien, me quedo, mi respuesta fue &quot;si&quot; y me quede jajjajajjaja)&quot;... dicen no, vos solo decis si y chau
+<br />
+
+<br />
+la misma actitud dice un &quot;eso que decis es cualquiera&quot;.
+<br />
+
+<br />
+habria que ver si la elaborada tiene algun efecto adicional de persuacion, pero de tener que reaccionar rapido, es muy util.
+<br />
+
+<br />
+el subtexto sintetico de un st es no y la respuesta solo deberia ser un si... en el idioma que sea (BL, accion, texto).
+<br />
+
+<br />
+los de culpa, onda &quot;que, mi amiga te parece fea?&quot; o de &quot;soy el premio&quot; (si es A--&gt;B), los solucionaria con una cejita para arriba.
+<br />
+
+<br />
+hay otros miles y seguramente no sirvan para todos, pero creo en mente tendria solo esos 2, el &quot;si&quot;, en sus variadas formas (apretar el acelerador) y la cejita... los complicados se resuelven con el &quot;a que viene eso?&quot; y el &quot;se claro&quot;
+<br />
+
+<br />
+asi que rtas a st:
+<br />
+1) seguir (no dar cabida, es si en sus variadas formas)
+<br />
+2) (cejita) (el de que hablas willys) o &quot;eh?&quot;
+<br />
+3) &quot;a que viene eso?&quot; (el &quot;tu frase no em dijo nada&quot;) version mas amplia del &quot;y el punto es...&quot;
+<br />
+4) &quot;se claro&quot;
+<br />
+
+<br />
+la gente y mas las minas, son emocionales ante esto, no saben si lo que dijeron esta bien, solo saben que tienen miedo o pudieron haberse equivocado... no hay tiempo para pensarlo.
+<br />
+
+<br />
+si alguien me tira uno que no entra en estos y me caga... le pateo el orto jajajjajaj
+<br />
+
+<br />
+Tengo Novio --&gt; 3
+<br />
+Me comprás un Trago?--&gt; 2
+<br />
+Hay porque te peinas asi?? --&gt; 2
+<br />
+Hola Mi Amiguito Preferido--&gt; 4
+<br />
+No te gusta como me maquillo... a mi novio le encanta--&gt; 3
+<br />
+me encantan los hombres musculosos y con buenos abdominales--&gt; 3
+<br />
+
+<br />
+PD: juro que nunca lei el metamodelo jajjajajajaj
+<br />
+PD2: estoy por sacar mi libro &quot;sarge para nabos&quot; jajajjajaja, garantia de incorporacion en 1 mes<br /><br />_________________<br />&quot;When I'm on the road, I'm indestructible. No one can stop me... but they try.&quot;<span class="gensmall"><br /><br />Ultima edición por Alive el Sab Feb 23, 2008 9:10 pm; editado 6 veces</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 8:49 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="7224"></a>Almost</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186111902747bf195317382.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Feb 2008<br />Mensajes: 334<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp7224.html#7224"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=7224"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">si vos pensas que una minita que sale con vos no tiene en la cabeza irse a la cama con vos</td>	</tr></table></center>
+<br />
+
+<br />
+Todas las mujeres gustan del sexo. Esa creencia la tengo bien instalada en mi cabeza, y con eso me manejo. De ahí a como uno la induzca a lo que ella quiere es otra cosa. Me parece que ahí entra la calibración. No me ayudaría incorporar eso a mi game (Decirle a cada mina con la que salgo que me quiero acostar con ella)
+<br />
+
+<br />
+Ojo, que yo abrí el post con esta frase
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">En mi caso yo me mentalizo en unn 2day donde pueda tener una buena charla, pero sabiendo que si logro eso voy a conseguir lo otro. 
+<br />
+
+<br />
+Yo no voy con la paja en la cabeza de que hoy cojo. Yo pienso &quot;espero que la mina sea copada para charlar&quot;, y si eso pasa, lo demas va a fluir solo. Si hay conexión, todo lo que viene despues llega solo. </td>	</tr></table></center>
+<br />
+
+<br />
+<span style="font-weight: bold">Las minas se manejan más por lo que sienten que por lo que razonan. Si se lo decís de esa forma la estás haciendo razonar. Si la llevas sola se va a guiar por lo que va sintiendo. </span>
+<br />
+
+<br />
+Ojo, hay ciertas veces que si da para imponer ese frame &quot;Vos y yo estamos aquí para tener sexo&quot; pero hay otras que no.
+<br />
+
+<br />
+Es lo mismo que la mina que te dice tengo novio. Perfecto. Pero no significa que si se siente atraída por vos no va a dejar de garchar con vos. Solo que ella razona que NO LO VA A HACER. Y después termina haciéndolo sin entender como llegó a eso.
+<br />
+
+<br />
+En definitiva, al igual que el post que abrí en la sección MM, yo prefiero no ser tan absoluto. Y mezclar un poco de todo.
+<br />
+
+<br />
+Saludos<br /><br />_________________<br />PNL cambia creencias, Man!!
+<br />
+
+<br />
+Es bueno saber qué se quiere y que se quiere<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Feb 23, 2008 8:50 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm250.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=250"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1069&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1069"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="7340a8433b39e01a24ccb772fe6de822" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

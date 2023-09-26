@@ -1,0 +1,942 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1488&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1488&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Códigos de Wingueo</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="codigos-de-wingueo-vt1488.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Códigos de Wingueo</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1488"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="mas-metodos-y-tecnicas-vf15.html" class="nav">Mas Métodos y Técnicas</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1488.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1488.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="codigos-de-wingueo-vt1488.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Códigos de Wingueo</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10889"></a>Almost</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186111902747bf195317382.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Feb 2008<br />Mensajes: 334<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10889.html#10889"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Códigos de Wingueo</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10889"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Este post es de otro foro y decidí exportarlo aquí y al BAL porque me pareció excelente. Lo adapté un poco porque no es Argentino. Recomiendo leerlo y me interesa particularmente porque uno nunca sabe con quien puede estar wingueando mañana.
+<br />
+
+<br />
+Agregué estas definiciones para que sea más entendible.
+<br />
+
+<br />
+Definiciones: 
+<br />
+
+<br />
+<span style="font-weight: bold">Player:</span> Aquel que abre el set
+<br />
+
+<br />
+<span style="font-weight: bold">Wing:</span> El amigo que le acompaña
+<br />
+<span style="font-weight: bold">
+<br />
+Invierto: </span>Término usado cuando el player quiere eyectar, pero el wing decidió quedarse, entonces, en ese caso, se INVIERTEN los papeles. El wing es Player y el Player ahora es Wing.
+<br />
+
+<br />
+<span style="font-weight: bold">Broken:</span> Cuando el Player no puede con la Target o decide cambiar de Target. En este caso el wing puede avocarse a la target abandonada por el Player.
+<br />
+
+<br />
+
+<br />
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<br />
+
+<br />
+
+<br />
+EL PLAYER NO DEBE DEPENDER DE WINGS, pero si va a tenerlos: que sean wings! y no carroñeros, estorbos o cualquier cosa -hasta AMOG's- pero que lo sepa el mismo player desde el principio.
+<br />
+
+<br />
+Partiré de las reglas básicas señaladas en el Venusian Arts, sin embargo en experiencia propia agrego tips y alguna que otra observación que me ha pasado en el field, enriquezcámoslo!.
+<br />
+
+<br />
+También señalo algunas &quot;palabras&quot; nuevas al argot de players, a fin de que sea CLARO en un principio, sobre todo cuando no conocés mucho a tu wing, lo cual con el tiempo se harán innecesarias; las marco con rojo.
+<br />
+
+<br />
+Reglas Básicas del VA, con algunos toques de players y propios:
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">1) Aquel quien abre el set, se ADUEÑA del set, él es quien escoge a la Target PRIMERO</span>
+<br />
+
+<br />
+
+<br />
+Normalmente la más atractiva es la target de quien abrió el set, y el wing debe respetar eso.
+<br />
+
+<br />
+Y otra, un wing no necesariamente tiene que llegar aventando DHV por todos lados o haciendo show... el wing lo que debe hacer es encargarse de los obstáculos y ayudar al otro en su set, en lo que vaya sucediendo.
+<br />
+
+<br />
+Muchas veces si llegás y sos sociable vas a hacer el trabajo necesario para que quien abrió el set lo maneje con facilidad para aislar o para ejectar, lo que quiera hacer.
+<br />
+
+<br />
+Tanto en juego Directo como Indirecto, el que tuvo los afrentos suficientes para abrir un set es quien DECIDE qué hacer con él; ya sea que el Player quiera cerrar de alguna forma el Set, no existen EXCUSAS NI PRETEXTOS para que el Wing comience a decir: es que me gustó tu Target, ahora que si el Player tiene gustos &quot;raros&quot;, será bueno que lo comenten antes.
+<br />
+
+<br />
+Esta regla se refiere a que el Player decidirá qué hacer con el Set, si decide ejectar el Wing también deberá hacerlo A MENOS que existan dos situaciones:
+<br />
+
+<br />
+
+<br />
+a) Haya encontrado el WING un target en ese set. Entonces el Player se vuelve wing y ni modo, deberá quedarse porque ya no es &quot;su set&quot;, esta &quot;renuncia&quot; se da cuando el Player diga que Ejecta (seamos claros), y el Wing diga: <span style="font-weight: bold">Invierto</span>.; si el Wing no encuentra alguna target, pues se va también.
+<br />
+
+<br />
+B) El Player RENUNCIA a la target; simplemente porque &quot;escoge otra&quot; (lo cual deberá ser en los primeros 20 minutos, hay que aceptar que no puede estar escogiendo a las 3 horas, ya que en una de esas el Wing ya tiene a su propia target), puede decir: <span style="font-weight: bold">BROKEN</span> Y SOLO EN ESA SITUACIÓN (o cuando estén lejos del set y se lo diga al Wing -que renuncia a la target, de una forma expresa y clara-) el Wing podrá jugar a la Target inicial (personalmente me ha pasado de que &quot;no puedo&quot; con una y se la cedo a alguien en el acto y NO podemos irnos a cuchichear.
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">2) El propósito del wing es AYUDAR a quien abrió a cumplir con su target.</span>
+<br />
+
+<br />
+
+<br />
+Si el wing también encuentra un target dentro del set, excelente, pero no es su prioridad.
+<br />
+
+<br />
+Ahora bien, qué es lo que significa REALMENTE ayudar al Player?.
+<br />
+
+<br />
+No se trata de llegar a preguntar que si ha visto a X tipa, que si quiere un wing e irse.
+<br />
+
+<br />
+NOOOOOOOOOOO!!!
+<br />
+
+<br />
+Se trata de lo siguiente:
+<br />
+
+<br />
+a) Darle valor al player (en caso de que lo necesite, realizarlo de forma oral, expresa y NO interrumpiendo la conversación del Player a la hora de la presentación) 
+<br />
+
+<br />
+Ejemplo de QUE NO HACER:
+<br />
+
+<br />
+Player- Mira HB bla bla bla...
+<br />
+Wing- Quieres un wing?/ Has visto a XXX?/....
+<br />
+Player- Sí, mira HB te presento a Wing!!
+<br />
+Wing: Hola! aaaaaah... HB fíjate que te pareces a XXX/ HB tienes una lagaña (neg)/ HB el otro día me pasó esto... (rutina o llamar la atención demasiado, NUNCA, JAMÁS LLEGUES CON MAYOR VALOR QUE EL PLAYER)/ HB ... truco de magia/ HB mi amigo un día.... DLV/ o simplemente ROBAR la conversación.
+<br />
+
+<br />
+Es decir, se trata de una pequeña presentación de Player a Wing, y el Wing no debe tomar protagonismo alguno, pero tampoco que entre como un tonto, es dificil ilustrar la sinergia, pero el Wing deberá entrar con un 10% de valor más bajo aprox. que el Player.
+<br />
+
+<br />
+B) Si el Player no necesita valor en ese instante porque está mostrando (por favor Wing, no entres a la mitad de una rutina si sabes que el Player está exáctamente a la mitad de ésta, le vas a cortar el momentum), entra discreto, inclusive podría observar que si el Player está hablando con la CB y está ignorando a la Target, NO LLEGUES tirando negs a NADIE (cuántas veces lo he sufrido?), puedes llegar con la Target (para que no se vaya) a preguntarle cualquier cosa AFC, o una rutina que no muestre tanto valor, PERO NUNCA JUGARLA (es obvio que el player la está ignorando y que lo hace a propósito, no salgas con la excusa de... &quot;es que pensé que tu target era la CB&quot;), ahí APROVECHA PARA DARLE VALOR AL PLAYER, esa es tu labor -ya te será retribuida- y darle valor al player no significa que el player te tenga que escuchar y cortar su conversación, lo puedes hacer de una forma &quot;semiaislada&quot;, porque el set se ha partido o cortado.
+<br />
+
+<br />
+c) Relacionado con una regla más abajo en la que se indica que el player queda 1-1 con su target... BIEN, ¿Te gustaría que te winguearan hasta el final?, es decir hasta que TÚ como Player le digas a tu wing: &quot;gracias! me voy con la HB a cerrar...&quot;, pues Winguea &quot;hasta el final&quot; y a qué me refiero &quot;hasta el final&quot; digamos que cuando veas las siguientes cosas: El player hace un minibouncing con su target (y ya no hay CB's que vayan a distraerlos), es decir: el Wing no &quot;acaba&quot; cuando el Set se corta y dice: ah... ya está a un metro de mí, volteado con su HB, me voy... VA A SER OBVIO que las CB's y AMOG's regresarán porque están al alcance, y también es obvio que si te vas a los 2 minutos que llegaste a &quot;Winguear&quot; y te vas porque ya está 1-1 (sé razonable y observa la situación, puede que apenas esté en A2 o empezando A3) no puedes salir con &quot;te winguee&quot; (así quieres que te wingueen?).
+<br />
+
+<br />
+Tampoco se trata de que si ves que el player está atascado (atascado es 30-40 min sin señales claras de que se van a besar en ese momento), le puedes ir preguntando al player si ya te puedes ir (sé cortés con el Player, te lo va a pagar después), tampoco se trata de que te vayas sin decir ni pío (a menos que veas que el Player está cerrando), se trata de AYUDAR, y no hacer creer al Player que te vas a ocupar de los obstáculos y luego NO (porque para esa situación, el Player tendría que usar otra estrategia), hay veces que el Player está confiado en que el Wing está con los obstáculos y cuando lo busca a su alrededor (seguramente porque ya tiene a las CB's encima) NO lo encuentra porque el Wing &quot;ya se fue&quot; (y a qué hora avisó para que el Player tomara las precauciones?).
+<br />
+
+<br />
+Ayudar es muchas veces soportar a CB's  muy agresivas (pero si vos no las entretenés, se van a ir a interrumpir), sé amable con ellas y con los Amog's, se trata de distraerlos, no de mandarlas a la mierda y que del coraje se lleven a la target del player; tratalás bien!! 
+<br />
+He visto wingueadas con tipas insoportables, pero también he observado que los &quot;wings&quot; dicen: buena mina! y mandan a la UG lejos y se lleva a la target... NO NO NOOOOOOOOOOO, y se dicen &quot;wings&quot;; también está el deleznable espectáculo de que el wing &quot;ejecta&quot;.
+<br />
+
+<br />
+Pensalo... cómo te gustaría que te ayudaran a vos cuando gameas?.
+<br />
+
+<br />
+Hay algo que suelo hacer cuando wingueo: Yo lo llamo &quot;cortar&quot; el set y esto no es mas que &quot;llevarme&quot; a la CB a otro lado o irla alejando del player y su target, poco a poco hago que se vaya volteando (y ni siquiera se dan cuenta), hago algo que las entretiene y que las aleja (muchas veces es más fácil llevarte CB's a otro lado que a la target, así que si podés hacelo), voy dando pequeños pasitos para que se vaya acercando a mí la CB y se voltee, no lo hagas tan súbito que sea OBVIO.
+<br />
+
+<br />
+Ayudar es un término MUY amplio, pero en términos que favorezcan al Player, no en el sentido de &quot;te quité a las gordas 2 minutos... pero te ví hablando a solas con tu HB, qué más querías?&quot;; sin embargo tampoco es que el Player se ensañe con el Wing, quizá suene tonto, pero resulta obvio cuando lo está ayudando y cuando no.
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">3) Nunca, jamás.... te robes al target de quien abrió el set</span> 
+<br />
+
+<br />
+
+<br />
+Algunas veces, el player está ignorando o neggeando a su target mientras está trabajando al grupo. <span style="font-weight: bold">Sería muy fácil ir al set en esta situación y darle atención a su target, nunca lo hagas!</span>  <span style="font-style: italic">(By Almost: Esto me pasó 3 veces en mi vida y es horrendo)</span>
+<br />
+
+<br />
+Nada de que &quot;me estaba tirando IOI's&quot; y &quot;no estoy de acuerdo con esa regla&quot; .... 
+<br />
+
+<br />
+El Wing JAMÁS debe corresponder esos IOI's de la target, (si fueras el Player, te gustaría que te hicieran eso?).
+<br />
+
+<br />
+Limitate a tu labor como Wing, si el Player te la deja pues bien, si no, ni modo: hubieras abierto vos primero. 
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">4) El wing se deberá ocupar de los obstáculos para que el player pueda quedar 1-1 con su target.</span>
+<br />
+
+<br />
+
+<br />
+Ya mencionado arriba, ocupar de los obstáculos es un término muy amplio, y el no hacer &quot;DHV&quot; se curva un poco para &quot;no hacer DHV enfrente del target&quot; a fin de que puedas entretener a los demás, mientras el Player está 1-1.
+<br />
+
+<br />
+1-1  no se trata de que una vez que el Player está así llegues vos a &quot;mosquear&quot; o tratarle de darle valor y quedarte haciendo &quot;mal tercio&quot;, basta un instante y andate! no es que te quedes a &quot;chequear al player&quot;.
+<br />
+
+<br />
+Ocuparse de los obstáculos no se trata de: Hola, vos qué haces?... TRABAJO... (fin de la conversación y se van), NO NO Y NOOOOOOOOOOOOOOO, se trata de realmente darle un tiempo prudente al player (no hablo de 5 minutos, ni 10... déjalo trabajar 25 minutos y pregúntale -como ya mencioné-)
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">5) Siempre está de acuerdo con tu wing.-</span>
+<br />
+
+<br />
+
+<br />
+Claro!, hay veces que incluso el Player te podría dar un pequeño bajón (DLV) si es que lo considera necesario, (tampoco se trata de que diga que sos un boludo), pero vos lo sabrás aceptar y asimilar.
+<br />
+
+<br />
+Me ha tocado y sin ningún empacho eh? que me digan: no le hagas caso, está borracho!   y es obvio que tengo que aceptarlo, ni modo de decir: oye! qué te pasa? CLARO QUE NO!!!, el Player siempre tiene la razón, no se trata de servilismo, pero sí de una comunicación que manifieste y genere confianza en los demás.
+<br />
+
+<br />
+Hay veces que el Player te abrazará para decirte: este es como mi hermano menor!, bla bla... y LO DEBES aceptar, no tenés que decir que no es cierto!
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">6) Tu wing es un tipo &quot;cool&quot;, por eso siempre salís con él</span>
+<br />
+
+<br />
+
+<br />
+Y si no es así, no salgas con él; mejor sólo que mal acompañado, para qué quieres a alguien que no sea así, busca alguien con quien te lleves bien; y si es la primera vez que se winguean, trata de proyectar esta regla.
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">7) Tu wing es más importante que nadie, más que las HB's.- </span>
+<br />
+
+<br />
+
+<br />
+Presentalo, dale la atención que te merece (las HB's siempre hacen eso), si no lo haces, bajará tu valor; cuando llegue al set, dale la cara!, nunca lo dejes ahí arrumbado-solo cerca del set sin presentarlo...
+<br />
+
+<br />
+Si vas a meter al Wing porque así lo decidiste, hazlo y no lo dejes ahí como tonto, así de simple.
+<br />
+
+<br />
+
+<br />
+Ahora, me permito agregar las siguientes reglas:
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">8 ) Retribuí a tu Wing, después de todo te ayudó a conseguir tu objetivo.</span>
+<br />
+
+<br />
+
+<br />
+Cierres o no cierres a tu target, con @ # o KC en ese instante -eso depende de tu habilidad-, tu Wing invirtió tiempo de su noche EN TÍ, retribúyeselo winguéandole un Set, si él estuvo 20-40 minutos en un set aguantando gordas, feas, hombres, y hasta gays; sería injusto que vos no hicieras lo mismo; simplemente se ve mal que digas: ok, te quito los obstáculos y no lo hagas o te hagas tonto, o te vayas a los 2 minutos.
+<br />
+
+<br />
+Para serles sincero he tenido muy pocos wings de calidad -me caben en la mano-, es dificil encontrarlos.
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">9) Pondera la situación como wing y el cierre del Player y tu propio game</span>
+<br />
+
+<br />
+
+<br />
+Uf!, amplísima!.
+<br />
+
+<br />
+Hay veces que el Player puede cerrar hasta el fclose esa noche y tú sólo podrás sacar un teléfono si sigues y no wingueas... qué bien vale más?, es importante la comunicación, me voy a un extremo, pero incluso yo lo he vivido así.
+<br />
+
+<br />
+En otras ocasiones si el Wing está con las CB's y éstas comienzan a tirar IOI's fuertes al Wing y este decide besarlas (es una situación delicada) puede que tire el set del Player si no acierta... ponderen eso.
+<br />
+
+<br />
+Hay veces que alguien ve a una HB y escoge, igual y es de un rango alto y todavía está &quot;fuera de tu alcance&quot;, pónganse de acuerdo para ver quien abre y gamea, inclusive hay veces que el wing podría abrir por las posiciones tan aplastadas en un bar o boliche, eso se habla.
+<br />
+
+<br />
+Me ha tocado vivir que quiero abrir una HB y el &quot;wing&quot; me dice: me gustó, voy,.. y se la pasa 2-3 horas tratando de ver como abrirla, y ata de manos al que pudo abrirla antes, tampoco esto es de buenos &quot;wings&quot; si quieres una target y no la abres en un lapso de 20 minutos, queda libre (lo siento, esto es duro, pero es real, no se trata de estorbar).
+<br />
+
+<br />
+
+<br />
+<span style="text-decoration: underline">10) El Wing tratará en la medida de lo posible evitar hablar de cuestiones engorrosas como la cuenta....</span>
+<br />
+
+<br />
+
+<br />
+Una de las cosas más EPSILON (bueno, BETA) que pueden hacer en un Set es andar contando el dinero para ver cuanto le toca a cada uno e interrumpir al Player; páguenlo y luego arreglan cuentas (pero paguen!), tristemente me han interrumpido también muchas veces para andar contando los centavos enfrente de una Target.
+<br />
+
+<br />
+Bien, aclaradas estas &quot;reglas&quot;; hablen con sus wings CÓMO quieren que se presenten, CUANDO es el momento indicado y conózcanse un poco, recuerden que esto es un juego, debe disfrutarse y están en un EQUIPO, no se estorben o engañen, si necesitan &quot;señas&quot; para entrar a un Set eso depende de cada quien, hablénlo, pero creo que todo lo demás gira en las reglas expuestas.
+<br />
+
+<br />
+Ustedes mismos se darán cuenta con quién pueden contar en el futuro, sean agradecidos con las acciones de su wing, no se bajen targets -creo que es lo más desleal que puede verse en el juego-; incluso hay veces que yo mismo les digo a mis wings: me gustó tu target, pero siempre se las cuido (evito que lleguen AMOG's) y nunca las juego, porque precisamente espero y sé que ellos harían lo mismo.
+<br />
+
+<br />
+Un saludo, espero que esto sirva y enriquezca al vasto repertorio que está en el mundo del sarge y que se vaya nutriendo con comentarios y experiencias de todos!
+<br />
+
+<br />
+
+<br />
+y vos... que tan bien wingueas?.
+<br />
+
+<br />
+AUTORIA DE: Kal   
+<br />
+TRADUCIDO Y FORMATEADO: Almost<br /><br />_________________<br />PNL cambia creencias, Man!!
+<br />
+
+<br />
+Es bueno saber qué se quiere y que se quiere<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Abr 14, 2008 4:39 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm250.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=250"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10905"></a>tatox</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 653<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10905.html#10905"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10905"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">buenisimo Almost. gracias. 
+<br />
+
+<br />
+hace un par de dias que estaba con un par de dudas en la cabeza.. y creo que a MAS DE UNO le hace falta pegarle una leidita a esto.
+<br />
+
+<br />
+
+<br />
+
+<br />
+salu2 man!<br /><br />_________________<br />&quot;cada vez que un tipo (incluyendome) se da cuenta el poder que tiene sobre las minitas, el tiempo de ser &quot;nice&quot; que le queda disminuye. y ellas se vuelven mas &quot;nice&quot; con uno, porque en definitiva son como vos quieras que sean.&quot; mersault<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Abr 14, 2008 5:01 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10932"></a>supercordobes</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/263336094874ffbaea2f5.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 31 Mar 2008<br />Mensajes: 25<br />Ubicación: Córdoba Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10932.html#10932"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10932"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">SOLEMNE!!!! Ya lo imprimo y se lo pego en la frente a uno de mis wings de toda la vida. 
+<br />
+Gracias.
+<br />
+Salu2 desde cba<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Abr 15, 2008 1:41 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm314.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=314"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10938"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2803<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10938.html#10938"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10938"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Está bueno, igual yo pregunto siempre al player en el oído cuando estoy wingeando qué es lo q quiere que haga, o le digo cosas como &quot;llevátela ahora, yo me encargo del set&quot;.
+<br />
+
+<br />
+No tengo problema en hacer explícito el game jajaj, bah, a mi no me jode.
+<br />
+
+<br />
+Con respecto a las CBs (cock blockers/obstáculos), eso evalúo en cada set. Hay sets que son copados, entonces vos les decís a los CBs/AMOGs que &quot;mi amigo está con su amiga&quot; y listo, te re entienden y no te joden más.
+<br />
+
+<br />
+Varias veces me pasó de estar wingeando y que las CBs trataran de llevarse a la target del player, entonces les hice explícito el game, diciéndoles &quot;mi amigo tiene onda con tu amiga, prestásela un toque así se conocen, es un rato nada más&quot; y las CBs entendieron y dejaron de joder. Es más, he recibido tan buenas respuestas que después les ofrecía si querían que les presente algún chabón amigo mío, y hasta les ofrecí de irles a buscar chabones al azar para que conocieran jajaj.
+<br />
+
+<br />
+Igual, eso depende de cada set, hay que saber calibrarlo.
+<br />
+
+<br />
+Hay sets que podés dejar solos cuando wingeás, porque sabés que no van a interrumpir el game del player con su target, y hay otros que tenés que quedarte y remarla como puedas.
+<br />
+
+<br />
+En fin, es la parte amistosa del game, está bueno wingear <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Abr 15, 2008 2:36 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10974"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1454<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10974.html#10974"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10974"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">ser wing es un arte que muy pocos han podido dominar....
+<br />
+
+<br />
+y tube una experiencia hace bastante tiempo, mas divertida que tragica
+<br />
+
+<br />
+siendo una tarde resplandeciente en el abasto shopping mall, en los comienzos de antaño del pick up, durante las andanzas de los iniciados... alive aproxima un set de hermosisimas damas en el local de chucherias
+<br />
+
+<br />
+su filoso arte venusiano, apenas en desarrollo, cayo afortunadamente en las manos del wing player x (de quien no publicare nick, pero no es ningun moderador del foro), cuya colaboracion fue indispensable para le desarrollo del set...
+<br />
+
+<br />
+A: hola, estoy buscando un regalo para una chica
+<br />
+Muchacha del liocal: a ver y que bsucabas?
+<br />
+A: tiene que ser feo
+<br />
+Mchch: feo?
+<br />
+A: si, a ver, mostrame lo mas feo que tengas por aca. a ver, esto parece bastante feo
+<br />
+Mch: blabla
+<br />
+A: el tema es que mira, tioene que ser algo para que deje a mi amigo
+<br />
+Player x: hola, como va? ey, veo que tenes anillos
+<br />
+Mch: si por?
+<br />
+Player x: bueno mira, resulta que este dedo... (test+kino seguido de charla y mas charla)
+<br />
+
+<br />
+y asi siguio... obviamente conmigo fuera dle set...
+<br />
+
+<br />
+XD, a todo esto, sepan fue hace un año y lo posteo solo porque fue comico como siendo la 1ra vez que nos juntabamos, paso esto
+<br />
+
+<br />
+ya ni me acuerdo si hubo mas cosas, justo hoy estaba reviendo algunas anecdotas y hay cosqas muy divertidas<br /><br />_________________<br />&quot;When I'm on the road, I'm indestructible. No one can stop me... but they try.&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Abr 15, 2008 5:12 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="10976"></a>tatox</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 653<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp10976.html#10976"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=10976"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">ja! si totalmente a eso me refiero.. es terrible.
+<br />
+
+<br />
+varias veces me paso de estar con un targuet aislado a unos metros del set y ver a otros players que van y encaran al set... jajaj lo peor fue la otra vez en uni club, me paso exactamente eso, y la mina con la que estaba empezo a decirme: 
+<br />
+
+<br />
+mira ese flaco.. y empezo a describir detalles del chabon, tipo mira la cara de nabo que tiene, mira que chamullero etc. yo no sabia donde meterme, y como no le contestaba a la mina me dice : pero es amigo tuyo?????jajaja, le dije: naa... es un conocido jajajajaj
+<br />
+
+<br />
+
+<br />
+moraleja: winguear no es buitrear  <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /><br /><br />_________________<br />&quot;cada vez que un tipo (incluyendome) se da cuenta el poder que tiene sobre las minitas, el tiempo de ser &quot;nice&quot; que le queda disminuye. y ellas se vuelven mas &quot;nice&quot; con uno, porque en definitiva son como vos quieras que sean.&quot; mersault<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar Abr 15, 2008 5:39 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1488&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1488"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="mas-metodos-y-tecnicas-vf15.html" class="nav">Mas Métodos y Técnicas</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15"selected="selected">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="bc187855a4cf814978c965126a3dd840" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

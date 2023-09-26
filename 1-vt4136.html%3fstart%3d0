@@ -1,0 +1,1242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=4136&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=4136&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Mode One??.....</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="mode-one-dot-dot-dot-dot-dot-vt4136.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Mode One??.....</a><br />
+	  <span class="gensmall"><b>Ir a página <b>1</b>, <a href="2-vt4136.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt4136.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4136"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="direct-game-vf4.html" class="nav">Direct Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt4136.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt4136.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="mode-one-dot-dot-dot-dot-dot-vt4136.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Mode One??.....</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35287"></a>Magic</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/205246004349e334254d496.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 08 Mar 2009<br />Mensajes: 13<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35287.html#35287"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Mode One??.....</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35287"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Saludos
+<br />
+
+<br />
+Vengo de leerme el &quot;Mode One&quot; de Alan Currie,y la verdad me he quedado igual que estaba.Mucha teoria,mucha frase por aqui por alla... pero amigos,¿¿Como se Adopta la potura Mode One?? es decir fuera de teoria innecesaria,y de ejemplos que no aportan suficiente credibilidad,despues de haberme leido el libro,y de tenerlo en mi poder,diganme señores:¿Que debo hacer?¿Como ensañar el direct game?¿Que hacer para adoptar esa postura?diganme pruebas,misiones,cosas que le tenga que decir a la gente para ir adquiriendo esa mentalidad,creo que este post si alguien no ha entendido muy bien el libro,creo que le ayudara bastante.
+<br />
+
+<br />
+Ademas otra duda(de las muchas que no me han quedado claras en este libro..)es que el autor dice:que hay personas las cuales se escandalizan mucho cuando le das un piropo y le pasa todo lo contrario con las criticas...otra de mis preguntitas es: entonces..¿no habria que aprovechar esa debilidad en las mujeres para favorecernos a nosotros mismos?..
+<br />
+
+<br />
+y finalmente otra ayuda a lo que pedido es cuando dice que: &quot;No te tiene que importar lo que digan los demas&quot;..eso lo se yo hace siglos..pero ¿COMO?..amigos en serio y lo intento,intento pasar desapercibio ante las criticas y comportarme igual con unas personas que con otras pero es,por lo menos para mi,Imposible,no se para ustedes....asique les vuelvo a pedir que me digan,no solo como hacerlo sino tambien,ejemplos,misiones,pruebas que le tengas que decir a las chicas,etc..
+<br />
+
+<br />
+y por cierto si responden quedenlo CLARO,no se anden con rodeos,creo que esto nos facilitara mucho a todos la comprensión de este libro....
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+Magic<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 12:03 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1402.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1402"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35290"></a>Nikko_Gable</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/706785212492d82d15f742.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Oct 2008<br />Mensajes: 949<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35290.html#35290"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35290"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Mira magic mode one es así, el libro es bastante teórico y tenes que darle tiempo al tiempo como para digerir la lectura. Leerlo no quiere decir que vas a adoptar la postura mode one al finalizar la lectura.
+<br />
+
+<br />
+Toma tiempo adapatarse. Toma tiempo sacar lo que tenes adentro y mostrarlo sin miedos.
+<br />
+
+<br />
+Toma tiempo ser EL QUE TOMA LAS PUTAS DESICIONES en tu vida.
+<br />
+
+<br />
+Toma tiempo perderle el miedo a ser frontal.
+<br />
+
+<br />
+Y cuando realmente vas a entender todo esto? <span style="font-weight: bold">Una vez que decidas poner esto en práctica.</span>
+<br />
+
+<br />
+En cuanto a las criticas. Lee mi firma. Los miedos suelen ser proyecciones del ego (miedo a la critica). Que te afecte una critica o no va ligado intimamente con el nivel de entendimiento que tengas de tu propio ego. Asi que aprender a manejar tu ego.
+<br />
+
+<br />
+Vos sabes que no te tienen que importar las criticas. ¿Y de que mierda te sirve saberlo? Tenes que incorporlalo. Pero para eso tenes que resolver los problemas de raiz y conocerte a vos mismo.
+<br />
+
+<br />
+Si nunca has ido direct entonces no conoces el real potencial de tu persona. Aqui no estas adoptando ningun personaje, No estas siendo Currie no estas siendo David X ni tampoco estas siendo mersault. Estas siendo vos mismo.
+<br />
+
+<br />
+Parece facil no? SER UNO MISMO.
+<br />
+
+<br />
+Desafortunadamente la sociedad te condiciono para que seas un hipócrita y ademas de hipócrita, mariquita.
+<br />
+
+<br />
+A veces podes pensar que estas siendo vos mismo. Cuando en realidad estas actuando todavia bajo un fuerte condicionamento social que te han inculcado desde que eras un niñito.
+<br />
+
+<br />
+Te doy un ejemplo? A vos te gustan mucho las tetas de las mujeres (sos como yo ja) y entonces naturalmente es en lo que te fijas cuando vez una mujer. Entonces, te acercas a hablar con una tetona y entonces no le miras las tetas. No se las miras por miedo a que te considere un depravado que en lo unico que piensa es en el sexo (Y que mierda te pensas que hago ahi?). Ese es tu condicionamiento social producto de una demonización por parte de la sociedad y la religion hacia el sexo.
+<br />
+
+<br />
+NUNCA, nunca dejes que eso te castre.
+<br />
+
+<br />
+Todo esto del Direct se resume a que vos aprendas a ser vos pero en serio. Que aprendas como sacar el hombre domiannte y fuerte que sos pero que tenés recluido dentro tuyo. Por las razones que sean.
+<br />
+
+<br />
+Mira si el Direct no te cabe. Tenes otras opciones, pero vas a tener que estar adopatando un puto personaje por el resto de tu vida. Todos los dias vas a tener que ser esto o aquello. Vas a tener exito? Seguramente. Vas a ser honesto con vos mismo? No.
+<br />
+
+<br />
+Una ultima recomendación: Si te interesa el Direct. Lee &quot;se implacable&quot;.
+<br />
+
+<br />
+Espero que mi respuesta sea de ayuda y que te haya respondido al menos algunas de tus preguntas.<br /><br />_________________<br /><span style="font-weight: bold">&quot;La diferencia entre un perdedor y un ganador, es que el ganador está dispuesto a hacer cosas que el perdedor no haría&quot;.-</span>
+<br />
+
+<br />
+<span style="font-weight: bold">&quot;Los Miedos Suelen Ser Proyecciones Del Ego&quot;</span> Victor Malvado
+<br />
+
+<br />
+<span style="font-weight: bold">Si te caes siete veces, levántate ocho.</span>
+<br />
+
+<br />
+Empresa seria que te paga x clikear: <a href="http://www.neobux.com/?r=juancapod" target="_blank">http://www.neobux.com/?r=juancapod</a> (impacientes abstenerse)<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 2:09 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm991.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=991"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35293"></a>Amilcar</span><br />
+			<span class="posterrank">Campeón del MTQN 2<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/46269000549ae7cdf154dd.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 18 Ene 2009<br />Mensajes: 108<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35293.html#35293"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35293"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Siempre es difícil agregar algo a los comentarios que hacen &quot;los nicos&quot; sobre el direct, pero hay que intentarlo.
+<br />
+
+<br />
+Como agregado te puedo decir que desde el punto de partida, en el que lees el material, el direct siempre necesita como mínimo dos lecturas. Una para leer y otra para entender. En la primera lectura encaras el material buscando un método y el material te cuestiona, por eso tu post, y luego cuando haces una relectura, ya con la conciencia de que lo que esta ahí escrito no es un método sino una redefinicion de tu actitud para con las mujeres, y para con la vida, comienzas a entender un poco de que mierda se trata este mambo. Con el tiempo, si realmente estas avanzando en el mundo del direct, no tendras mas ganas de leer un carajo, todos los libros te pareceran basura y empiezas a sentir que leyendo pierdes el tiempo. Que no hay mucho mas que decir... solo resta entonces compañero salir a practicar.
+<br />
+
+<br />
+Entonces esa noche en que miras a una mina y le decís lo que se te cruza por la cabeza(&quot;tenes las tetas mas lindas que vi esta semana&quot;) te das cuenta de que ella no reacciona mal como te lo imaginabas, y que no recibiste una cachetada ni un insulto. Sino todo lo contrario... que le gusto... que posiblemente se sonrrojo... que tal vez esta ahi toda metida para adentro como un cachorrito al que tenes atado y completamente bajo tu poder. Y cuando sientes ese poder, y cuando sientes esa libertad de poder ser quien carajo se te venga en gana... solo ahi empiezas a saborear un poco el gustito del direct.
+<br />
+
+<br />
+Saludos, Amilcar<br /><br />_________________<br />El Seductor Cordobes
+<br />
+
+<br />
+[Be a Man!]
+<br />
+
+<br />
+Por salidas en Cordoba==&gt; <span style="font-weight: bold">amilcarpua@hotmail.com</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 2:48 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1252.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1252"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35297"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 516<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35297.html#35297"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35297"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">no se por que siempre preguntan las mismas cosas. aca acabo de poner un post para aclarar todas estas dudas de una buena vez: <a href="http://proyectovagnerlover.tu-foro-gratis.com/vp35296.html#35296" target="_blank">http://proyectovagnerlover.tu-foro-gratis.com/vp35296.html#35296</a>
+<br />
+
+<br />
+espero tus field reports
+<br />
+
+<br />
+salu!<br /><br />_________________<br />-pecador-
+<br />
+pure direct!
+<br />
+
+<br />
+&quot;existen dos clases de jugadores, los que se ponen nerviosos y arruinan su juego y los que aprenden a controlar sus nervios y se llevan mas mujeres&quot; - pecador
+<br />
+
+<br />
+
+<br />
+<a href="http://www.youtube.com/jorgedechiquimula" target="_blank">http://www.youtube.com/jorgedechiquimula</a> ---- hagamos una epoca de raciocinio!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 2:59 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35304"></a>KidlokO</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1448283819471c1f85ec5cc.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1308<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35304.html#35304"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35304"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">jajaj, mira el blueprint , ahi vas a tener estas cosas explicadas por alguien que sabe enserio.<br /><br />_________________<br />&quot;Cuando termines de cogerte a tus enemigos, cogetelos un poco mas&quot;
+<br />
+
+<br />
+Sun Tzu<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 5:04 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm8.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=8"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35306"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2297<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35306.html#35306"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35306"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">tene en cuenta esto: hay 3 formas de clasificar el aprendizaje... profetizacion, aprendizaje y entrenamiento... currie profetiza, solo hace propaganda y te lo vende (te meustra que tiene de util su libro, lo de no ser manipulado), aprendizaje es mas la parte teorica (los por que) y training es mas el como aplicarlo o hacer funcionar algo. el radical honesty (libro de currie) debe tener de aprendizaje y poco de training... el training posta lo sacas con PNL, debe haber algo para poder aplicar esto
+<br />
+
+<br />
+currie es un profeta, pero toma lo bueno de eso
+<br />
+
+<br />
+por ejemplo... de que te sirve? te sirve para ver por que mode two te haria sentir mal, como sacarte de encima flacas manipuladoras y saber que ser directo en serio, funciona. mas alla de venderlo, fijate que cosas te propone el chabon, que puedan serte utiles
+<br />
+
+<br />
+yo cuando lo lei, no me gusto (me parecio un resumen de &quot;se sincero... funciona&quot;) y mas tarde viq ue podia sreme util
+<br />
+
+<br />
+los como estan en pnl y un pcoo en el radical honesty segun escuche
+<br />
+
+<br />
+fijate y suerte con eso
+<br />
+
+<br />
+PD: shit... de nuevo el blueprint ajjajaj, por el momento no puedo darle bola, peor dios, lo veo tan recomendado... aparte supuestamente son las bases asi que cool<br /><br />_________________<br />che, qe interesante no? reconoces varios de tus defectos.. copado eso
+<br />
+primero egoista y ahora forrito,,
+<br />
+pero!
+<br />
+sincero!
+<br />
+
+<br />
+MODE ONE
+<br />
+
+<br />
+Make it happen baby! XD<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Abr , 2009 5:31 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35332"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3912<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35332.html#35332"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35332"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">KidlokO escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">jajaj, mira el blueprint , ahi vas a tener estas cosas explicadas por alguien que sabe enserio.</td>	</tr></table></center>
+<br />
+
+<br />
+Quizás tenés razón y el blueprint es una masa, pero nunca pude creerle ni ver nada de este tipo con la cara de garca que tiene...
+<br />
+
+<br />
+<img src="http://1.bp.blogspot.com/_YZHQpvFlBtU/RwYZ2ZwXe2I/AAAAAAAAAjY/TdlhPaXDWQM/s400/Big%2BIsland%2B006.jpg" />
+<br />
+
+<br />
+Hay algo malo en él jajajj, no sé lo que es pero siempre lo percibí.<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 3:30 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35335"></a>aciid</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/138482206048ee14e36ed07.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 03 Oct 2008<br />Mensajes: 186<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35335.html#35335"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35335"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Che yo no vi el blueprint, siempre escucho q esta bueno, pero mas alla de q se ingles (inetermedio) me da paja verlo. Nadie sabe de alguna subtitulacion ¿?
+<br />
+
+<br />
+slds.<br /><br />_________________<br /><span style="font-style: italic">Aguante LAKD. canalla hasta los huevos.</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 3:40 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm982.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=982"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35337"></a>snake</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/492673149b9d43671669.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 289<br />Ubicación: Buenos aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35337.html#35337"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35337"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">dejando de lado que es tyler , y que enseña seduccion, de que lo de la rsd esta bastante bueno etc etc
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">la cara de garca que tiene</td>	</tr></table></center>
+<br />
+encima la foto que pone nico.
+<br />
+
+<br />
+ja ja,parece la cartelera de un politico<br /><br />_________________<br /><span style="color: blue">Si crees que puedes o si crees que no puedes de cualquier forma estás en lo correcto</span>
+<br />
+
+<br />
+<span style="color: orange"><span style="font-style: italic">¿Cómo me vuelvo exitoso con las mujeres en general?
+<br />
+Calle, papá, mucha calle. Field, Field, Field, Field.Rebote tras rebote, éxito tras éxito, frustración, indiferencia, Glory, Doom, vergüenza, cara de piedra.</span></span>Dr Saint<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 3:46 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm164.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=164"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35348"></a>KidlokO</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1448283819471c1f85ec5cc.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1308<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35348.html#35348"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35348"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Tyler no me cae bien, ni siquiera disfruto realmente de verlo en los videos, pero.... eso no quita que el chabon muchas genialidades y que cuando realmente paresca sincero. Te vas a perder de algo copado por el presentimiento que te da la cara.<br /><br />_________________<br />&quot;Cuando termines de cogerte a tus enemigos, cogetelos un poco mas&quot;
+<br />
+
+<br />
+Sun Tzu<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 6:16 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm8.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=8"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35375"></a>Magic</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/205246004349e334254d496.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 08 Mar 2009<br />Mensajes: 13<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35375.html#35375"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35375"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">y ademas de todo eso...A los que utilizais el direct nunca os ha hecho mal(con esto quiero decir si nunca os han pegado,tanto tios como tias)??o quizas una mala contestacion que os halla quedado en verguenza o no se algo realmente malo,o son todo logros??
+<br />
+
+<br />
+
+<br />
+y ademas os ha costado mucho llegar a aprender la filosofia del direct????<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 6:04 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1402.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1402"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35379"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2297<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35379.html#35379"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35379"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">o quizas una mala contestacion que os halla quedado en verguenza o no se algo realmente malo,o son todo logros?? </td>	</tr></table></center>
+<br />
+lasotras preguntas no tiene sentido contestarlas... filosofia del direct no existe y la otra pregunta... para que queres saber eso?
+<br />
+
+<br />
+sobre la que quotee...
+<br />
+
+<br />
+con indirecto tambien vas a etner &quot;malas contestaciones&quot; tambien. por una simple razon... hay gente que no teine dias buenos a veces o que es estupida en egneral o que no tiene ganas que la chamuyen. en cualquier caso ninguna te sirve
+<br />
+
+<br />
+ahora, lo importante:
+<br />
+
+<br />
+si salis a la calle a encarar a ver como te contesta ella... ya de por si ella esta mandando
+<br />
+
+<br />
+decile lo que quieras y si a ella le parece raro, no evalues tu accion, evalua SU accion. preguntate si ella esta equivocada y contestate SEGURAMENTE
+<br />
+
+<br />
+es una boludez que una flaca se ponga de mal humor si le decis que te gusta.
+<br />
+
+<br />
+UNA BOLUDEZ TOTAL!!!!!!!!!!!
+<br />
+
+<br />
+o sea que... una flaca seria coherente SOLO si esta en un mal dia o lo que sea... alguna excusa... el punto es que el comportamiento normal es el que vos elegis y capaz haya otros (indirecto, el que se te cante) y si no le gusta debe ser proque ELLA debe tener alguna razon...
+<br />
+
+<br />
+si leiste sobre frames alguna vez entenderas lo que te quiero decir, sino... solo entende esto...
+<br />
+
+<br />
+viene una mina y te dice &quot;me gustas&quot;... acto seguido le tiras un vaso con la consumicion que tenes en la mano... no ves que no tiene snetido. yo si soy una flaca y haces eso, hago que te saquen del boliche. por tanto si la flaca te hiciera algo asi, podes decirle lo que se te cante.
+<br />
+
+<br />
+o pensalo asi... va y te dice &quot;me gustas&quot; y le contestas &quot;ay que asco&quot; o &quot;ay, que mal que me chamuyas&quot;. no tendria snetido....
+<br />
+
+<br />
+si a vos te parece que te chamuya mal, lo mejor seria que esperes a otra y te calles la boca... por tanto... si una flaca te dice un comentario que te molesta, estas en todo tu derecho de decirle que es una deshubicada
+<br />
+
+<br />
+a lo que voy es... imponete sobre el mundo porque sino hay mucha gente que anda haciendo o diciendo lo que se le canta sin darse cuenta de que es cualquiera... te parece que el direct seria una forma mas simple y menos estupida de relacionarse? (para mi es asi y busco genet que peinse asi) listo... conviccion tuya, vos vas y se loi decis, ella no tiene coherencia si no lo recibe bien, puede decirte no... que pasaria si una sola te dice no?
+<br />
+
+<br />
+hay tantas
+<br />
+
+<br />
+no vas a probar que funciona, vas a imponer tu conviccion con lo que funciona
+<br />
+
+<br />
+sali a la calle esperando sonrisas, porque te va a sorprender cuantas minas se van a sonrojar y te van a sonreir y se van a acomodar el pelo POR VOS, para verse lindas para vos.
+<br />
+
+<br />
+te va a sorprender cuando muchas cuando las llames van a estar tratando de hablar y caerte bien o van a estar sin hablar cuando empieces porque no quieren quedar mal o que te vayas.
+<br />
+
+<br />
+encarala como se te cante, da igual que uses... si una te sonrio, pensa esto... si esta arrelada... en parte se vistio para vos jeje
+<br />
+
+<br />
+saludos man<br /><br />_________________<br />che, qe interesante no? reconoces varios de tus defectos.. copado eso
+<br />
+primero egoista y ahora forrito,,
+<br />
+pero!
+<br />
+sincero!
+<br />
+
+<br />
+MODE ONE
+<br />
+
+<br />
+Make it happen baby! XD<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 14 Abr , 2009 6:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35412"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3912<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35412.html#35412"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35412"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Magic escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">y ademas de todo eso...A los que utilizais el direct nunca os ha hecho mal(con esto quiero decir si nunca os han pegado,tanto tios como tias)??o quizas una mala contestacion que os halla quedado en verguenza o no se algo realmente malo,o son todo logros??
+<br />
+
+<br />
+
+<br />
+y ademas os ha costado mucho llegar a aprender la filosofia del direct????</td>	</tr></table></center>
+<br />
+
+<br />
+Nunca recibí ningún golpe por ser M1, aunque recibí algunas amenazas ajjajaj. Si sos M1 hardcore hardcore con una mina que tiene el novio al lado, es de suponer que vas a recibir una cagada a palos, pero nadie es tan pelotudo de hacer eso.
+<br />
+
+<br />
+Lo que si me pasó un par de veces fue tener gente &quot;desilusionada&quot; con mi actitud tan &quot;agresiva&quot; cuando hice M1 hardcore jajaj, pero no es nada. Preferible hacerse fama de zarpado y no de maricón.
+<br />
+
+<br />
+Malas contestaciones recibo cada tanto, pero no siempre soy ultra sexual cuando abro, hace mucho tiempo que no hago eso <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> Malas reacciones vas a conseguir siempre. Antes me moría de vergüenza si una mina me contestaba mal. El viernes en un boliche una mina me contestó para la mierda y me le cagué de risa en la cara como si un osito peluche me hubiese dicho puto y le dije &quot;bueno, no es para tanto&quot; <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> , puso cara de asco y le dije &quot;tenés lindos ojos, pero tenés una actitud de mierda&quot; <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> y me fui. La mina era conchuda en serio, andaba empujando a la gente para pasar y puteaba mucho.
+<br />
+
+<br />
+La onda de ser mode one es ser sexual, pero con buena onda. Si sos muy serio quedás como un degenerado total, salvo que conozcas a la mina y ella sepa que no sos un violador.
+<br />
+
+<br />
+Para que se entienda, un buen approach mode one sería mostrar tus intenciones reales pero con una sonrisa pícara en la cara que transmita algo como <span style="font-style: italic">&quot;vos y yo vamos a pasarla muuuuy bien&quot;</span> ajjajaj.
+<br />
+
+<br />
+Esta es una sonrisa pícara...
+<br />
+
+<br />
+<img src="http://www.ole.clarin.com/diario/2006/01/26/thumb/f012ch12.jpg" />.
+<br />
+
+<br />
+Imaginate a Martín Palermo diciendo<span style="font-style: italic"> &quot;vos y yo vamos a pasarla muuuuuy bien&quot;</span> jajajaja, eso es re mode one, es buenísimo el ejemplo!! <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" />
+<br />
+
+<br />
+Por cierto, el BL del chabón en esa foto es mortal, ser zarpado y agarrarse la pija mientras seducís es muuuuuy cool <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" />
+<br />
+
+<br />
+Los resultados que podés llegar a obtener si te funcionó:
+<br />
+
+<br />
+&gt;Ella se sonroja ---&gt;  <img src="images/smiles/icon_redface.gif" alt="Embarassed" border="0" />
+<br />
+&gt;Ella abre los ojos ---&gt;   <img src="images/smiles/icon_eek.gif" alt="Shocked" border="0" />
+<br />
+&gt;Ella no lo puede creer ---&gt;  <img src="images/smiles/icon_surprised.gif" alt="Surprised" border="0" />
+<br />
+&gt;Ella no sabe que decir pero le encantó ---&gt; <img src="images/smiles/icon_rolleyes.gif" alt="Rolling Eyes" border="0" />
+<br />
+&gt;Se hace la enojada pero te das cuenta que le gustó ---&gt; <img src="images/smiles/icon_evil.gif" alt="Evil or Very Mad" border="0" /> <img src="images/smiles/icon_rolleyes.gif" alt="Rolling Eyes" border="0" /> <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+&gt;Simplemente le encantó ---&gt; <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+Y los resultados que podés llegar a obtener si no te funcionó:
+<br />
+
+<br />
+&gt;Ella te agradece el cumplido, pero te dice con buena onda que no está interesada ---&gt; <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+&gt;Te dice que sos un pervertido (y le decís que está en lo correcto) y se hace la enojada ---&gt;  <img src="images/smiles/icon_mad.gif" alt="Mad" border="0" />
+<br />
+&gt;Te dice que sos un estúpido y que te vayas ---&gt;  <img src="images/smiles/icon_mad.gif" alt="Mad" border="0" />  <img src="images/smiles/icon_confused.gif" alt="Confused" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 15 Abr , 2009 2:59 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35419"></a>Nikko_Gable</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/706785212492d82d15f742.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Oct 2008<br />Mensajes: 949<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35419.html#35419"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35419"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Ja, Nico es un grosso!
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Magic escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">y ademas de todo eso...A los que utilizais el direct nunca os ha hecho mal(con esto quiero decir si nunca os han pegado,tanto tios como tias)??o quizas una mala contestacion que os halla quedado en verguenza o no se algo realmente malo,o son todo logros??
+<br />
+
+<br />
+
+<br />
+y ademas os ha costado mucho llegar a aprender la filosofia del direct????</td>	</tr></table></center>
+<br />
+
+<br />
+Que obtengas malas reacciones. Raro.
+<br />
+
+<br />
+Que te importe es otra cosa.
+<br />
+
+<br />
+El mode ones te permite adoptar una actitud <span style="font-weight: bold">I DON'T GIVE A FINE FUCK!</span> por ende te chupa la pija.
+<br />
+
+<br />
+La filosofía del direct es simple y corta. Pero es un proceso continuo y cada dia vas aprendiendo algo nuevo y sacando conclusiones (vos). Me encanta el Direct porque nunca me deja de seroprender.
+<br />
+
+<br />
+En vez de que agarres un libro con 15.000 rutinas (que otro pelotudo invento) y que al final de leerlas las entiendas y te las aprendas. Cuando emprendes el camino del direct nunca podes saber demasiado. Siempre aprendes algo nuevo y esto no tiene nada que ver con rutinas enlatadas ni tecnicas. Tiene que ver con un cambio de actitud hacia todo no solo el game.
+<br />
+
+<br />
+Suerte!<br /><br />_________________<br /><span style="font-weight: bold">&quot;La diferencia entre un perdedor y un ganador, es que el ganador está dispuesto a hacer cosas que el perdedor no haría&quot;.-</span>
+<br />
+
+<br />
+<span style="font-weight: bold">&quot;Los Miedos Suelen Ser Proyecciones Del Ego&quot;</span> Victor Malvado
+<br />
+
+<br />
+<span style="font-weight: bold">Si te caes siete veces, levántate ocho.</span>
+<br />
+
+<br />
+Empresa seria que te paga x clikear: <a href="http://www.neobux.com/?r=juancapod" target="_blank">http://www.neobux.com/?r=juancapod</a> (impacientes abstenerse)<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 15 Abr , 2009 4:12 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm991.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=991"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="35443"></a>Magic</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/205246004349e334254d496.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 08 Mar 2009<br />Mensajes: 13<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp35443.html#35443"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=35443"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">se que esto va mucho mas que la seduccion;por eso aunque se que en el terreno de la seduccion esto es letal,quiero que me digais lo que hariais en las siguientes situaciones(actuando en mode one,direct o simplemente actuando con vuestra propia personalidad).
+<br />
+
+<br />
+1SITUACIÓN-vereis imaginaos que teneis un amigo(vamos a llamarlo asi)que es una de los tios mas populares de donde vivis,ademas juega contigo en un equipo de futbol(por ejemplo) ,bien este individuo se lleva a todas(y repito a todas)las tias que quiere,es muy guapo,rubio,ojos azules(vamos lo que las tias quieren) y es un natural la verdad;pero este individuo te hace la vida imposible,con esto quiero decir que os pega collejas os amenaza por el msn os dice cosas como(por ejemplo:amargao k eres un amargao me gusta rayarte la kabeza porke komo eres un nota k no tienes ni puta idea de la vida pues por eso te rayo..bla.bla y cosas similares)ademas esto te baja muchisimo la autoestima y te quita  mucho valor con las HBs,ademas conoce a todas tus amigas y amigos y les habla mal de ti,con lo que para ti es imposible escalar socialmente,y ademas de todo esto no puedes recurrir a la violencia puesto que este individuo tiene mucha mas fuerza que tu y ademas tiene amigos muy peligrosos.¿QUE HARIAS?
+<br />
+
+<br />
+2SITUACION- un primo(o hermano)tuyo se lleva a todas las tias que te atraen sexualmente,simplemente con que tu estes hablando con una tia va el y no solo te queda en ridiculo si no que se la lleva(puesto que es guapo,apuesto,valiente,un natural),ademas a conoce a tus amigos y te queda en ridiculo al lado de ellos.¿QUE HARIAS?.
+<br />
+
+<br />
+3SITUACION-estas en clase(instituto por ejemplo),y la gente te mira mal por todas o casi todas las acciones que hagas,tanto preguntas al profesor,como llevar tal camiseta o la otra,etc,etc.¿QUE HARIAIS?
+<br />
+
+<br />
+
+<br />
+A vosotros gente que adoptais este modo directo,¿Como os comportariais ante estas situaciones?
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+Magic<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 15 Abr , 2009 2:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1402.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1402"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=4136&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=4136"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="direct-game-vf4.html" class="nav">Direct Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página <b>1</b>, <a href="2-vt4136.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt4136.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>2</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4"selected="selected">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="76630e35a4dc941fbd7e0eeeb96bf425" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=6429&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=6429&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - ¿¿INNER GAME??.....</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="inner-game-dot-dot-dot-dot-dot-vt6429.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">¿¿INNER GAME??.....</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6429"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt6429.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt6429.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="inner-game-dot-dot-dot-dot-dot-vt6429.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">¿¿INNER GAME??.....</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43526"></a>Michael</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/19241748344a4f88b16bb2c.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 08 Mar 2009<br />Mensajes: 42<br />Ubicación: España</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43526.html#43526"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> ¿¿INNER GAME??.....</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43526"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Todos mis post,y todas mis preguntas,me han conducido de una manera u otra a esto del Inner Game.
+<br />
+Pero...Esto del Inner Game????.........
+<br />
+
+<br />
+Lei el post de entrada..y bueno vi la pelicula de El secreto de Rhonda Byrne,y bueno...
+<br />
+¿¿¿¿QUE SE SUPONE QUE ES ESTO???????
+<br />
+
+<br />
+Osea quiero decir,cual es la finalidad del Inner Game??????
+<br />
+Intento entender pero....
+<br />
+Me podrian explicar para que me sirve a mi el Inner Game,se que muchos me direis para reforzar tus conocimientos,hacerte mas fuerte mentalmente.. o cosas parecidas
+<br />
+Pero quiero RESULTADOS,se que no van a venir de la noche a la mañana pero quiero saber realmente si esto me va a servir...y porfavor diganme Para que???
+<br />
+
+<br />
+He estado leyendo acerca de Que no te importe el NO,se fuerte mentalmente,aprende de tus errores,etc,etc..la verdad me he emocionado enserio realmente bueno,PERO ESTO NO ME SIRVE.
+<br />
+
+<br />
+He leido versos verdaderamente bonitos y jodidamente buenos.... PERO QUE PUEDO ESPERAR?????
+<br />
+
+<br />
+No tengo muy claro porque me aconsejan que venga al Inner Game,.....
+<br />
+
+<br />
+Y la pregunta clave: Que hacer para tener un buen Inner Gamme...Tantas veces oida....PERO QUE ME QUEDO COMO ESTOY....
+<br />
+
+<br />
+Amigos llamenme impaciente pero cada vez entiendo menos....
+<br />
+
+<br />
+
+<br />
+Espero que me saquen de mis dudas
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+Saludos <img src="images/smiles/icon_cool.gif" alt="Cool" border="0" /><br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 15 Jul , 2009 11:54 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1402.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1402"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43534"></a>Revolution</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/975069418499a5d3a318a2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 17 Jul 2008<br />Mensajes: 703<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43534.html#43534"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43534"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">El inner game es lo más importante tanto para el game como para tu vida, solo que en tu vida no le llamás inner game a lo que sería el inner game.
+<br />
+
+<br />
+Como toda persona tenés una serie de principios y creencias, y te manejás de acuerdo con ellos. Tu forma de desenvolverte en la vida depende de ellos y de que tan fiel les seas. Y si me preguntás son lo que te define como persona, son lo que te distinguen del resto.
+<br />
+
+<br />
+Volviendo al tema de la seducción, si no tenés conflicto con tus creencias, si te sentís comodo y les sos fieles, segurísimo que vas a tener minas y también seguro que estarás conforme con tu vida. No es importante que es lo que creas o cuales son tus principios mientras vivas de acuerdo a ellos t no te tiemble el pulso cuando te enfrentes a algo que que intente volverte en contra a ellos. Por otro lado, ciertamente tener creencias como &quot;que importa lo que ellas piensen&quot; seguramente van a ayudarte todavía más en lo que es minas.
+<br />
+
+<br />
+Lo complicado de todo esto es que no siempre es fácil seguirlos, sino nadie estaría acá. Por decir me chupa un huevo lo que piensen de mí no significa que cuando salgas a la calle vas a actuar así y ahí está lo complejo y la razón de que haya tanto material y tantos se centren en esto.<br /><br />_________________<br />No juego para la tribuna, juego para ganar.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 1:40 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=544"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm544.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43543"></a>snake</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/492673149b9d43671669.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 304<br />Ubicación: Buenos aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43543.html#43543"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43543"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Pero quiero RESULTADOS,se que no van a venir de la noche a la mañana pero quiero saber realmente si esto me va a servir...y porfavor diganme Para que???</td>	</tr></table></center>
+<br />
+
+<br />
+hola  veo que estas ansioso por un lado dicen que la ansiedad es buena por que es lo que nos protege en ciertas situaciones de peligro lo que nos hace por ahi pensar antes de tomar alguna desicion , pero en tu caso demuestra angustia, desesperacion , necesidad .
+<br />
+
+<br />
+y eso no es bueno vas a seguir estando preocupado, y  te va a ser mas dificil progresar.
+<br />
+
+<br />
+Si siempre tuviste ciertas creencias, no las vas a poder cambiar de un dia para el otro, pero es bueno dar el 1er paso reconociendolo e intentar  mejorar.
+<br />
+
+<br />
+Los pensamientos y la ACCION te van a traer los resultados.
+<br />
+
+<br />
+ tu confianza con las minitas va a mejorar con el tiempo y cuando se te haga un Habito encarar , Habito se dice cuando uno hace algo muchas veces, y dps de hacerlo tantas veces le gusta, dps uno lo hace por que le gusta y le hace sentir bien, y como eso te hace feliz,te gusta y te hace sentir bien  lo haces facilmente.
+<br />
+
+<br />
+trata de aprender de los fracasos de las derrotas, tomalo como un aprendizaje y si ves que algo lo podes mejorar tomalo en cuenta , para no volver a cometer los mismos errores, no te bajonees a todos nos rebotan, no quiero que pienses uH esta me va a rebotar, es para que te des cuenta que todos tenemos que pasar por esa etapa, aquella persona que es exitosa fue por que se equivoco muchas veces y asi aprendio, pensa que sos el mas coolll y que las chicas te adoran eso es positivo .
+<br />
+
+<br />
+Los libros no van a ser una formula magica, pero te van a dar ideas , ejemplos , vas a aprender ,PAra eso te va a servir , esta en vos si queres seguir luchando o tirar la toalla.<br /><br />_________________<br /><span style="color: blue">Si crees que puedes o si crees que no puedes de cualquier forma estás en lo correcto</span>
+<br />
+
+<br />
+<span style="color: orange"><span style="font-style: italic">¿Cómo me vuelvo exitoso con las mujeres en general?
+<br />
+Calle, papá, mucha calle. Field, Field, Field, Field.Rebote tras rebote, éxito tras éxito, frustración, indiferencia, Glory, Doom, vergüenza, cara de piedra.</span></span>Dr Saint<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 4:59 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm164.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=164"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43546"></a>-.Fox.-</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/19700799394a02e9bc96d52.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 15 Ene 2008<br />Mensajes: 304<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43546.html#43546"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Re: ¿¿INNER GAME??.....</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43546"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Michael escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Pero quiero RESULTADOS</td>	</tr></table></center>
+<br />
+Respondete esta pregunta: ¿Que es para vos, RESULTADOS?
+<br />
+(parece una pregunta boluda, pero NO lo es eh...)<br /><br />_________________<br />Mr. Tony dice: &quot;SACÁ al TIGRRRRREEE que hay en vos!&quot;
+<br />
+
+<br />
+&quot;...El Gato se limitó a sonreír al ver a Alicia. Parece bueno, pensó Alicia; sin embargo, tiene uñas muy largas, y muchísimos dientes, así que comprendió que debía tratarlo con respeto.&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 1:41 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm189.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=189"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43551"></a>ZeR0ByTe</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 24 Dic 2008<br />Mensajes: 104<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43551.html#43551"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43551"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Michael basta de abrir posts por cada cosa que te ponemos que tenes que aprender. 
+<br />
+Salí a la calle, al boliche o donde sea y golpeate la cabeza. Así solamente vas a aprender.
+<br />
+Y como te dije en el otro post, que no te importe nada !!!. 
+<br />
+Si quedás mal, quedas mal, reite y listo andate. No es tan dificil, al principio yo estaba igual que vos
+<br />
+hasta que me empezó a chupar un huevo todo como te digo y ahora hago lo que se me canta xD.
+<br />
+
+<br />
+Leete el libro de David X como hicimos todos y espero que entiendas a lo que nos referímos todos.
+<br />
+
+<br />
+
+<br />
+Saludos!<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 3:12 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1192.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1192"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43552"></a>Gambler</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2165633481c913f32833.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 30 Oct 2007<br />Mensajes: 509<br />Ubicación: Buenos Aires Capital</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43552.html#43552"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43552"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Pero quiero RESULTADOS</td>	</tr></table></center>
+<br />
+
+<br />
+que joraca queres exactamente? poder encararte una mina? cojer? chapar? WHAT THE FUCK!!
+<br />
+
+<br />
+yo hueloo a pura pajaaa, deja de llenarte al cabeza con teoriaa y abri como sea. Ya te leiste el mm, sali y anda preguntando quien miente mas , asi al menos se te va a sacar el cagazo de abrir.
+<br />
+
+<br />
+Por cierto hay un foro que es de españaa seguramente encuentres players para salir a gamear yo te sugiero que te des una pasada. HACELO<br /><br />_________________<br />&quot;Nadie entra en panico cuando todo va de acuerdo al plan
+<br />
+incluso si el plan es horrendo&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 3:37 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm58.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=58"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43559"></a>Nikko_Gable</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/706785212492d82d15f742.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Oct 2008<br />Mensajes: 1070<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43559.html#43559"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43559"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">El Inner Game es todo man. No se trata de trucos o caretas, de la ropa que usas, de donde vivís, cuanta memoria tengas para aprender ni de cuanta memoria tengas trucos y boludeces. Se trata de tu aACTITUD y no solo está presente en tu game. La actitud es todo man, y si no la tenés la vida te va a cagar a palos y no te vas a poder levantar.
+<br />
+
+<br />
+No hay nada mas valioso que la fotaleza de tu ser y cuando independiente sos. Tu confanza no esta en cuantas minitas tenés, o el auto que tenés, o el tamñano de tu pija. Todo la confianza y felicidad proviene desde el interior.
+<br />
+
+<br />
+Si hoy fuiste al field y no ganaste nada, siempre tuviste tu mano en el peor de los casos. Mañana volvé a intentar.
+<br />
+
+<br />
+Porque si en la vida SABES con certeza lo que querés entonces vas a hacer lo que sea necesario para conseguirlo.
+<br />
+
+<br />
+Si querés saber lo que es actitud aplicada al game leete David X.
+<br />
+
+<br />
+Salí al field un rato y te vas a dar cuneta que las minas no muerden man!!! NO PODÉS TENERLES MIEDO!!!
+<br />
+
+<br />
+Porque no hacés las misiones del foro. O abrís: &quot;Hola ¿Tenés idea de donde queda la calle &quot;Erik Von Marckovic?&quot; Y haces eso las veces que sea necesario. Y ahi te vas a dar cuanta &quot;OHHH era re facil&quot;. Man levantarse una mina es fácil, no es un gran ciencia. Bue.. ni siquiera es una ciencia. Sino que hoy la TV te ha cagado el cerebro para que creas que si no soso musculoso, lindo, tenes X auto, usas un rolex, o cualquier mierda que se pueda compar. Entonces no vales.... 
+<br />
+
+<br />
+Y ESTO NO ES ASI!!! Si te vestis con toda es mierda que vez por la tele SEGUIS SIENDO UN PELOTUDO LO MISMO.
+<br />
+
+<br />
+Es lo mismo con tener 1000000 de toneladas de toria encima, estasa vestido SUPERFICIALMENTE. Pero el cambio interno no lo tenés...
+<br />
+
+<br />
+Tu cabeza NO ha hecho &quot;Click&quot;... Y has empezado a pensar mas cerca de la realidad: &quot;Las mujeres no muerden&quot;... &quot;A las mujeres les gusta coger igual o mas que nosotros&quot; (de ahi el &quot;Son todas putas menos tu mama y tu hermana)... &quot;Las mujeres son sencillas&quot;... &quot;A las mujeres les gustan las ordenes y complacerte&quot;... &quot;Las mujeres quieren un hombre fuerte&quot;... &quot;El feminismo es BULLSHIT&quot; (En su mayoría)... &quot;Las mujeres quieren sentirse protegidas por el hombre que tienen a lado&quot;... &quot;Las mujeres responende nte la honestidad&quot;... 
+<br />
+
+<br />
+O como diria el Gordo. Todavia no te has enojado con ellas: &quot;Escucháme vos puta de mierda, no te creás que me vas a poder abusar solo porque tenés un buen par de tetas&quot;
+<br />
+
+<br />
+Estas son cosas que podés leer pero cuando salís al field te das cuenta que son la pura verdad. O por lo menos una verdad que trabaje de forma eficiente. Si no salís al field entonces, entonces ninguna ayuda va a ser buena para vos porque nunca vas entenderlo. &quot;Click&quot;
+<br />
+
+<br />
+Saludos!<br /><br />_________________<br /><span style="font-weight: bold">&quot;La diferencia entre un perdedor y un ganador, es que el ganador está dispuesto a hacer cosas que el perdedor no haría&quot;.-</span>
+<br />
+
+<br />
+<span style="font-weight: bold">&quot;Los Miedos Suelen Ser Proyecciones Del Ego&quot;</span> Victor Malvado
+<br />
+
+<br />
+<span style="font-weight: bold">Si te caes siete veces, levántate ocho.</span>
+<br />
+
+<br />
+Empresa seria que te paga x clikear: <a href="http://www.neobux.com/?r=juancapod" target="_blank">http://www.neobux.com/?r=juancapod</a> (impacientes abstenerse)<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 6:21 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm991.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=991"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43564"></a>Omega</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Jul 2009<br />Mensajes: 14<br />Ubicación: Cap Fed</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43564.html#43564"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43564"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Nikko_Gable escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">El Inner Game es todo man. No se trata de trucos o caretas, de la ropa que usas, de donde vivís, cuanta memoria tengas para aprender ni de cuanta memoria tengas trucos y boludeces. Se trata de tu aACTITUD y no solo está presente en tu game. La actitud es todo man, y si no la tenés la vida te va a cagar a palos y no te vas a poder levantar.
+<br />
+
+<br />
+No hay nada mas valioso que la fotaleza de tu ser y cuando independiente sos. Tu confanza no esta en cuantas minitas tenés, o el auto que tenés, o el tamñano de tu pija. Todo la confianza y felicidad proviene desde el interior.
+<br />
+
+<br />
+Si hoy fuiste al field y no ganaste nada, siempre tuviste tu mano en el peor de los casos. Mañana volvé a intentar.
+<br />
+
+<br />
+Porque si en la vida SABES con certeza lo que querés entonces vas a hacer lo que sea necesario para conseguirlo.
+<br />
+
+<br />
+Si querés saber lo que es actitud aplicada al game leete David X.
+<br />
+
+<br />
+Salí al field un rato y te vas a dar cuneta que las minas no muerden man!!! NO PODÉS TENERLES MIEDO!!!
+<br />
+
+<br />
+Porque no hacés las misiones del foro. O abrís: &quot;Hola ¿Tenés idea de donde queda la calle &quot;Erik Von Marckovic?&quot; Y haces eso las veces que sea necesario. Y ahi te vas a dar cuanta &quot;OHHH era re facil&quot;. Man levantarse una mina es fácil, no es un gran ciencia. Bue.. ni siquiera es una ciencia. Sino que hoy la TV te ha cagado el cerebro para que creas que si no soso musculoso, lindo, tenes X auto, usas un rolex, o cualquier mierda que se pueda compar. Entonces no vales.... 
+<br />
+
+<br />
+Y ESTO NO ES ASI!!! Si te vestis con toda es mierda que vez por la tele SEGUIS SIENDO UN PELOTUDO LO MISMO.
+<br />
+
+<br />
+Es lo mismo con tener 1000000 de toneladas de toria encima, estasa vestido SUPERFICIALMENTE. Pero el cambio interno no lo tenés...
+<br />
+
+<br />
+Tu cabeza NO ha hecho &quot;Click&quot;... Y has empezado a pensar mas cerca de la realidad: &quot;Las mujeres no muerden&quot;... &quot;A las mujeres les gusta coger igual o mas que nosotros&quot; (de ahi el &quot;Son todas putas menos tu mama y tu hermana)... &quot;Las mujeres son sencillas&quot;... &quot;A las mujeres les gustan las ordenes y complacerte&quot;... &quot;Las mujeres quieren un hombre fuerte&quot;... &quot;El feminismo es BULLSHIT&quot; (En su mayoría)... &quot;Las mujeres quieren sentirse protegidas por el hombre que tienen a lado&quot;... &quot;Las mujeres responende nte la honestidad&quot;... 
+<br />
+
+<br />
+O como diria el Gordo. Todavia no te has enojado con ellas: &quot;Escucháme vos puta de mierda, no te creás que me vas a poder abusar solo porque tenés un buen par de tetas&quot;
+<br />
+
+<br />
+Estas son cosas que podés leer pero cuando salís al field te das cuenta que son la pura verdad. O por lo menos una verdad que trabaje de forma eficiente. Si no salís al field entonces, entonces ninguna ayuda va a ser buena para vos porque nunca vas entenderlo. &quot;Click&quot;
+<br />
+
+<br />
+Saludos!</td>	</tr></table></center>
+<br />
+
+<br />
++1000000000000000000000000
+<br />
+
+<br />
+ <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />  <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" />
+<br />
+
+<br />
+
+<br />
+PD: Esto me da ganas de salir a la calle y romper todo jajaja
+<br />
+
+<br />
+
+<br />
+Saludos!!<br /><br />_________________<br />&quot;Es preferible aprender a cazar y comer bien que comer lo que no te gusta porque es lo que encontraste&quot;. by Alive<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 6:51 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1712.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1712"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43565"></a>_foreverme_</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/6694582324995b9f906bb8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 03 Feb 2009<br />Mensajes: 322<br />Ubicación: C.A</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43565.html#43565"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43565"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">vamos al grano..
+<br />
+
+<br />
+el inner game es la capacidad o huevos que tienes para seguir lo que quieres...
+<br />
+dando lo mejor de si mismos, y todo esto se complementa con creencias grosas que te llevarán al exito..
+<br />
+
+<br />
+¿cual es la primera creencia de inner game?
+<br />
+
+<br />
+Si quieres lograr algo mueve el culo del aciento, y muévete a la acción...
+<br />
+Aunque te partan en dós. Si quieres algo lo sigues, incluso hasta pones en riesgo tu vida..
+<br />
+eso es tener inner game..
+<br />
+
+<br />
+por mucho que te leas todos los libros de Desarrollo Personal, o pases meditando, o escuchando afirmaciones no avanzaras ni siquiera un 0.00 1 % si no ACTUAS!
+<br />
+
+<br />
+este es el principio basico para tener EXITO: ACTUAR!
+<br />
+
+<br />
+Que necesitas estructura, pues ya tienes mas estructura... que ir donde una chica y decirle: hola como te llamas! . luego aunque parezcas AFC preguntale que estudia, cuales son sus hobbies..
+<br />
+
+<br />
+¿que no tienes confianza?
+<br />
+
+<br />
+La confianza tambien se gana actuando, y no existe tal cosa como la confianza, o el miedo...
+<br />
+todo eso está dentro de tu mente. Cuando te dés cuenta que eso son solo boludeces, entonces
+<br />
+aunque sientas esas emociones, comprenderás como funciona tu mente..
+<br />
+siempre y cuando ACTUES!
+<br />
+
+<br />
+como vés aqui la clave está en actuar! luego con algunos libros le vás dando forma a todo.
+<br />
+
+<br />
+Saludos!<br /><br />_________________<br /><span style="color: red"><span style="font-style: italic">...solo un guerrero puede soportar el camino del conocimiento...
+<br />
+
+<br />
+un guerrero no se queja ni se lamenta de nada, no cree que los desafios sean
+<br />
+buenos o malo, los desafios sólo son desafios...</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 16 Jul , 2009 8:14 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1315.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1315"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=1315"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a> <a href="http://www.chamanismo.info" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm1315.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43584"></a>Spex</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/127126998449fbcf87b8086.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 19 Ago 2008<br />Mensajes: 305<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43584.html#43584"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43584"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Todo se reduce a SEGURIDAD. La mayoria de los autores de seduccion parecen estar de acuerdo con que las mujeres aman la seguridad incluso por encima de la apariencia fisica, eso si difieren en como alcanzarla. De hecho las cosas como la guita, un auto o el hecho de ser social con las personas, el tener sentido del humor comunican seguridad y por ende resulta atractivo para las minas ¿Ahora como ganas seguridad? Ahi es donde se pone dificil y requiere esfuerzo de tu parte: superar tus miedos, tus frustraciones pasadas, tus frustraciones futuras, tu busqueda de aprobacion, etc.
+<br />
+
+<br />
+Ahora incluso si todo el material de seduccion estubiera mal y fuera todo un verso armado unicamente con el fin vender libros, o peor aun, un monton de consejitos boludos sin fundamento alguno inventado por unos nerds frente a la computadora para justificar por que no la ponen...
+<br />
+
+<br />
+Mucho del material apunta a que seas social con las personas, a que no te dejes influenciar por las opiniones ajenas y a que seas autosufisiente y seguro ¿Que hay de malo con eso?
+<br />
+
+<br />
+Michael ahora si solo te intereza saber la opinion de cada uno aca esta la mia:
+<br />
+
+<br />
+<a href="http://proyectovagnerlover.tu-foro-gratis.com/inner-game-una-vision-personal-dot-vt2678.html?highlight=inner+game" target="_blank">http://proyectovagnerlover.tu-foro-gratis.com/inner-game-una-vision-personal-dot-vt2678.html?highlight=inner+game</a>
+<br />
+
+<br />
+Ahi aconsejo el material que creo mas relevante, a lo que le sumaria lo de &quot;Transformacion Profunda&quot; lo vi y esta bueno, me parece que es todo lo que necesitas saber de PNL si tu  objetivo es unicamente levantar minitas.
+<br />
+
+<br />
+Por ultimo podes usar el buscador para responderte este tipo de preguntas. 
+<br />
+
+<br />
+<a href="http://proyectovagnerlover.tu-foro-gratis.com/search.php?mode=results" target="_blank">http://proyectovagnerlover.tu-foro-gratis.com/search.php?mode=results</a><br /><br />_________________<br />Don't Think it about, Just DO! DO! DO!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 12:22 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm612.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=612"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43595"></a>Bandido</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/486017454a33d19e8fc84.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Abr 2009<br />Mensajes: 108<br />Ubicación: Argentina Cba.</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43595.html#43595"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43595"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">_foreverme_ escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+
+<br />
+por mucho que te leas todos los libros de Desarrollo Personal, o pases meditando, o escuchando afirmaciones no avanzaras ni siquiera un 0.00 1 % si no ACTUAS!
+<br />
+
+<br />
+este es el principio basico para tener EXITO: ACTUAR!
+<br />
+
+<br />
+</td>	</tr></table></center>
+<br />
+
+<br />
+Cuanta razon tienes, forever<br /><br />_________________<br />Mujeriego ¡No! .... Seductor, Si. 
+<br />
+Acuerdate de Saber siempre lo que quieres.
+<br />
+
+<br />
+<a href="http://www.goear.com/listen/e07f8aa/Bandido-Sebastian" target="_blank"><span style="font-weight: bold">Me dicen el Bandido, escuchar online</span></a><img src="http://www.mexanime.org/smf/Smileys/smilies/drunk.gif" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 3:29 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43596"></a>Brainstorm</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/70369300649ad742de1e0b.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 28 Abr 2008<br />Mensajes: 217<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43596.html#43596"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43596"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">ZeR0ByTe escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Michael basta de abrir posts por cada cosa que te ponemos que tenes que aprender. 
+<br />
+Salí a la calle, al boliche o donde sea y golpeate la cabeza. Así solamente vas a aprender.
+<br />
+Y como te dije en el otro post, que no te importe nada !!!. 
+<br />
+Si quedás mal, quedas mal, reite y listo andate. No es tan dificil, al principio yo estaba igual que vos
+<br />
+hasta que me empezó a chupar un huevo todo como te digo y ahora hago lo que se me canta xD.
+<br />
+
+<br />
+Leete el libro de David X como hicimos todos y espero que entiendas a lo que nos referímos todos.
+<br />
+
+<br />
+
+<br />
+Saludos!</td>	</tr></table></center>
+<br />
+
+<br />
+Este es el click escencial que tenés que hacer, esto se trata de vos, cuando haces este click dejas de pedir &quot;soluciones&quot; y empezas a pedir &quot;opiniones-consejos&quot; te haces responsable de tu propia existencia. Dejas de mirar tanto hacia afuera, porque te das cuenta que la energía que pones afuera, la sacrificas de lo que podrías utilizar xra vos y de cualquier manera poniendola en vos es la única manera que responda a tus propias intenciones.
+<br />
+
+<br />
+Creo que este es uno de los puntos fuertes y de las razones por las que fueron aprendices de mersault hayan (http://www.unameseca.com/Ejercicios/Intermedio_3/haya-halla/haya-halla.htm)
+<br />
+tenido cambios tan profundos y tan rápidos, para los separatistas quiero conectar esto con lo que dice tyler de que la mayoría de las personas caminan por la vida en un costante trance inducido exteriormente...
+<br />
+
+<br />
+groso como se conectan esos 2 concepts no?<br /><br />_________________<br />It's you. The real you. The inner you. The guy you know in your heart that you are. Stop hiding him. Let him out.
+<br />
+
+<br />
+I am who I am &amp; by virtue of my agenda is my duty to give evry beautiful woman a chance to be with me.
+<br />
+
+<br />
+Muchachos, esto esta TAN en su cabeza que no es ni siquiera gracioso.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 4:01 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm376.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=376"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43607"></a>leonidas</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/860208314a2a7b0e4e14b.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 30 Mar 2009<br />Mensajes: 33<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43607.html#43607"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43607"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Nikko_Gable escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">El Inner Game es todo man. No se trata de trucos o caretas, de la ropa que usas, de donde vivís, cuanta memoria tengas para aprender ni de cuanta memoria tengas trucos y boludeces. Se trata de tu aACTITUD y no solo está presente en tu game. La actitud es todo man, y si no la tenés la vida te va a cagar a palos y no te vas a poder levantar.
+<br />
+
+<br />
+No hay nada mas valioso que la fotaleza de tu ser y cuando independiente sos. Tu confanza no esta en cuantas minitas tenés, o el auto que tenés, o el tamñano de tu pija. Todo la confianza y felicidad proviene desde el interior.
+<br />
+
+<br />
+Si hoy fuiste al field y no ganaste nada, siempre tuviste tu mano en el peor de los casos. Mañana volvé a intentar.
+<br />
+
+<br />
+Porque si en la vida SABES con certeza lo que querés entonces vas a hacer lo que sea necesario para conseguirlo.
+<br />
+
+<br />
+Si querés saber lo que es actitud aplicada al game leete David X.
+<br />
+
+<br />
+Salí al field un rato y te vas a dar cuneta que las minas no muerden man!!! NO PODÉS TENERLES MIEDO!!!
+<br />
+
+<br />
+Porque no hacés las misiones del foro. O abrís: &quot;Hola ¿Tenés idea de donde queda la calle &quot;Erik Von Marckovic?&quot; Y haces eso las veces que sea necesario. Y ahi te vas a dar cuanta &quot;OHHH era re facil&quot;. Man levantarse una mina es fácil, no es un gran ciencia. Bue.. ni siquiera es una ciencia. Sino que hoy la TV te ha cagado el cerebro para que creas que si no soso musculoso, lindo, tenes X auto, usas un rolex, o cualquier mierda que se pueda compar. Entonces no vales.... 
+<br />
+
+<br />
+Y ESTO NO ES ASI!!! Si te vestis con toda es mierda que vez por la tele SEGUIS SIENDO UN PELOTUDO LO MISMO.
+<br />
+
+<br />
+Es lo mismo con tener 1000000 de toneladas de toria encima, estasa vestido SUPERFICIALMENTE. Pero el cambio interno no lo tenés...
+<br />
+
+<br />
+Tu cabeza NO ha hecho &quot;Click&quot;... Y has empezado a pensar mas cerca de la realidad: &quot;Las mujeres no muerden&quot;... &quot;A las mujeres les gusta coger igual o mas que nosotros&quot; (de ahi el &quot;Son todas putas menos tu mama y tu hermana)... &quot;Las mujeres son sencillas&quot;... &quot;A las mujeres les gustan las ordenes y complacerte&quot;... &quot;Las mujeres quieren un hombre fuerte&quot;... &quot;El feminismo es BULLSHIT&quot; (En su mayoría)... &quot;Las mujeres quieren sentirse protegidas por el hombre que tienen a lado&quot;... &quot;Las mujeres responende nte la honestidad&quot;... 
+<br />
+
+<br />
+O como diria el Gordo. Todavia no te has enojado con ellas: &quot;Escucháme vos puta de mierda, no te creás que me vas a poder abusar solo porque tenés un buen par de tetas&quot;
+<br />
+
+<br />
+Estas son cosas que podés leer pero cuando salís al field te das cuenta que son la pura verdad. O por lo menos una verdad que trabaje de forma eficiente. Si no salís al field entonces, entonces ninguna ayuda va a ser buena para vos porque nunca vas entenderlo. &quot;Click&quot;
+<br />
+
+<br />
+Saludos!</td>	</tr></table></center>
+<br />
+
+<br />
+Felicitaciones! por si alguno todavia no sabe q es inner game nikko acaba de explicarlo magistralmente. <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br />&quot;Ganador es aquel que no se engaña a si mismo a la hora de decidir lo que quiere y hace todo cuanto este a su alcance y sea posible para conseguirlo.&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 4:00 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1450.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1450"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1450.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43612"></a>EXTASIS</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/21109794334a3d40392be11.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 15 Abr 2009<br />Mensajes: 58<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43612.html#43612"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43612"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">A continuacion hare algunas comparaciones/metaforas acerca del inner game que a mi se me ocurrieron al tratar con este tema.
+<br />
+
+<br />
+Yo veo al inner game como la parte del iceberg que no se ve, siendo el game (direct, indirect, natural o lo que sea) la punta del iceberg.
+<br />
+
+<br />
+Al igual que en el age of empires una buena economia es la base indispensable para tener un buen ejercito, creo que es indispensable un inner game fuerte para reflejar luego eso en el pick up o al mantener una relacion.
+<br />
+
+<br />
+Si uno no logra un inner game fuerte todo lo demas va a ser pura simulacion que en algun momento no sera sustentable. Para que el game sea autentico el inner game debe existir y ser autentico.
+<br />
+
+<br />
+Cada uno tiene sus maneras de lograr un inner game fuerte. Algunos meditando lo logran, otros teniendo un puesto importante en una empresa, otros desarrollando un estado fisico prominente. Yo personalmente para mantener mi inner game tengo que sentir que estoy haciendo cosas productivas para mi. Si estoy haciendo deporte, si estoy estudiando, si estoy haciendo cosas utiles para mi tengo un mejor inner game y eso lo noto a la hora del pick up.
+<br />
+
+<br />
+Vos podes tener otros requerimientos. Fijate lo que te hace sentir que sos vos el que esta en un pedestal y no ella. Cuando sientas eso vas a tener un gran inner game (esa es la manera en la que yo lo veo). Pero sin dudas es indispensable por que esto no se trata de simular sino de ser.
+<br />
+
+<br />
+EXTASIS<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 5:18 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1494.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1494"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43627"></a>Levant</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/74287775148151c87a641b.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 27 Abr 2008<br />Mensajes: 54<br />Ubicación: Catamarca</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43627.html#43627"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43627"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Nikko_Gable escribió:
+<br />
+El Inner Game es todo man. No se trata de trucos o caretas, de la ropa que usas, de donde vivís, cuanta memoria tengas para aprender ni de cuanta memoria tengas trucos y boludeces. Se trata de tu aACTITUD y no solo está presente en tu game. La actitud es todo man, y si no la tenés la vida te va a cagar a palos y no te vas a poder levantar.
+<br />
+
+<br />
+No hay nada mas valioso que la fotaleza de tu ser y cuando independiente sos. Tu confanza no esta en cuantas minitas tenés, o el auto que tenés, o el tamñano de tu pija. Todo la confianza y felicidad proviene desde el interior.
+<br />
+
+<br />
+Si hoy fuiste al field y no ganaste nada, siempre tuviste tu mano en el peor de los casos. Mañana volvé a intentar.
+<br />
+
+<br />
+Porque si en la vida SABES con certeza lo que querés entonces vas a hacer lo que sea necesario para conseguirlo.
+<br />
+
+<br />
+Si querés saber lo que es actitud aplicada al game leete David X.
+<br />
+
+<br />
+Salí al field un rato y te vas a dar cuneta que las minas no muerden man!!! NO PODÉS TENERLES MIEDO!!!
+<br />
+
+<br />
+Porque no hacés las misiones del foro. O abrís: &quot;Hola ¿Tenés idea de donde queda la calle &quot;Erik Von Marckovic?&quot; Y haces eso las veces que sea necesario. Y ahi te vas a dar cuanta &quot;OHHH era re facil&quot;. Man levantarse una mina es fácil, no es un gran ciencia. Bue.. ni siquiera es una ciencia. Sino que hoy la TV te ha cagado el cerebro para que creas que si no soso musculoso, lindo, tenes X auto, usas un rolex, o cualquier mierda que se pueda compar. Entonces no vales....
+<br />
+
+<br />
+Y ESTO NO ES ASI!!! Si te vestis con toda es mierda que vez por la tele SEGUIS SIENDO UN PELOTUDO LO MISMO.
+<br />
+
+<br />
+Es lo mismo con tener 1000000 de toneladas de toria encima, estasa vestido SUPERFICIALMENTE. Pero el cambio interno no lo tenés...
+<br />
+
+<br />
+Tu cabeza NO ha hecho &quot;Click&quot;... Y has empezado a pensar mas cerca de la realidad: &quot;Las mujeres no muerden&quot;... &quot;A las mujeres les gusta coger igual o mas que nosotros&quot; (de ahi el &quot;Son todas putas menos tu mama y tu hermana)... &quot;Las mujeres son sencillas&quot;... &quot;A las mujeres les gustan las ordenes y complacerte&quot;... &quot;Las mujeres quieren un hombre fuerte&quot;... &quot;El feminismo es BULLSHIT&quot; (En su mayoría)... &quot;Las mujeres quieren sentirse protegidas por el hombre que tienen a lado&quot;... &quot;Las mujeres responende nte la honestidad&quot;...
+<br />
+
+<br />
+O como diria el Gordo. Todavia no te has enojado con ellas: &quot;Escucháme vos puta de mierda, no te creás que me vas a poder abusar solo porque tenés un buen par de tetas&quot;
+<br />
+
+<br />
+Estas son cosas que podés leer pero cuando salís al field te das cuenta que son la pura verdad. O por lo menos una verdad que trabaje de forma eficiente. Si no salís al field entonces, entonces ninguna ayuda va a ser buena para vos porque nunca vas entenderlo. &quot;Click&quot;
+<br />
+
+<br />
+Saludos!</td>	</tr></table></center>
+<br />
+
+<br />
+A esto lo voy a imprimir y pegarlo en la pared. Como si fuera un enunciado de misión &quot;excelente&quot;
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+Extasis:
+<br />
+Al igual que en el age of empires una buena economia es la base indispensable para tener un buen ejercito, creo que es indispensable un inner game fuerte para reflejar luego eso en el pick up o al mantener una relacion. </td>	</tr></table></center>
+<br />
+Muy buena comparación. Es la verdad, los juegos de estrategia tiene mucho de preparación y técnicas se parece al PUA
+<br />
+
+<br />
+Muy bueno. Saludos<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 17 Jul , 2009 10:36 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm373.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=373"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=6429&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6429"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="6197f5cdde88cd3b7395124c5c6256e4" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

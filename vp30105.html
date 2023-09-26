@@ -1,0 +1,936 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=3520&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=3520&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Algo que todos deberían leer...</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="algo-que-todos-deberian-leer-dot-dot-dot-vt3520.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Algo que todos deberían leer...</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3520"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt3520.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt3520.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="algo-que-todos-deberian-leer-dot-dot-dot-vt3520.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Algo que todos deberían leer...</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="30105"></a>andré</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/151146220548ee459238e43.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 20 Jul 2008<br />Mensajes: 47<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp30105.html#30105"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Algo que todos deberían leer...</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=30105"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Encontré esto hace tiempo en un foro de chamanismo...(??....si, que se yo...!))
+<br />
+Lo vi, me interesó y lo guardé, me intimidó por lo largo.  Hoy lo leí y creo que es muuy interesante.
+<br />
+Lo comparto con ustedes.
+<br />
+
+<br />
+Técnicas de lavado de cerebro.
+<br />
+
+<br />
+Por Dick Sutphen
+<br />
+
+<br />
+Aunque he sido entrevistado acerca de este tema en mucha semisoras de radio y TV locales y regionales, la comunicación a gran escala parece estar bloqueada, ya que pudiera resultar una sospecha o investigación del mismo medio en que se difunde o de los sponsors que lo financian. Algunasagencias gubernamentales no desean que esta información se difunda. Y tampoco los renacidos movimientos y cultos Cristianos y sociedades de formación de potenciales humanos. 
+<br />
+
+<br />
+ Todo lo que voy a exponer no refleja sino la superficie del problema. No sé como puede detenerse el mal uso de estas técnicas. No creo que sea posible legislar contra lo que, frecuentemente, no puede ser detectado; y si los que legislan están utilizándolas, hay pocas esperanzas de aplicar lasl eyes a la conducta del gobierno. Sé que el primer paso para iniciar el cambio es generar interés en ello. En este caso, solo puede llegar de los esfuerzo sclandestinos (no oficiales). Hablando de este tema, estoy hablando de mi propio medio de vida. Lo conozco, y sé lo efectivo que puede llegar a ser. 
+<br />
+
+<br />
+ Soy productor de cintas hipnóticas y con mensajes subliminales y en algunos de mis seminarios, utilizo tácticas de conversión para ayudar a los participantes a llegar a ser independientes y autosuficientes. Pero, cada vezque uso estas técnicas, advierto de que las estoy usando, y las personasparticipantes pueden elegir si asistir a ello o no. También saben el resultado que cabe esperar de su participación. 
+<br />
+
+<br />
+De modo que, para empezar, quiero dejar claro el más básico de los hechos sobre los lavados de cerebro: EN TODA LA HISTORIA DE LA HUMANIDAD, NADIE HA SUFRIDO UN LAVADO DE CEREBRO Y SE HA DADO CUENTA, O HA CREÍDO, QUE LO ESTABASUFRIENDO. Quienes han pasado por ello por regla general defienden apasionadamente a sus manipuladores, asegurando que solamente les han&quot;enseñado la luz” …o han sido transformados de alguna manera milagrosa. 
+<br />
+
+<br />
+ EL NACIMIENTO DE LA CONVERSIÓN es una palabra &quot;amable&quot;para designar el LAVADO DE CEREBRO... y cualquier estudio acerca del lavado de cerebro debe de comenzar con el estudio del resurgimiento Cristiano en laAmérica del siglo XVIII. 
+<br />
+
+<br />
+
+<br />
+El nacimiento de la conversión/lavado de cerebro en el resurgimiento cristiano en1735. 
+<br />
+
+<br />
+ Aparentemente, Jonathan Edwards descubrió accidentalmente las técnicas durante la cruzada religiosa de 1735 en Northampton, Massachussets.Induciendo sentimientos de culpa y aprensión aguda, e incrementando la tensión, los &quot;pecadores&quot; que asistían a su reuniones de resurgimiento acababan rompiéndose y sometiéndose completamente. 
+<br />
+
+<br />
+ Técnicamente, lo que Edwards hacía era crear condiciones que limpiaban el cerebro para que la mente aceptara una nueva programación. El problema era que las nuevas órdenes eran negativas. Les podía decir:&quot;¡Sois pecadores, estáis destinados al infierno!&quot; El resultado fue que una persona se suicidó y otra intentó hacerlo. Y los parientes del suicida contaron que ellos estaban también tan profundamente afectados que, aunque habían encontrado la &quot;salvación eterna&quot;, estaban obsesionados con la diabólica tentación de acabar con sus vidas. 
+<br />
+
+<br />
+ Una vez un predicador, o un líder de una religión, un manipulador o una figura con autoridad crea la fase en que el cerebro puede vaciarse y quedar limpio, sus víctimas quedan completamente abiertas. Nuevas instrucciones,en forma de sugestiones, pueden sustituir a sus ideas previas. Como Edwards no enviaba mensajes positivos hasta el final del resurgimiento, muchos aceptaron las sugestiones negativas y actuaron, o desearon actuar, según ellas. 
+<br />
+
+<br />
+ Charles J. Finney fue otro renacentista Cristiano que utilizó las mismas técnicas cuatro años más tarde en conversiones religiosas en masa en Nueva York. Las técnicas son todavía usadas por renacentistas cristianos,cultos, enseñantes, empresas, y el ejército de los Estados Unidos, por citar solo unos pocos. Déjenme señalar aquí que no creo que la mayor parte de los renacentistas religiosos se den cuenta de que están usando técnicas de lavadode cerebro. 
+<br />
+
+<br />
+ Edwards simplemente insistió en un sistema que realmente funcionaba, y otros no hicieron más que copiarle y lo siguen haciendodo cientos años después. Y cuanto más sofisticado es nuestro conocimiento y nuestra tecnología, más efectiva es la conversión. Estoy profundamente convencido de que esta es una de las principales razones del incremento del fundamentalismo cristiano, especialmente en su variedad televisiva, mientras la mayor parte de las religiones convencionales declinan. 
+<br />
+
+<br />
+Las tres fases del cerebro- 
+<br />
+
+<br />
+ Aunque los cristianos fueran los primeros en formular con éxito el lavado de cerebro, hemos de mirar a Pavlov, el científico ruso, para obtener una explicación técnica. En los primeros años del siglo, su trabajo con animales abrió la puerta a ulteriores investigaciones con seres humanos. Tras la revolución rusa, Lenin vio rápidamente el potencial de la aplicación de las investigaciones de Pavlov a sus propios fines. Pavlov identificó tres estadios diferentes y progresivos de la inhibición transmarginal. 
+<br />
+
+<br />
+ El primero es la fase EQUIVALENTE, en la que el cerebro da la misma respuesta a estímulos débiles o fuertes. La segunda es la fase PARADÓJICA, en la cual el cerebro responde más activamente a los estímulos débiles que a los fuertes. Y la tercera es la fase ULTRA- PARADÓJICA, en la que las respuestas condicionadas y los patrones de comportamiento pasan depositivos a negativos o de negativos a positivos. 
+<br />
+
+<br />
+ Con la progresión a través de cada fase, el grado de conversión se hace más efectivo y completo. Las formas de conseguir la conversión son muchas y variadas, pero el primer paso habitual en el lavado de cerebro religioso o político es trabajar con las emociones del individuo o del grupo hasta que alcanzan un nivel anómalo de ansiedad, miedo, excitación o tensión nerviosa. El resultado progresivo de esta condición mental es la disminución de la capacidad de juicio y el incremento de la sugestibilidad. 
+<br />
+
+<br />
+Cuanto más se mantenga o intensifique esta condición, más se agrava. Una vez se alcanza la catarsis, o primera fase cerebral, la conquista completa de la mente es más fácil. La programación mental preexistente puede ser reemplazada por nuevos patrones de pensamiento y conducta. Otras armas usadas frecuentemente para modificar el normal funcionamiento del cerebro son el adelgazamiento, las dietas radicales o altas en azúcar, las incomodidades físicas, la regulación de la respiración, el recitado de mantras en la meditación, la exposición de misterios asombrosos, efectos especiales de luz y sonido, la respuesta programada al incienso, o intoxicación por drogas. 
+<br />
+
+<br />
+  
+<br />
+
+<br />
+Se consiguen los mismos resultados en los tratamientos psiquiátricos contemporáneos con electroshock o con la disminución intencionada de los niveles de azúcar en sangre inyectando insulina. Antes de hablar del modo exacto en que algunas de la técnicas se aplican, quiero señalar que la hipnosis y las técnicas de conversión son dos cosas diferentes--y que las técnicas de conversión son mucho más poderosas. Sin embargo, ambas se usan a la vez frecuentemente ...con poderosos resultados. 
+<br />
+
+<br />
+Como trabajan los predicadores renacentistas- 
+<br />
+
+<br />
+ Si quiere ver a un predicador renacentista en plena faena, en su ciudad hay probablemente varios. Vaya a la iglesia temprano y siéntese en la parte de atrás. Probablemente, se tocará una música repetitiva mientras la gente va llegando. Un ritmo repetitivo, idealmente de 45 a 72&quot;golpes&quot; por minuto (un ritmo cercano al del corazón humano), es muy hipnótico y puede generar estados alterados de la conciencia en un alto porcentaje de personas. Y, una vez se está en estado alfa, se es al menos 25 veces más sugestionable que en estado beta de plena conciencia. 
+<br />
+
+<br />
+ La música es probablemente la misma en todos los servicios, otiene el mismo ritmo, y muchas personas pueden caer en estados alterados de la conciencia en cuanto entran en la iglesia. Subconscientemente, recuerdan su estado mental en servicios anteriores y responden de acuerdo con la programación post-hipnótica. Mire a la gente mientras espera que comience el servicio. Muchos muestran signos externos de trance: relajación corporal y ojosligeramente dilatados. A menudo, se balancean adelante y atrás sentados en sus sillas. Después, el sacerdote entra. Y suele hablar con una &quot;voz rodada&quot;. 
+<br />
+
+<br />
+TÉCNICA DE LA VOZ RODADA La &quot;voz rodada&quot; es un estilo repetitivo y rítmico usado por los hipnotizadores cuando quieren inducir un  trance. Lo usan también muchos abogados, algunos de los cuales son consumados hipnotizadores, cuando desean introducir firmemente una idea en la mente del jurado. La voz rodada puede sonar como si el orador estuviera hablando con el ritmo de un metrónomo, o como si estuviera enfatizando cada palabra con un estilo monótono y repetitivo. Las palabras son pronunciadas habitualmente a un ritmo de 45 a 60 por minuto, maximizando el efecto hipnótico. 
+<br />
+
+<br />
+Luego, el sacerdote comienza el proceso de &quot;construcción&quot;.Induce un estado alterado de la conciencia y/o comienza a excitar a los oyentes. Después, un grupo de mujeres jóvenes con &quot;dulces y puros&quot;vestidos de gasa suelen salir a cantar. Las canciones Gospel son estupendas para crear excitación y hacer que los oyentes se IMPLIQUEN. En mitad de la canción, una de las muchachas puede ser &quot;poseída por el espíritu&quot; y caer al suelo o actuar como si el Espíritu Santo estuviera en su interior. Esto incrementa muy efectivamente la intensidad en la habitación. 
+<br />
+
+<br />
+ En este punto, las tácticas de hipnosis y de conversión están siendo mezcladas. Y el resultado es que la atención de la audiencia se focaliza en la comunicación a medida que el ambiente se hace más excitado o tenso. Más omenos en ese momento, cuando se ha conseguido un estado mental alfa colectivo,es cuando pasan el cesto de las donaciones. En el plano de fondo, la voz rodada del sacerdote puede exhortar &quot;Dad a Dios...Dad a Dios...Dad aDios...&quot; Y los asistentes dan. 
+<br />
+
+<br />
+ Puede que Dios no coja el dinero, pero su representante si que lo hace. Después aparece el sacerdote &quot;amenazador&quot;. Induce el miedo e incrementa la tensión hablando acerca del &quot;diablo&quot;, &quot;ir al infierno&quot; o de la proximidad del fin del mundo. En el ultimo rally de estetipo al que asistí, el predicador habló acerca de la sangre que pronto manaría de cada boca en la tierra. Estaba también obsesionado con la &quot;sangrienta lanza de Dios&quot;, que todos habían visto colgada sobre el púlpito la anterior semana. No tengo ninguna duda de que todos la vieron. 
+<br />
+
+<br />
+ El poder de la sugestión dada a cientos de personas en la hipnosis asegura que al menos del 10 al 25 por ciento de ellos verán cualquier cosa que se les sugiera que han de ver. En la mayor parte de las reuniones renacentistas, &quot;testificar&quot; o &quot;ser testigos&quot; sigue usualmente al sermón basado en el miedo. Gente del auditorio se levanta y relata sus historias. &quot;¡Estaba impedido y ahora puedo andar!&quot;&quot;¡Tenía artritis y ahora se ha curado!&quot; Son manipulaciones psicológicas que funcionan. 
+<br />
+
+<br />
+ Tras escuchar numerosos casos de historias de curaciones milagrosas, el tipo medio de la audiencia con un problema menor está convencido de que puede ser curado. La sala está cargada con miedo, culpabilidad, intensa excitación y expectación. En ese momento los que quieren ser curados se alinean alrededor de la habitación, o se les dice que salgan al frente. El predicador puede tocarles la cabeza firmemente y gritar &quot;¡Sana!&quot; Esto libera la energía psíquica y, para muchos, resulta la catarsis. 
+<br />
+
+<br />
+La catarsis es la purga de las emociones reprimidas. Unos individuos pueden llorar, caer al suelo o incluso tener espasmos. Y si la catarsis se efectúa, tienen una posibilidad de curarse. En la catarsis (una de las tres fases cerebrales mencionadas anteriormente), el cerebro queda temporalmente vacío y se aceptan las nuevas sugestiones. Para algunos, la curación puede ser permanente. Para muchos, puede durar de cuatro días a unasemana, que es, incidentalmente, lo que duran las sugestiones hipnóticas dadas a un sujeto en estado de sonambulismo. Incluso si la curación no es duradera,la vuelta de estas personas a la iglesia cada semana asegura que el poder de sugestión va a anular continuamente el problema… o a veces, tristemente, puede enmascarar un problema físico que perjudicará al individuo a largo plazo. 
+<br />
+
+<br />
+ No estoy diciendo que no ocurran verdaderas curaciones. Ocurren.Puede que la persona estuviera lista para dejar de lado la negatividad quecausó el problema en principio; puede que fuera obra de Dios; Pero creo que pueden explicarse con el conocimiento actual del funcionamiento de la mente/elcerebro. Las técnicas y la representación pueden variar de iglesia a iglesia.Muchas usan &quot;el don de lenguas&quot; para generar la catarsis en algunas personas mientras el espectáculo crea intensa excitación en los observadores. 
+<br />
+
+<br />
+El uso de técnicas hipnóticas por los religiosos es sofisticada, y los profesionales aseguran que son cada vez más efectivas. Un hombre en LosAngeles esta diseñando, construyendo y remodelando iglesias de todo el país.Dice a los sacerdotes lo que necesitan y como deben usarlo. La experiencia de este hombre dice que la audiencia y los ingresos de la congregación se duplicarán si el ministro sigue sus consejos. Admite que alrededor del 80 porciento de sus esfuerzos se dirigen al sistema de iluminación y sonido. Un sonido potente y el uso adecuado de la iluminación es de primera importancia para inducir un estado alterado de la conciencia. He estado usándolos durante años en mis propios seminarios. Pero mis participantes están plenamente advertidos del proceso y de lo que pueden esperar como resultado de su participación. 
+<br />
+
+<br />
+ SEIS TECNICAS DE CONVERSION 
+<br />
+
+<br />
+ Los cultos (sectas) y las organizaciones de potencial humano están siempre buscando nuevos conversos. Para conseguirlos, deben también crear una fase cerebral. Y a menudo necesitan hacerlo en un corto espacio de tiempo, un fin de semana, o tal vez incluso un día. Las siguientes son seis técnicas primarias usadas para generar la conversión. El encuentro o reunión de entrenamiento se producen en un lugar en el que los participantes están separados del mundo exterior. Puede ser cualquier lugar: una casa privada, un emplazamiento rural remoto, o incluso la sala de bailes de un hotel en donde alos participantes solo se les permite un uso limitado del cuarto de baño. 
+<br />
+
+<br />
+ En un primer paso, en las organizaciones de potencial humano, los controladores dan una larga charlaacerca de la importancia de &quot;mantener los compromisos&quot; en la vida. A los participantes se les dice que si no mantienen sus compromisos, su vida nunca funcionará bien. Es una buena idea mantener los compromisos, pero los controladores subvierten un valor humano positivo para sus propios propósitos.Los participantes se juran a sí mismos y a su entrenador que mantendrán sus compromisos. Cualquiera que no lo haga es intimado a hacerlo o abandonar inmediatamente la reunión. 
+<br />
+
+<br />
+ El  siguiente paso es comprometerse a completar el entrenamiento,asegurando así un alto porcentaje de conversiones para la organización. Tienen que comprometerse GENERALMENTE a no tomar drogas, fumar, y a veces no comer...o se les da breves interrupciones para comer que incrementan la tensión. La verdadera razón para el compromiso es alterar la química interna, que genera ansiedad y con suerte, no hace más que desequilibrar levemente el sistema nervioso, lo que a su vez aumenta las posibilidades de conversión. 
+<br />
+
+<br />
+ Antes de que termine el encuentro, los compromisos se usan para asegurar que los nuevos conversos vayan fuera y encuentren nuevos participantes. Son obligados a comprometerse a ello antes de partir. Como la importancia de mantener los compromisos es tan alta en sus prioridades, los conversos presionarán a todos sus conocidos, intentando hablarles acerca de su asistencia a una sesión introductoria gratuita que la organización ofrecerá en el futuro. 
+<br />
+
+<br />
+ Los nuevos conversos son zelotes. De hecho, la frase interna para promocionar la mayor y más exitosa organización de potencial humano es&quot;¡que lo venda un zelote!&quot; Al menos un millón de personas son adeptos a estas organizaciones y un buen porcentaje de ellos llevan un&quot;botón&quot; de activación mental que asegura su futura lealtad si el gurúo la organización les llaman. Piensen acerca de la implicaciones políticas de cientos de miles de zelotes programados para hacer campaña a favor de su gurú. 
+<br />
+
+<br />
+ Tengan cuidado con una organización de este tipo que ofrezca sesiones de seguimiento después del seminario. Las sesiones de seguimiento pueden ser reuniones semanales dadas de forma regular que la organización intente hacerle seguir, o cualquier evento usado para mantener el control. Como sabían los primitivos renacentistas Cristianos, el control a largo plazo depende de un buen sistema de seguimiento. 
+<br />
+
+<br />
+Bien. Ahora, echemos un vistazo al segundo punto que indica que se están utilizando técnicas de conversión. Se utiliza un esquema que causa fatiga física y mental. Esto se hace en primer lugar realizando sesiones de muchas horas durante las cuales los participantes no tienen ocasión de relajarse o reflexionar. 
+<br />
+
+<br />
+ Tercerpaso: técnicas para aumentar la tensión en la habitación y en el entorno. 
+<br />
+
+<br />
+ Cuartopaso: Incertidumbre. Podría pasar horas hablando acerca de las diversas técnicas para incrementar la tensión y generar incertidumbre. Básicamente, los participantes se sienten preocupados por la posibilidad de ser&quot;pillados&quot; por los organizadores, y se ponen en juego sentimientos de culpabilidad, los participantes son instados por los organizadores a relatar verbalmente sus más íntimos secretos a otros participantes o forzados a participar en actividades que enfatizan el &quot;quitarse las máscaras&quot;.Uno de las más efectivas organizaciones de &quot;potencial humano&quot; fuerza a los participantes a mantenerse de pié en el estrado frente a toda la audiencia mientras son atacados verbalmente por los organizadores. 
+<br />
+
+<br />
+ Una encuesta pública realizada hace algunos años reveló que la situación más temida en general es la de hablar en público. Se sitúa por encima de lavar cristales exteriores en el piso 85 de un edificio de oficinas. De modoque pueden imaginarse el temor y la tensión que esta situación genera entre los participantes. Algunos se desmayan, pero otros pueden soportar el estrés saliendo mentalmente del lugar. Literalmente pasan a estado alfa, lo que los hace automáticamente mucho más sugestionables de lo que son normalmente. Y otra vuelta en la espiral hacia la conversión queda completada. 
+<br />
+
+<br />
+ Elquinto indicio de que se están usando técnicas de conversiónes la introducción de un argot: nuevos términos que solamente tienen significado para &quot;iniciados&quot; que participan. A veces se usa unlenguaje incorrecto intencionadamente para hacer que los participantes se sientan incómodos. 
+<br />
+
+<br />
+ El punto sexto es que no hay ni rastro de humor en las conferencias...al menos hasta que los participantes han sido convertidos. Entonces, la alegría y el humor son muy deseables como símbolo de la felicidad que los participantes se supone que han&quot;encontrado&quot;. 
+<br />
+
+<br />
+No estoy diciendo que no resulte ningún bien de estas reuniones.Puede suceder y sucede. Pero sostengo que es bueno que la gente sepa lo que ha sucedido y que una participación continua puede no ser de su interés. A través de los años, he dirigido seminarios profesionales para enseñar a la gente a ser hipnotizadores, entrenadores y consejeros. 
+<br />
+
+<br />
+Algunos de ellos se han acercado a mi y me han dicho: &quot;Estoy aquí porque sé que lo que hago funciona, pero no se por qué&quot;. Después demostrarles como y por qué, muchos han salido del negocio o han decidido encararlo de manera mucho más humana y cariñosa. Muchos de esos entrenadores se han convertido para mi en amigos personales, y a todos nos asusta el haber experimentado el poder de una persona con un micrófono en la mano en unahabitación llena de gente. 
+<br />
+
+<br />
+ Añadan un poco de carisma y pueden estar seguros de obtener unalto porcentaje de conversiones. La triste realidad es que un alto porcentaje de personas quiere &quot;creer&quot;. Las reuniones de culto y las de empresasde potencial humano son lugares ideales para observar de primera mano lo que se llama técnicamente el &quot;Síndrome de Estocolmo&quot;. Esta es una situaciónen la que los que son intimidados, controlados o padecen sufrimiento impuestos,comienzan a amar, admirar e incluso en ocasiones desear sexualmente a sus controladores o secuestradores. Déjenme introducir aquí una palabra de aviso:Si usted piensa que puede asistir a una de esas reuniones y no resultar afectado, probablemente está equivocado. 
+<br />
+
+<br />
+ Un ejemplo perfecto es el caso de una mujer que fue a Haití con una beca Guggenheim para estudiar el Voodoo haitiano. En su informe, relatabacomo la música inducía finalmente un movimiento corporal incontrolable y un estado alterado de la conciencia. A pesar de que entendía el proceso y pensaba que estaba por encima de ello, cuando empezó a sentirse vulnerable a la música,intentó luchar contra ello y lo consiguió momentáneamente. El miedo o lar esistencia casi siempre aseguran la conversión. 
+<br />
+
+<br />
+Pocos momentos después se sintió poseída por la música y comenzó a bailar en trance alrededor de la sala de reunión voodoo. Una fase cerebral había sido inducida por la música y la excitación, y se despertó sintiéndose renacida. La única esperanza de asistir a una de esas reuniones sin ser afectado es ser un Buda y no permitirse emociones negativas ni positivas. Pocas personas son capaces de un tal desapego. Antes de seguir adelante, veamos nuevamente los seis puntos esenciales de conversión. 
+<br />
+
+<br />
+Quiero mencionar al Gobierno de los Estados Unidos y los campos de entrenamiento del ejército. El cuerpo de los marines habla de romper a loshombres antes de &quot;reconstruirlos como hombres nuevos: ¡como marines!&quot;Bien, eso es exactamente lo que hacen, de la misma manera que las iglesias o sectas rompen a las personas y las reconstruyen como felices vendedores de flores en las esquinas de las calles. Considerando las necesidades del ejército,no estoy haciendo juicios acerca de si es bueno o malo. ES UN HECHO que los hombres sufren efectivamente un lavado de cerebro. Los que no se someten son despedidos o pasan gran parte de su tiempo en el calabozo. 
+<br />
+
+<br />
+Proceso de decognicion- 
+<br />
+
+<br />
+ Una vez se ha efectuado la conversión inicial, las sectas,servicios armados y grupos similares no pueden tener dudas acerca de sus miembros. Los miembros deben responder a las órdenes y actuar como se les dice,de lo contrario son peligrosos para el control de la organización. Esto se consigue por medio de las tres etapas del proceso de decognición. 
+<br />
+
+<br />
+ Elprimer paso es LA REDUCCIÓN DE LA ALERTA: Los controladores causan un mal funcionamiento del sistema nervioso, haciendo difícil la distinción entre fantasía y realidad. Esto se puede llevar a cabo de diferentes maneras. 
+<br />
+
+<br />
+ La DIETA POBRE es una de ellas; cuidado con las galletitas y las píldoras de glucosa. El azúcar estropea el sistema nervioso. 
+<br />
+
+<br />
+ Más sutil es la DIETA ESPIRITUAL usada por muchas sectas. Comen solamente vegetales y fruta; sin la ayuda de las legumbres, frutos secos,semillas, lácteos, pescado y carne, el individuo queda mentalmente&quot;lento&quot;. 
+<br />
+
+<br />
+ SUEÑO INADECUADO es otra forma primaria de reducir la alerta,especialmente si se combina con largas horas de trabajo o de intensa actividad física. Ser bombardeado con experiencias intensas y especiales consiguen el mismo resultado. 
+<br />
+
+<br />
+ Elsegundo paso es LA CONFUSIÓN PROGRAMADA: La persona es asaltada mentalmente mientras se encuentra en estado de alerta reducida causada en el primer paso. Se consigue con un diluvio de información nueva, lecturas,discusiones en grupo, encuentros o sesiones cara a cara en los que usualmente el controlador bombardea al sujeto con preguntas. Durante esta fase de la decognición, la realidad y la ilusión a menudo se mezclan y una lógica perversa es fácilmente aceptada. 
+<br />
+
+<br />
+ El tercer paso es LA DETENCIÓN DEL PENSAMIENTO: Se utilizan técnicas que hacen que la mente se quede &quot;plana&quot;. Estas son técnicasde &quot;estado alterado de la conciencia&quot; que inicialmente inducen la calma dándole a la mente algo simple en lo que fijar la atención. Manteniéndolo mucho tiempo se produce una sensación de euforia y finalmente alucinaciones. 
+<br />
+
+<br />
+ El resultado es la reducción del pensamiento y finalmente, si dura lo suficiente, la parada de todo pensamiento y el rechazo de todos y todo lo que no sean las directrices emanadas del controlador. La conquista es entonces completa. Es importante señalar que cuando los miembros o participantes son instruidos para usar las técnicas de &quot;parada del pensamiento&quot;, se les dice que se verán beneficiados por hacerlo: serán &quot;mejores soldados&quot;o &quot;encontrarán la luz&quot;. 
+<br />
+
+<br />
+Hay tres técnicas básicas usadas para detener el pensamiento. 
+<br />
+
+<br />
+ La primera es la MARCHA:el ritmo tump, tump, tump crea literalmente auto- hipnosis y por lo tanto gran susceptibilidad a la sugestión. 
+<br />
+
+<br />
+ La segunda técnica es la MEDITACIÓN.Si alguien dedica cada día una hora y media a la meditación, después de unas pocas semanas hay muchas posibilidades de que no vuelva al estado beta de conciencia. Puede permanecer en estado alfa por tanto tiempo como continúe practicando la meditación. No estoy diciendo que sea MALO, si lo hace por si mismo. Puede ser muy beneficioso. Pero es un hecho que está provocando que su mente quede &quot;plana&quot;. 
+<br />
+
+<br />
+ He trabajado con personas que practican la meditación cuyos resultados electroencefalográficos son concluyentes: cuanto más medita alguien,más plana es su mente hasta que, finalmente y en especial si se utiliza conjuntamente con la decognición o en exceso, todo pensamiento desaparece.Algunos grupos religiosos ven esto como el Nirvana, pero eso es una tontería.Es simplemente un resultado fisiológico predecible. Y si el cielo en la tierra es realmente no pensar y no tomar decisiones, creo que debo cuestionarme para que estamos aquí. 
+<br />
+
+<br />
+La tercera técnica para parar el pensamiento es CANTAR,y a menudo, cantar en la meditación. &quot;Hablar en otras lenguas&quot; puede ser también incluido en esta categoría. Estas tres técnicas producen un estado alterado de la conciencia. Esto puede ser estupendo si UNO MISMO está controlando el proceso, porque uno mismo controla también las influencias que le llegan de fuera. Yo, personalmente, uso al menos una sesión programada de auto-hipnosis al día y sé qué beneficioso es para mi. Pero uno tiene que saber que usando esas técnicas hasta el extremo de permanecer continuamente en estado alfa, aunque uno sea muy maduro, también le hace más sugestionable 
+<br />
+
+<br />
+Verdaderos creyentes y movimientos de masas- 
+<br />
+
+<br />
+ Antes de terminar esta sección acerca de la conversión, quiero hablar acerca de las personas que son más vulnerables a ella y acerca de los movimientos de masas. Estoy convencido de que al menos un tercio de la población es lo que Eric Hoffer llama &quot;creyentes verdaderos&quot;. Sonseguidores...gente que quiere entregar a otros el poder, ser convencidos. Estánbuscando respuestas, sentido a las cosas y una iluminación que proceda de fuerade sí mismos. 
+<br />
+
+<br />
+ Hoffer, que escribió EL VERDADERO CREYENTE, un clásico en movimientos de masas, dice &quot;los verdaderos creyentes no pretenden potenciar ni mejorar su propio yo, sino que están deseando librarse de un yo no querido. Son seguidores, no porque deseen avanzar ellos mismos, sino porque eso puede satisfacer su pasión de renunciar a su yo&quot;. Hoffer dice también que los verdaderos creyentes &quot;están eternamente incompletos y eternamente inseguros&quot;. 
+<br />
+
+<br />
+  
+<br />
+Conozco esto a través de mi propia experiencia. En los años que llevo comunicando conceptos y dirigiendo entrenamientos, he encontrado este tipo de personas una y otra vez. Todo lo que puedo hacer es mostrarles que lo único que se debe buscar es nuestro verdadero YO en nuestro interior. Sus respuestas personales han de encontrarse allí una y otra vez. Les comunico que la base de la espiritualidad es la auto- responsabilidad y el auto-mejoramiento. 
+<br />
+
+<br />
+ Pero muchos de los verdaderos creyentes me dicen simplemente que yo no soy espiritual y se van a buscar a alguien que les dé el dogma y la estructura que ellos desean. Nunca debe subestimarse el peligro potencial que representa esa gente. Pueden ser convertidos fácilmente en fanáticos que mueran y maten encantados por su sagrada causa. Es un sustituto de su fe perdida en símismos y se ofrecen a sí mismos como sustitutos de la esperanza individual. 
+<br />
+
+<br />
+ La Mayoría Moral está construida con verdaderos creyentes. Todos los cultos están compuestos de verdaderos creyentes. Se los puede usted encontrar en la política, la iglesia, los negocios y los grupos que trabajan por una causa social. Son los fanáticos de todas esas organizaciones. Los movimientos de masas tienen por regla general un líder carismático. Los seguidores quieren convertir a otros a su manera de vivir o imponerles un nuevo modo de vida --- si es necesario haciendo leyes que obliguen a los demás a adoptar su punto de vista, como se evidencia en las actividades de la Mayoría Moral. 
+<br />
+
+<br />
+Esto significa forzar con armas o con castigos, en realidad esta es la base que subyace en las obligaciones legales. La existencia de un enemigo común, un demonio, es esencial para el éxito de los movimientos de masas. Los renacentistas cristianos tenían a Satán en persona, pero eso no era suficiente:han añadido lo oculto, los pensadores de la Nueva Era y, por último, a todos los que se oponen a su mezcla de iglesia y política, como se evidencia en sus campañas políticas contra todos los que no están de acuerdo con sus opiniones. 
+<br />
+
+<br />
+ En las revoluciones, el demonio es generalmente el poder establecido o la aristocracia. Algunas empresas de potencial humano son demasiado listas para pedir a sus miembros que se afilien a ellas,etiquetándose a sí mismos de ese modo como secta, pero, si miramos detenidamente, nos damos cuenta que el demonio es todo aquel que no ha seguido su entrenamiento. Hay movimientos de masas sin demonios, pero esos nunca llegana mucho. 
+<br />
+
+<br />
+ Los Verdaderos Creyentes son gente mentalmente desequilibrada e insegura, o personas sin esperanza o sin amigos. Gente que no busca aliados para amar, pero si para odiar o para obsesionarse con una causa. Y los que desean una nueva vida y un nuevo orden de cosas sienten que las viejas maneras deben de ser eliminadas antes de que su nuevo orden pueda ser construido. 
+<br />
+
+<br />
+
+<br />
+TÉCNICAS DE PERSUASIÓN 
+<br />
+
+<br />
+ La persuasión no es técnicamente lo mismo que el lavado de cerebro pero es la manipulación de la mente humana por otro individuo, sin que la parte manipulada se de cuenta de que es lo que le ha hecho cambiar de opinión. Me gustaría tener tiempo para introducirles en algunas de las miles de técnicasque se usan hoy en día, pero la base de la persuasión es siempre el acceso AL MISMO CEREBRO. 
+<br />
+
+<br />
+La mitad izquierda de nuestro cerebro es analítica y racional. La mitad derecha es creativa e imaginativa. Esto es una simplificación, pero sirve para lo que quiero decir. La idea es distraer a la parte izquierda del cerebro manteniéndola ocupada. Idealmente, el persuasor genera un estado alterado de conciencia, haciendo que uno pase del estado beta de alerta al alfa; esto se puede medir en una maquina de electroencefalogramas (EEG). 
+<br />
+
+<br />
+ En primer lugar, déjenme poner un ejemplo de distracción de lado izquierdo del cerebro. Los políticos usan estas poderosas técnicas todo el tiempo; los abogados usan algunas variantes que, según me han dicho, llaman&quot;apretar el lazo&quot;. Piense por un momento que está viendo a unpolítico dando un discurso. 
+<br />
+
+<br />
+En primer lugar, debe de crear lo que se llama &quot;estado de asentimiento&quot;. Esto es lanzar afirmaciones con las que los oyentes estánde acuerdo; deben incluso asentir con la cabeza mientras habla para mostrar su asentimiento. 
+<br />
+
+<br />
+ Seguidamente vienen los &quot;truismos&quot;. Estos son generalmente hechos que pueden ser discutidos pero, una vez que el político tiene a la audiencia asintiendo, todas las posibilidades están a favor de que los oyentes no van a comenzar a pensar por si mismos, y por lo tanto seguirán asintiendo. 
+<br />
+
+<br />
+ Por último llega la sugestión. Esto es lo que el político quiereque hagamos y, como hemos estado asintiendo todo el rato, podemos ser persuadidos para aceptar la sugestión. Ahora, escuche atentamente a mi discurso político y verá que las tres primeras frases son el &quot;asentimiento&quot;las tres siguientes son &quot;truismos&quot; y la última es la sugestión. 
+<br />
+
+<br />
+&quot;Señoras y caballeros: ¿están ustedes preocupados por los precios de los alimentos? ¿Están cansados de las subidas de los carburantes?¿Están asqueados de la inflación descontrolada? Bien, saben que el Otro Partido consintió una inflación del 18% el pasado año; saben que la criminalidad se ha incrementado en el 50% en todo el país en los últimos doce meses, y saben que sus salarios a duras penas les permiten cubrir sus gastos. La respuesta parar esolver esos problemas es elegirme a mi Jonh Jones, para el Senado de los EEUU&quot;. Creo que ya han oído todas estas cosas anteriormente. 
+<br />
+
+<br />
+Pero deben buscar también por lo que se llaman &quot;Comandos Ocultos&quot;. Por ejemplo: al pronunciar palabras clave, el orador hará un gesto con la mano izquierda, que las investigaciones han demostrado que llegan mejor al cerebro derecho. Los políticos de hoy en día, orientados a los medios de comunicación son frecuentemente entrenados por una nueva clase de especialistas que usan todos y cada uno de los trucos - nuevos y antiguos -para manipularnos y hacernos aceptar a su candidato. 
+<br />
+
+<br />
+Los conceptos y técnicas de Neuro-Linguística están tan protegidosque he encontrado que incluso hablar públicamente de ello o publicar resultadospor escrito puede estar sujeto a sanciones legales. Sin embargo el conocimiento Neuro-Linguístico está al alcance de cualquiera que le dedique el tiempo necesario y pague el precio requerido. Es una de las más sutiles y poderosas formas de manipulación a las que me he visto expuesto. 
+<br />
+
+<br />
+ Un buen amigo que asistió recientemente a un seminario deNeuro-Linguistica se encontró con que la mayor parte de las personas con las que habló durante los descansos eran gente del gobierno. 
+<br />
+
+<br />
+Otra técnica acerca de la que estoy aprendiendo es increíblemente resbaladiza; se denomina TÉCNICA DE INTERCALADO y la idea es decir algo con palabras pero sembrar una impresión subconsciente de otra cosa en la mente de los oyentes y/o espectadores. 
+<br />
+
+<br />
+Déjenme ponerles un ejemplo: Vamos a suponer que está usted viendoa un comentarista de televisión que afirma lo siguiente: &quot;El SENADORJOHNSON está ayudando a las autoridades a solucionar los estúpidos errores de las empresas que contribuyen a crear los problemas de basura nuclear&quot;.Suena como si fuera la exposición de un hecho, pero si el locutor enfatiza las palabras adecuadas, y especialmente si hace los adecuados gestos con las manos al pronunciar las palabras clave, le pueden dejar a usted con la sensación de que el Senador Johnson es un estúpido. Ese es el mensaje subliminal de la afirmación, y al locutor no se le puede acusar de nada. 
+<br />
+
+<br />
+ Las técnicas de persuasión se usan también frecuentemente en asuntos menores con la misma efectividad. El vendedor de seguros sabe que puede conseguir su objetivo mucho más fácilmente si consigue hacerle visualizar algo en su mente. Esa es la comunicación con el lado derecho del cerebro. 
+<br />
+
+<br />
+Por ejemplo, puede hacer una pausa en la conversación, mirar despacio a su alrededor en su salón y decir: &quot;¿Puede usted imaginarse esta preciosa casa quemándose hasta los cimientos?&quot; ¡Por supuesto que ustedpuede! Ese es uno de sus temores inconscientes y, cuando usted es forzado avisualizarlo, es usted más proclive a dejarse manipular para adquirir unapóliza de seguros. 
+<br />
+
+<br />
+ Los Hare Krishnas, trabajando en los aeropuertos, usan lo que llamo técnicas de SUSTO Y CONFUSIÓN para distraer al lado izquierdo del cerebro y comunicarse con el lado derecho. Mientras esperaba un avión, estuve observando como actuaba uno de ellos durante más de una hora. Usaba el método de saltar delante de alguien. Inicialmente, su voz era fuerte y después bajaba al llegar al punto de ofrecer un libro y pedir un donativo para la causa. Por regla general, cuando alguien está asustado, cede inmediatamente. En este caso, la gente estaba asustada por la extraña apariencia, súbita aparición y fuerte voz del devoto Hare Krishna. 
+<br />
+
+<br />
+ En otras palabras, la gente se ponía en estado alfa por seguridad,ya que no deseaban afrontar la realidad que tenían delante. En estado alfa,eran mucho más sugestionables y cogían el libro; en el momento en que tenían el libro, se sentían culpables y respondían a la segunda sugestión: dar dinero.Estamos condicionados para que, si alguien nos da algo, tenemos que entregarle algo a cambio--en este caso, dinero. Mientras observaba este ajetreo, estaba lo suficientemente cerca para percibir en muchas de las personas afectadas un signo evidente de estado alfa: sus pupilas estaban dilatadas. 
+<br />
+
+<br />
+
+<br />
+PROGRAMACIÓN SUBLIMINAL 
+<br />
+
+<br />
+Las señales subliminales son sugestiones escondidas que solo su subconsciente puede percibir. Pueden ser auditivas, escondidas tras una música,o visuales, esparcidas en una imagen o proyectadas en una pantalla tan rápidamente que usted no las ve conscientemente, o astutamente incorporadas en una imagen o diseño. Muchas señales audio subliminales en cintas de reprogramación contienen sugestiones verbales grabadas a bajo volumen. Pongo en duda la eficacia de esta técnica: si las señales subliminales no pueden ser percibidas, no pueden ser eficaces, y por lo tanto, las señales subliminales grabadas por debajo de umbral audible son inefectivas. 
+<br />
+
+<br />
+ La técnica más antigua de señales subliminales audio usa una voz que sigue el volumen de la música de modo que las señales son imposibles de detectar sin un ecualizador paramétrico. Pero este sistema está patentado y,cuando quise desarrollar mi propia línea de cassettes subliminales, vi que era imposible negociar con el dueño de la patente. Mi abogado consiguió copias de las patentes que entregué a algunos buenos ingenieros de sonido de Hollywood,pidiéndoles que crearan una nueva técnica. 
+<br />
+
+<br />
+Encontraron una manera de modificar y sintetizar psico-acústicamente las sugestiones de modo que se proyecten en el mismo tono y frecuencia que la música, dando así la impresión de ser parte de la música.Pero encontramos que, usando este sistema, no hay modo de reducir varias frecuencias para detectar los mensajes subliminales. En otras palabras, aunque las sugestiones son escuchadas por la mente subconsciente, no pueden ser monitorizadas ni siquiera con el equipo más sofisticado. 
+<br />
+
+<br />
+Si nosotros fuimos capaces de descubrir esta técnica tan fácilmente como lo hicimos, no quiero ni pensar lo sofisticados que han debidode llegar a ser estos sistemas, teniendo a disposición de los investigadoreslos fondos ilimitados del gobierno y de los publicistas. Tiemblo al pensar en la manipulación propagandística y publicitaria a la que estamos expuestos diariamente. Simplemente no hay modo de saber lo que se esconde bajo la música que estamos oyendo. Puede incluso que se esconda una segunda voz bajo que oímos. 
+<br />
+
+<br />
+ Las series de Wilson Bryan Key, Ph.D., acerca de anuncios subliminales y campañas políticas ilustra muy bien el mal uso que se da a estos sistemas en muchas áreas, especialmente en anuncios escritos en los diarios,revistas y vallas publicitarias. La gran pregunta es: ¿funcionan? Y yo le garantizo a usted que lo hacen. No solo por la respuesta de quienes ha usado mis cintas, sino por los resultados de programas como los mensajes subliminalesque se ocultan tras la música en los grandes almacenes. 
+<br />
+
+<br />
+Se supone que el único mensaje es el de no robar: Una tienda de la costa oeste (de los Estados Unidos) refirió un descenso del 37% en los primeros nueve meses de prueba. Un artículo de 1987 en el boletín técnico &quot;Boletín cerebro-mente&quot; afirma que el 99% de nuestra actividad cognitiva puede ser&quot;no consciente&quot;, según el director del Laboratorio de Psicofisiología Cognitiva de la Universidad de Illinois. El extenso trabajo acaba con esta afirmación: &quot;Estos hallazgos apoyan el uso de sugestiones subliminales como sugestiones grabadas en cinta para programas de adelgazamiento y el usoterapéutico de la Hipnosis y la programación Neuro-Linguistica&quot;. 
+<br />
+
+<br />
+Mal uso masivo 
+<br />
+
+<br />
+ No puedo contar muchas historias acerca de la programación subliminal, pero en cambio puede dedicar mi tiempo en advertirles a ustedes de uso sutil de este tipo de programación. He tenido la experiencia personal de estar sentado en un auditorio de Los Angeles con más de diez mil personas que sehabían reunido para escuchar a una persona carismática. Veinte minutos despuésde entrar en el auditorio, me di cuenta de que estaba entrando y saliendo en un estado de conciencia alterado. Quienes me acompañaron experimentaron lo mismo.Como se trata de nuestro trabajo, nos dimos cuenta de lo que estaba sucediendo,pero los que nos rodeaban no lo notaban. 
+<br />
+
+<br />
+ Observando cuidadosamente, lo que parecían demostraciones espontáneas resultaron ser, de hecho, manipulaciones perfectas. El único método que puedo imaginar que fue utilizado para crear el trance es una vibración de 6o 7 ciclos por segundo emitida hacia la habitación a través del sonido del airea condicionado. Esta vibración particular genera estado alfa, lo que hace a la audiencia altamente sugestionable. Del 10 al 25 por ciento de la población escapaz de tener estados de conciencia alterados de manera sonámbula; para esas personas, las sugestiones del orador, si no son amenazadoras, pueden ser aceptadas como &quot;ordenes&quot;. 
+<br />
+
+<br />
+ Esto me lleva a mencionar el VIBRATO. El vibrato es un efecto de trémolo que emiten algunas voces o instrumentos musicales, y sus ciclos por segundo causan que la gente entre en un estado alterado de conciencia. En un periodo de la historia inglesa, a los cantantes cuyas voces contenían un vibrato pronunciado no se les permitía actuar en público porque los oyentes entraban en estados alfa y tenían fantasías, a menudo de contenido sexual. Lagente que va a la ópera o disfruta oyendo a cantantes como Mario Lanza están familiarizados con este estado inducido por los cantantes. ELF. 
+<br />
+
+<br />
+Ahora llevaremos los avisos un poco más lejos. Hay también EL Finaudibles (Extra Low Frecuency waves = Frecuencias Extra Bajas). Son de naturaleza electromagnética. Uno de los principales usos de los RLF es lacomunicación con los submarinos. El Dr. Andrija Puharich, un investigador muy respetado, puso en funcionamiento un experimento para advertir a los oficiales estadounidenses del uso que hacían los rusos de los ELF. Unos voluntarios se &quot;enchufaron&quot; de modo que sus ondas cerebrales pudieran ser monitorizadas. Fueron sellados en una habitación metálica que no podía ser penetrada por ninguna seña normal. 
+<br />
+
+<br />
+Entonces, Puharich envió ELF a los voluntarios. Los ELF penetran la tierra y por supuesto las paredes metálicas. Quienes estaban dentro no podían saber si las señales estaban siendo enviadas o no. Y Puharich vio las reacciones en los equipos de EEG: el 30% de las personas dentro de la habitación fueron &quot;poseídos&quot; por la señal ELF en 6 a 10 segundos.Cuando digo &quot;poseídos&quot;, quiero decir que su comportamiento siguió las pautas establecidas para unas determinadas frecuencias. Ondas de 6 ciclos por segundo hacían que los individuos se sintieran emocionalmente alterados y muy descontrolados. A 8.2 ciclos, se sentían optimistas...sentimientos elevados,como si hubieran estado haciendo meditación trascendental de modo magistraltras un aprendizaje de años. De 11 a 11.3 ciclos inducían ondas de agitación depresiva que llevaban a comportamiento amotinado. 
+<br />
+
+<br />
+El neurófono 
+<br />
+
+<br />
+ El Dr. Patrick Flanagan es un amigo mío personal. En los primeros 60, siendo un adolescente, Pat apareció en la lista de los mejores científicosdel mundo en la revista Life. Entre sus muchos inventos estaba un aparato llamado Neurófono: un instrumento electrónico que puede programar sugestionescon éxito a través del contacto directo con la piel. Cuando intentó patentar el aparato, el gobierno le pidió que probara que funcionaba. Cuando lo hizo, la Agencia Nacional de Seguridad confiscó el Neurófono. A Pat le llevó 10 años de batalla legal conseguir su devolución. 
+<br />
+
+<br />
+Usando ese aparato, usted no ve ni oye nada; se aplica sobre lapiel, que según Pat es la principal fuente de sensaciones. La piel contiene másreceptores para el calor, el tacto, dolor, vibraciones y campos eléctricos queninguna otra parte de la anatomía humana. En una de sus más recientes pruebas,Pat llevó a cabo dos seminarios para militares: un seminario una noche y otro ala siguiente, porque la habitación no era lo bastante grande para acomodar a todos ellos a la vez. 
+<br />
+
+<br />
+ Como el primer grupo parecía muy frío y sin respuesta, Patrick pasó todo el día siguiente haciendo una cinta de audio especial para pasarla en el segundo seminario. La cinta instruía a la audiencia para que se comportara cálidamente y para que sintieran hormigueos en las manos. La cinta se pasó a través del neurófono, que estaba conectado a un hilo conductor situado en el techo de la habitación. No había altavoces, no se podía oír ningún sonido, pero el mensaje llegó con éxito a los cerebros de la audiencia. 
+<br />
+
+<br />
+Fueron cálidos y receptivos y respondieron, de acuerdo con la programación recibida, de maneras que no puedo relatar aquí. Cuanto má saprendemos acerca del comportamiento de los seres humanos a través de las avanzadas técnicas de investigación de hoy en día, más aprendemos a controlar a los seres humanos. Y lo que más nos asusta es que el medio para apoderarse de todos nosotros ya está en funcionamiento. 
+<br />
+
+<br />
+El aparato de televisión de su salón y de su dormitorio está haciendo mucho más que simplemente entretenerle. Antes de seguir, déjenme apuntar algo más acerca del estado alterado de la conciencia. Cuando usted entra en estado alterado de la conciencia, el lado derecho del cerebro toma elcontrol, lo que hace que se segreguen los opiáceos propios del cuerpo humano:encefalinas y beta- endorfinas, químicamente idénticas al opio. En otras palabras, uno se siente bien...y uno quiere tener más. 
+<br />
+
+<br />
+Unas recientes pruebas llevadas a cabo por el investigador HerbertKrugman mostraron que, mientras mira la televisión, el cerebro delt elespectador muestra una actividad del lado derecho que supera a la del izquierdo en dos a uno. Para decirlo más sencillamente: los televidentes están en estado alterado más a menudo que en estado normal. Están consiguiendo su ración de beta-endorfinas. 
+<br />
+
+<br />
+Para medir el grado de atención, el psicólogo Thomas Mulholland,del hospital de veteranos de Bedford, Massachussets, conectó a jóvenes televidentes a un aparato de EEG que estaba conectado a la TV y la apagaba cada vez que los cerebros de los niños producían una mayoría de ondas alfa. A pesarde que se les dijo a los niños que estuvieran atentos, solo unos pocos pudieron mantener la TV encendida más de 30 segundos. Muchos telespectadores está nrealmente hipnotizados. 
+<br />
+
+<br />
+ Hacer el trance más profundo es fácil. Una manera sencilla es colocar un fotograma negro cada 32 fotogramas de la película que se proyecta.Esto crea un ritmo de 45 por minuto que solo es percibido por la mente subconsciente: el ritmo ideal para general una hipnosis profunda. Los anuncios o sugestiones que contienen este tipo de proyección son aceptados más fácilmente. El alto porcentaje de espectadores que tienen capacidades sonambulísticas pueden aceptar esas sugestiones como órdenes, siempre que no pidan al espectador que haga algo contrario a su moral, su religión o su autoconservación. 
+<br />
+
+<br />
+ El medio para poseernos está ahí. Para la edad de 16 años, los niños han pasado de 10.000 a 15.000 horas ante la televisión: eso es más tiempo del que pasan en el colegio. En la casa media, la televisión está encendida una media de 6 horas y 44 minutos al día, con un incremento de 9 minutos al año durante la década de los 70. Actualmente es obvio que no están mejorando las cosas...nos movemos rápidamente hacia el mundo en alfa, posiblemente muy parecido al &quot;1984&quot; de Orwell: plácido, ojos vidriosos y respondiendo obedientemente a las instrucciones. 
+<br />
+
+<br />
+ Un proyecto de investigación llevado a cabo por Jacob Jacoby de la Universidad de Purdue, encontró que de 2.700 personas probadas, el 90 porciento entendieron mal cosas tan sencillas como los anuncios y la serie&quot;Barnaby Jones&quot;. Unos minutos después de haberlo visto, el espectador medio contestaba mal de 23 a 36 % de las preguntas acerca de lo que había mirado. Por supuesto ¡estaban entrado y saliendo continuamente de un trance! Si usted entra en trance profundo, debe recibir instrucciones de recordar, de lo contrario olvidará automáticamente. 
+<br />
+
+<br />
+ Solo he tocado la punta del iceberg. Si se combinan mensajes subliminales bajo la música, efectos visuales hipnóticos, ritmos musicales mantenidos inductores de trances...tenemos un lavado de cerebro extremadamente efectivo. Cada hora que usted pasa delante de la TV es usted más sugestionable.Y, en caso de que piense que la ley no permite estas cosas, está equivocado.¡No lo hace! Hay un montón de gente poderosa que prefiere que las cosas se queden como están. ¿Tal vez tienen algún plan?<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie Ene 30, 2009 1:49 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm552.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=552"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="30194"></a>Daro</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 03 Abr 2008<br />Mensajes: 48<br />Ubicación: Rosario</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp30194.html#30194"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Que bueno loco!</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=30194"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Muy buen texto. Me entusiasmo mucho. Ya me estoy bajando sonidos de ondas alfa y theta para ver que onda. Muy interesante todo el texto. Como me gustaria llevar a las personas a estos estados, hay q usarlos con responsabilidad claro.<br /><br />_________________<br />Visita <a href="http://www.artistasdelexito.blogspot.com" target="_blank">www.artistasdelexito.blogspot.com</a> ---- Archidesactualizado<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom Feb 01, 2009 11:02 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm325.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=325"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>  <a href="http://www.artistasdelexito.blogspot.com" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>    </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="30197"></a>Naitsirc</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/173162853349819c8ea4bd5.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2009<br />Mensajes: 6<br />Ubicación: Bogota Colombia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp30197.html#30197"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=30197"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Ke cosa tan larga e interesante, me gusto mucho..... aunke me preguto si hay alguna forma mas directa de hacer este tipo de mensajes subliminales, seria bueno conseguir un libro sobre esto.<br /><br />_________________<br />&quot;Call an optimist, she's turning blue
+<br />
+Such a lovely color for you
+<br />
+Call an optimist, she's turning blue
+<br />
+While I just sit and stare at you&quot;
+<br />
+Maynard J. Keenan!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Feb 02, 2009 2:07 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1242"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="30199"></a>Nikko_Gable</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/706785212492d82d15f742.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Oct 2008<br />Mensajes: 125<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp30199.html#30199"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=30199"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Si, lo habia leido antes...
+<br />
+
+<br />
+Palazo para le &quot;Pare de Sufrir&quot;-
+<br />
+
+<br />
+Yo lo tenía con el titulo de &quot;Sobre el labado de cerebro&quot;...
+<br />
+
+<br />
+Si lo quieren puedo subirlo a Media.<br /><br />_________________<br /><span style="font-weight: bold">&quot;La diferencia entre un perdedor y un ganador, es que el ganador está dispuesto a hacer cosas que el perdedor no haría&quot;.-</span>
+<br />
+
+<br />
+<span style="font-weight: bold">&quot;Los Miedos Suelen Ser Proyecciones Del Ego&quot;</span> Victor Malvado
+<br />
+
+<br />
+<span style="font-weight: bold">Si te caes siete veces, levántate ocho.</span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Feb 02, 2009 2:50 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm991.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=991"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=3520&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=3520"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="varios-vf6.html" class="nav">Varios</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6"selected="selected">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="c8729e28b60d5fdbd43a230a012759ea" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

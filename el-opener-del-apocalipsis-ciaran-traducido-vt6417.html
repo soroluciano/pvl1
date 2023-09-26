@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=6417&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=6417&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - El Opener del Apocalipsis - Ciaran  Traducido</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="el-opener-del-apocalipsis-ciaran-traducido-vt6417.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">El Opener del Apocalipsis - Ciaran  Traducido</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6417"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt6417.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt6417.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="el-opener-del-apocalipsis-ciaran-traducido-vt6417.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">El Opener del Apocalipsis - Ciaran  Traducido</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43349"></a>Baron Rojo</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/902398598492375d255d9a.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 03 Nov 2008<br />Mensajes: 363<br />Ubicación: Mexico</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43349.html#43349"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> El Opener del Apocalipsis - Ciaran  Traducido</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43349"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><a href="http://wiki.hombresocial.com/index.php/El_Opener_del_Apocalipsis" target="_blank">http://wiki.hombresocial.com/index.php/El_Opener_del_Apocalipsis</a>
+<br />
+
+<br />
+
+<br />
+Sorpresa y conmoción: El opener del apocalipsis
+<br />
+
+<br />
+Ciaran (Shock and awe: The apocalypse opener)
+<br />
+
+<br />
+Las líneas para ligar no funcionan. Ese es el problema con ellas. Quiero decir, todos lo sabemos. Si existiera una simple línea que pudieras recitar y conseguir la chica, la comunidad no sería tan grande como lo es. El hecho es que, conseguir la chica en verdad no se trata de lo que digas. Se trata de lo que DEMUESTRAS y de lo que PROYECTAS. SIN EMBARGO... ¿Que si hubiera una línea que funcionara? ¿Qué si hubiera una línea que te llevara a un faje instantáneo? ¿Entonces que?
+<br />
+
+<br />
+ADVERTENCIA IMPORTANTELo que estoy apunto de compartir es una mierda potente como la chingada. ¿Lo entiendes? Bien. Cuando se lo mostré a Jeffy, le echó un vistazo, asintió, y dijo: Esta es una mierda potente como la chingada. Mi punto es este: Si no puedes hacer Sorpresa y Conmoción, no estás listo aún para esta mierda. Esta NO es una píldora mágica. Si eres un jodido puñetas estilo Gollum que quiere 'tener ventaja' sobre las mujeres y la vida, que quiere su pequeña venganza por la pléyade de rencores que alimentas a diario para justificar la futilidad de tu patética existencia... esto no va a funcionarte. ¿Cómo es que lo se? Porque yo he sido ese puñetas. Resuelve tu juego interno. Recomiendo el trabajo de Eckhart Tolle. Asi que sin más preámbulos, caballeros, aqui vamos. Espero que estén sentados cómodamente.
+<br />
+
+<br />
+LA MEJOR LINEA QUE HE ESCUCHADOAproximadamente hace 18 meses estaba en el área de fumar de un pub en la Royal Mile de Edimburgo. Es muy pintoresca. Tiene un castillo y todo. Bien, en esta ocasión yo estaba con sólo UNA chica. Es una buena amiga mía, y por razones de conveniencia y privacidad, la llamaremos Susan. Asi que yo y Susan estabamos platicando, y el tema se desvía hacia las líneas para sacarle conversación a una chica. Le pregunté cual era la peor línea que hubiera escuchado, y me dió una puñetera historia de terror de un patetiquismo inimaginable. Entonces le pregunté: &quot;Entonces... ¿cual es la mejor línea que hayas escuchado?&quot; Susan lo pensó por un momento, y entonces dijo: &quot;Ok, este chico dijo algo muy bueno hace tiempo. Funcionó conmigo.&quot; &quot;¿Que quieres decir con &quot;funcionó conmigo&quot;?&quot; &quot;Funcionó. Me lo tiré&quot; &quot;Lindo. Eres una dama&quot; Susan sonrío educadamente. &quot;¿Y que fué lo que te dijo?&quot; Le pregunté
+<br />
+
+<br />
+EL OPENER DEL APOCALIPSIS&quot;Bueno&quot; me dijo &quot;dijo algo asi...&quot; Lo que me dijo entonces hizo que me atragantara con mi cerveza. Era genial. Nunca sabré quien es este hombre, pero quien quiera que sea se merece un premio. Un gran, brillante, premio Nobel.
+<br />
+
+<br />
+Aqui lo tienen compas: Te acercas a una chica y en una voz firme y confiada le dices &quot;Hola, ¿como estas?&quot; Ella te dirá &quot;Bien&quot; Entonces tu dirás &quot;Chido. ¿Qué harás más tarde?&quot; Ella dirá &quot;No estoy segura&quot; Entonces dices &quot;¿Quieres venir a mi casa conmigo?&quot; Entonces aguantas. Aguanta. AGUANTA... AGUANTA HIJO MIO... AGUANTA LA PUTA LINEA... Boom. Faje. Y ese es el Opener del Apocalipsis. No 'Haces rapport'. No 'obtienes valores'. No 'escalas kino'. No le preguntas siquiera su puto nombre. Le preguntas si quiere acostarse contigo en la TERCER FRASE, aguantas la linea, y cosechas el huracán. Ciaran, debes estar bromeando. Nope. Es y sigue siendo la más asombrosamente poderosa línea que haya escuchado en mi vida. Me doy cuenta de que todos ustedes estarán sacudiendo sus cabezas con el millon de problemas que imaginan al hacer esto, asi que vayamos paso por paso. ¿Funciona? Bueno, déjame contarte una historia. Después de escuchar esto, decidí intentarlo. Fuí a un bar esa noche y le di una vuelta al lugar. Ahora, en este punto yo no era ningún Jedi, pero no estaba tan mal. Podía abrir consistentemente, podía coquetear, podía otener algún faje ocasional. Lo que digo es que había llegado al punto en el que podía abordar sin tanta ansiedad. Guey, me estaba cagando encima. Santa madre de Dios, guey. Viendo a todas estas mujeres hermosas, el sólo pensar en acercarme a una de ellas y decirle ESTA mierda era aterrorizante. Me tome botella tras botella de pisto. Caminé un poco más. Tomé más pisto. Aseché en la esquina por un rato. Estava todavía cagándome en los pantalones sin UN SOLO abordaje cuando los de seguridad empezaron a sacar a toda la gente. Mierda, perdí mi oportunidad. No. No, no no. Ni de pedo. Yo no. Hoy no. Tenía que hacerlo. Si me estrellaba, si la regaba, lo que fuera – Iba a aceptar el fracaso. Iba a decirlo. Honestamente, se sentía igual que cuando mi PRIMER ABORDAJE. Estaba muy, muy asustado.
+<br />
+
+<br />
+Salí del bar junto a la multitud. Mierda. Iba a hacerlo. Alguien, quien sea.
+<br />
+
+<br />
+Y ahi estaba ella. Delicada, casi como un hada. Cabello rojo, de un rico y profundo rojo, y un simpático vestido que derritió mi corazón. Mierda. Mierdiri mierdiri mierda. Ahi voy. Ok Ciaran. Concentrate en decir la primera línea. No está tan mal. “Hola” le digo. “Hola”. Es aún más bonita de cerca. HAZLO CIARAN. ¡HAZLO! “¿Cómo te va?” “No está mal.” “¿Qué harás de rato?” “No sé” ¡HAZLO! ¡THE EYE OF THE TIGER! “¿Quieres venir a mi casa?” Ella me mira. Está midiéndome. Nunca habia sentido una atención tan intensa sobre mi. Era como un rayo laser quemándome la piel buscando cualquier trazo de incongruencia. Por fortuna, ella está buenísima, así que no los hay. La presión de decir algo, para romper la tensión es PALPABLE. APRIETO mi quijada para mantenerme callado. Ella se hace para atrás, aturdida. Y entonces salta sobre mi. Físicamente, se arroja hacia adelante y pone su lengua dentro de mi boca.
+<br />
+
+<br />
+BAM.
+<br />
+
+<br />
+Casualmente, había un tipo ahí, un natural muy marcado, que había estado ligándosela toda la noche, y había logrado que ella accediera a irse a su casa (me enteré de esto después). No importó. Lo mandé a volar con UNA FRASE. Esta chica no era una zorra. No era una friqui. Era una chica normal y tranquila. Y estaba buena también. Muy buena. Nice.
+<br />
+
+<br />
+TIEMBLEN, POR QUE EL APOCALIPSIS SE ACERCA.
+<br />
+
+<br />
+Asi que, ¿Porqué funciona? ¿Es magia?
+<br />
+
+<br />
+Bueno, no hay magia en esto. Es muy simple, y yace exactamente en la razón que les dí al comenzar este artículo de porqué las líneas para ligar no funcionan. No se trata de lo que digas. Se trata de lo que demuestras y lo que proyectas. Regresemos a aquella soleada tarde en Edimburgo. Estoy en el área de fumar, hablando con Susan. Termino de atragantarme con mi cerveza. “¿Qué?... ¿te dijo qué?” “Quieres venir a mi casa” “¿Y tu que hiciste?” “Bueno, no le brinqué encima de inmediato, pero estaba verdaderamente impresionada de que tuviera los cojones de decirme algo así” “Si. Bueno, en verdad esa fué una presentación impresionante” “Vaya que si. Después de eso, todo lo que tuvo que hacer fué invitarme un trago o algo y fui suya.” “Cool” “Yep” Asi que veamos esto, directo de la fuente.
+<br />
+
+<br />
+Ella estaba REALMENTE IMPRESIONADA de que el hubiera tenido LOS COJONES para DECIR algo así. REALMENTE IMPRESIONADA.
+<br />
+
+<br />
+El poder de este abridor es masivo. Yace en el hecho de que es HONESTO. Es genuino a la máxima potencia. Todo mi juego está basado en este principio. Sé genuino, pero sé genuino multiplicado por 1000. No seas sólo “tu mismo”, SE tu mismo. Sé tu mismo hasta la pinche puta médula. ¿Lo entiendes? Ella NUNCA HABRA ESCUCHADO ALGO ASI EN SU VIDA. Si lo haces, la chica estará realmente impresionada de que hayas demostrado la valentía de decirlo. Y créeme, esto no puedes fingirlo. Esto requiere huevos. HUEVOS No te voy a mentir. Es ATERRORIZANTE hacer el Opener del Apocalipsis. Pero eso es bueno. POR ESO es que funciona. Por que es genuinamente aterrorizante, es INCREIBLEMENTE impresionante. Pero necesitas tener huevos para poder hacerlo. HAZLO. Y al mismo tiempo, la forma en que digas la línea en si, esto es lo loco, TAMPOCO IMPORTA. Ya sé, increíble. La verdad, la primera vez que dije esto esta ASUSTADO. Muy, muy asustado. Funcionó de todas formas. Es tan poderoso. No necesitas ser increiblemente bueno, ni el inner game del Fonz para intentarlo. Yo ni tenia tanto inner game de hecho cuando empezé a aplicarlo. Todo lo que necesitas en NO DESMORONARTE. Eso es todo. Solo aplícalo, y luego no te desmorones.
+<br />
+
+<br />
+LA CLAVE PARA HACERLO FUNCIONAR.La clave para hacerlo efectivo no está en como lo digas, si no en lo que hagas en los 30 segundos después de que salga de tu boca. Antes de entrar en detalle, vamos a nombrar el unico PECADO CARDINAL del Apocalipsis, que es la UNICA COSA que puede hacer que te manden a volar.
+<br />
+
+<br />
+NUNCA SEAS RARO.
+<br />
+
+<br />
+Eso es todo. No seas raro. Tienes que soltar el opener a rajatabla. Como si estuvieras hablando del CLIMA. No estás haciendo un escándalo. Solo estás PREGUNTANDO.
+<br />
+
+<br />
+No estas BURLANDOTE. No estás BROMEANDO. No es MUY EN SERIO.
+<br />
+
+<br />
+Pero tampoco estás JUGANDO – es de VERDAD.
+<br />
+
+<br />
+Le estás preguntando DE VERDAD.
+<br />
+
+<br />
+Si dice que no – sólo necesitas UNA RESPUESTA.
+<br />
+
+<br />
+Es esta:
+<br />
+
+<br />
+“Ok”.
+<br />
+
+<br />
+Y entonces empiezas una conversación 'normal' sobre el color del papel tapiz, la música que se escucha, o el hecho de que lavaste tu ropa el día de hoy.
+<br />
+
+<br />
+Lo que sea.
+<br />
+
+<br />
+¿COMO SABRAS SI FUNCIONO?
+<br />
+
+<br />
+Lo sabrás por que verás dos cosas en los ojos de esa chica.
+<br />
+
+<br />
+Sorpresa, hijodelachingada. SORPRESA y CONMOCION.
+<br />
+
+<br />
+Si se ve sorprendida, la tienes. Si se ve aturdida, es tuya. Si lo toma al vuelo, ella es más fresca que un pepino, y probablemente deberías de casarte con ella extremadamente rápido.
+<br />
+
+<br />
+¡ESPERA CIARAN! ¿Y SI ALGO SALE EN MI CONTRA?
+<br />
+
+<br />
+Nunca sale en contra tuya siempre y cuando no entres en pánico.
+<br />
+
+<br />
+Es correcto – hay solo UNA COSA que NO DEBES de hacer cuando uses el Opener del Apocalipsis...
+<br />
+
+<br />
+Y es perder la cabeza como un pinche mariconcito.
+<br />
+
+<br />
+Ya lo sé, increíble. Mientras no seas raro, ni la asustes, nunca sale mal en tu contra.
+<br />
+
+<br />
+Pero RECUERDA.
+<br />
+
+<br />
+No estás tratando de PERSUADIRLA PARA QUE SE ACUESTE CONTIGO. Esto es tan DEFINITIVAMENTE CRUCIAL que lo escribiré en letras rojas.
+<br />
+
+<br />
+NO estás tratando de PERSUADIRLA PARA QUE SE ACUESTE CONTIGO.
+<br />
+
+<br />
+Solo le estás poniendo la OPCION enfrente. Si dice que no, tu dices 'ok' y hablas del cachorrito nuevo de tu sobrino. O de lo que sea.
+<br />
+
+<br />
+Si haces esto en una forma rara o libidinosa, te van a derribar como a un alemán ciego de 96 años que no sabe que la guerra terminó, disparándole una ráfaga a un buque destructor de EU en un Messerschmitt Me 262.
+<br />
+
+<br />
+Es decir, extremadamente rápido.
+<br />
+
+<br />
+Asi que NO INTENTES CONVENCERLA de que se acueste contigo.
+<br />
+
+<br />
+Esto es importante no sólo en la vibra de la linea en si, (donde, de nuevo, es absolutamente decisivo). Es importante en lo que viene después. WOA, ESPERA... ¿Y SI NO ME BRINCA ENCIMA?
+<br />
+
+<br />
+Solo te bricará encima, en mi experiencia, entre un 30 y un 50% de las veces. De todas formas es un porcentaje MASIVO para UNA LINEA. Sin embargo, el otro 50-70% de las veces, no te brincará encima. Al menos no en los primeros minutos. Esto esta BIEN. Solo relajate. Estará probandote buscando señales que indiquen si eres un necesitado – todo lo que necesitas es hablar del CLIMA. No necesitas hacer nada más para ATRAERLA. Esa fase ya se TERMINO. Ella estará ATURDIDA por lo que dijiste. Todo lo que necesitas hacer, y no puedo dejar de REPETIRLO, es ACTUAR NORMALMENTE.
+<br />
+
+<br />
+Este es, casualmente, la única ocasion en la que es COMPLETAMENTE APROPIADO comprarle una bebida, por tres razones: 1- Muestra que eres normal. 2- Funciona como una especie de “cortejo sustituto” para satirfacer su ego de chica. 3- Muestra que eres normal.
+<br />
+
+<br />
+¿Ok?
+<br />
+
+<br />
+Solo COMPORTATE NORMALMENTE por dios. Habla de lo que sea. Le vas a GUSTAR TOTALMENTE. Ella sólo quiere saber que no eres un asesino en serie antes de aceptarte.
+<br />
+
+<br />
+PIENSO QUE SOLO PARECE UNA BUENA IDEA PARA CHICAS BORRACHAS A LA HORA DE CERRAR.
+<br />
+
+<br />
+Entonces eres un marica.
+<br />
+
+<br />
+He abierto chicas en la calle con ello. Exitosamente. Normalmente no te brincan encima, pero lo encuentran divertido, fresco, e interesantemente atrevido. Y a veces te brincan encima. Funciona brillantemente en un bar o disco, pero no necesitas dejarlo para al final de la noche a menos que estés buscando una buena noche de fiesta. Después de un rato, (No estoy bromeando, esto en verdad pasa) se vuelve algo frustrante cuando quieres pasar una noche con tus amigos y las chicas no te dejan en paz. No, en serio. De todas formas, puedes hacer esto donde sea. Puedes usarlo para abrir al principio de la noche. Puedes usarlo al final de la noche. Casualmente, nunca he obtenido una mala reaccion de una chica haciendo esto. Nunca. Incluso si accidentalmente caes dentro de lo lujurioso, ella simplemente se alejará, pero esto rara vez sucede. Esto engancha como la chingada. La otra cosa es esto – si ella se aleja en shock, no la sigas. Deja que se vaya. Estará de vuelta en unos 15 segundos. Máximo 60.
+<br />
+
+<br />
+¿LA MIRAS FIJAMENTE DESPUES DE PREGUNTARLE?
+<br />
+
+<br />
+Nunca miras fijamente. Solo miras. Vacia tu mente, pequeño saltamontes. Lee El Poder del Ahora. Fija tus ojos en los suyos. Eso es todo – pero tambien podría argumentar que tu fijas tus ojos sobre los suyos todo el tiempo. De hecho, argumentaría que fijas ojos con todas las personas con las que interactuas en toda tu vida.
+<br />
+
+<br />
+¿SI DICE 'NO' Y YO SOLO ME QUEDO AHI, ELLA REGRESARA?
+<br />
+
+<br />
+Si.
+<br />
+
+<br />
+De hecho, es genial cuando dice no... por que te da una oportunidad de demostrar una realidad más fuerte que el acero de cobalto. He aqui lo que haces. Si dice no, tu dices “ok” en el mismo tono como si le hubieras ofrecido una galleta salada y ella te hubiera dicho “no gracias”. Entonces tu le preguntas cual fué su opinión de Piratas del Caribe o de cualquier cosa. O hablas de la hamburguesa que te desayunaste, o sobre si el clima estuvo bueno el miercoles o de lo que pinche sea. Y en 10 minutos (maximo) la tendrás probando tus labios.
+<br />
+
+<br />
+¿DEBERIA DE HACERLO FRENTE A SUS AMIGOS?
+<br />
+
+<br />
+No.
+<br />
+
+<br />
+NO PUEDES hacer esto a una chica si sus amigos puedes escucharla. Si estás en una disco, puedes hacerlo a unos cuantos pies de distancia de sus amigos por el ruido. Lo importante es que ella sienta que es un intercambio privado por EXACTAMENTE la razón que estás pensando. Si lo haces frente a sus amigos ella te mirará como si fueras basura y te mandará a volar. Sorprendentemente, esto nunca, jamás, pasa si ella está sola. Chicas. Es inevitable quererlas.
+<br />
+
+<br />
+¿QUE SI ME LE QUEDO VIENDO A SUS TETAS? ¿FUNCIONARIA ESO?
+<br />
+
+<br />
+No. Recuerda – esto es tranquilo. Lo sueltas en el miusmo tono como si le estuvieras preguntando del clima. No es una linea que digas a la ligera, tampoco... Simplemente, una genuina, completamente normal, pregunta directa. Boom, hijos de la chingada.
+<br />
+
+<br />
+SUENA BIEN PARA RELACIONES DE UNA NOCHE... PERO NO TENDRIAS UNA RELACION SERIA CON UNA DE ESTAS CHICAS, ¿OH SI?
+<br />
+
+<br />
+Claro que puedes. Deja de preguntar estupideces. Puedes iniciar una relación partiendo de una relacion de una noche puramente sexual sin ningún problema. Como Tim lo dijo alguna vez – hay un lugar y tiempo para una conexion emocional. Después del sexo.
+<br />
+
+<br />
+¿PUEDO ESPERAR A ESTAR ALGUNOS MINUTOS DENTRO DE LA CONVERSACIÓN PARA USAR ESTA LINEA?
+<br />
+
+<br />
+NO.
+<br />
+
+<br />
+Pierde su poder y eficacia entre más tardes para decirla. El poder y el impacto de esto deriva del hecho de que tengas los cojones para abrir con la opcion de sexo. Puedes decirlo después, claro – y puede que ella no se espante. Puede que obtengas un faje, y aumentarás la atracción siempre que puedas mantenerte firme y lidiar con los fallos – pero si lo haces después puede que ella se vaya. Si quieres un ligue instantáneo, hazlo rápido.
+<br />
+
+<br />
+PIENSO QUE LA APARIENCIA IMPORTARÍA AQUI (ES SOLO MI OPINION)
+<br />
+
+<br />
+Tu opinion no vale nada. Wey, no estoy aqui para debatir los conceptos abstractos de la atraccion femenina y como se relacionan con la apariencia. Te estoy diciendo que funciona a pesar de como luzcas, por que eso es lo que he visto, una y otra vez, con mis propios ojos. Cuasimodo podría hacerlo si tuviera cojones. No me importa si no me crees. Esto funciona. Lo sé por que lo he hecho, y he visto como otros lo han hecho. En ningúna ocasion la apariencia ha sido un factor fundamental en el exito de esta linea. He sacado consistentemente chicas con la apariencia de modelos con esto mientras que yo iba como vagabundo. Cualquiera que piense que la apariencia importa, incluso en lo más minimo, cuando se trata de ser bueno con las chicas, es un pinche puto puñetas maricón. Si piensas algo diferente, eres un puñetas, y tu opinión no vale nada. Ve a sentarte en la esquina y piensa en lo que acabas de hacer.
+<br />
+
+<br />
+ESTA BIEN, LA APARIENCIA NO IMPORTA, PERO AUN ESTOY BATALLANDO CON LA CREENCIA QUE ALGUNA CHICA SOBRIA VAYA A HACERLO CON UN CHICO EN LA MISMA NOCHE QUE LO CONOCIÓ.
+<br />
+
+<br />
+Jajajajajajajaja. Oh... JAJAJAJAJAJA, OHHHHHHH
+<br />
+
+<br />
+    * respira * 
+<br />
+
+<br />
+¡OOOOOOOOOOHOHOHO! ¡AHAHAHAHAHA! Ajajajajajaja. Jaja. Jeee. Jo. Hnnnnnnnnng.
+<br />
+
+<br />
+Lo harán man. Tus creencias son irrelevantes. Lo harán. Oh si. Lo harán. Cool.
+<br />
+
+<br />
+¡GENIAL! ¿PUEDO ARREBATARLE UNA CHICA A SU NOVIO?
+<br />
+
+<br />
+Um... La mentalidad de 'destruir al novio' es una de la que recomiendo alejarse. Hay infinidad de chicas solteras en el mundo. En verdad - la idea de que todas las chicas atractivas tienen novio es un mito. Para mi apesta tambien a mentalidad de escases. Dejando de lado la retribución kármica, hay una especie de justicia natural a los asuntos de los hombres, y meterse en serio en ligarse chicas con pareja puede causarte problemas graves si alguna vez conoces a una chica que en verdad te guste. Y también, alimenta tu lado oscuro (y no en el sentido chido como el de Darth Vader, oscuro pinche como el lado oscuro de Gollum) satisfacer tu deseo de tirarte chicas con novio. Oh, y una última cosa.
+<br />
+
+<br />
+Por dios, NO hagas el Opener del Apocalipsis frente al novio de una chica. Eso sería jodidamente estúpido. Pon atención, ¿ok?.
+<br />
+
+<br />
+Ok, ya veo lo que está pasando aqui.
+<br />
+
+<br />
+Estás pensando 'tengo este nuevo opener/método y puedo salir y usarlo para tener sexo.' Muy comprensible. También, destinado al fracaso. Ahora, no voy a ponerme a predicar, ni siquiera por un momento. No soy un hombre moralizador. El UNICO problema, de tu punto de vista, con sentirte como lo menciono, es que si piensas asi el opener no va a funcionar. Si tienes la clase de vibra desesperada, frenética de &quot;acabo de encontrar la píldora mágica para tirarme a todas las mujeres... ssss... tesoro... quierossss....ssss&quot; ella te arrojará su bebida en la cara.
+<br />
+
+<br />
+S+C no es un método, y el Opener del Apocalipsis no es un truco. Ambos son formas de expresar lo que YA sientes por una mujer de una forma que es directa al extremo y que no las espantará. No es una forma truculenta de tener sexo rápido. Es acerca de darte la habilidad de expresar sin verguenza tus deseos como hombre en una forma que trasciende las barreras sociales y crea cantidades masivas de atracción pura, rápidamente. Este es el polo opuesto de andarse por las ramas. Es superhonestidad.
+<br />
+
+<br />
+APOCALIPSIS GRUPAL
+<br />
+
+<br />
+Llégale a dos chicas y diles exactamente la misma cosa, pero con esta variante interesante:
+<br />
+
+<br />
+&quot;Hey, ¿como les va?&quot; Dirán: &quot;Bien.&quot; Entonces tu dices: &quot;Chido. ¿Que harán mas al rato?&quot; Ellas dirán: &quot;No estamos seguras&quot; Entonces tu dirás: &quot;Que les parecería venir a mi casa para un threesome?&quot; Y entonces lo aguantas. Aguantalo.
+<br />
+
+<br />
+AGUANTALO.......
+<br />
+
+<br />
+AGUANTALO HIJO MIO......
+<br />
+
+<br />
+AGUANTA LA PINCHE LINEA......
+<br />
+
+<br />
+Boom.
+<br />
+
+<br />
+Ese 'boom' es, coincidentemente, el corazón del sistema S+C. Es donde lo ves en los ojos de una chica. Sorpresa, y conmoción. Es la cosa mas satisfactoria que verás después de años en el desierto de ser ignorado por las mujeres. La mayoria de los hombres pasan su vida entera sin verlo jamás. Es sorprendente. Después de verlo unas cuantas veces te cambia, cambia tu perspectiva sobre la vida misma. Es como si algo se conectara, muy dentro de ti. Algún circuito perdido hace mucho tiempo. Después de hacerlo un par de veces, mi voz cambió por completo, se hizo más resonante. Es increible.
+<br />
+
+<br />
+Asi que, amigos míos, ese es el Opener del Apocalipsis. La única linea para ligar que he encontrado que en verdad funciona. He hablado bastante de ella, por que quiero recalcar el punto.
+<br />
+
+<br />
+Funciona. No es TAN dificil de hacer. NO NECESITAS ser sorprendentemente bueno para hacer que te funcione. Si puedes pronunciarla y aguantarte los nervios, puedes hacerlo.
+<br />
+
+<br />
+Ahora sal afuera y clavate esto.
+<br />
+
+<br />
+&quot;Novia celosa&quot; mi blanco y peludo trasero.
+<br />
+
+<br />
+Paz.
+<br />
+
+<br />
+Ciaran.<br /><br />_________________<br />La vida es simple, toma decisiones y no voltees para atras.
+<br />
+No puedes aprender si no practicas, Aprende haciendolo.
+<br />
+
+<br />
+Las personas que no son capaces de hacer algo, te diran que tu tampoco puedes.
+<br />
+
+<br />
+&quot;Las opiniones son como el agujero del culo, todos tenemos uno y creemos que el de los demás apesta.&quot;
+<br />
+A Casa por Vacaciones<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 12 Jul , 2009 7:05 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1055.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1055"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1055.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43358"></a>Bandido</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/486017454a33d19e8fc84.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Abr 2009<br />Mensajes: 108<br />Ubicación: Argentina Cba.</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43358.html#43358"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43358"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">hay que tener huevos para hacerlo, mas me hace acordar mucho al encare de la pelicula vicky cristina barcelona, cuando encara a las dos minas.
+<br />
+
+<br />
+<a href="http://www.youtube.com/watch?v=yQISJtJDeFc&amp;feature=fvst" target="_blank">http://www.youtube.com/watch?v=yQISJtJDeFc&amp;feature=fvst</a>
+<br />
+
+<br />
+
+<br />
+me gustaria invitaros a pasaros bien el fin de semana, comeremos bien beberemos buen vino, haremos el amor....
+<br />
+
+<br />
+
+<br />
+la verdad que esta peli se paaaasa<br /><br />_________________<br />Mujeriego ¡No! .... Seductor, Si. 
+<br />
+Acuerdate de Saber siempre lo que quieres.
+<br />
+
+<br />
+<a href="http://www.goear.com/listen/e07f8aa/Bandido-Sebastian" target="_blank"><span style="font-weight: bold">Me dicen el Bandido, escuchar online</span></a><img src="http://www.mexanime.org/smf/Smileys/smilies/drunk.gif" /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 12 Jul , 2009 8:10 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=1472"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm1472.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="43390"></a>Khonsu</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2008<br />Mensajes: 81<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp43390.html#43390"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=43390"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">En otro foro lo probaron con enorme exito, ninguna chica acepta la proposición de golpe porque no te conocen de nada pero te sirve para entrar en la interacción con un marco fuerte porque te presentas delante de la chica como un hombre con un buen par de pelotas y con eso ganas muchos puntos delante de ella despues por supuesto tienes que hacer comfort con la chica para que la chica vea que eres una persona normal y no eres un asesino en serie ni nada parecido.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 13 Jul , 2009 1:39 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1026.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1026"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=6417&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6417"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22"selected="selected">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="3d75fb5fc5d00d716d2f56db465eb0f0" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,780 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=6354&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=6354&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Estructura de PNL en CHAT (puede usarse face to face)</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="estructura-de-pnl-en-chat-puede-usarse-face-to-face-vt6354.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Estructura de PNL en CHAT (puede usarse face to face)</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6354"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="programacion-neuro-linguistica-vf3.html" class="nav">Programación Neuro-Lingüistica</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt6354.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt6354.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="estructura-de-pnl-en-chat-puede-usarse-face-to-face-vt6354.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Estructura de PNL en CHAT (puede usarse face to face)</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="42790"></a>Rey de Corazones</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/8268019274a5bf49291399.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Abr 2009<br />Mensajes: 28<br />Ubicación: Santa Fe, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp42790.html#42790"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Estructura de PNL en CHAT (puede usarse face to face)</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=42790"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hola amigos de PVL, bueno les cuento que hace tiempo estuve estudiando PNL y lo fui complementando con temas que fueron surgiendo como HIPNOSIS – ORDENES ENCUBIERTAS – INDUCCION DE ESTADOS.
+<br />
+Fui tomando mis apuntes e hice una estructura siguiendo los pasos que en varios manuales lei sobre como ir pasando etapas. 
+<br />
+
+<br />
+Bueno aquí  va:
+<br />
+1)	Fijar el objetivo que quiero lograr con el target
+<br />
+
+<br />
+2)	Inducir un Estado   (yo me fijé ROMANCE – PASIÓN – EXCITACIÓN –CURIOSIDAD)
+<br />
+   2.1)Narrar una historia y hacer preguntas (no muchas solo algunas puntuales)  para que el target recree la situación y reviva las emociones necesarias para ir guiándola al estado que queremos. 
+<br />
+   2.2)Ordenes encubiertas
+<br />
+
+<br />
+3)	 Anclar
+<br />
+
+<br />
+4)	Amplificar el estado inducido
+<br />
+•	Manejo de voz
+<br />
+•	Dar énfasis a las anclas
+<br />
+
+<br />
+
+<br />
+Bueno esto es lo que fui apuntando y lo lleve a cabo en una conversación con una TB7 u 8 del chat, también voy a destacar que un ingrediente esencial es el HUMOR yo lo voy usando de a poco para cortar el estado e ir escalando.
+<br />
+Voy a detallar como fui realizando cada uno de estos pasos.
+<br />
+
+<br />
+Hay algunas partes resaltadas con su respectivo numero al principio de la frace, esto es lo que significa:
+<br />
+
+<br />
+<span style="color: yellow">(1)	Ordenes encajadas
+<br />
+(2)	Hacer uso de  recuerdos o construcción de imágenes y situaciones.
+<br />
+(3)	Frases de Negación y sugestión. </span>
+<br />
+
+<br />
+
+<br />
+Paso Nº1 ) El objetivo que me plantie fue el de crear romance y generar ganas de besarme.
+<br />
+Noté que Ella en la ventana del msn había puesto una rosa de color roja.
+<br />
+
+<br />
+
+<br />
+YO: Que sentís cuando ves una rosa?
+<br />
+<span style="color: red">TARGET:  me encanta porque siempre tenes que comentar algo!</span>
+<br />
+<span style="color: red">TARGET:  jaja</span>
+<br />
+YO: jaja, es que hoy estas mas perceptiva que otras beses?
+<br />
+YO: estas romántica?
+<br />
+<span style="color: red">TARGET:  jaja </span>
+<br />
+YO: veces,,,,, ya se
+<br />
+YO: ya se
+<br />
+<span style="color: red">TARGET:  siempre estoy romántica</span>
+<br />
+YO: pues lo que te parece que  es ser romántica quizás no tenga el mismo significado para mi, todo esta en como uno lo vive
+<br />
+<span style="color: yellow">(1)podrias describirme como es ser romántica?</span>
+<br />
+<span style="color: red">TARGET:  romántica en que sentido?
+<br />
+TARGET:  para con alguien o con la vida en general?</span>
+<br />
+YO: dijiste que siempre estas romántica
+<br />
+YO: en que caso lo usas vos?
+<br />
+<span style="color: red">TARGET:  porq me refiero con la vida en general</span>
+<br />
+YO: bien, con la vida en general entonces
+<br />
+YO: y como describís ese sentimiento en particular?
+<br />
+<span style="color: red">TARGET:  jaja que preguntas haces!!
+<br />
+TARGET:  nunca vas caminando y sentis que estás enamorado de la vida? y todo te parece hermoso
+<br />
+TARGET:  bueno a mi pasa eso
+<br />
+TARGET:  casi siempre
+<br />
+TARGET:  (con lo que acabo de decir ahora no se cual de los dos dice mas pavadas <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> jaja)</span>
+<br />
+<span style="color: yellow">
+<br />
+(Narración para que ella valla experimentando el estado mismo)</span>
+<br />
+
+<br />
+YO: He sentido como las cosas fluyen con total naturalidad en ese caso, me siento libre puedo relajarme con solo respirar y así todo lo que veo me llega de una manera hermosa
+<br />
+YO:<span style="color: yellow"> (1) también lo sientes, ahora, mientras me lees a mi, </span>
+<br />
+YO: te parecerán pavadas porque muchas veces no le encontramos sentido en un primer vistazo
+<br />
+YO: pero pasa en la vida, pasa en TNT
+<br />
+YO: ajjaja
+<br />
+<span style="color: red">TARGET:  Jajaja
+<br />
+TARGET:  hace un montón que estás escuchando esa canción :S</span>
+<br />
+YO: intento tocarla con la guitarra
+<br />
+YO: no respondiste mi primera pregunta
+<br />
+<span style="color: red">TARGET:  no me llego
+<br />
+TARGET:  que preguntaste?</span>
+<br />
+YO: sobre tu imagen
+<br />
+<span style="color: red">TARGET:  que siento cuando veo una rosa?</span>
+<br />
+YO: que sensación te da ?
+<br />
+YO: por lo que dijiste pues estas romántica, entonces la rosa  representaría tu estado de animo?
+<br />
+<span style="color: red">TARGET:  la misma sensación que me da cuando escucho un tema que me emociona de lo hermoso que me parece..algo asi como una mezcla de melancolía con ternura y felicidad :S no se explicarlo es muy dificil ja
+<br />
+</span>
+<br />
+
+<br />
+<span style="color: yellow">(acá ella esta escuchando la canción , Nos dieron las 10 y las 11 de sabina)</span>
+<br />
+
+<br />
+YO: te sentís muy sensible entonces, mientras escuchas y nos YO: dieron las 10 y las 11..... y ves esa imagen de la rosa, te sientes mas melancólica. Decís, tenes sentimientos de ternura y a la vez felicidad, <span style="color: yellow">(1)quizás recuerdes algún momento pasado, ahora conmigo.</span>
+<br />
+<span style="color: red">TARGET:  por que ahora con vos??</span>
+<br />
+YO: estas hablando conmigo, yo soy quien pregunto de acuerdo a tu respuesta
+<br />
+<span style="color: red">TARGET:  nunca pensaste en estudiar psicología?</span>
+<br />
+YO: no hasta fines del año pasado
+<br />
+YO: pero yo estudio para mi
+<br />
+YO: en casa, 
+<br />
+YO: tengo muchos libros y busco info en internet, inclusive estoy en algunos foros de discusión
+<br />
+<span style="color: red">TARGET:  si? mira vos... a mi me hubiese gustado pero me di cuenta tarde</span>
+<br />
+YO: yo pienso que tenes pasta
+<br />
+<span style="color: red">TARGET:  Jaja
+<br />
+me interesa la psicología.. pero no lo supe hasta TARGET:  que no tuve la materia en la facultad... ahora me TARGET:  baje un libro de internet, inteligencia emocional, conoces? lo empece a leer hoy</span>
+<br />
+YO: lo tengo
+<br />
+YO: pero no lo leí
+<br />
+YO: baje un pack de libros
+<br />
+YO: y esta ese
+<br />
+YO: pero no lo lei
+<br />
+YO: hoy termine de leer, estados conductivos
+<br />
+YO: HO QUE CALOR, ME GUSTA TU CUERPO
+<br />
+YO: O QUE CALOR
+<br />
+YO: esa es la canción
+<br />
+YO: pero no la canta amistades peligrosas
+<br />
+<span style="color: red">TARGET:  jajaj 
+<br />
+TARGET:  si se bajo con cualquier nombre
+<br />
+TARGET:  miguel bose
+<br />
+TARGET:  y otra mina es no?</span>
+<br />
+YO: Jaja
+<br />
+YO: me gusta ese tema
+<br />
+<span style="color: red">TARGET:  si a mi tb</span>
+<br />
+YO: contame algo vos
+<br />
+YO: o que tal si vos me preguntas algo a mi
+<br />
+<span style="color: red">TARGET:  te cuento lo que quieras.. preguntame nomas <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /></span>
+<br />
+YO: <span style="color: yellow">(2) cuando fue la ultima vez que besaste a un hombre?</span>
+<br />
+<span style="color: red">TARGET:  a mi ex, hace como dos o tres semanas antes de q le corte
+<br />
+TARGET: vos? cuando fue la ultima ves que besaste a un hombre? :S jaja</span>
+<br />
+YO: 3 meses o 4
+<br />
+YO: a mi mejor amigo
+<br />
+YO: un piquito
+<br />
+<span style="color: red">TARGET:  Jajaja</span>
+<br />
+YO: es que la novia estaba mirando
+<br />
+YO: y yo le dije que éramos pareja
+<br />
+YO: ella no nos creyó
+<br />
+YO: y yo jodiendo le di un beso, va le tire el pico
+<br />
+YO: y el guampa ni se movio
+<br />
+<span style="color: red">TARGET:  y que tal estuvo??</span>
+<br />
+YO: asique se lo termine dando
+<br />
+YO: Raro
+<br />
+YO: Jaja
+<br />
+YO: aunque si me lo imagino con lengua me da azco
+<br />
+YO: risa)
+<br />
+YO: <span style="color: yellow">(2)como seria darle un beso a alguien que no conoces?</span>
+<br />
+<span style="color: red">TARGET:  por?</span>
+<br />
+
+<br />
+<span style="color: yellow">(Narración para que visualice y sienta las emociones)
+<br />
+(Tambien está el mensaje oculto, para  que ella acepte que besar a un desconocido le va a provocar buenas emociones)</span>
+<br />
+
+<br />
+YO: soñaste alguna vez estar en un lugar, y estas con alguien que en tu sueño es muy familiar y realmente sentís cosas 
+<br />
+YO: profundas, y te estas besando, he incluso acariciando y  mas..... podes sentir cada uno de sus besos en tus labios, la fuerza de sus manos sobre tu brazo, hasta el calor de su cuerpo.... ahora pensando así, te despertas y te das cuenta que esa persona nunca la conociste
+<br />
+como puede ser entonces, sin embargo es algo real, 
+<br />
+<span style="color: red">TARGET:  mm si me pasó pero con personas que conozco nomas <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /> jaja
+<br />
+entonces tu pregunta es si me puedo imaginar darle un beso a alguien que no conozco?</span>
+<br />
+YO: asi es
+<br />
+YO: <span style="color: yellow">(3)NO USES MI ROSTRO, jajajaj</span>
+<br />
+YO: un hombre X, 
+<br />
+<span style="color: red">TARGET:  o sea que estaría besando a alguien que no se  como es porq no conozco.. mm 
+<br />
+ le puedo inventar la cara que yo quiera?</span>
+<br />
+YO: (<span style="color: yellow">3)mientras que no te imagines la mía</span>
+<br />
+YO: Jajaj
+<br />
+YO: aunque yo beso bien
+<br />
+YO: ajajaj
+<br />
+<span style="color: red">TARGET:  jajaja
+<br />
+TARGET:  por que no puedo usar la tuya??
+<br />
+TARGET:  es mi mente, yo imagino a quien yo quiera!!! //
+<br />
+TARGET:  jajaj
+<br />
+TARGET:  mm no se, en mi imaginación no estás besando muy bien <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /></span>
+<br />
+YO: y como estoy besando entonces,
+<br />
+YO: que le haría falta
+<br />
+<span style="color: red">TARGET:  jajja</span>
+<br />
+YO: tengo que saber, para mejorar
+<br />
+<span style="color: red">TARGET:  no se por empezar, me estás pinchando con los bigotes 
+<br />
+TARGET:  jajaj
+<br />
+TARGET:  y no tenés muy buen aliento
+<br />
+TARGET:  eso es importante</span>
+<br />
+YO: haaaaaaaa,
+<br />
+YO: esta bien, 
+<br />
+YO: bueno ahora no tengo la barba porque me la rasure sin querer el sabado
+<br />
+y siempre tengo pastillas en mi bolsillo, porque odio sentir feo aliento
+<br />
+YO: asique te estas imaginando mal, creo que le podrias poner mas ganas 
+<br />
+
+<br />
+<span style="color: yellow">(Mas de lo mismo para que ella se imagine mis besos)</span>
+<br />
+
+<br />
+YO: podrias decirme en todo caso, que beso muy rápido
+<br />
+YO: o que no te gusta que te muerda los labios al besarte
+<br />
+YO: o que deje mi lengua tranquila
+<br />
+YO: o que no te bese la nariz,
+<br />
+<span style="color: red">TARGET:  jajjaja</span>
+<br />
+YO: se mas creativa
+<br />
+<span style="color: red">TARGET:  te iba a decir
+<br />
+TARGET:  no me diste ma stiempo
+<br />
+TARGET:  Jajja
+<br />
+TARGET:  aparte era pa bajarte un poco el ego de que besas bien <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+TARGET:  Jaja
+<br />
+TARGET:  y si me gusta que me muerdas los labios!
+<br />
+TARGET:  Jajaj</span>
+<br />
+YO: mis labios son finos
+<br />
+YO: los tuyos también pero los inferiores son un pco mas gruesos
+<br />
+YO: asique mordisquearía ahi justamente
+<br />
+YO: en cambio, jugaría con humedecer los superiores con mi lengua
+<br />
+<img src="images/smiles/icon_razz.gif" alt="Razz" border="0" />
+<br />
+
+<br />
+
+<br />
+
+<br />
+Bien esto fue la conversación de esa noche, voy a decirles que al día siguientes volvimos a hablar y yo la invite a salir a cenar para conocernos y luego algo de baile, y ella acepto… (la cena la pagamos a medias ).
+<br />
+
+<br />
+Transamos esa misma noche, en el boliche, ahora nos estamos viendo semanalmente.
+<br />
+<span style="font-style: italic">
+<br />
+<span style="color: cyan">Nota: Es importante mencionar que este tipo de desarrollo no nos sirve con todas las mujeres, en este caso y en mi opinión pues es una chica muy inteligente, que le gusta lo original, una persona con la cual se puede conversar y que es bastante culta e instruida. Tengo que reconocer que esta chica es inteligente.
+<br />
+
+<br />
+Pero lo importante que la estructura es la misma sea cual fuese el caso, cada uno tendrá que ver como llevarlo a cabo según la mina que le toque</span>.</span><br /><br />_________________<br />&quot; Todo arde si se aplica la chispa adecuada &quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 01 Jul , 2009 4:12 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1506.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1506"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=1506"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm1506.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="42900"></a>Naitsirc</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/173162853349819c8ea4bd5.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2009<br />Mensajes: 34<br />Ubicación: Bogota Colombia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp42900.html#42900"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=42900"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">En serio besaste a un tipo??? jajajajaja
+<br />
+
+<br />
+ahora si en serio, me parecio interesante lo que hiciste y se puede aplicar sin ser un chat..... esto es elicitar valores, <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" />
+<br />
+
+<br />
+Me gusto porque yo uso cosas muy similares!<br /><br />_________________<br />&quot;Call an optimist, she's turning blue
+<br />
+Such a lovely color for you
+<br />
+Call an optimist, she's turning blue
+<br />
+While I just sit and stare at you&quot;
+<br />
+Maynard J. Keenan!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 03 Jul , 2009 12:41 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=1242"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm1242.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=6354&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=6354"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="programacion-neuro-linguistica-vf3.html" class="nav">Programación Neuro-Lingüistica</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3"selected="selected">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="3d2fe246fba1cbf2ad6fed634418c600" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

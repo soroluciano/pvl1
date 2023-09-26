@@ -1,0 +1,157 @@
+﻿/* Cyberpunk CSS */
+
+html, body {
+    background: #000;
+    padding: 0;
+    margin: 0;
+    color: #00FF00;
+    font-family: 'Arial', sans-serif;
+}
+
+body { padding: 0 5px; }
+
+a, a:visited { color: #48ACFF; text-decoration: none; }
+a:hover { text-decoration: underline; color: #FFD700; }
+
+hr { height: 1px; border: none; background: #2370B6; }
+
+/* Update fonts to a futuristic style */
+font, th, td, p { font-family: 'Roboto', sans-serif; }
+
+/* Neon button styles */
+.button {
+    background: #00FF00;
+    color: #000;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background: #FFD700;
+    color: #000;
+}
+
+/* Cyberpunk header and logo styles */
+#maintable {
+    border-style: none;
+}
+
+td.logotable {
+    background-color: #050505;
+    border-bottom: 1px solid #00FF00;
+}
+
+.logorow1, .logorow2 {}
+
+#header-buttons {
+    font-size: 11px;
+    color: #FFD700;
+    padding-bottom: 2px;
+}
+
+#header-buttons a, #header-buttons a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#header-buttons a:hover { color: #FFD700; text-decoration: underline; }
+
+/* Cyberpunk content background */
+#content-simple { 
+    padding: 10px; 
+    background-color: #000;
+    border: 1px solid #00FF00;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Cyberpunk forum styles */
+.forumline {
+    border: none;
+    background: #2B2B2B url(images/circuit.gif) top left repeat-x;
+    box-shadow: 0px 0px 5px rgba(0, 255, 0, 0.3);
+}
+
+.forumheader td { 
+    background: #2671B6;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.forumheader a, .forumheader a:visited {
+    color: #48ACFF;
+    text-decoration: underline;
+}
+
+.forumheader a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+/* Neon text for titles */
+.maintitle, h1, h2 {
+    font-weight: bold; 
+    font-size: 24px;
+    color: #00FF00;
+    text-decoration: none; 
+    line-height: 120%;
+}
+
+/* Cyberpunk general text */
+.gen, .genmed, .gensmall {
+    font-size: 12px;
+    color: #D0D0D0;
+}
+
+/* Neon links */
+a.gen, a.genmed, a.gensmall {
+    color: #48ACFF;
+    text-decoration: none;
+}
+
+a.gen:hover, a.genmed:hover, a.gensmall:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+/* Update input and textarea styles */
+input, textarea, select {
+    color: #00FF00;
+    font: normal 11px 'Roboto', sans-serif;
+    background-color: #000;
+    border: 1px solid #00FF00;
+}
+
+input.post, textarea {
+    color: #00FF00;
+}
+
+/* Neon submit buttons */
+input.mainoption, input.liteoption {
+    background-color: #00FF00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+input.mainoption:hover, input.liteoption:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.inputhidden { display: none; }
+
+/* Cyberpunk enhancements */
+/* Add neon glow to selected text */
+::selection {
+    background: #FFD700;
+    color: #000;
+}

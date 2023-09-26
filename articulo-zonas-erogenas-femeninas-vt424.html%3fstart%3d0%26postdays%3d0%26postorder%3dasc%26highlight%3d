@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=424&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=424&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Articulo: Zonas erogenas femeninas ;)</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="articulo-zonas-erogenas-femeninas-vt424.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Articulo: Zonas erogenas femeninas ;)</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=424"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="sexualidad-vf25.html" class="nav">Sexualidad</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt424.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt424.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="articulo-zonas-erogenas-femeninas-vt424.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Articulo: Zonas erogenas femeninas ;)</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2276"></a>WizardPua</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/828323132472b6e9dbbbb2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 28 Oct 2007<br />Mensajes: 48<br />Ubicación: Bogotá, Colombia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2276.html#2276"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Articulo: Zonas erogenas femeninas ;)</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2276"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Traducido por POL:
+<br />
+
+<br />
+<a href="http://www.sexinfo101.com/pw_erogenouszones.shtml" target="_blank">http://www.sexinfo101.com/pw_erogenouszones.shtml</a> 
+<br />
+
+<br />
+Zonas EROGENAS femeninas 
+<br />
+
+<br />
+Su cuello 
+<br />
+
+<br />
+El cuello debe ser uno de los puntos mas calientes del cuerpo femenino. Nunca hemos encontrado un metodo mas efectivo que besos apasionados en el cuello para convertir un beso de buenas noches en una invitacion a desayunar. Hay varios puntos a tener en mente.... pero lo mas importante: CONTROLATE! las marcas pueden ser divertidas para el liceo si eres un adolescente, pero la mayoria de las mujeres te odiaran si tienen que usar un cuello de tortuga una semana por tu culpa. Si quieres dejar marcas, limitate a lugares ocultos por la ropa. Trata de tener humeda tu boca, pero no la babees! Cubre diferentes areas de su cuello con besos tiernos usando las areas bajo/detras de las orejas para estimulacion extra. Pequeños mordiscos tambien funcionan bien. Empezar suave y con cuidado y a medida que le empieza a gustar, mas fuerte y apassionado para encender su fuego. 
+<br />
+
+<br />
+Sus orejas 
+<br />
+
+<br />
+En y alrededor de las orejas se agolpan terminaciones nerviosas, haciendolas ultra sensitivas a tus caricias.Usa la llema de tus dedos indice y pulgar para masajear la oreja externa con movimientos lentos y firmes. Presiona con suavidad los lobulos. Explora el area tras la oreja con tus labios y lengua, y exala profundamente y cons uavidad mientras sigues mordisqueandola (tecnica de oler?? jeje). No seas timido a la hora de hacer algun ruido mientras estas aqui, el sonido de tu aliento y tus gemidos puede encender increiblemente a muchas mujeres. Asegurate de recordar que hay una fina linea entre acariciar suavemetne su oreja con la lengua y encajarsela hasta el fondo del timpano, algo que no van a apreciar. 
+<br />
+
+<br />
+Sus labios 
+<br />
+
+<br />
+El principal error de los hombres (especialmente casados o en LTR) durante el sexo? NO BESAR SUFICIENTE. A las mujeres les encanta besar, y muchas de ellas se quejan de hombres que no pasan suficiente tiempo haciendolo. Pero no solo es besar mas, sino tambien MEJOR. Trata de variar la intensidad (primero besala suavemente, despues con mas pasion, despues vuelve a enlentecer el beso). Cuando hayas terminado con sus labios, pasa a sus mejillas, pestañas, frente, nariz, cuello u orejas (especialmente cuello y orejas). No la aburras repitiendo lo mismo una y otra vez, asegurate de mezclar tu estilo. Si generalmente mueves tus manos por todo su cuerpo cuando la besas (que de paso, esta muy bien), trata de besarla por varios minutos sin dejar vagar tus manos (enfocar toda tu pasion en el beso) y deja q indique cuando esta lista para seguir. 
+<br />
+
+<br />
+Pelo 
+<br />
+
+<br />
+Habras notado que muchas mujeres juguetean con su pelo? No es solamente un habito nervioso, lo hacen porque se siente bien. Es posible que este deseando q tu lo acericies. La cabeza puede ser muy sensible a la estimulacion y ella probablemente no espera que tu le prestes atencion, sorprendela. Peinarla puede ser una experiencia muy sensual. O pasar tus dedos por su pelo mientras la besas, o solo acariciar la cabeza suavemente con tu mano. 
+<br />
+
+<br />
+Pechos 
+<br />
+
+<br />
+Los pechos son territorio familiar para casi todos los hombres y son DIVERTIDOS, por lo que es poco probable que les des poca atencion. El error que es mas probable cometer es darles DEMASIADA atencion (o atencion muy vigorosa) antes que ella este lista. La sobreestimulacion de los pechos puede insensibilidzarlos o hacerlos doler para algunas mujeres durante partes de su ciclo menstrual. Trata de emplear el encare de &quot;cuanto menos mejor&quot;. Toca su pecho suavemente y retira tu mano por un momento y luego continua. Esto crea expectativa. Limitate a estimular los pezones indirectamente hasta que se exiten (se ponen duros) y no empiezes enfocandote en el centro de primera: el mismo concepto de antes, EXPECTATIVA. 
+<br />
+Todo el pecho es rico en terminales nerviosas y todos los pechos tienen la misma cantidad de las mismas. Por esto, mujeres con pechos mas pequeños experimentaran mayores sensaciones por toque, resultado de la mayor concentracion de terminales nerviosas. Todos los pechos responden con tiempo, empiezen lentamente, tomense su tiempo y juegen suavemente con el pecho. Areas especialmente sensible al tacto son el pezon y la aureola. Uno de los puntos mas sensibles, usualmente ignorado es la parte inferior del pecho. Al besar y tocar sus pechos, intenta, comenzar desde el borde exterior y moverte lentamente en circulos hacia adentro. Puede que ella fuerze tu boca o mano directamente sobre su pezon, pero NO LA DEJES, continua avanzando con lentitud. Tomate tu tiempo, no va a irse a ninguna parte, asi que hacela desear. Todo este proceso deberia tomar por lo menos unos minutos. A continuacion desliza suavemente la punta de tu dedo alrededor de su pezon. De nuevo con mucha suavidad presiona el pezon entre tus dedos usando las llemas y cuando estan bien duritos, comienza a utilizar tu boca en ellos.Nota: algunas mujeres difrutan de pequeños mordizcos y un juego un poco mas recio, mientras que otras son realmente sensibles y prefieren toques suaves. Averigua sus preferencias observando sus reacciones o preguntandole. 
+<br />
+
+<br />
+Sus otros puntos debiles 
+<br />
+
+<br />
+Aqui es donde puedes volverte realmente creativo. Intenta besar tiernamente o acariciar las partes traseras de sus rodillas, el interior de sus brazos y muslos o sus palmas. A las mujeres les encanta ser acariciadas, besadas, lamidas o q soplen sobre ellas (con cuidado en estas areas que pueden tener piel muy suave y sensible). La estimulacion suave es normalmente mas exitante que la presion fuerte. Tomarla por sorpresa puede hacerlo el doble de divertido. Muchas mujeres no se dan cuenta que sentir una lengua recorrer la cara interior de su brazo puedes ser extremadamente erotico. De nuevo debemos indicar que la piel es el mayor organo, y hay MUCHA para explorar, asi que ponete a hacerlo!. 
+<br />
+
+<br />
+Su Clitoris 
+<br />
+
+<br />
+Ubicado en el punto de juntura superior de sus labios vaginales interiores, un pequeño bulto de piel rosada. A las mujeres les gusta diferentes cantidades de estimulacion directa a su clitoris. Algunas mujeres te adoraran si chupas con fuerza su clitoris expuesto, otras gritaran de dolor. Puedes encontrar una mujer totalmente incapaz de soportar la estimulacion directa de su clitoris; el objetivo sigue siendo el mismo, pero tendras que estimularlo indirectamente, como a traves de sus labios vaginales. Usualmente, lo que al principio es inaceptablemente violento se vuelve permisible luego de que este muy exitada (muy mojada, si no te diste cuenta). El hecho es que muchas mujeres necesitan una buena medida de exitacion antes de que puedas concentrarte en su clitoris, pero una vez que han llegado a ese punto, ahi es donde quieren que dediques tu maxima atencion. Consulta en un diagrama de anatomia si no estas seguro aun de donde se ubica el clitoris. 
+<br />
+
+<br />
+Su Perineo 
+<br />
+
+<br />
+El perineo es el area entre la vagina y el ano, es muy sensible para muchas mujeres y suele quedar sin explorar. Esta hecho de tejido similar a los labios vaginales, por lo que tiene muchas terminaciones nerviosas. Tambien es de un grado de intimidad que puede excitarla mucho. A algunas chicas les asusta o desagrada el juego anal, si este es el caso, asegurate de tranquilizarla diciendole que no vas a hacer nada con lo que este en desacuerdo. No es una parte del cuerpo que suela estar expuesta por lo que ella sentira que te esta dando privilegios especiales, lo que puede resultarle muy exitatne. Esta area es como cualquier otra area sensitiva ya mencionada, atenerse a un toque suave al principio y excitarla de a poco. Para una experiencia mas resbaladiza intenta utilizar un lubricante o aceites para masajes. 
+<br />
+
+<br />
+Sus Nalgas 
+<br />
+
+<br />
+No de menos importancia es el trasero. A muchas mujeres les agrada q sus nalgas reciban atencion, y con mas vigor del que podrias creer. Puedes usar mas presion en las nalgas de la que usarias en un pecho. No es sensitiva de la misma manera que un pezon o el clitoris lo es, por lo que puedes masajearla y apretarla. Muchas mujeres son muy sensibles en cuanto al aspecto de su trasero por lo que pasar tiempo aqui puede indicarle que te gusta y quizas lograr que se sienta mas comoda consigo misma y contigo. 
+<br />
+
+<br />
+La parte inferior de su espalda 
+<br />
+
+<br />
+No cometas el error de permitir que los pechos sean tu unica entrada antes del plato principal. Esto es lo que ella espera. Sorprendela pidiendole que se recueste boca abajo y masajea su espalda inferior. Ademas de ser rica en terminaciones nerviosas, la zona lumbar tiene puntos de presion donde se acumula el estres. Un masaje aqui puede que no la excite de la misma manera que chupar su pezon o frotar su clitoris pero se sentira bien y aliviara el esters. Lo que es mas, inclusive puede ayudar a la excitacion permitiendo un mejor flujo de sangre a la zona pelvica. Comienza aplicando presion constante pero moderada con las puntas de tus dedos. Si le gusta puedes avanzar hasta un masaje mas profundo. Un par de besos nunca pueden hacer daño. Una tecnica que suele funcionar bien con un masaje es: mientras la masajeas, tomate un minuto para besar su cuello y su nuca y recorre suavemente su columna con tu lengua. Despues de esto puedes continuar con el masaje o seguir bajando.... 
+<br />
+
+<br />
+Sus dedos 
+<br />
+
+<br />
+Un poco de creatividad puede tener resultados fantasticos en cuanto al sexo. Aqui hay un tip: Trata de chupar y lamer sus dedos de manos o pies durante el acto o el juego previo. Son mucho mas sensibles de lo que pensarias y por alguna razon, existe una porcion relativamente grande del cerebro dedicada a recibir sensaciones de esta zona. Besarlos con suavidad o chuparlos apasionadamente, especialmente combinado con estimulacion genital puede ser increiblemente erotico.
+<br />
+
+<br />
+----------
+<br />
+
+<br />
+Aprovechen esta info, sirve <img src="images/smiles/icon_wink.gif" alt="Wink" border="0" /><br /><br />_________________<br />Vive tu pasión
+<br />
+<a href="http://espanol.groups.yahoo.com/group/bogotalair/" target="_blank">http://espanol.groups.yahoo.com/group/bogotalair/</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 28 Nov , 2007 4:57 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm54.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=54"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=54"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>   <a href="http://edit.yahoo.com/config/send_webmesg?.target=wizard_pu@yahoo.com&amp;.src=pg"><img src="templates/AcidTech/images/lang_english/icon_yim.gif" alt="Yahoo Messenger" title="Yahoo Messenger" border="0" /></a>  </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2289"></a>styltop</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1968354952480e15cb5d8ea.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 20 Oct 2007<br />Mensajes: 905<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2289.html#2289"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2289"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">greattttttttttt!!!
+<br />
+
+<br />
+muy muy a tener en cuenta a la hora e fclosear!!!
+<br />
+
+<br />
+genia cheee<br /><br />_________________<br />El de la filosofía mas barata del mundo<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 28 Nov , 2007 4:25 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm2.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=2"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2528"></a>Diego</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186218167475eacd18a612.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 27 Nov 2007<br />Mensajes: 161<br />Ubicación: Santa Fe</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2528.html#2528"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2528"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Otra zona erógena, la más grande e importante si queremos llegar algún día a tocarles algo que no sea la palma de la mano en una cachetada.
+<br />
+
+<br />
+<span style="font-weight: bold"><span style="font-size: 16px; line-height: normal">SU CEREBRO</span></span>
+<br />
+
+<br />
+<span style="font-weight: bold">Un Abrazo...</span><br /><br />_________________<br /><span style="font-size: 14px; line-height: normal"><span style="font-weight: bold"><a href="http://diariodeunades.blogspot.com" target="_blank">Diario de un AdeS</a></span></span>
+<br />
+
+<br />
+<span style="color: green"><span style="font-size: 14px; line-height: normal"><span style="font-weight: bold">Nihil Fieri Non Potest Nobiscum</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 02 Dic , 2007 12:23 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm109.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=109"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>  <a href="http://diariodeunades.blogspot.com" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm109.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2927"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2266<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2927.html#2927"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2927"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Otra zona erógena, la más grande e importante si queremos llegar algún día a tocarles algo que no sea la palma de la mano en una cachetada. 
+<br />
+
+<br />
+SU CEREBRO </td>	</tr></table></center>
+<br />
+
+<br />
+Paso data de un libro: sex god method (SGM). la estimulacion psicologica es aun mas importante que la estimulacion fisica.
+<br />
+
+<br />
+La fisica puede aportar, pero no es mas que un medio para transmitir la psicologica. Ser dominancia es bastante mas importante que saber los puntos de estimulacion.
+<br />
+
+<br />
+De hecho... entre los estereotipos sexuales no deseables, hay uno que se preocupa tanto por esto que hace del sexo una prueba (arruinando inmersion). No quiero decir que no sea importante sino que solo con esto, si no sos dominante... no sirve.
+<br />
+
+<br />
+Fijenese, pero esta bueno porque tener ciertaas actitudes mas envolvente que saber tantos datos. Vean bien ejemplos de cada punto de estimulacion psicologica.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 08 Dic , 2007 6:56 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=424&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=424"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="sexualidad-vf25.html" class="nav">Sexualidad</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25"selected="selected">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="74b36d226f02f9d8b70f6d520fe11f76" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

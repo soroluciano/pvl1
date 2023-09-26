@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=321&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=321&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - El KJ: Una amenaza para la verdadera seducción</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="el-kj-una-amenaza-para-la-verdadera-seduccion-vt321.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">El KJ: Una amenaza para la verdadera seducción</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=321"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="normas-del-foro-vf2.html" class="nav">Normas del Foro</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt321.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt321.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="el-kj-una-amenaza-para-la-verdadera-seduccion-vt321.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">El KJ: Una amenaza para la verdadera seducción</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1517"></a>WizardPua</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/828323132472b6e9dbbbb2.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 28 Oct 2007<br />Mensajes: 48<br />Ubicación: Bogotá, Colombia</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1517.html#1517"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> El KJ: Una amenaza para la verdadera seducción</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1517"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Quiza este fuera de las reglas de este foro que postee esto aqui, asi que si necesitan moverlo a donde les parezca conveniente muevanlo, a mi me parece conveniente aca.
+<br />
+
+<br />
+Este es un post del administrador de los antiguos foros de seducción, de Zergote, me parece MUY PERO MUY IMPORTANTE ¿Qué mejor que una comunidad sin KJs? 
+<br />
+
+<br />
+Me encantaria que algun moderador le colocara chincheta (dejarlo fijo), pero sino ni modos. 
+<br />
+
+<br />
+Aqui va:
+<br />
+
+<br />
+-------------------------------------------------------------------------------------------
+<br />
+
+<br />
+<span style="font-weight: bold">Introducción: ¿Qué es un KJ? </span> 
+<br />
+
+<br />
+Lo leemos varias veces, sobretodo en aquellos grupos y foros en donde se preocupan por practicar en la vida real y no estar pendientes a tanto material... leemos que se maldice al &quot;KJ&quot;... a algunos se les acusa de serlo, a otros se les advierte de evitar serlo, y otros no saben de que hablamos cuando decimos &quot;KJ&quot;. 
+<br />
+
+<br />
+Los más observadores ya habrán buscado la definición en el tema de acrónimos comúnmente utilizados, la cual pondré nuevamente acá: 
+<br />
+
+<br />
+<span style="font-style: italic">
+<br />
+KJ (Keyboard Jockey ó en español &quot;Tecladista&quot;): Es el típico usuario que escribe sin parar sobre teorías y filosofías acerca de la seducción sin haber probado ninguna de estas técnicas con chicas de verdad. Además de ser un farsante, el KJ o tecladista es un sujeto (la mayoría de las veces un AFC) que se hace pasar por experto pero sin tener ningún tipo de experiencia de seducción en la vida real.  </span> 
+<br />
+
+<br />
+
+<br />
+
+<br />
+Pero bueno, esta definición no es estricta, ya que si analizamos a mucha gente, y nos analizamos a nosotros mismos, muchas veces somos KJs.. si... pero es más bien una etapa en la que caemos... sin embargo existe la gente que hace del KJ algo habitual. No sólo en la seducción, esto puede suceder en todo ámbito, ya sea en juegos, en deportes, en el trabajo, e incluso en el colegio, ¡¡si señores, en el colegio abundan los KJ!! y quizás muchos de nosotros lo fuimos alguna vez: nos jactabamos de nuestras notas, de cuántas operaciones podíamos hacer, de cuántos libros leíamos, cómo copiábamos en los exámenes y cómo eramos los número 1 de la clase, pero la realidad era que exagerabamos un poco... o quizás bastante en el caso de los más mentirosos... pero bueno, era en la escuela. 
+<br />
+
+<br />
+Ahora nos encontramos al KJ del internet, el que tiene aún más fácil la ventaja de engañar a los demás porque nadie lo ve, pero la realidad es que se está engañando a sí mismo. El peligro que este KJ representa para la comunidad de seducción es confusión, engaño y deterioro de metas, sobretodo para los novatos, ya que por lo general el KJ no hace ni si quiera la mitad de cosas de las que habla y puede llegar a desmotivar a novatos con sus consejos y críticas fuera de lugar, lo cual descarrilla al pobre novato que si está practicando. Veamos como reconocer este peligro. 
+<br />
+
+<br />
+<span style="font-weight: bold">Una amenaza para el novato: ¿cómo reconocer al KJ? </span> 
+<br />
+
+<br />
+Bien, se ha definido la esencia del KJ habitual. ¿Pero cómo lo identificamos, cómo sabemos quien es uno de ellos? Como ya he dicho, el KJ suele ser también una etapa o una actitud que tomamos en algunos momentos, pero es algo temporal (por ejemplo: ahora estoy siendo un poco KJ) pero el individuo está consciente de ésto y lo deja, en ese caso es una actitud KJ saludable. Pero el KJ habitual es eso, un hábito más en su conducta, es importante entender cómo poder reconocer al KJ: 
+<br />
+
+<br />
+<span style="font-style: italic">- Por lo general, el KJ no está consciente de que lo es, y no quiere aceptarlo:</span> La gente se lo dice, le advierten, lo regañan... pero no hay manera de que la persona no acepte, quizás por orgullo o por ese ego tan subido que él mismo se ha &quot;inventado&quot;... es como el alcohólico en recuperación: el primer paso es aceptarlo. Ojo que hay algunos KJ muy astutos y andan disimulados por ahi, pero si los descubren ellos luego lo reconocen y hacen algo por cambiar. 
+<br />
+
+<br />
+<span style="font-style: italic">- El KJ habla y lee el triple de lo que hace: </span> O incluso a veces más, por lo general hace un approach, por así decirlo, pero se pasa hablando de éste durante días y tiene material para 1 mes... Y ni decir cuánto lee y sabe acerca de la seducción, pero es en realidad muy poco lo que ha probado. 
+<br />
+
+<br />
+<span style="font-style: italic">- El KJ tiene mucho material de seducción y sabe dónde conseguir la mayoría de este, sin embargo menos de la mitad ha sido probado por éste en la vida real:</span> Triste pero cierto, muchos KJs conocen acerca de términos, definiciones y conceptos de seducción derivados de diferentes autores. Quizás es aquí en donde más confunden al novato, porque hacen creer que lo saben todo y que conocen de la seducción, pero si le preguntan &quot;y ya lo probaste?&quot; te murmuran... &quot;nn..nn.. no&quot;. 
+<br />
+
+<br />
+<span style="font-style: italic">- El KJ se la pasa hablando, chateando y escribiendo filosofías</span> Ya sea online, en un chat, o en los foros, o por medio de mails, el KJ formula miles de hipótesis de seducción que no han sido probadas por él y se extiende, confundiendo a los demás, y contagiandolos... 
+<br />
+
+<br />
+<span style="font-style: italic">- Por lo general, el KJ no tiene casi ninguna experiencia de campo en la seducción:</span> Es decir, no ha escrito casi níngún reporte de campo satisfactorio, ni si quiera sale a probar técnicas nuevas ni practica lo que tiene que mejorar, prefiere sentarse a leer libros y discutir... 
+<br />
+
+<br />
+<span style="font-style: italic">- El KJ se queja de su angustia y le echa la culpa a los materiales, a otros miembros o a su triste vida, NUNCA a su falta de práctica:</span> Esto es el peor síntoma del KJ... es triste la verdad... este sujeto se la pasa criticando métodos de otros (que les ha funcionado a esas personas), artículos, situaciones, comentarios, etc.. e incluso se quejan de su vida, de su falta de éxito por causa del dinero, trabajo, falta de tiempo, etc (o sea, excusas) e incluso le echan la culpa a otros usuarios que los critican y les ayudan a mejorar... y no se dan cuenta de que SU PROBLEMA RADICA EN QUE NO ESTAN PRACTICANDO NADA. 
+<br />
+
+<br />
+<span style="font-style: italic">- El KJ sueña despierto:</span> Vive en una realidad diferente, no quiere aceptar muchas cosas y cree que al haber probado una técnica una vez y habaer fallado significa que ya no la va a probar más... vive en su sueño de ser un PUA / DJ y no acepta críticas. 
+<br />
+
+<br />
+<span style="font-weight: bold">¿Qué hacer con el KJ? </span> 
+<br />
+
+<br />
+Al principio va a ser difícil para muchos dar con un KJ... quizás porque muchos son novatos o algunos recién se han incorporado a los foros... pero siguiendo las guías anteriores se puede dar con uno de estos sujetos... el KJ habitual. Bien, ¿qué hacemos con esta persona? ¿le decimos las cosas? ¿o lo ignoramos?... 
+<br />
+
+<br />
+En realidad, depende de la persona, se puede reaccionar de diferentes maneras, sabemos de por si que el decirle su problema no va a hacer mucho, porque esta persona vive en su mundo de fantasía y no quiere aceptar la realidad... ignorarlo funciona mejor ya que se da cuenta de que el es el único que está viviendo en su mundo y para traer a la gente a su ego.. va a tener que practicar. 
+<br />
+
+<br />
+Lo importante, por lo tanto, es hacerle saber que necesita práctica... comentarlo a los demás (por ejemplo: &quot;X usuario no está practicando... quizás sea KJ... ayudemoslo&quot;), es decir, enforzar más práctica y menos charlatanería (los moderadores nos encargamos de esto), y si éste no entiende después de cierto período y sigue con su conducta de KJ... entonces hay que recurrir a la omisión de sus palabras... es decir: ignorarlo, con la esperanza de que entienda de una vez por todas de que no se va a salir con la suya de deteriorar la comunidad con aviso falso. 
+<br />
+
+<br />
+Así que ya saben, si detectan algún KJ habitual, hagánselo saber a éste, pero no de mala manera, con respeto y con el afán de enseñarselo, porque sabemos que entre todos nos enseñamos a aprender. Y si este no entiende, entonces háganselo saber a los moderadores y otros usuarios para ignorarlo en conjunto. Hay que dejarlos en cuarentena, ya que la &quot;enfermedad&quot; del KJ se puede contagiar a otros. 
+<br />
+
+<br />
+<span style="font-weight: bold">¿Cómo &quot;curarme&quot; de ser KJ? </span> 
+<br />
+
+<br />
+Quizás ya seas uno de ellos y te has dado cuenta del problema. Felicidades por haberlo aceptado, ya has dado la mitad de avance para dejar de ser KJ. La cura es fácil: sal a practicar. Ya está, depende de que tan arraigado esté el KJ en ti, vas a tener que hacer el esfuerzo. Por ejemplo: si nunca has abordado a una chica pero ya llevas 6 meses hablando de métodos avanzados, entonces debes dejar de hablar de ésto por un buen tiempo y salir todos los días posibles a hacer approaches en la calle, en la universidad y saliendo los fines de semana... en un buen tiempo, si haces esto, habrás &quot;curado&quot; tu esencia KJ y habrás aprendido una buena lección. Si tu nivel de KJ es más leve.. por ejemplo, te la pasas posteando muchas técnicas que no han sido probadas pero de vez en cuando haces approaches, entonces simplemente deja de postear cosas que no hayan sido probadas y postea las que verdaderamente te hayan funcionado, así ayudarás a los demás también. Curarse del KJ puede ser una gran transformación si se lleva a cabo, ya que esta persona se empieza a dar cuenta de que ha cambiado su vida y por primera vez está sintiendo los resultados ... está alcanzando esos sueños que antes eran meras fantasías.. y cada vez llega a materializar lo que quiere ser, es decir, deja la charlatanería y pasa a la acción. 
+<br />
+
+<br />
+Así que ya saben, el tratamiento para dejar de ser KJ: 
+<br />
+
+<br />
+- Reconoce que eres un KJ habitual 
+<br />
+- Sal y vive la vida real por un tiempo determinado según tu nivel de KJ 
+<br />
+
+<br />
+Sencillo. 2 pasos. No más. 
+<br />
+
+<br />
+<span style="font-weight: bold">Notas finales </span> 
+<br />
+
+<br />
+Es importante que todos lean esto para entender que el KJ no es sólo un estorbo en la comunidad de seducción, sino que también puede llegar a ser un obstáculo muy peligroso para los novatos y gente que de verdad está haciendo algo por su juego. Es importante que los aprendamos a reconocer, y si en algún momento caemos en esta conducta, nos demos cuenta de qué podemos hacer para dejar de ser KJs y contribuir a la comunidad de seducción con cosas reales de nuestra propia vida. Acá en los foros mantenemos la filosofía de enforzar la práctica sobre la teoría y darle preferencia de ayuda a aquellos quienes salen al mundo real sobre los que sólo hablan. Lo más importante y lo más bonito en la seducción es que vivas las cosas y te diviertas, ¿de qué vale hablar y hablar de las cosas si no las vives por ti mismo?... como dicen por ahi: &quot;pensar mucho puede llegar a ser una masturbación mental&quot;. No se masturben y vivan el goce real.<br /><br />_________________<br />Vive tu pasión
+<br />
+<a href="http://espanol.groups.yahoo.com/group/bogotalair/" target="_blank">http://espanol.groups.yahoo.com/group/bogotalair/</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 14 Nov , 2007 3:10 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm54.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=54"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=54"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>   <a href="http://edit.yahoo.com/config/send_webmesg?.target=wizard_pu@yahoo.com&amp;.src=pg"><img src="templates/AcidTech/images/lang_english/icon_yim.gif" alt="Yahoo Messenger" title="Yahoo Messenger" border="0" /></a>  </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="1521"></a>Creed</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/43291200649efc2e43364d.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 21 Oct 2007<br />Mensajes: 1179<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp1521.html#1521"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=1521"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">muy groso man, stickeado a full y cerrado, creo que no es para consultar, es una NORMA!<br /><br />_________________<br /><a href="http://www.mrcreed.com.ar" target="_blank">http://www.mrcreed.com.ar</a>
+<br />
+
+<br />
+Say what I want 'cause I know how to back it up
+<br />
+a cyko like me just straight don't give a fuck<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 14 Nov , 2007 3:50 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm4.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=4"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=4"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a> <a href="http://www.mrcreed.com.ar" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm4.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=321&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=321"><img src="templates/AcidTech/images/lang_english/reply-locked.gif" border="0" alt="El tema está bloqueado: no pueden editarse ni agregar mensajes." align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="normas-del-foro-vf2.html" class="nav">Normas del Foro</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2"selected="selected">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="e569ebb46a641cdb150d4863476df0c1" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

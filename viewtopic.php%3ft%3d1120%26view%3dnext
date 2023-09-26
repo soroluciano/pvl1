@@ -1,0 +1,2116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1240&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1240&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Transicion al Juego Natural</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="transicion-al-juego-natural-vt1240.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Transicion al Juego Natural</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1240"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1240.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1240.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="transicion-al-juego-natural-vt1240.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Transicion al Juego Natural</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="8603"></a>EnLightenmentSeed</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2008<br />Mensajes: 584<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp8603.html#8603"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Transicion al Juego Natural</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=8603"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">La transición a la natural game 
+<br />
+
+<br />
+Author: Vin DiCarlo 
+<br />
+nick: woodhaven
+<br />
+fuente: <a href="http://www.bristollair.com/outer-game/techniques/style/the-transition-to-natural-game.html" target="_blank">http://www.bristollair.com/outer-game/techniques/style/the-transition-to-natural-game.html</a>
+<br />
+            <a href="http://www.exitosocial.com/articulos/recursos/maestros-seduccion/vin-dicarlo-woodhaven" target="_blank">http://www.exitosocial.com/articulos/recursos/maestros-seduccion/vin-dicarlo-woodhaven</a>
+<br />
+
+<br />
+Contenidos: 
+<br />
+
+<br />
+1.Los dos elementos fundamentales de un pick-up. 
+<br />
+2.La diferencia entre las técnicas, la mentalidad y las creencias. 
+<br />
+3.Un cambio de paradigma de los modelos de ASF. Un análisis completo de pop-ASF juego 
+<br />
+
+<br />
+vs naturales juego. 
+<br />
+4.Diseño de la estructura de juego final 
+<br />
+5.El continuo flujo de Acción. 
+<br />
+
+<br />
+
+<br />
+(
+<br />
+Contents: 
+<br />
+
+<br />
+1.The two fundamental elements of a pickup. 
+<br />
+2.The difference between techniques, mindsets and beliefs. 
+<br />
+3.A paradigm shift for ASF models. A full analysis of pop-ASF game vs. natural game. 
+<br />
+4.Design the frame for endgame 
+<br />
+5.The Continuous Flow of Action. 
+<br />
+
+<br />
+)
+<br />
+
+<br />
+
+<br />
+Related Posts: 
+<br />
+
+<br />
+Confident Rapport by Seth Parker 
+<br />
+Rooting: Problem with the who lies more opener by Neil Strauss 
+<br />
+Insights - Thinking beyond the medium by Razorjack 
+<br />
+Rewriting the Rules for ASF by Imperfect 
+<br />
+
+<br />
+1. Los dos elementos fundamentales necesarios para la pick-up consciente y 
+<br />
+deliberada. 
+<br />
+
+<br />
+Cualquier pick-up activa cuando el hombre decide que él quiere, sus enfoques y 
+<br />
+conscientemente se mueve la interacción con el sexo sólo requiere dos cosas. 
+<br />
+
+<br />
+Ellos son: 
+<br />
+
+<br />
+- Fuerte y firme convicción de que la chica le quiere. 
+<br />
+- Un contexto interactivo que puede llevar a aislamiento. 
+<br />
+
+<br />
+La gran parte de esto es que cualquier contexto funcionará. Esto representa las 
+<br />
+
+<br />
+diferencias entre todos los métodos que usted ve aquí en la ASF: Que sea Gunwitch 
+<br />
+
+<br />
+fuerte relación con su hipótesis y corriente, o sea el Misterio rutinas que se 
+<br />
+
+<br />
+inscriben en un sistema preciso y lineal. Ambos son sólo interactivo contextos que 
+<br />
+
+<br />
+pueden llevar al aislamiento. La verdad de fuego, sin embargo es el conjunto de 
+<br />
+
+<br />
+creencias de conducción del contexto. 
+<br />
+
+<br />
+La razón por la cual hay tanto centrarse en contexto, se debe a que es algo que puede 
+<br />
+
+<br />
+aprenderse rápidamente. Es muy fácil de aprender algunas bromas y decir unas cuantas 
+<br />
+
+<br />
+historias y memorizar algunos abridores. Internalización de las buenas creencias por 
+<br />
+
+<br />
+el contrario, generalmente toma meses o incluso años. Así que a ver algunos chicos 
+<br />
+
+<br />
+que nos dicen aquí, en hacer caso omiso de la creencia / stuff juego interior y sólo 
+<br />
+
+<br />
+desarrollar un fuerte contexto. Si bien puede ser beneficiosa para desarrollar un 
+<br />
+
+<br />
+fuerte contexto, debemos velar por que nuestra ejecución de las técnicas no es 
+<br />
+
+<br />
+inhibir el crecimiento de la buena o la instalación de la limitación de las 
+<br />
+
+<br />
+creencias. 
+<br />
+
+<br />
+La ruta más rápida para el dominio es continuar el desarrollo de fuertes creencias y, 
+<br />
+
+<br />
+al mismo tiempo familiarizarse con una variedad de contextos - obtener una gran 
+<br />
+
+<br />
+experiencia bajo su cinturón. Adoptar un gran juego interior del programa y, a 
+<br />
+
+<br />
+continuación, entrar en el campo y las técnicas de su trabajo. Aprenda a manejar el 
+<br />
+
+<br />
+mayor número posible de situaciones difíciles - grandes series, el aislamiento 
+<br />
+
+<br />
+diurno, amogs, directo, etc Realiza puede tardar bastante tiempo antes de que sus 
+<br />
+
+<br />
+creencias de manera significativa el cambio suficiente tal que usted lograr el tipo 
+<br />
+
+<br />
+de éxito que está realmente Después. 
+<br />
+
+<br />
+2. Técnicas, la mentalidad, creencias y la forma en que están relacionados. 
+<br />
+En el nivel más superficial, hemos técnicas. Una técnica es algo que le dicen o hacen 
+<br />
+
+<br />
+mientras interactúan con una mujer. Todos tenemos una gran cantidad de control 
+<br />
+
+<br />
+consciente sobre el que las técnicas que utilizamos. En el reverso, las técnicas son 
+<br />
+
+<br />
+las menos eficaces de parte de quién eres y bastante inútil sin los niveles más 
+<br />
+
+<br />
+profundos de mentalidad y de las creencias. 
+<br />
+
+<br />
+En el mismo nivel más profundo, tenemos nuestras creencias. Creencias determinan su 
+<br />
+
+<br />
+realidad, y están definidos por su identidad. A diferencia de las técnicas, tenemos 
+<br />
+
+<br />
+muy poco control consciente sobre nuestras creencias. Son hasta el momento por debajo 
+<br />
+
+<br />
+de la superficie de nuestra conciencia de que es casi imposible de cambiar a 
+<br />
+
+<br />
+voluntad. Probablemente hay monjes zen que conscientemente puede afectar sus 
+<br />
+
+<br />
+creencias sobre el mando, pero entonces de nuevo, los chicos no están tratando de 
+<br />
+
+<br />
+aprender a recoger a las mujeres en un chat o foro de Internet - al mejor de mi 
+<br />
+
+<br />
+conocimiento, de todos modos. 
+<br />
+
+<br />
+Ahora la mayoría de las personas lo ignoran, son la mentalidad detrás de las 
+<br />
+
+<br />
+técnicas. Este es el marco a través del cual entregamos nuestras técnicas. Una 
+<br />
+
+<br />
+mentalidad determina el diálogo interno que tiene toda la colección de basura. Una 
+<br />
+
+<br />
+mentalidad se puede aplicar a un grupo de técnicas, y un grupo de mentalidad es lo 
+<br />
+
+<br />
+que hace que una creencia. Razorjack del hilo &quot;Análisis - Pensar más allá de la 
+<br />
+
+<br />
+mediana&quot; proporciona una gran explicación de la mentalidad. Lo que se refiere a como 
+<br />
+
+<br />
+el pensamiento más allá de las medianas es sólo la asignación de un estado de ánimo a 
+<br />
+
+<br />
+cada grupo de sus técnicas. Simplifica su pick-up por la reorientación de su centro 
+<br />
+
+<br />
+de atención. En vez de recordar los detalles técnicos de 20, que acaba de tener un 
+<br />
+
+<br />
+enfoque mental - una determinada mentalidad. 
+<br />
+
+<br />
+Las mentalidades son más fáciles de cambiar que las creencias, pero no tan fácil de 
+<br />
+
+<br />
+aprender como técnicas. Ejercer control consciente sobre su mentalidad es la forma 
+<br />
+
+<br />
+más eficaz de afectar su juego interior, ya que están en contacto directo con su 
+<br />
+
+<br />
+sistema de creencias. 
+<br />
+
+<br />
+Ejemplo de una actitud: 
+<br />
+
+<br />
+Tome la línea c + f &quot;Whoah, puntiagudos zapatos! Son agradable, pero me sabe mal por 
+<br />
+
+<br />
+el pequeño elfo de ellos le robaron, que está ahora dando vueltas descalzos&quot;. 
+<br />
+
+<br />
+Usted puede entregar la línea con la mentalidad &quot;Ella es caliente por lo que tengo 
+<br />
+
+<br />
+que demostrar que estoy a su indiferente / no impresionado por ella, por lo que 
+<br />
+
+<br />
+piensa que soy mejor que ella&quot;. - O-puede entregar la línea con la mentalidad &quot;Me 
+<br />
+
+<br />
+preocupo por esta mujer, que estoy disfrutando de la interacción, y estoy bromeando 
+<br />
+
+<br />
+con ella para hacer reír y ella se siente bien.&quot; 
+<br />
+
+<br />
+Es evidente que este último es más eficaz, ya que los primeros vendrán fuera 
+<br />
+
+<br />
+inseguro. A pesar de que usted está diciendo las mismas palabras, ya que está usando 
+<br />
+
+<br />
+dos diferentes estados de ánimo, que obtendrá dos resultados drásticamente 
+<br />
+
+<br />
+diferentes. No sólo sus resultados ser peor, pero el desempeño en torno a la antigua 
+<br />
+
+<br />
+mentalidad sólo hacer daño a su sistema de creencias. Presupone BAJO VALOR y la falta 
+<br />
+
+<br />
+de atracción. No bueno. 
+<br />
+
+<br />
+El objetivo final es el de cambiar sus creencias, ya que en última instancia tienen 
+<br />
+
+<br />
+el mayor efecto en su juego. Simple repetición de las técnicas sin la adecuada 
+<br />
+
+<br />
+mentalidad incorrecta o con la mentalidad de hacer daño a su sistema de creencias. 
+<br />
+
+<br />
+Usted gran necesidad de adoptar la mentalidad adecuada para asegurar el desarrollo de 
+<br />
+
+<br />
+un sistema de creencias. 
+<br />
+
+<br />
+3. ASF cambio de paradigma. 
+<br />
+El modelo tradicional en el uso de la mayoría de las ASFers que haya encontrado es la 
+<br />
+
+<br />
+siguiente: 
+<br />
+
+<br />
+- Supongamos que las niñas deben estar &quot;enganchado&quot; a fin de estar interesado en 
+<br />
+
+<br />
+usted. (A veces en distintos grados)-con Enfoque preparado opinión abridor diseñado 
+<br />
+
+<br />
+para entablar las niñas, mientras tanto fingir desinterés. - Supongamos que está 
+<br />
+
+<br />
+acercando desde ella, la más valiosa automáticamente, de modo ... - Ir a la derecha 
+<br />
+
+<br />
+en la historia con el fin de mostrar mayor valor, lo que generará la atracción que 
+<br />
+
+<br />
+anteriormente no estaban presentes. - Continuar para contar historias, tease niñas 
+<br />
+
+<br />
+hasta llegar indicación clara de interés. En cambio a la fase &quot;rapport / comodidad&quot; 
+<br />
+
+<br />
+que consiste en la conversación ordinaria, la supresión de la personalidad le 
+<br />
+
+<br />
+interesaba inicialmente. - Bait su calificación en sí misma a usted, y no importa lo 
+<br />
+
+<br />
+que ella dice, que para su SOI. (Este paso no es tan malo)-Aislar y escalar. (Esto no 
+<br />
+
+<br />
+es un bien:) 
+<br />
+
+<br />
+Seis Puntos comunes Mantenerse en la Ejecución de Modelo Tradicional. 
+<br />
+Mantenerse Punto # 1. 
+<br />
+El primer problema con este enfoque es que las personas que abren la boca enlatados 
+<br />
+
+<br />
+sin un contexto para ellos. Estilo había todo un post dedicado a este punto, por sí 
+<br />
+
+<br />
+solo, así que no voy a entrar en detalles aquí. (Enraizamiento - problema con el que 
+<br />
+
+<br />
+se encuentra más abridor) 
+<br />
+
+<br />
+Si desea utilizar opinión abridores: A. verdaderamente se preocupan por el tema. - 
+<br />
+
+<br />
+O-B. Asegúrese de que es obvio que la opinión abridor es sólo una excusa para hablar 
+<br />
+
+<br />
+con ella. (En este caso, y luego le pedirá que cambiar rápidamente los temas) 
+<br />
+
+<br />
+Mantenerse Punto # 2. 
+<br />
+En segundo lugar, los chicos pasan horas y horas en este sitio web, material de 
+<br />
+
+<br />
+enseñanza, la preparación de una pila de rutina que se ha diseñado para entablar las 
+<br />
+
+<br />
+niñas. Estos chicos salen de su manera de aprender girly estos temas de conversación 
+<br />
+
+<br />
+que la mayoría de nosotros no están realmente interesados en, sólo para obtener la 
+<br />
+
+<br />
+atención femenina. Y luego, además de ello, pretender que no están realmente 
+<br />
+
+<br />
+interesados en las niñas follando! Luego, en el momento en que &quot;pila&quot; girly estos 
+<br />
+
+<br />
+abridores y DHV's, que está CONVENCIDOS de que quieren algo y ella sabe exactamente 
+<br />
+
+<br />
+lo que está haciendo. Fingiendo desinterés ahora se convierte en altamente 
+<br />
+
+<br />
+incongruente. Quiero decir en serio. Para salir de su manera de aprender girly temas 
+<br />
+
+<br />
+de conversación, para sólo tiene permiso para hablar con los pollitos es 
+<br />
+
+<br />
+SUPPLICATION. Entrando en una realidad de las mujeres sólo por lo que podemos hablar 
+<br />
+
+<br />
+a solas con ella durante unos minutos con las esperanzas de su jodido es ridículo! 
+<br />
+
+<br />
+Aquí hay una analogía. ¿Qué pasa si una chica salió de su manera de aprender todo 
+<br />
+
+<br />
+sobre los deportes o los automóviles o (insertar masculino tema aquí), aunque ella no 
+<br />
+
+<br />
+le gusta ni entiende estas cosas - por lo que sólo podría referirse a los chicos en 
+<br />
+
+<br />
+la conversación? Esta niña realmente no se preocupan por estas cosas, pero se hace 
+<br />
+
+<br />
+pasar, y pasar horas y horas en Internet aprendizaje acerca de ellos, tan sólo por lo 
+<br />
+
+<br />
+que cuenta con permiso para hablar con los chicos. ¿Esto telégrafo que ella tiene una 
+<br />
+
+<br />
+vida interesante? Telegraphing ella es que ella es una valiosa mercancía? ¡NO! 
+<br />
+
+<br />
+Exactamente lo contrario. Si una niña como este vino hasta mí, y habló sobre cosas 
+<br />
+
+<br />
+que me interesan, yo podría participar de ella un poco, pero sería yo ATTRACTED A 
+<br />
+
+<br />
+ELLA? Infierno no. Ahora, ¿y si ella seguía cambiando temas y mantenerse 
+<br />
+
+<br />
+desesperadamente tratando de encontrar algo que yo quería hablar acerca de ... Que se 
+<br />
+
+<br />
+me hacen más probabilidades de encontrar a su interesante? 
+<br />
+
+<br />
+Puede aparecer a trabajar maravillosamente porque chicos, el fichero es nuevo en 
+<br />
+
+<br />
+conjunto, porque ahora están realmente hablando con las niñas, mientras que 
+<br />
+
+<br />
+anteriormente estaba allí y no hizo nada, absolutamente cero haber contexto. Pero la 
+<br />
+
+<br />
+mayoría de la gente esta lectura no necesita ese tipo de contenido a ser interesante 
+<br />
+
+<br />
+para las mujeres. Aprender girly temas de conversación SE conseguir que se pueda 
+<br />
+
+<br />
+abrir más juegos constantemente -, pero es en virtud de un entretenimiento / novia 
+<br />
+
+<br />
+marco, y aunque las cosas parecen que gran noche, ella se garantiza a casi agriete. 
+<br />
+
+<br />
+No encontrará sentado. 
+<br />
+
+<br />
+He cuestionado SHBs (después de haber dormido con ellos y son más honesto) sobre 
+<br />
+
+<br />
+esto. Estas son las niñas que salir y casi siempre son las chicas más calientes en el 
+<br />
+
+<br />
+club, donde quiera que vaya. Esto es lo que uno de ellos me dijo: 
+<br />
+
+<br />
+&quot;Sí a veces hablamos a los chicos por piedad. Si un chico parece realmente extraño o 
+<br />
+
+<br />
+vestidos es gay o algo, se lo acaba de hablar con él para que podamos reírnos de él 
+<br />
+
+<br />
+más tarde. Es divertido. Piensa que es algo, pero entonces Al final se corre lejos de 
+<br />
+
+<br />
+él riendo. &quot; 
+<br />
+
+<br />
+Las niñas hablará con suficiente suficientemente extraños tíos, que &quot;parece gay&quot; para 
+<br />
+
+<br />
+sus propias ENTRETENIMIENTO. Esto es un hecho, y muy común en caliente con las niñas. 
+<br />
+
+<br />
+Ellos se sientan allí y ojo código sí, amante de ella, no porque sean sexualmente 
+<br />
+
+<br />
+atraído, pero FUERA DE PITY. No diseñar su juego de modo que usted se están 
+<br />
+
+<br />
+convirtiendo en este tipo de chico. Seguro de que se están abriendo más conjuntos, 
+<br />
+
+<br />
+pero es por la razón equivocada. 
+<br />
+
+<br />
+Mantenerse Punto # 3. 
+<br />
+Demostración de mayor valor. La razón por la que este va en detrimento, una vez más, 
+<br />
+
+<br />
+vuelve a la mentalidad que se esconde detrás. Sensación de la necesidad de demostrar 
+<br />
+
+<br />
+mayor valor es el mismo sentimiento que un AFC tiene cuando comienza fanfarronear 
+<br />
+
+<br />
+acerca de su trabajo o en el carro o la niña que está golpeando. Claro, usted está 
+<br />
+
+<br />
+utilizando una técnica más sofisticada, pero la mentalidad y las creencias que están 
+<br />
+
+<br />
+detrás de EXACTAMENTE EL MISMO. 
+<br />
+
+<br />
+Nunca salen de su manera de demostrar mayor valor. Asumir un mayor valor! Usted está 
+<br />
+
+<br />
+en el maldito hombre! Usted tiene mayor valor automáticamente! 
+<br />
+
+<br />
+Yo les digo a muchas de las historias en conjunto, pero lo hago por diversión, porque 
+<br />
+
+<br />
+me ha divertido hacerlo - no con la intención de &quot;demostrar a mí mismo&quot; a la chica. 
+<br />
+
+<br />
+Mantenerse Punto # 4. 
+<br />
+Es imposible falso desinterés el 100% del tiempo. Incluso si memorizar 5 historias, 3 
+<br />
+
+<br />
+teases y absolutamente MASTER la backturn, no importa, porque usted no la próxima 
+<br />
+
+<br />
+prueba se lanza en usted. Las mujeres son las pruebas CONTINUALLY chicos que se 
+<br />
+
+<br />
+sienten atraídas, y la mayoría de los que no se ajustan a un patrón predeterminado - 
+<br />
+
+<br />
+IT's NONVERBAL. Yo la prueba todo el tiempo por las mujeres. Están pensando &quot;¿Quién 
+<br />
+
+<br />
+la cogida que hace pensar que es, este skinny poco joder ... que voy a ver si él es 
+<br />
+
+<br />
+el auténtico. Espero él no malgastar mi tiempo.&quot; Por lo tanto, tienen que poner a 
+<br />
+
+<br />
+prueba. Ellos no quieren fuck algunos ingenuine chico que falsifican los primeros 10 
+<br />
+
+<br />
+minutos realmente bien. Usted ha llegado a ser el real y tratar a través de, 
+<br />
+
+<br />
+mediante, mi amigo. Y fingiendo todo más de lo que puede realizar copias de 
+<br />
+
+<br />
+seguridad, se acaba de conocer más intensas pruebas de los que está vinculado al 
+<br />
+
+<br />
+fracaso. 
+<br />
+
+<br />
+No falso desinterés menos que se puede realizar copias de seguridad 100%. 
+<br />
+
+<br />
+Mantenerse Punto 5. 
+<br />
+Basándose en la IOI para sentir como es el * *, en lugar de asumir la atracción. 
+<br />
+
+<br />
+Pensar demasiado y el cálculo de su comportamiento sobre la base de observación de la 
+<br />
+
+<br />
+IOI. No espere alrededor de la IOI antes de sentirse bien acerca de la sarge. Su 
+<br />
+
+<br />
+interés se basa en su ambiente de todos modos, y si su gente depende de la 
+<br />
+
+<br />
+observación de la IOI predeterminado, entonces se dejan al azar. 
+<br />
+
+<br />
+Seamos realistas, la mayoría de la IOI que la gente busca son bastante normal que las 
+<br />
+
+<br />
+mujeres exhiben comportamientos cuando usted hablar con ellos de todos modos. Algunos 
+<br />
+
+<br />
+de los populares la que he oído son: 
+<br />
+
+<br />
+Ella le pregunta de donde eres - Esta es una de las piezas más comunes de Smalltalk 
+<br />
+
+<br />
+cuando esté primero conocer a los demás. Ella puede ser que le pregunta esta que se 
+<br />
+
+<br />
+acaba de amistad, no quiere decir que ella quiere ándate a la cresta. 
+<br />
+
+<br />
+Ella toca usted - las mujeres son en realidad más probable que te toque si no son 
+<br />
+
+<br />
+atraídos como a usted, como una manera de jugar con usted. Si una mujer sentidos muy 
+<br />
+
+<br />
+alto valor, y es un poco intimidado, que es menos probable que te toque. También es 
+<br />
+
+<br />
+menos probable que toque primero si son muy directos. Por supuesto, si ni siquiera 
+<br />
+
+<br />
+tienen una oportunidad, no va a tocar a todas partes. De cualquier manera, poco 
+<br />
+
+<br />
+fiable como IOI. 
+<br />
+
+<br />
+Recuerde, una de las dos cosas es necesaria en la pick-up en la creencia de que la 
+<br />
+
+<br />
+chica le quiere. Puede ser difícil de creer, pero se mantienen en la primera de 
+<br />
+
+<br />
+recordatorios de este, y entrenarse para ver * todo * lo hace como un IOI. Está 
+<br />
+
+<br />
+viendo usted cuando usted habla? Es sobre. Ella es contribuir a la conversación? Es 
+<br />
+
+<br />
+sobre. Está de pie en su proximidad física? Es ON! 
+<br />
+
+<br />
+Mantenerse Punto # 6. 
+<br />
+Deserción la personalidad que le atrajo inicialmente como parte de un &quot;cambio de 
+<br />
+
+<br />
+fase&quot;, pensando equivocadamente que toma X cantidad de tiempo para atraer a una 
+<br />
+
+<br />
+mujer, o la sensación de la necesidad de &quot;transición en&quot; X, Y y Z. 
+<br />
+
+<br />
+Es algo así como tres puntos diferentes, pero en realidad todos se derivan del mismo 
+<br />
+
+<br />
+tipo de creencias y mentalidades. Proceden de restos de la sociedad de programación, 
+<br />
+
+<br />
+como &quot;Se necesita mucho tiempo para ser atraído a la mujer.&quot; O &quot;Los hombres tienen 
+<br />
+
+<br />
+que ganarse la atención de una mujer y la atracción&quot;. 
+<br />
+
+<br />
+Si lo hace realmente bien para transmitir una divertida personalidad a un pollo en 
+<br />
+
+<br />
+los primeros momentos de su reunión, de manera que ella es atraído por usted, usted 
+<br />
+
+<br />
+debe mantener la misma personalidad de la diversión mientras que el conocimiento de 
+<br />
+
+<br />
+su mejor y profundizar su conexión. Intercalar su c + f playfullness y con su 
+<br />
+
+<br />
+relación. Pero a toda costa, la estancia congruentes y no se conviertan en otra 
+<br />
+
+<br />
+persona totalmente. 
+<br />
+
+<br />
+En la otra cara, no se quedan en una perpetua atracción etapa en la que esté 
+<br />
+
+<br />
+ejecutando los materiales de más de 10 - 20 minutos. Eso es demasiado tiempo WAY. Si 
+<br />
+
+<br />
+usa un par de piezas de la diversión para abrir un conjunto, y que responden bien a 
+<br />
+
+<br />
+la que, ya han hecho un juicio positivo de usted. Téngalo a la luz en el material y 
+<br />
+
+<br />
+se basan más en el intercambio de energía positiva con el conjunto, y en particular 
+<br />
+
+<br />
+su objetivo. 
+<br />
+
+<br />
+También mucha gente crea que necesita una &quot;transición&quot; para hacer ciertas cosas - 
+<br />
+
+<br />
+especialmente cinestésicos relacionados con acciones como tocar, besar, y 
+<br />
+
+<br />
+cavemanning. Usted no necesita una transición para estos tipos de cosas. Sólo tiene 
+<br />
+
+<br />
+que hacer con la plena certeza de que se disfruten. Decida lo que va a hacer, y 
+<br />
+
+<br />
+hacerlo como si de verdad. 
+<br />
+
+<br />
+Natural de Juego. 
+<br />
+Si va a hacer la transición natural a juego, comienzan simple. Se tarda unos 
+<br />
+
+<br />
+acostumbrarse, y requiere atención en un par de niveles diferentes. Puede parecer 
+<br />
+
+<br />
+difícil al principio, especialmente si se utiliza para el tradicional juego indirecta 
+<br />
+
+<br />
+modelo se ha dicho antes. Pero si usted trabaja con él y obtener incluso una línea de 
+<br />
+
+<br />
+base de competencia, usted: 
+<br />
+
+<br />
+- Mejore su tasa de clausura, evitando 'sexless frames'-Reduzca su descamación-Focus 
+<br />
+
+<br />
+más en la interacción y disfrutando el proceso-Permita que su verdadera personalidad 
+<br />
+
+<br />
+atractiva a florecer-Desarrollar un increíble sistema de creencias 
+<br />
+
+<br />
+Si aun así prefieren un enfoque de tipo indirecto sobre la base de rutinas y 
+<br />
+
+<br />
+enlatados material, que sin duda redundará en beneficio de la aplicación de estas 
+<br />
+
+<br />
+mentalidades de todos modos, junto con la corrección de todos los puntos 
+<br />
+
+<br />
+anteriormente mencionados. No podemos hacer nada más que mejorar sus resultados. 
+<br />
+
+<br />
+Por supuesto, hay algunas diferencias que algunos pueden considerar la posibilidad de 
+<br />
+
+<br />
+que se inconvenientes: 
+<br />
+
+<br />
+- Su impresión inicial de que se hace cada vez más importante y es predominantemente 
+<br />
+
+<br />
+visual y auditiva basa. Esto no significa que usted tiene que ser muy atractivo, pero 
+<br />
+
+<br />
+sí significa que necesita un estricto &quot;imagen&quot; incluidos estilo, bodylanguage, tono y 
+<br />
+
+<br />
+expresiones faciales. Ella va a un tamaño que en base a su energía y ambiente, y que 
+<br />
+
+<br />
+interpretar todo lo que usted diga a través del filtro. 
+<br />
+
+<br />
+- No hay más detrás de la utilización de máscaras de inseguridades técnicas 
+<br />
+
+<br />
+indirectas. Usted se verá obligado a enfrentarse con su jefe sobre la limitación de 
+<br />
+
+<br />
+las creencias, y manejar de una vez por todas. Yo realmente creo que esto es una 
+<br />
+
+<br />
+ventaja, pero puede ser aterrador para algunas personas para enfrentar sus más 
+<br />
+
+<br />
+profundos temores y dependerá de su núcleo de identidad para atraer a las mujeres. 
+<br />
+
+<br />
+Chicos con auto-odio cuestiones y pobre imagen puede tímido libre de este tipo de 
+<br />
+
+<br />
+cosas, diciendo a ellos mismos que nunca el trabajo, a pesar del hecho de que es la 
+<br />
+
+<br />
+solución a todos sus problemas. 
+<br />
+
+<br />
+- Su porcentaje de apertura será inferior. Obtendrá soplado a cabo más rápido de 
+<br />
+
+<br />
+determinados conjuntos. Puede persistir en ellos, pero es probable que no han 
+<br />
+
+<br />
+conducido a nada de todos modos. De este modo, actúa como una pantalla de la 
+<br />
+
+<br />
+eficiencia y que le ahorra gastar su tiempo. 
+<br />
+
+<br />
+Naturalizada modelo de la seducción 
+<br />
+1. Atracciones asumir, adoptar la mentalidad de que usted va a utilizar su 
+<br />
+
+<br />
+personalidad hace que se sienta muy bien. 2. Abrir directo. Esto incluye directa 
+<br />
+
+<br />
+elogios por su belleza o comentario sobre el medio ambiente, o incluso un simple 
+<br />
+
+<br />
+&quot;Hi&quot;. Si todavía dudan a la hora de utilizar directa abridores, para pedirle su 
+<br />
+
+<br />
+opinión de que está realmente curioso sobre. Su apertura bodylanguage DEBE ser 
+<br />
+
+<br />
+congruentes con sus intenciones. 3. Vaya directamente a una vibing / rapport tipo de 
+<br />
+
+<br />
+interacción. Sé juguetón con ella y conocer a su. Si contar historias, asegúrese de 
+<br />
+
+<br />
+que están en la diversión, y no para impresionar a ella. Llevar la interacción a 
+<br />
+
+<br />
+través de un flujo continuo de la acción. (Se explica más adelante) 4. Conducir sin 
+<br />
+
+<br />
+problemas y con confianza a la escalada. Esto podría significar que su instadate, 
+<br />
+
+<br />
+venuechange su estrecha o ella. 5. Repita los pasos 3 y 4, hasta que aislar y su 
+<br />
+
+<br />
+cogida. 
+<br />
+
+<br />
+Se trata de una estructura muy simple, pero su eficacia depende de la mentalidad en 
+<br />
+
+<br />
+la siguiente sección. 
+<br />
+
+<br />
+4. Diseño de la Estructura de Endgame 
+<br />
+
+<br />
+Natural de juego se basa más en la mentalidad que cualquier otra cosa. Adoptar la 
+<br />
+
+<br />
+mentalidad, y permitir a las técnicas de flujo. Se encontrará inventar sus propias 
+<br />
+
+<br />
+sugerencias y trucos y publicarlos en aquí para que otros la salida. 
+<br />
+
+<br />
+De pensar son esenciales para cualquier juego, en particular uno con un mínimo de 
+<br />
+
+<br />
+estructura, como la seducción Naturalizada Modelo. 
+<br />
+
+<br />
+- La mentalidad - 
+<br />
+Enfoque: 
+<br />
+El juego comienza antes de que usted sube. Una mujer tiene la impresión de que usted 
+<br />
+
+<br />
+está en gran parte determinado por lo que piensa antes de abrir la boca - que 
+<br />
+
+<br />
+combinado con la impresión de que realice en ella en el primer momento de la apertura 
+<br />
+
+<br />
+de unos segundos. La gente tiene una tendencia a generalizar el tipo de persona con 
+<br />
+
+<br />
+la que está lo más rápido posible, lo que hace que todo sea en el comienzo muy 
+<br />
+
+<br />
+influyente en el resto de la interacción. Creo que a menudo se menospreció la 
+<br />
+
+<br />
+importancia que tiene disponer de una imagen visual muy fuerte sobre la base de su 
+<br />
+
+<br />
+estilo, la vestimenta y bodylanguage. Usted escuchará las niñas a menudo diciendo 
+<br />
+
+<br />
+&quot;fue lindo, así que hablé con él&quot; o &quot;fue lindo lo que me deja mi novia permanecer y 
+<br />
+
+<br />
+hablar con él». NO subestimar la impresión de que estás haciendo visualmente. 
+<br />
+
+<br />
+Hablamos todo el tiempo de aquí acerca de la limitación de ser una creencia de que no 
+<br />
+
+<br />
+necesita ser guapo, pero que NO se aplican a su estilo, aseo general y bodylanguage. 
+<br />
+
+<br />
+Este material es vital. 
+<br />
+
+<br />
+Una de las razones por las que he evitar opinión abridores es debido a la sutil marco 
+<br />
+
+<br />
+de * que necesitan algo de alguien *. A veces creo que son alrededor de medio paso 
+<br />
+
+<br />
+adelante respecto a una persona en el centro comercial que le pregunta por unos 
+<br />
+
+<br />
+momentos para llenar una encuesta - muy unromantic y asexual. Esta es sin embargo 
+<br />
+
+<br />
+sólo yo, y yo sé algunos chicos que los utilizan con gran éxito por su gran 
+<br />
+
+<br />
+coherencia de la apertura. Es una cuestión de preferencia, supongo, pero me gusta 
+<br />
+
+<br />
+para empezar el romántico ambiente desde el instante que camina por la calle. No me 
+<br />
+
+<br />
+doy por vencido por cualquier poder que necesitan de alguien de opinión - la niña # 1 
+<br />
+
+<br />
+objetivo es IMPRESS ME desde el principio. 
+<br />
+
+<br />
+Burlas, C + F, Busting: 
+<br />
+Algunas personas no les gusta combinar este tipo de cosas con su juego directo. Para 
+<br />
+
+<br />
+mí, esta es una de las mejores partes sobre directa juego. Me encanta las bromas y 
+<br />
+
+<br />
+reventaba en las niñas. La belleza es, si está ejecutando un juego directo, CONOZCA 
+<br />
+
+<br />
+estás jugando solo con ella. 
+<br />
+
+<br />
+Me gusta la forma de pensar acerca de ello es &quot;flotante&quot; de su tecnología indirecta 
+<br />
+
+<br />
+(c + f, MCR, que reventaba, push / pull) por encima de un muy sólido y confío en 
+<br />
+
+<br />
+directo gente. Eso es que estás vibing directa con su bl, expresiones faciales, tono 
+<br />
+
+<br />
+cálido, pero al mismo tiempo divertirse con ella. Usted está haciendo sentir bien a 
+<br />
+
+<br />
+través de su humor, porque usted disfrutar de ella. 
+<br />
+
+<br />
+Que afectan a su Emociones: 
+<br />
+Es un hecho bien conocido que las niñas deben participar en un nivel emocional. Toque 
+<br />
+
+<br />
+sus emociones. Trigger sus emociones, y sin embargo la gente todavía está confundido 
+<br />
+
+<br />
+acerca de cómo lo hacen realmente. No es' hablar de las emociones' con ella. Usted a 
+<br />
+
+<br />
+causa de su experiencia diferentes emociones a través de una variedad de maneras. La 
+<br />
+
+<br />
+cima de mi cabeza puedo pensar en: 
+<br />
+
+<br />
+- Viendo sus emociones a través de la expresión facial y el tono cuando usted contar 
+<br />
+
+<br />
+historias-Hablar sobre tus pasiones, vamos a tener un su sabor de su potencial 
+<br />
+
+<br />
+emociones dirigida hacia ella-Ser impredecible, la incertidumbre hará que su 
+<br />
+
+<br />
+respuesta emocional en su-Crear situaciones donde una experiencia Emoción (por 
+<br />
+
+<br />
+ejemplo SOI'ing ella y entonces no se pide su durante unos días - ella es extático, y 
+<br />
+
+<br />
+luego curiosidad y miedo) 
+<br />
+
+<br />
+Logística: 
+<br />
+No existe una estructura de conjunto para pick-up. Somos artistas, recuerde? Que está 
+<br />
+
+<br />
+creando para ella la experiencia de manera que es única. Es bueno seguir una 
+<br />
+
+<br />
+previsible estructura en los niveles más bajos, pero es como una kata de las artes 
+<br />
+
+<br />
+marciales. Cuando todo se reduce a situaciones del mundo real, mientras que la 
+<br />
+
+<br />
+flexibilidad de su estructura debe adaptarse e improvisar en una forma estética. Se 
+<br />
+
+<br />
+enorgullecen de su trabajo y crear una experiencia maravillosa para la mujer. Dale la 
+<br />
+
+<br />
+fantasía. Permitir a sus sueños se hagan realidad. Sé que el hombre que ha estado 
+<br />
+
+<br />
+esperando. 
+<br />
+
+<br />
+Cierre / Venuechanging: 
+<br />
+El estado de ánimo que debe tener en la interacción con un polluelo debe ser uno de 
+<br />
+
+<br />
+los relajado y relished certeza &quot;. No se apresure las cosas. No 'reloj' de la IOI. En 
+<br />
+
+<br />
+otras palabras, usted no debe depender de ella, o demasiado reactivo a ella. Imagine 
+<br />
+
+<br />
+que es un cazador con un rifle de alta potencia, y que está un querido caza en 
+<br />
+
+<br />
+algunas espacio cerrado. Usted sabe que en cualquier momento te pueden matar a los 
+<br />
+
+<br />
+queridos - pero en lugar que elija para relajarse y disfrutar de la experiencia, ya 
+<br />
+
+<br />
+que de la certeza. Usted continuará en la experiencia de saborear, disfrutar de la 
+<br />
+
+<br />
+caza, y lo hacen cuando en el momento perfecto absoluta. También me recuerda a haber 
+<br />
+
+<br />
+algún tipo de postre o quizás una deliciosa botella de champán que le podría abrir en 
+<br />
+
+<br />
+cualquier momento y disfrutar, pero usted lo pone fuera, porque estás disfrutando de 
+<br />
+
+<br />
+la previsión tanto. Tratar a una mujer de clausura exactamente el mismo que este tipo 
+<br />
+
+<br />
+de momentos. Disfrute de su interacción con su ser al 100% que lo llevará donde usted 
+<br />
+
+<br />
+quiera que más adelante. 
+<br />
+
+<br />
+5. El flujo continuo de la acción 
+<br />
+Una cosa me la realización de una y otra vez: 
+<br />
+
+<br />
+* El factor tiempo es totalmente irrelevante para la pick-up .* 
+<br />
+
+<br />
+El tiempo es usualmente un enorme limitación de las creencias de la mayoría de la 
+<br />
+
+<br />
+gente. General, la gente siente que las niñas necesitan cierta cantidad de tiempo con 
+<br />
+
+<br />
+el fin de: 
+<br />
+
+<br />
+- Atrajo a convertirse-con él-salir de un lugar con usted de proporcionar la 
+<br />
+
+<br />
+información de contacto que no se agriete, se convirtió en 
+<br />
+
+<br />
+Esta vez, los restos de la sociedad es la programación. Dejado van de la necesidad de 
+<br />
+
+<br />
+hacer la recogida difícil o complicado. De alguna forma, es kinda complejo, pero su 
+<br />
+
+<br />
+libertad el deseo de hacerlo. 
+<br />
+
+<br />
+Mi descamación relación es muy buena. No es 100% perfecto, pero bastante cerca 
+<br />
+
+<br />
+maldito. El promedio de tiempo que toma para mí obtener una descamación no número de 
+<br />
+
+<br />
+teléfono es entre 30 segundos y 5 minutos. No más - es no sólo necesario. Permítanme 
+<br />
+
+<br />
+explicarles por qué: 
+<br />
+
+<br />
+Después de una primera reunión, que va a pie con algún tipo de impresión - una 
+<br />
+
+<br />
+memoria del encuentro. Ahora el camino de la mente, es que se distorsiona la verdad 
+<br />
+
+<br />
+en todo momento las impresiones fuertes. Recordamos cada evento como una serie de 
+<br />
+
+<br />
+imágenes mentales y sonidos con diferentes intensidades. La intensidad es determinada 
+<br />
+
+<br />
+por las emociones presentes en el momento, y cómo raras o escasas son esas emociones. 
+<br />
+
+<br />
+Si usted camina por la calle, como a su vez ha de nadie, y su mundo completamente 
+<br />
+
+<br />
+rock por unos momentos, su emocionante con su ambiente masculino, que nunca olvidará! 
+<br />
+
+<br />
+Pensar que el encuentro de vuelta, es muy difícil de determinar objetivamente tiempo. 
+<br />
+
+<br />
+Ella no pensar &quot;Bueno, caminó hasta él, y dice un par de cosas para mí, pero sólo se 
+<br />
+
+<br />
+quedó y habló durante 3 minutos. Creo que no debería reunirse con él - que no es 
+<br />
+
+<br />
+tiempo suficiente&quot;. Lo que se está pensando &quot;Vaya, este chico vino hasta mí, y él fue 
+<br />
+
+<br />
+increíble. Es tan romántico y tan derecho. Fue lindo, encantador, y él me hizo sentir 
+<br />
+
+<br />
+tan bien. No puedo esperar a ver Él otra vez! &quot; 
+<br />
+
+<br />
+Sólo hacer lo que necesita para crear una fuerte impresión en ella - y que la 
+<br />
+
+<br />
+impresión es completamente independiente del tiempo. Es más sobre la base de: 
+<br />
+
+<br />
+Visuales de impresiones / Identidad - BL, el estilo, las expresiones faciales de 
+<br />
+
+<br />
+impresiones auditivas - tonalidad, el ritmo y el ritmo emocional de contenido - 
+<br />
+
+<br />
+ambiente, la conexión, de expresión de la emoción de Flujo Continuo de Acción -&gt; 
+<br />
+
+<br />
+El continuo flujo de Acción es una manera elegante de explicar &quot;suavidad&quot;, y logra un 
+<br />
+
+<br />
+par de cosas diferentes:-Let 's usted tomar la iniciativa y el control del 
+<br />
+
+<br />
+encuentro-Permite que su mente lógica a apagarse-Let' s usted y su confianza se 
+<br />
+
+<br />
+sientan cómodos inmediatamente - Hace que todo parezca «derecho» y naturales 
+<br />
+
+<br />
+Un flujo continuo de la acción se describe mejor por una incompetencia de las 
+<br />
+
+<br />
+siguientes cosas:-extraño pausas y la indecisión de vacilación-espera-en busca de 
+<br />
+
+<br />
+aprobación o de otras respuestas (IOI)-overanalysis-overthinking 
+<br />
+
+<br />
+Si bien usted no debería hacer estas cosas, es aún más importante que SHE no hace 
+<br />
+
+<br />
+estas cosas. Con el fin de lograr un flujo continuo de la acción, se necesita un 
+<br />
+
+<br />
+mínimo de estructura, respuestas rápidas y un montón de confianza. Voy a ilustrar con 
+<br />
+
+<br />
+algunos ejemplos. 
+<br />
+
+<br />
+Enfoque Fría (Suponiendo que el tiempo es importante) 
+<br />
+Guy paseos, ofrece abridor entra en la historia. 
+<br />
+Chica reacciona positivamente. 
+<br />
+Guy siente que necesita más atractivo, va en otra historia, irrelevante para la 
+<br />
+
+<br />
+primera. 
+<br />
+Chica reacciona positivamente de nuevo. 
+<br />
+Guy espera, piensa en qué hacer a continuación. 
+<br />
+Guy empieza a obtener algunas relaciones, hace preguntas. 
+<br />
+Guy espera algo más de pensar que necesita más tiempo para una sólida cerca. 
+<br />
+Guy pide más preguntas, dudas si es que atrajo suficiente, en busca de la IOI. 
+<br />
+Chica está confundido acerca de su falta de confianza y de no entender sus verdaderas 
+<br />
+
+<br />
+intenciones por lo que dice tiene que ir. 
+<br />
+Guy trata última zanja esfuerzo y los intentos de cerrar. 
+<br />
+Chica no da número, porque está siendo congruente con el paso 9. 
+<br />
+Enfoque Fría (Flujo Continuo de Acción) 
+<br />
+Guy paseos, ofrece abridor entra en la historia. 
+<br />
+Chica reacciona positivamente. 
+<br />
+Sin vacilación, tío empieza a conectarse de inmediato, pidiendo a preguntas básicas. 
+<br />
+
+<br />
+(Escuela, trabajo, etc) 
+<br />
+Guy teases un poco sobre sus respuestas. 
+<br />
+Guy se da cuenta de que no tiene mucho que decir, así que llegue al punto. 
+<br />
+Guy dice &quot;Bueno, yo voy a cumplir con algunos amigos, pero vamos a hacer en algún 
+<br />
+
+<br />
+café&quot;. 
+<br />
+Porque chico es clara y confía, de acuerdo niña, sólida cerca. 
+<br />
+Volver a su lugar (el supuesto tiempo es importante) 
+<br />
+Guy paseos niña en su lugar. 
+<br />
+Chica se sienta en el sofá, el chico hace también. 
+<br />
+Guy piensa acerca de lo que necesita para la rutina de pico BT. 
+<br />
+Guy comienza spouting no sequitur rutina que le de tiempo a estar encendido. 
+<br />
+Chica confundida, cierra un poco. 
+<br />
+Guy no ver IOI's, espera, piensa de otra rutina, comienza a entregarlo. 
+<br />
+Chica se levanta y dice que tiene que ir. 
+<br />
+Volver a su lugar (de flujo continuo de Acción) 
+<br />
+Guy paseos niña a su lugar. 
+<br />
+Guy niña le dice a tomar sus zapatos fuera. 
+<br />
+Guy ella se sienta delante de la tv, y la convierte en. 
+<br />
+Guy va a la nevera y prepara 2 vasos de vino tinto. 
+<br />
+Guy regresa a los brindis y los buenos tiempos. 
+<br />
+Guy le dice a corto broma, la chica se ríe. 
+<br />
+Guy va de beso. 
+<br />
+La idea es que usted proporcione sus instrucciones en todos los puntos y dejar en 
+<br />
+
+<br />
+claro cómo se debe responder. Intenciones son siempre claros, siempre se confía en 
+<br />
+
+<br />
+las medidas y calculadas. El hombre sabe todo el plan desde el punto A al punto B, y 
+<br />
+
+<br />
+siempre asume que está listo para comenzar. Sin duda, no indecisión. Esto es 
+<br />
+
+<br />
+realmente lo que atrae a las mujeres - mucho más que cualquier * * material enlatado. 
+<br />
+
+<br />
+Sus emociones se dedican 150% en sobremarcha. Usted está poniendo su ROMANCE EN LA 
+<br />
+
+<br />
+NOVELA. 
+<br />
+
+<br />
+Vin DiCarlo<br /><span class="gensmall"><br /><br />Ultima edición por EnLightenmentSeed el Sab 15 Mar , 2008 9:55 am; editado 1 vez</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 15 Mar , 2008 12:52 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=186"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="8610"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3827<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp8610.html#8610"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=8610"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1.Los dos elementos fundamentales de una pick-up.</td>	</tr></table></center>
+<br />
+
+<br />
+Ruedas anchas y tracción 4x4 <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 15 Mar , 2008 1:33 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="8630"></a>EnLightenmentSeed</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 13 Ene 2008<br />Mensajes: 584<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp8630.html#8630"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=8630"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Jja jja , bueno , se hace lo que se puede, igual se entiende
+<br />
+ y es interesante lo que dice
+<br />
+   por cualquier cosa deje el link original en bristol lairs
+<br />
+
+<br />
+; )
+<br />
+
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Nicolas Rodrigo escribió:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">1.Los dos elementos fundamentales de una pick-up.</td>	</tr></table></center>
+<br />
+
+<br />
+Ruedas anchas y tracción 4x4 <img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /></td>	</tr></table></center><br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 15 Mar , 2008 9:50 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=186"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm186.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1240&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1240"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="natural-game-vf22.html" class="nav">Natural Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22"selected="selected">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="aebbd764d6463ea795dc19e3352305b5" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

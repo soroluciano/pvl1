@@ -1,0 +1,1208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=1840&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=1840&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=39" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Todo Sobre PNL" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=15" title="Mas Métodos y Técnicas" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas" />
+<link rel="chapter forum" href="viewforum.php?f=16" title="Test" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media" />
+<link rel="chapter forum" href="viewforum.php?f=10" title="Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=36" title="Cumpleaños de PVL" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Me descargo</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="me-descargo-vt1840.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Me descargo</a><br />
+	  <span class="gensmall"><b>Ir a página <b>1</b>, <a href="2-vt1840.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt1840.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1840"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt1840.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt1840.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="me-descargo-vt1840.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Me descargo</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14344"></a>HANIMAL</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/11903161154927343dee812.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Feb 2008<br />Mensajes: 71<br />Ubicación: Rosario</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14344.html#14344"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Me descargo</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14344"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hola chicos, este post es más que nada para pedir ayuda, y voy a explicar todo lo que me pasa en este momento horrible de mi vida. Y les pido por favor, que no me recomienden ningún libro para leer, ni ningún audio para escuchar o eso que me voy a poner de peor humor todavía. Tambíen les pido de todo corazón, que si van a responder de mala leche, o este post le parece una boludes, que no respondan. Busco respuestas sinceras y desde su propia experiencia...
+<br />
+
+<br />
+Empezamos..
+<br />
+
+<br />
+Estoy SIEMPRE de mal humor, me caliento por boludeces, a veces me agarra una depresión terrible que puedo llegar a mandar a el Papá a la mierda...
+<br />
+
+<br />
+Estoy peleadisimo con mis viejos, siempre nos bardeamos y siempre salimos a los gritos.
+<br />
+
+<br />
+Estoy terriblemente cansando, el estudio me tiene hasta las manos y no duermo una mierda, no tengo tiempo.
+<br />
+
+<br />
+Con las minas ando para el culo, tengo un monton de minas para comerme pero no lo hago, hay minas que quieren estar conmigo pero no les doy bola o no me acerco o alguna pelotudes así.
+<br />
+
+<br />
+Con mis &quot;amigos&quot; peor que nunca, los bardeo siempre, me cago a piña, hoy me enteré que hablan de mí a mis espaldas y eso me mata; no me dan bola cuando hablo, no me tienen en cuenta, no pego una.
+<br />
+
+<br />
+Con los estudios vengo un 50-50, me va mejor que mal, pero tampoco es un lujo, y nunca tengo ganas de estudiar, no tengo ganas de nada realmente, siempre tengo sueño y me mata la cabeza.
+<br />
+
+<br />
+Siempre le grito a todos, no me puedo controlar. Me hago un montón la paja (más que nunca, en serio).
+<br />
+
+<br />
+A veces siento ganas de tirar todo a la mierda, y simplemente no puedo, me siento desconectado de todo, como que no tengo a nadie atrás que me diga &quot;Seguí&quot;...
+<br />
+
+<br />
+En el deporte, ando bien, estoy jugando muy bien pero me llevo mal con la mayoría de mis compañeros de equipo, hablan mal de mí y me tienen bronca por una razón que no conosco.
+<br />
+
+<br />
+Con las minas estoy hecho un reverendo pelotudo (peor que nunca, en serio) siempre tengo una sonrisa falsa en la cara como un idiota... Prefiero IR CON LOS CHICOS antes que quedarme hablando con minas, siempre me intimidan... me siento chiquito (y eso que mido 1.86), siempre encuentro un defecto en mí, y lo trato de eliminar, al toque, aparecen dos más...
+<br />
+
+<br />
+Siempre me duele la cabeza, me arde la garganta, como con ganas de explotar, de desquitarme y destrozar algo a trompadas, nunca me sentí así... Estoy al horno.
+<br />
+
+<br />
+Siempre que llego a cualquier lado voy pensando que algo va a pasar mal, que me voy a bardear con alguien, que nunca puede salir todo bien. Las personas que tenía antes, ahora me dan la espalda.
+<br />
+
+<br />
+Poco a poco me voy cayendo, tengo miedo de resbalar algún día y no pararme más de la bronca que tengo.
+<br />
+
+<br />
+Hubo un momento en mi vida en que era un rey, era intocable, me llevaba con todos bien, mi mente estaba siempre tranquila, no corría para ningún lado, no lloraba, quiero más que nada volver a esos días.
+<br />
+
+<br />
+Ya está, dije todo lo que tenía que decir.
+<br />
+
+<br />
+Este momento es una mierda.
+<br />
+
+<br />
+Una MIERDA.
+<br />
+
+<br />
+Y ahora les pido su ayuda (no soy muy de pedir ayuda, pero cuando realmente la necesito, lo hago, como ahora) y como dije antes, espero que respondan seriamente, porque estoy casi seguro (espero) que no soy el único que alguna vez se sintió así.
+<br />
+
+<br />
+Les dejo un abrazo muy grande,
+<br />
+Fede.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 9:12 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm243.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=243"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm243.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14345"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 586<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14345.html#14345"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14345"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Segui man, se siente terrible, pero no es para tanto, por lo menos lo que contas.
+<br />
+
+<br />
+tene en cuenta que si tratas mal a todo el mundo, a nadie le va a gustar demasiado estar con vos.
+<br />
+
+<br />
+yo si fuera vos, buscaria ayuda profesional. 
+<br />
+
+<br />
+no decis tu edad, ni de donde sos, pero igual podes averiguar algo en <a href="http://www.cognitivoconductual.org" target="_blank">www.cognitivoconductual.org</a> son gente seria y tienen tratamientos rapidos.
+<br />
+
+<br />
+suerte.<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 9:24 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14346"></a>HANIMAL</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/11903161154927343dee812.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Feb 2008<br />Mensajes: 71<br />Ubicación: Rosario</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14346.html#14346"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14346"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Ah cierto, me olvidé. 
+<br />
+
+<br />
+Por si acaso, tengo 19 años y soy rosarino.
+<br />
+
+<br />
+Agradesco mucho sus consejos.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 9:30 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm243.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=243"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm243.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14347"></a>tatox</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 651<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14347.html#14347"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14347"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">antes que nada, te felicito y te respeto mucho por haber posteado todo esto.
+<br />
+
+<br />
+tenes muchos dolores de cabeza? tenes migrañas?<br /><br />_________________<br />&quot;cada vez que un tipo (incluyendome) se da cuenta el poder que tiene sobre las minitas, el tiempo de ser &quot;nice&quot; que le queda disminuye. y ellas se vuelven mas &quot;nice&quot; con uno, porque en definitiva son como vos quieras que sean.&quot; mersault<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 9:54 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14348"></a>DestinY</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="http://b.imagehost.org/0753/fotoavatar.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 05 May 2008<br />Mensajes: 118<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14348.html#14348"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14348"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Hola pussy. Mira, reconozco lo que te pasa porque me ha pasado todo junto como a vos hace un tiempo. Y por ahi me pasa algunas de las cosas que te pasan ahora. Si necesitas hablar con alguien, descargarte, sincerarte con alguien, o lo que sea, podes contar conmigo. Vamos a tomar un cafe y te escucho y hablamos. Soy de rosario tb. Asi que si tenes ganas avisame que hablamos un toque por msn y arreglamos. Un abrazo!<br /><br />_________________<br />^^Destiny^^  My way or the highway!<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 10:36 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm402.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=402"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm402.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14353"></a>Spray</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/831704908483f9894186ee.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 May 2008<br />Mensajes: 318<br />Ubicación: Almagro, Capital Federal</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14353.html#14353"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14353"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Si flaco, creo que todos pasamos por esto. Al menos yo y varias personas que conozco.
+<br />
+
+<br />
+
+<br />
+
+<br />
+La onda es que la ayuda te la estás dando vos mismo describiendo todo lo que hace que &quot;este momento&quot; te sea una MIERDA y, exactamente eso es lo que tenés que cambiar en tu forma de ser (no es tarea fácil, pero tampoco imposible). Te digo que te das la ayuda vos mismo porque hay muchos que están así y ni siquiera se dan cuenta de que les está saliendo todo para el orto y que más de la mitad de la humanidad ya los odia sin que ellos se den cuenta. Y obviamente, si empiezan a hablar mal de vos a tus espaldas, si te llevás mal con la mayoría, si te bardeás con tus viejos, etc; significa que el problema está en vos.
+<br />
+
+<br />
+
+<br />
+
+<br />
+Lo primero que tenés que hacer es &quot;Pensar y luego Actuar.&quot; Digo esto porque yo pasé por algo parecido y actuaba ante cualquier eventualidad por impulso - ese típico que cuando alguien te mira mal lo bardeás y en cuestión de segundos te están moliendo a palos y/ó le rompiste la nariz a alguien que apenas estaba mirando el cartel atrás tuyo o peor aún, nació con &quot;cara de mirar mal.&quot; 
+<br />
+Con esto de &quot;Pensar y luego Actuar&quot; te vas a dar cuenta de que no necesitás GRITAR a nadie todo el tiempo - lo cual es un gran paso.
+<br />
+
+<br />
+
+<br />
+
+<br />
+Cada vez que tus viejos te den pie para que salte un apocalipsis de insultos porque algo de lo que dicen no te cabe. Simplemente hablalo - si ya sé, seguro que siempre que intentás hablar te salen de igual manera a las puteadas y esto lleva a que vos empieces a las puteadas y todo termina en un terrible puterío. En ocasiones con tus viejos llorando - pero seguí en tu estado sereno de &quot;Pienso y luego actuo&quot; y concentrate en que no te caliente lo que te dicen, tratá de ponerte en su lugar y si aún así te das cuenta de que lo que dicen no tiene sentido, deciles que no estás de acuerdo con ellos o simplemente dales la razón. Después de la &quot;discusión&quot; en la cual ellos sólos levantaban la voz, te vas a dar cuenta de que te sentís bien con vos por no haberte amargado por algo estúpido y en cuanto a eso de que por más que vos hables ellos salgan a las puteadas es algo que se van a ir dando cuenta de a poco y lo van a cambiar solos. Pero todo lleva su tiempo.
+<br />
+
+<br />
+
+<br />
+
+<br />
+A tus amigos no los bardees, pero tampoco dejes bardearte por ellos. Percatate de que no te tomen de punto en el grupo y si eso intentan actuá C&amp;F dándoles vuelta todos sus chistecitos boludos y vas a ver que en cuestión de minutos después de haberlos dejado ridiculizados no te van a querer joder más.
+<br />
+
+<br />
+
+<br />
+Si hablan mal a tus espaldas, planteálo, deciles &quot;¿Qué onda?, todo bien pero esa no me cabe. Las cosas de frente gente.&quot; Esto, si querés tener realmente una amistad con este tipo de personas que cuando hablás no te tiene en cuenta. Pero de igual manera si antes les caíste bien, significa que en algún momento te la mandaste para caerles mal. Así que tratá de acordarte como era tu interacción cuando eras ese &quot;REY&quot; que mencionás haber sido, e intentá volver a tomar esa actitud con ellos y con todo.
+<br />
+
+<br />
+
+<br />
+Si querés romper todo y mandar todo a la mierda, pensá que pasaría si lo hicieras y meditalo muy bien. Te vas a dar cuenta de que no sirve de nada y que mucho menos vas a lograr algo productivo. Al contrario, podés empeorar todo.
+<br />
+
+<br />
+
+<br />
+Siempre tené en cuenta que todos podemos estar bien si nosotros mismos nos lo proponemos. La onda es saber tomarse las cosas con calma, siempre vienen estos momentos de crisis que te cae todo lo malo de una y uno no sabe que carajo hacer y tiende a hacer estupideces.
+<br />
+
+<br />
+
+<br />
+No vas a solucionar todo de una y mucho menos de un día para el otro. Pero podés empezar por las cosas más boludas - Así literalmente como me dijo un amigo cuando yo estaba en depresión constante - y después empezar con las más complejas.
+<br />
+
+<br />
+
+<br />
+Pero esto es algo normal. Así es la vida, siempre nos pone ante diferentes situaciones y nosotros somos los que decidimos: &quot;Me lo tomo para el culo y rompo todo ó me lo tomo bien y por más de que no pueda solucionar todo de una avanzo de a poco.&quot; Mas allá de que muchas veces sea un poco difícil no tomarse las cosas bien, si lo hacés con optimismo vas a mantenerte feliz incluso cuando todo te esté saliendo para el orto. Si te caés vos sos la principal persona que tiene que decir &quot;me levanto y sigo.&quot;
+<br />
+
+<br />
+
+<br />
+Creo que lo que más necesitás es hablarlo con amigos o con alguien. Yo me basé mas que nada en como me sentía yo y en lo que me pasaba a mí. Espero que te sirva... cualquier cosa: PM.
+<br />
+
+<br />
+
+<br />
+¡Saludos!<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie May 23, 2008 11:26 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm416.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=416"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14366"></a>Alive</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1444<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14366.html#14366"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14366"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">minitas abundantes nunca tube (siempre me presentaban alguna o tenia suerte, recien ahora sientoq ue estoy mejorando en esto)
+<br />
+
+<br />
+con mis amigos me paso algo asi, intente retomar amistad, pero se curtian. poco a poco me curti yo mas hasta que me di cuenta que la paso mejor estando tranca yo por la mia que estar ahi como un boludo (ellos saben que soy un curtido, otro cambio tambien, sinceridad jeje, y saben que no me comprometo con ellos, sino voy cuando me pinte). deje el compromiso de juntarme y bue, asi es ahora.
+<br />
+
+<br />
+amigas ni tenia, ahora me llevo con un par de flacas, pero nada ams que una sminitas en el msn (que habre conocido alguna vuelta y una flaca de un chat... jeje, eso que crei que esto ni daba, pero esta bueno, es cool)
+<br />
+
+<br />
+pase por una etapa asi, tambien me peleaba con mis viejos bocha, pero se apaciguo. me llebaba mal con mi vieja no hasta hace tanto y mi viejo si bien estaba todo cool, no me parecia un gran ejemplo.
+<br />
+
+<br />
+esto cambio recien el ultimo año, a mi vieja la re aprecio, la quiero y demas (un GRAN cambio), a mi viejo tambin lo re aprecio y hasta lo tomaria de ejemplo en muchas cosas.
+<br />
+
+<br />
+con mis hermanos siempre todo bien, por suerte.
+<br />
+
+<br />
+ahora recien empiezo a ver mejor que errores cometia yo en esto.
+<br />
+
+<br />
+no laburo, no estudio y trato de cambiar eso, mismo de a poco algunos de mis antiguos amigos los voy acercando (solo algunos, con le grupo en general tengo cierta discordia). siempre conserve un grupo igual, de flacos que estubieron siempre conmigo, mismo yo y bue... eso
+<br />
+
+<br />
+lo malo pasa, entiendo lo que decios de que si te recomiendan libros le pateas el orto a alguno, pero yo de pensar (la limo pensando), vivir y leer (algo), termine sacando concusiones que me ayudaron bocha. peor tambien hay que tomar accion y cambiar otras (en general es dar la cara y en otras cosas es empzar a admitir errores propios... ah y tambien mandar al carajo a los que se mandaron los suyos... con la mejor de las ganas, nada de ser amabe si no te pinta, los mandas BIEN a la mierda y que lo sepan... a mi me cayo bien ese cambio, capaz lo cambiare nuevamente mas tarde)
+<br />
+
+<br />
+sigo en esto, pero bue, al menos se que tengo que cambiar, estoy en eso y ya arregle algunas cosas.
+<br />
+
+<br />
+man, todo pasa... parece que no, pero todo mejora<br /><br />_________________<br />&quot;When I'm on the road, I'm indestructible. No one can stop me... but they try.&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab May 24, 2008 1:11 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14370"></a>Baco</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/19393748064815140510290.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 Abr 2008<br />Mensajes: 391<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14370.html#14370"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14370"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">mas alla de todo.... vos tenes el problema. Tenes que tranquilizarte y ponerte a pensar que es lo que te esta llevando a actuar asi en tu vida, estoy seguro de que debe existir una raiz, capas que a simple vista no te das cuenta, pero sentate y analizate vos mismo.
+<br />
+
+<br />
+y segunda recomendacion, empezá un arte marcial para descargar toda esa energia acumulada que tenes. Empezá algo tipo taekwondo o kickboxing.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab May 24, 2008 1:46 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=341"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm341.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14380"></a>Sazi</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/10313977224826100cd2579.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 May 2008<br />Mensajes: 124<br />Ubicación: Santos Lugares, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14380.html#14380"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14380"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">son epocas...
+<br />
+
+<br />
+creo que de esto se trata la vida... 
+<br />
+
+<br />
+
+<br />
+cualqueir cosa si queres charlar sazi.nmk@hot 
+<br />
+
+<br />
+Capaz te puedo ayudar con algo de pnl <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br />Todos los recursos, estan en ti.<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab May 24, 2008 2:41 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=409"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm409.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14462"></a>eldios</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 28 Dic 2007<br />Mensajes: 27<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14462.html#14462"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14462"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">hola amigo.
+<br />
+yo también sentia lo mismo pues ahora me he dado cuenta que cada dia puede ser el último de mi vida y trato de hacer las cosas como si fuera la última vez
+<br />
+
+<br />
+ahora q estoy mas tranquilo me puse a ver mis errores y me he dado cuenta de muchos asi q trato de corregirlos tomar lo bueno y olvidarme de lo malo
+<br />
+
+<br />
+antes para mi era todo una mierda cada dia cada hora cada segundo.....Pero ahora es todo diferente pues la clave de todo esta en la fuerza de la voluntad y el deseo de llegar a alcanzar mis objetivos.
+<br />
+
+<br />
+por ejemplo cuando yo vivia con mis viejos nunca les hacia caso me decian A  y yo hacía la Z 
+<br />
+
+<br />
+Con mis amigos llegue a pensar q sentian envidia.  ahora los extraño, extraño a mi viejo a mi vieja a mis hermanos, amigos de toda la vida.   
+<br />
+
+<br />
+ ahora me he dado cuenta q estoy aka por una meta en especial y por boludo también(por el estupido orgullo q no te lleva a nada) el orgullo te hace ver las cosas de diferente manera, confunde tu juicio.
+<br />
+
+<br />
+Asi q a ala mañana al despertar me hago una pregunto. ¿Cómo me quiero sentir hoy? pues hoy es el mejor día de mi vida y puede ser el último tambíen así q lo vivire de la mejor manera posible. porque no existe un mañana si no hay un presente y el presente es ahora.  VAMOS AMIGO EN CADA MOMENTO QUE TE SIENTAS TRIZTE Y SIENTAS Q YA NO PUEDAS. RECUERDA  ESTAS PALABRAS, RECUERDA QUE ERES UNICO Y ESPECIAL EN ESTA VIDA Y NADA SE VA INTERPONER EN TUS METAS PORQUE HAY GENTE QUE ESTA MUY CERCA DE TI Y TE QUIERE MAS DE LO QUE PUEDES IMAGINAR. JEHOVA TE AMA   Y VOS TAMBIEN TE QUERES A TI MISMO PORQUE TIENES ALGO MUY MARAVILLOSO Y MUY VALIOSO QUE ES TU VIDA.                               
+<br />
+
+<br />
+Yo le doy gracias a Dios por todo lo q tengo y por permitir ser la persona que soy.  
+<br />
+
+<br />
+Yo estoy conociendo a Dios En LA BIBLIA ahi te explica porque de muchas cosas. Aprendi su nombre. Jehova..<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom May 25, 2008 1:33 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm159.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=159"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="14466"></a>pecador</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/148065014648eaf18508c51.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 09 Abr 2008<br />Mensajes: 444<br />Ubicación: Chiquimula, Guatemala</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp14466.html#14466"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> recomendacion CIENTIFICA... por fin</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=14466"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">mira, parece que te sentis mal... eso no solo te ha pasado a vos... te lo digo para que no te sintas solo
+<br />
+
+<br />
+para que conoscas un pokito de como actua tu cerebro: el cerebro tiene un sistema de castigo/recompensa con los estados de animo como un mecanismo para la supervivencia... no esta mal, dehecho, nuestra especie a sobrevivido los ultimos 200,000 años y evolucionado a causa de estos mecanismos.... cuando haces cosas que el cerebro interpreta como que te van a ayudar a sobrevivir, te premia con endorfinas, por ejemplo, cuando tenes relaciones sociales que te demuestran aceptacion y que tienen mucho contacto fisico con vos
+<br />
+
+<br />
+cuando haces cosas que el cerebro interpreta como un peligro para la supervivencia, como no tener un grupo social, el cerebro te castiga con falta de esta hormona
+<br />
+
+<br />
+la hormona endorfina es la que cuasa la sensacion de felicidad...
+<br />
+
+<br />
+para los humanos es de gran importancia estar en un grupo social y ser aceptados por este, porque al igual que los demas mamiferos, la evolucion se las ha arreglado para que este sea un mecanismo de supervivencia: vivir con un grupo social te permitira cazar mas facil, protegerte de peligros, etc....
+<br />
+
+<br />
+por eso, cuando estamos con relaciones sociales de mala calidad o en ninguna, nuestras endorfinas son bajas y nos sentimos mal... y peor aun, la mente, como mecanismo de defensa, aumenta tu necesidad de estar con alguien y puede ser que hasta te obseciones con una mina que realmente no vale la pena.....
+<br />
+
+<br />
+por eso, lo que te recomiendo es que armes tu circulo social con relaciones de calidad, que te hagan mucho contacto fisico tambien, es importantisimo....
+<br />
+
+<br />
+mira, hay un psiquiatra que tambien es PUA que se llama Franco, y el aconseja tener un estado activo-pasivo: el pasivo sirve para mejorar tus conocimientos cientificos e intelectuales, pero no pases mucho tiempo alli... el otro tanto es tener un estado activo, con tu circulo social.... asi que despues de haber estado un buen rato en estado pasivo, dale a tu cerebro una buena docis de endorfinas....
+<br />
+
+<br />
+el chocolate puro tambien te proporciana endorfinas, pero no dependas de el, porque tu cerebro va a evolucionar y ya no te va a hacer efecto, al igual que las medicinas....
+<br />
+
+<br />
+te voy a resaltar de nuevo la importancia del contacto fisico: Franco comenta que a su consultorio le llevavan ancianos deprimidos que no querian comer, y era increible el cambio cuando el los tomaba de la mano... tambien, muchos mamiferos duermen juntos por instinto para sentirse mas seguros... date cuenta la importancia de lo que llamamos kino
+<br />
+
+<br />
+si no tenes relaciones sociales de calidad, o no las estas teniendo, tu necesidad aumenta: recorda, te sentis deprimido y como mecanismo de defensa, hasta corres el riesgo de pillarte por una mujer.... que esperas para tener un estado activo de verdad!!<br /><br />_________________<br />pure direct!
+<br />
+-pecador-
+<br />
+
+<br />
+
+<br />
+esta vez me enamore yo para largo rato <img src="images/smiles/icon_sad.gif" alt="Sad" border="0" /> 
+<br />
+-------------------------------------------------------------
+<br />
+&quot;las DHV son las peores muestras de tu escaso valor&quot;
+<br />
+&quot;ser direct es ser el hombre masculino que las mujeres piden&quot;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom May 25, 2008 4:32 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=339"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm339.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="17923"></a>david durden</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 17 Jul 2008<br />Mensajes: 13<br />Ubicación: mexico</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp17923.html#17923"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> yo tengo la solucion</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=17923"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><img src="images/smiles/icon_surprised.gif" alt="Surprised" border="0" /><br /><br />_________________<br />YO NO NACI PARA FRACASAR<span class="gensmall"><br /><br />Ultima edición por david durden el Lun Sep 08, 2008 4:58 pm; editado 3 veces</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Jul 19, 2008 1:41 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm545.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=545"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>   <a href="aim:goim?screenname=nikgal16@yahoo.com.mx&amp;message=Hello+Are+you+there?"><img src="templates/AcidTech/images/lang_english/icon_aim.gif" alt="Dirección AIM" title="Dirección AIM" border="0" /></a> <a href="http://edit.yahoo.com/config/send_webmesg?.target=nikgal16@yahoo.com.mx&amp;.src=pg"><img src="templates/AcidTech/images/lang_english/icon_yim.gif" alt="Yahoo Messenger" title="Yahoo Messenger" border="0" /></a> <a href="vm545.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="17932"></a>Lucky</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1006791762485e9ce17eca7.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 14 Dic 2007<br />Mensajes: 25<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp17932.html#17932"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=17932"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Estoy SIEMPRE de mal humor, me caliento por boludeces, a veces me agarra una depresión terrible que puedo llegar a mandar a el Papá a la mierda...</td>	</tr></table></center>
+<br />
+
+<br />
+Tenes una energia negativa, ves el mundo a traves de un lente negro, tenes que cambiar eso, date cuenta que es al pedo estar en contra de como son las cosas, aceptalas como son.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Estoy peleadisimo con mis viejos, siempre nos bardeamos y siempre salimos a los gritos.</td>	</tr></table></center>
+<br />
+
+<br />
+Bueno esto lo mas probable es que estas en un estado de REACCION, es normal pelearse con los viejos, trata de no reaccionar y ser proactivo a cada cosa que dicen, no dejes que te afecte, deciles que si y ya fue, es al pedo pelearse.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Estoy terriblemente cansando, el estudio me tiene hasta las manos y no duermo una mierda, no tengo tiempo.</td>	</tr></table></center>
+<br />
+
+<br />
+Si estas demasiado cansado, te aconsejo que pares un toque; que te tomes un tiempo de descanso, cuando uno se fuerza para avanzar es siempre contraproducente, se necesita la energia para gastarla, si no la tenes, recuperalas.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Con las minas ando para el culo, tengo un monton de minas para comerme pero no lo hago, hay minas que quieren estar conmigo pero no les doy bola o no me acerco o alguna pelotudes así.</td>	</tr></table></center>
+<br />
+
+<br />
+Me siento culpable de esto a veces, con la diferencia que quiza yo busco otra cosa, y la verdad no me hace problema estar solo; tomo mi estado actual como un proceso en el que voy creciendo, aveces pesco algo a veces no, pero no lo necesito, estoy bien... mi felicidad para por OTRO LADO.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Con mis &quot;amigos&quot; peor que nunca, los bardeo siempre, me cago a piña, hoy me enteré que hablan de mí a mis espaldas y eso me mata; no me dan bola cuando hablo, no me tienen en cuenta, no pego una.</td>	</tr></table></center>
+<br />
+
+<br />
+Bueno esto es jodido, tenes que ser muy AUTOCRITICO con tus amigos, fijate bien si el problema sos vos o ellos, alguien que habla mal de mi a mis espaldas no es mi amigo... aunque para mi la amistad es un ida y vuelta de VALOR y de BUENA ONDA, si estas en ese tren de pensamiento tan negativo, puede que para los ojos de tus amigos te hayas convertido en un bajon y solamente tomas valor de ellos, decis que no te tienen en cuenta... creo que quiza buscas una validacion de parte de ellos y no se trata de eso la amistad, sino de un INTERCAMBIO, si esperas buena onda de ellos solamente devolviendoles MALA LECHE, va a llegar un momento que van a decir &quot;yo le pongo ganas con este flaco, pero es un bajon solamente trae mala leche&quot; y asi es obvio que los vas a perder... fijate bien que pasa ahi.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+Con los estudios vengo un 50-50, me va mejor que mal, pero tampoco es un lujo, y nunca tengo ganas de estudiar, no tengo ganas de nada realmente, siempre tengo sueño y me mata la cabeza.</td>	</tr></table></center>
+<br />
+
+<br />
+Que te vaya bien en la carrera es una cuestion de actitud, te pregunto ¿te gusta tu carrera? entonces tenes que estar dispuesto a sacrificar cosas por ella, la vida no es todo felicidad y satisfaccion.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Siempre le grito a todos, no me puedo controlar. Me hago un montón la paja (más que nunca, en serio).</td>	</tr></table></center>
+<br />
+
+<br />
+Bueno aca parece que estas medio calenton y mala leche; controla eso, lo segundo... supongo que es un caso de frustracion; cuando puedas controlar la mala leche que pasa por tu mente esto va a cambiar.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">A veces siento ganas de tirar todo a la mierda, y simplemente no puedo, me siento desconectado de todo, como que no tengo a nadie atrás que me diga &quot;Seguí&quot;...</td>	</tr></table></center>
+<br />
+
+<br />
+Segui que esta todo bien.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+En el deporte, ando bien, estoy jugando muy bien pero me llevo mal con la mayoría de mis compañeros de equipo, hablan mal de mí y me tienen bronca por una razón que no conosco.</td>	</tr></table></center>
+<br />
+
+<br />
+Lo mismo, tenes una mala leche encima y por eso todo el mundo te responde mal, con la gente es una cosa de intercambio, si ellos tienen buena onda, responde con buena onda, sino todo el mundo te va a odiar, a nadie le gusta la mala onda, te pueden bancar hasta cierto punto... pero todo tiene un limite.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Con las minas estoy hecho un reverendo pelotudo (peor que nunca, en serio) siempre tengo una sonrisa falsa en la cara como un idiota... Prefiero IR CON LOS CHICOS antes que quedarme hablando con minas, siempre me intimidan... me siento chiquito (y eso que mido 1.86), siempre encuentro un defecto en mí, y lo trato de eliminar, al toque, aparecen dos más...</td>	</tr></table></center>
+<br />
+
+<br />
+Bueno, lo mismo; si no haces nada al respecto... nadie te va a cambiar magicamente ¿hasta cuando queres seguir asi?
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">
+<br />
+Siempre me duele la cabeza, me arde la garganta, como con ganas de explotar, de desquitarme y destrozar algo a trompadas, nunca me sentí así... Estoy al horno.</td>	</tr></table></center>
+<br />
+
+<br />
+Resultado de todo lo de arriba, man RELAX, CHILL OUT, tenes 19 años sos un re pendex, tenes toda la vida por delante, date cuenta que tenes todo por vivir todavia.
+<br />
+
+<br />
+Deja atras toda esta mierda que llevas a tus espaldas porque si.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Siempre que llego a cualquier lado voy pensando que algo va a pasar mal, que me voy a bardear con alguien, que nunca puede salir todo bien. Las personas que tenía antes, ahora me dan la espalda.</td>	</tr></table></center>
+<br />
+
+<br />
+Tenes una terrible onda negativa como ya te dije; solamente hay una forma de cambiarlo: DATE CUENTA QUE TODO ESTA EN TU CABEZA, en realidad esta todo bien... pero no lo podes ver.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Poco a poco me voy cayendo, tengo miedo de resbalar algún día y no pararme más de la bronca que tengo.</td>	</tr></table></center>
+<br />
+
+<br />
+A veces dicen que no hay nada mejor que pisar fondo... porque ahi es cuando estas dispuesto a HACER ALGO PARA CAMBIARLO.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Hubo un momento en mi vida en que era un rey, era intocable, me llevaba con todos bien, mi mente estaba siempre tranquila, no corría para ningún lado, no lloraba, quiero más que nada volver a esos días.</td>	</tr></table></center>
+<br />
+
+<br />
+Te voy a decir algo que quiza te sorprenda:
+<br />
+
+<br />
+hay solamente una diferencia entre ese momento y ahora:
+<br />
+
+<br />
+TU VISION
+<br />
+
+<br />
+podes cambiarlo en cosa de segundos.<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab Jul 19, 2008 5:29 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm139.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=139"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18088"></a>david durden</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 17 Jul 2008<br />Mensajes: 13<br />Ubicación: mexico</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18088.html#18088"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18088"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><img src="images/smiles/icon_biggrin.gif" alt="Very Happy" border="0" /><br /><br />_________________<br />YO NO NACI PARA FRACASAR<span class="gensmall"><br /><br />Ultima edición por david durden el Sab Jul 26, 2008 4:38 pm; editado 1 vez</span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Jul 21, 2008 9:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm545.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=545"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>   <a href="aim:goim?screenname=nikgal16@yahoo.com.mx&amp;message=Hello+Are+you+there?"><img src="templates/AcidTech/images/lang_english/icon_aim.gif" alt="Dirección AIM" title="Dirección AIM" border="0" /></a> <a href="http://edit.yahoo.com/config/send_webmesg?.target=nikgal16@yahoo.com.mx&amp;.src=pg"><img src="templates/AcidTech/images/lang_english/icon_yim.gif" alt="Yahoo Messenger" title="Yahoo Messenger" border="0" /></a> <a href="vm545.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="18095"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 2791<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp18095.html#18095"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=18095"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Lo leí, tengo la revista <img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada</span></span>
+<br />
+Krishnamurti
+<br />
+
+<br />
+<a href="http://debian.fmi.uni-sofia.bg/~cdunchev/HAREM.jpg" target="_blank">Construyendo mi harem</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun Jul 21, 2008 9:55 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=1840&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=1840"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="inner-game-vf32.html" class="nav">Inner Game</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página <b>1</b>, <a href="2-vt1840.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>&nbsp;&nbsp;<a href="siguiente-vt1840.html?postdays=0&amp;postorder=asc&amp;start=15">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>2</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="39">Treasure Chest</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="3">Todo Sobre PNL</option><option value="4">Direct Game</option><option value="11">Magia</option><option value="15">Mas Métodos y Técnicas</option><option value="23">Rutinas</option><option value="16">Test</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32"selected="selected">Inner Game</option><option value="33">Phone Game</option><option value="26">Media</option><option value="10">Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="36">Cumpleaños de PVL</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="-1">&nbsp;</option><option value="-1">Gameando Por Un Sueño</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="28">Misiones</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="7340a8433b39e01a24ccb772fe6de822" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

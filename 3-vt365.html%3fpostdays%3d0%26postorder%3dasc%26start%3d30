@@ -1,0 +1,2424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=365&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=365&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Musica</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="musica-vt365.html?start=30&amp;postdays=0&amp;postorder=asc&amp;highlight=">Musica</a><br />
+	  <span class="gensmall"><b>Ir a página  <a href="anterior-vt365.html?postdays=0&amp;postorder=asc&amp;start=15">Anterior</a>&nbsp;&nbsp;<a href="1-vt365.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <a href="2-vt365.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>, <b>3</b>, <a href="4-vt365.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt365.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>, <a href="6-vt365.html?postdays=0&amp;postorder=asc&amp;start=75">6</a>, <a href="7-vt365.html?postdays=0&amp;postorder=asc&amp;start=90">7</a>, <a href="8-vt365.html?postdays=0&amp;postorder=asc&amp;start=105">8</a>&nbsp;&nbsp;<a href="siguiente-vt365.html?postdays=0&amp;postorder=asc&amp;start=45">Siguiente</a></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=365"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="media-y-sitios-de-interes-vf26.html" class="nav">Media y Sitios de Interés</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt365.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt365.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="musica-vt365.html?start=30&amp;postdays=0&amp;postorder=asc&amp;highlight=">Musica</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="12998"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp12998.html#12998"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=12998"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">si era incogible hay algo que no entiendo... como le hicieron una cancion¿? jajajjaja
+<br />
+
+<br />
+bueno, precisamente ahora estoy escuchandO... THE ANIMAL! de steve vai
+<br />
+
+<br />
+la letra... bue, letra no hay
+<br />
+
+<br />
+no usar para levantar stete y esas cosas... pero eso si... estalla<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Sab 10 May , 2008 2:29 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="13784"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp13784.html#13784"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=13784"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">tiro las 5 canciones tira peta que estaban en un post boludo de natural
+<br />
+
+<br />
+rag doll, hard to handle, bad to the bone, are you gonna be my dgirl y look at little sister.
+<br />
+
+<br />
+todas con la misma onda badboy<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 18 May , 2008 11:50 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="13798"></a>KidlokO</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1448283819471c1f85ec5cc.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 1324<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp13798.html#13798"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=13798"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Esta de rata blanca tiene su onda...
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">HAZ TU JUGADA
+<br />
+
+<br />
+
+<br />
+Debes mostrar tu realidad
+<br />
+y asombrarás al final
+<br />
+a todos aquellos que pretenden ser más
+<br />
+Debes buscar como llegar a destruir
+<br />
+la maldad a la ignorancia que pudo crear
+<br />
+Grítales que lucharás por ser
+<br />
+solo verás si vas por tu camino.
+<br />
+Muéstrales que tu verdad es ley
+<br />
+y que su ley no es ya tu verdad
+<br />
+Por ser así, te atacarán e intentarán
+<br />
+destruir de cualquier forma a tu ideal.
+<br />
+Quizás también te acusarán
+<br />
+por ser brujo y estar dando
+<br />
+un mensaje subliminal
+<br />
+Y tal vez, puedas por fin beber
+<br />
+del agua que nos da solo la vida
+<br />
+Sonarán esas campanas que
+<br />
+dentro de ti serán la libertad
+<br />
+Aclárales que tu intención
+<br />
+es solo ser como sos y que respeten,
+<br />
+tu condición.
+<br />
+Defenderás a la verdad
+<br />
+no dejes que tus anhelos
+<br />
+pasen por alto tu dignidad
+<br />
+Grítales que lucharás por ser
+<br />
+solo serás si vas por tu camino
+<br />
+Sonarán esas campanas que
+<br />
+dentro de ti serán la libertad
+<br />
+La libertad, la libertad, la libertad</td>	</tr></table></center>
+<br />
+
+<br />
+No puedo creer que no este esta todavia:
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> Fito Paez - Es solo cuestion de actitud
+<br />
+
+<br />
+Es solo una cuestión de actitud
+<br />
+Si lo cuentas no se cumple el deseo
+<br />
+Es solo una cuestión de actitud
+<br />
+Caballero me podría dar fuego?
+<br />
+Es solo una cuestión de actitud
+<br />
+Atreverse a desplazarse en el tiempo
+<br />
+Es solo una cuestión de actitud
+<br />
+Entender lo que esta escrito en el viento
+<br />
+
+<br />
+Es solo una cuestión de actitud
+<br />
+ir con taco aguja en pista de hielo
+<br />
+Es solo una cuestión de actitud
+<br />
+Recibir los golpes, no tener miedo
+<br />
+Es solo una cuestión de actitud
+<br />
+Y no quejarse mas del todo, por cierto
+<br />
+Es solo una cuestión de actitud
+<br />
+Atreverse a atravesar el desierto
+<br />
+
+<br />
+Hay un pozo profundo en la esquina del sol
+<br />
+Si caes la vida te muele a palos
+<br />
+Tengo rabia que todo se pase y adiós
+<br />
+Mis peleas por estar a tu lado
+<br />
+
+<br />
+Cuando vos decidís elegir la razón
+<br />
+Yo prefiero siempre un poco de caos
+<br />
+Soy tu rey, soy tu perro, soy tu esclavo y soy tu amor
+<br />
+Soy tu espejo mirando el otro lado
+<br />
+
+<br />
+Es solo una cuestión de actitud
+<br />
+Reírse del fracaso y del oro
+<br />
+Es solo una cuestión de actitud
+<br />
+No tener nada y tenerlo todo
+<br />
+Es solo una cuestión de actitud
+<br />
+Y nunca nadie sabe nunca nada para colmo
+<br />
+Es solo una cuestión de actitud
+<br />
+Espada, capa, torero y toro
+<br />
+
+<br />
+Hay un pozo profundo en la esquina del sol
+<br />
+Si caes la vida te muele a palos
+<br />
+Tengo rabia que todo se pase y adiós
+<br />
+Mis peleas por estar a tu lado
+<br />
+
+<br />
+Cuando vos decidís elegir la razón
+<br />
+Yo prefiero siempre un poco de caos
+<br />
+Soy tu rey, soy tu perro, soy tu esclavo, y soy tu amor
+<br />
+Soy tu espejo mirando el otro lado
+<br />
+
+<br />
+Es solo una cuestión de actitud
+<br />
+Reírse del fracaso y del oro
+<br />
+Es solo una cuestión de actitud
+<br />
+No tener nada y tenerlo todo
+<br />
+Es solo una cuestión de actitud
+<br />
+Y nunca nadie sabe nunca nada para colmo
+<br />
+Es solo una cuestión de actitud
+<br />
+Espada, capa, torero y toro </td>	</tr></table></center>
+<br />
+
+<br />
+Para cuando tuviste una mala noche:
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text"> Frank Sinatra - That's life
+<br />
+
+<br />
+That's life, that's what all the people say.
+<br />
+You're riding high in April,
+<br />
+Shot down in May
+<br />
+But I know I'm gonna change that tune,
+<br />
+When I'm back on top, back on top in June.
+<br />
+
+<br />
+I said that's life, and as funny as it may seem
+<br />
+Some people get their kicks,
+<br />
+Stompin' on a dream
+<br />
+But I don't let it, let it get me down,
+<br />
+'Cause this fine ol' world it keeps spinning around
+<br />
+
+<br />
+I've been a puppet, a pauper, a pirate,
+<br />
+A poet, a pawn and a king.
+<br />
+I've been up and down and over and out
+<br />
+And I know one thing:
+<br />
+Each time I find myself, flat on my face,
+<br />
+I pick myself up and get back in the race.
+<br />
+
+<br />
+That's life
+<br />
+I tell ya, I can't deny it,
+<br />
+I thought of quitting baby,
+<br />
+But my heart just ain't gonna buy it.
+<br />
+And if I didn't think it was worth one single try,
+<br />
+I'd jump right on a big bird and then I'd fly
+<br />
+
+<br />
+I've been a puppet, a pauper, a pirate,
+<br />
+A poet, a pawn and a king.
+<br />
+I've been up and down and over and out
+<br />
+And I know one thing:
+<br />
+Each time I find myself laying flat on my face,
+<br />
+I just pick myself up and get back in the race
+<br />
+
+<br />
+That's life
+<br />
+That's life and I can't deny it
+<br />
+Many times I thought of cutting out
+<br />
+But my heart won't buy it
+<br />
+But if there's nothing shakin' come this here july
+<br />
+I'm gonna roll myself up in a big ball and die
+<br />
+My, My </td>	</tr></table></center><br /><br />_________________<br />&quot;Cuando termines de cogerte a tus enemigos, cogetelos un poco mas&quot;
+<br />
+
+<br />
+Sun Tzu<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 18 May , 2008 6:23 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm8.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=8"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="13818"></a>Nahuel</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/142349913480cd2f83289d.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 19 Abr 2008<br />Mensajes: 650<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp13818.html#13818"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=13818"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">no hay con que darle a barbie girl de aqua 
+<br />
+
+<br />
+<a href="http://www.youtube.com/watch?v=zEzh10_xoqw&amp;feature=related" target="_blank">http://www.youtube.com/watch?v=zEzh10_xoqw&amp;feature=related</a> 
+<br />
+
+<br />
+jaaja
+<br />
+
+<br />
+no ahora posta
+<br />
+
+<br />
+san francisco work it out...
+<br />
+
+<br />
+kiss -heavens on fire
+<br />
+
+<br />
+otra muy buena es
+<br />
+
+<br />
+rise again - give it all   tiene todo el poder <img src="images/smiles/icon_razz.gif" alt="Razz" border="0" /><br /><br />_________________<br />"Be like water, my friend"<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 18 May , 2008 11:46 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a> <a href="profile.php?mode=email&amp;u=354"><img src="templates/AcidTech/images/lang_english/icon_email.gif" alt="Enviar correo" title="Enviar correo" border="0" /></a>    <a href="vm354.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="13870"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp13870.html#13870"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=13870"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">chepara... barbie girl es mortal...
+<br />
+
+<br />
+estos temas son de yayo... jajajja, este cha&lt;bon si se va al carajo.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Amor a primera vista 
+<br />
+
+<br />
+Amor a primera vista
+<br />
+amor sincero, sin distracciones
+<br />
+te vi en aquel boliche
+<br />
+y comenzaron mis ilusiones,
+<br />
+
+<br />
+no puedo decirte nada
+<br />
+cuando estás cerca yo me bloqueo
+<br />
+pero cuando tome fuerzas
+<br />
+voy a mostrarte mi amor entero
+<br />
+
+<br />
+frente a mi casa te veo pasar
+<br />
+todas las mañanas de este cruel verano
+<br />
+y en mis sueños te veo desnuda
+<br />
+todas estas noches que me toco en vano
+<br />
+
+<br />
+no paro de imaginar
+<br />
+
+<br />
+Si te agarro, te parto en ocho
+<br />
+te dejo el culo como un bizcocho
+<br />
+chupando whisky, me pongo en pedo
+<br />
+y pleno gozo te meto un dedo
+<br />
+
+<br />
+en la primera que mes bola
+<br />
+te dejo el orto como una aureola
+<br />
+si me miras sin decirme nada
+<br />
+voy a garcharte así de parada
+<br />
+
+<br />
+Si te agarro, te parto en ocho
+<br />
+te dejo el culo como un bizcocho
+<br />
+y si llegás a tocarme ésta
+<br />
+te ensarto con la bombacha puesta
+<br />
+
+<br />
+ya me imagino sin disimulo
+<br />
+pasas por casa a entregarme el culo
+<br />
+y me lo dijo tu mejor amiga
+<br />
+morfas más pijas que triples de miga</td>	</tr></table></center>
+<br />
+
+<br />
+jajajjaja
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Mi Linda Carlita 
+<br />
+
+<br />
+La conocí una noche de luna llena
+<br />
+ella era tan linda, ella era tan buena
+<br />
+quedé como loco con su mirada
+<br />
+tan dulce, tan tierna, tan desenfrenada
+<br />
+
+<br />
+en una esquina nos abrazamos
+<br />
+y entre caricias nos entregamos
+<br />
+pensé que el amor había llegado
+<br />
+pero en verdad estaba equivocado
+<br />
+
+<br />
+y que perdí, así como pierdo las mejores cosas
+<br />
+yo sé muy bien, no todo en la vida es color de rosas
+<br />
+
+<br />
+Cómo te extraño, mi amor, mi linda Carlita
+<br />
+tirabas la goma como una loquita
+<br />
+en el rosedal pasamos mil noches
+<br />
+garchando a lo loco dentro de mi coche
+<br />
+
+<br />
+qué tiempos aquellos llenos de locura
+<br />
+todo era diez puntos pero de sutura
+<br />
+recuerdo tu culo, redondo y macizo
+<br />
+pidiéndome a gritos méteme el chorizo
+<br />
+
+<br />
+Movéte, por unos manguitos te entrega el ojete
+<br />
+es fija, si andas con monedas te chupa la pija
+<br />
+y dale, y dale Carla, dale Carlita
+<br />
+así termina esta canción
+<br />
+andad a la puta que te reparió</td>	</tr></table></center>
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">Puta y Reputa 
+<br />
+
+<br />
+Te extraño, mi niña hermosa
+<br />
+te quise tanto como a ninguna
+<br />
+mi casa ya no es la misma
+<br />
+es como el cielo sin sol ni luna
+<br />
+
+<br />
+mi vida no vale nada
+<br />
+con tu partida se fue mi calma
+<br />
+mi corazón destrozado
+<br />
+quedó tan ciego como mi alma
+<br />
+
+<br />
+cuando lo supe no lo pude creer
+<br />
+que una mañana te fuiste con él
+<br />
+tengo en las noches tanta soledad
+<br />
+que sólo quiero cantar
+<br />
+
+<br />
+Qué puta, barata resultaste ser
+<br />
+te arde la argolla de tanto cojer
+<br />
+que tiene ese forro que no tenga yo
+<br />
+decímelo ya por favor
+<br />
+
+<br />
+Qué puta, barata que es esta mujer
+<br />
+te arde el esfinter de tanto garchar
+<br />
+y si los encuentro alguna vez
+<br />
+del orto los voy a ensartar
+<br />
+
+<br />
+bailando reage, tomando alcohol
+<br />
+un rastafari, me comentó
+<br />
+allá en Jamaica, este verano
+<br />
+chupaste más pija que helado de limón
+<br />
+
+<br />
+y vamos, y vamos, vamos a garchar
+<br />
+que no se detenga este ritmo infernal
+<br />
+vamos, y vamos todos a cojer
+<br />
+para olvidar, para olvidar
+<br />
+qué puta que esta mujer</td>	</tr></table></center>
+<br />
+
+<br />
+jajjaja, este chabon posta es demasiado...
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">&#932;e Voy a Romper el Orto 
+<br />
+
+<br />
+Esta semana será
+<br />
+la más feliz de toda mi vida
+<br />
+será tan inolvidable
+<br />
+que voy a llorar de tanta alegría
+<br />
+
+<br />
+mi amor, sé que vas a ser
+<br />
+en todas las cosas siempre la primera
+<br />
+despacio te vas a ir abriendo
+<br />
+como hacen las flores en la primavera
+<br />
+
+<br />
+entonces llegado el momento
+<br />
+sabrás todo lo que yo siento
+<br />
+mi sueño yo pienso contarte
+<br />
+y cuál es la forma correcta de amarte
+<br />
+
+<br />
+y voy a decirte al oído
+<br />
+las cosas más lindas que hayas escuchado
+<br />
+quiero sentir que estoy vivo
+<br />
+y hacerte el amor como un desesperado
+<br />
+
+<br />
+Te voy a romper el orto
+<br />
+te voy a romper el orto
+<br />
+y de tanto treque treque
+<br />
+te va a salir humo del ojete
+<br />
+
+<br />
+te voy a romper el orto
+<br />
+te voy a romper el orto
+<br />
+y cuando vos lo dispongas
+<br />
+te vas a comer esta flor de poronga</td>	</tr></table></center><br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 19 May , 2008 2:21 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15331"></a>tatox</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/63215256048abb01fed6a8.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 06 Feb 2008<br />Mensajes: 777<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15331.html#15331"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15331"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">meshuggah. humiliative. 
+<br />
+
+<br />
+<img src="images/smiles/icon_twisted.gif" alt="Twisted Evil" border="0" /><br /><br />_________________<br />AWA Style - El Encantador de Serpientes - Pedi info a  <a href="mailto:quieroser@encantadordeserpientes.cx">quieroser@encantadordeserpientes.cx</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 12 Jun , 2008 3:25 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm230.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=230"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15349"></a>mersault</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 724<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15349.html#15349"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15349"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NWA! NWA! NWA!
+<br />
+
+<br />
+A bitch is a bitch
+<br />
+
+<br />
+[Eazy E]
+<br />
+Oh shit. I guess there's one less bitch you gotta worry about.
+<br />
+
+<br />
+[Narrator]
+<br />
+Let's describe a certain female. A female with the disease of character
+<br />
+and attitude. If you will a snob. However in a view of NWA...
+<br />
+
+<br />
+[Ice Cube]
+<br />
+A bitch is a bitch (bitch)
+<br />
+So if I'm poor or rich (word up)
+<br />
+I talk in the exact same pitch
+<br />
+Now the title bitch don't apply to all women
+<br />
+But all women have a little bitch in 'em (yeah)
+<br />
+It's like a disease that's plagues their character
+<br />
+Takin' the women of America (yeah)
+<br />
+And it starts with a letter B
+<br />
+It makes a girl like that think she better than me (bitch)
+<br />
+See, some get mad and some just bury
+<br />
+But, yo, if the shoe fits wear it (wear it)
+<br />
+It makes 'em go deaf in the ear
+<br />
+That's why when you say 'hi' she won't say 'hi'
+<br />
+Are you the kind that think you're too damn fly?
+<br />
+Bitch eat shit 'n die (ha, ha)
+<br />
+Ice cube comin' at you at crazy pitch
+<br />
+(Why?) I think a bitch is a bitch
+<br />
+
+<br />
+'Who the fuck you think you're callin' a bitch you little ? muthafucka?
+<br />
+I dunno who the fuck you think you're talkin' to. Let me tell you one
+<br />
+muthafuckin' thang, I'm not a...' [Eazy E] 'Bitch, shut the fuck up.'
+<br />
+
+<br />
+Yo, you can tell a girl that's out for the money (How?)
+<br />
+She look good and the bitch won't phony
+<br />
+She ain't no dummy she's right the ...
+<br />
+Yo, bitch fuck when I'm driving
+<br />
+See a young nigga that's striving
+<br />
+You're thru' without a BMW
+<br />
+That's why a bitch is a bitch
+<br />
+I guess, or ether P-M-S
+<br />
+Here, test the girl that's kinda snobby (a'ight)
+<br />
+And I bet you dis a nigga is her hobby
+<br />
+And after she finished the test
+<br />
+Write today a B-I-T-C-H
+<br />
+And watch her get mad 'cause she know it's true (she know it)
+<br />
+But a nigga like me, I say 'fuck you'
+<br />
+Do like Ice Cube, slam her ass in a ditch (slam her ass)
+<br />
+'Cause a bitch is a bitch
+<br />
+
+<br />
+'Why I gonna be a bitch?'
+<br />
+'I ain't call you no bitch. If you'd listen to a goddamn song it'd tell
+<br />
+you what a bitch is.'
+<br />
+'Fuck the song 'cause I'm not no muthafuckin' bitch.'
+<br />
+'I didn't say you was a bitch.'
+<br />
+'Fuck you, punk-ass nigga!'
+<br />
+'Fuck you, bitch!
+<br />
+'Fuck you! Who the fuck you think you are?
+<br />
+'Fuck you! Suck my dick, bitch!
+<br />
+
+<br />
+I once knew a bitch who got a slack
+<br />
+'Cause she playing me like she was all that
+<br />
+A bitch can be your best friend talking behind your back (yeah)
+<br />
+About who's fucking who and who's getting fat
+<br />
+Look at yourself for me, (look bitch)
+<br />
+Now do you fall in this category?
+<br />
+Or you're the kind that won't bleak
+<br />
+'Cause you don't think, yo, shit stinks
+<br />
+Luckily I haven't had a drink
+<br />
+'Cause I'll down you ass
+<br />
+Than I'll clown your ass
+<br />
+'Cause the niggas I hang with ain't rich (I ain't rich)
+<br />
+We're all saying 'Fuck you bitch!' (Word up!)
+<br />
+Now, what I can do with a hoe like you
+<br />
+Been your ass over then I'm thru'
+<br />
+? that you see Ice Cube ain't takin' no shit
+<br />
+(Why?) 'Cause I think a bitch is a bitch
+<br />
+
+<br />
+[Narrator]
+<br />
+There you have it. The description of a bitch. Now ask yourself,
+<br />
+are they talking about you? Are you that funky, dirty, money-hungry,
+<br />
+scandalous, stuck-up, hair piece contact wearing bitch? Yep, you
+<br />
+probably are.
+<br />
+
+<br />
+Bitch!<br /><br />_________________<br />the more you 'advance as a community PUA' the more mainstream you become... eventually you do exactly what you did as a total AFC but simply without the neediness, and voila... you get girls.
+<br />
+
+<br />
+AWA Style - El Encantador de Serpientes - Pedi info a &lt;quieroser@encantadordeserpientes.cx&gt;<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 12 Jun , 2008 1:35 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm21.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=21"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15382"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15382.html#15382"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15382"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">hace unos dias lime viendo belleza americana. esta la canta mientras esta en el auto (fumandose un porro... el flaco vivencia una especie de liberacion juvenil), despues de la escena de la esposa garchandose al king of states jajajjaja (si no la vieron veanla y miren ese garche)
+<br />
+
+<br />
+lo recomiendo, es re badboy el tema, esta bueno.
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">American woman, stay away from me
+<br />
+American woman, mama let me be
+<br />
+Don't come here hanging around my door
+<br />
+I don't want to see your face no more
+<br />
+I got more important things to do
+<br />
+Than spend my time growin' old with you
+<br />
+Now woman, I said stay away
+<br />
+American woman, listen what I say
+<br />
+
+<br />
+American woman, get away from me
+<br />
+American woman, mama let me be
+<br />
+Don't come here knocking around my door
+<br />
+Don't want to see your shadow no more
+<br />
+Colored lights can hypnotize
+<br />
+Sparkle someone else's eyes
+<br />
+Now woman, I said get away
+<br />
+American woman, listen what I say
+<br />
+
+<br />
+American woman, I said get way
+<br />
+American woman, listen what I say
+<br />
+Don't come here hanging around my door
+<br />
+Don't want to see your face no more
+<br />
+I don't need your war machines
+<br />
+I don't need your ghetto scenes
+<br />
+Colored lights can hypnotize
+<br />
+Sparkle someone else's eyes
+<br />
+Now woman, get away from me
+<br />
+American woman, mama let me be
+<br />
+
+<br />
+Go, gotta get away, gotta get away, now go go go
+<br />
+I'm gonna leave you, woman
+<br />
+Gotta leave you, woman
+<br />
+Bye bye, bye bye
+<br />
+Bye bye, bye bye
+<br />
+You're no good for me
+<br />
+I'm no good for you
+<br />
+Gonna look at you right in the eye
+<br />
+Tell you what I'm gonna do
+<br />
+You know I'm gonna leave
+<br />
+You know I'm gonna go
+<br />
+You know I'm gonna leave
+<br />
+You know I'm gonna go, woman
+<br />
+I'm gonna leave you, woman
+<br />
+Goodbye, American woman</td>	</tr></table></center>
+<br />
+la verdad la parte (sobre todo la parte en la que el flaco presenta la carta en la que explica que hace en su laburo ajjajajajjaja)
+<br />
+
+<br />
+y ahora, temas bajoneros
+<br />
+
+<br />
+estaba leyendo pimp de iceber slim y este tema me pinto postearlo (aunque no aporte al tema minitas, me encanta que le hayan dedicado un tema a una ciudad importante mostrandole que tenian un prostibulo jaja... giles)
+<br />
+
+<br />
+el prostibulo se llama rising sun... de ahi la cancion
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">There is a house in New Orleans
+<br />
+They call the Rising Sun
+<br />
+And it's been the ruin of many a poor boy
+<br />
+And God I know I'm one
+<br />
+
+<br />
+My mother was a tailor
+<br />
+She sewed my new bluejeans
+<br />
+My father was a gamblin' man
+<br />
+Down in New Orleans
+<br />
+
+<br />
+Now the only thing a gambler needs
+<br />
+Is a suitcase and trunk
+<br />
+And the only time he's satisfied
+<br />
+Is when he's on a drunk
+<br />
+
+<br />
+------ organ solo ------
+<br />
+
+<br />
+Oh mother tell your children
+<br />
+Not to do what I have done
+<br />
+Spend your lives in sin and misery
+<br />
+In the House of the Rising Sun
+<br />
+
+<br />
+Well, I got one foot on the platform
+<br />
+The other foot on the train
+<br />
+I'm goin' back to New Orleans
+<br />
+To wear that ball and chain
+<br />
+
+<br />
+Well, there is a house in New Orleans
+<br />
+They call the Rising Sun
+<br />
+And it's been the ruin of many a poor boy
+<br />
+And God I know I'm one</td>	</tr></table></center>
+<br />
+
+<br />
+<center><table width="90%" cellspacing="0" cellpadding="0" align="center" class="quote-table"><tr>	<td width="19" height="19" class="quote-corner"><img src="templates/AcidTech/images/quote_header.gif" width="19" height="19" alt="" /></td>	<td width="100%" align="left" class="quote-header">Cita:</td></tr><tr>	<td class="quote-left"><img src="templates/AcidTech/images/spacer.gif" width="19" height="45" alt="" /></td>	<td class="quote-text">When it's springtime in the Rockies
+<br />
+I am coming back to you
+<br />
+Little sweetheart of the mountains
+<br />
+With your bonny eyes of blue
+<br />
+Once again I'll say I love you
+<br />
+While the birds sing all the day
+<br />
+When it's springtime in the Rockies
+<br />
+In the Rockies, far away
+<br />
+
+<br />
+(repeat twice)</td>	</tr></table></center>
+<br />
+y este tema, es re tranca, si alguien leyo pimp, es el tema que menciona de sus epocas felices (creo que cae en cana, lo escucha y se pone a llorar o algo asi).<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Jue 12 Jun , 2008 8:10 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15415"></a>Augustt</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/103727191348419f27cab74.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 May 2008<br />Mensajes: 106<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15415.html#15415"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15415"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NR y alive.... la onda esa de zamba y de yayo para antes de salir, mas todavia si las escuchas con amigos, te cagas de risa y te pone bien para arriba. 
+<br />
+
+<br />
+Por mi parte, que VIVO escuchando musica, siempre que vuelvo a mi casa a enchularme antes de salir (cosa que dura hasta 2 horas, si hay tiempo) necesito escuchar musica, dejo en el winamp temas que se lo merecen, y ultimamente, no salgo sin escuchar algunos de estos, (aclaro que de muchos la letra nada que ver, ya que en el apuro no le doy bola)
+<br />
+
+<br />
+Tu hermana - emanuel horvilleur
+<br />
+no como -      emanuel tambien
+<br />
+
+<br />
+hot y the best damn thing, las 2 de avril lavigne, sisisi, son de avril lavigne, se la re banda la minita esaa, yo la parto, lo peor es que esos temas los escuche por una pendeja
+<br />
+
+<br />
+harder better faster stronger - daft punk
+<br />
+
+<br />
+Rockin - dj delicious presents phunk  a delic benjamin bates french edit
+<br />
+
+<br />
+live is life d-mode summer 07
+<br />
+
+<br />
+me amo - el cuarteto de nos
+<br />
+
+<br />
+get up - global deejay featuring technotronic
+<br />
+
+<br />
+superstyling - groove armada
+<br />
+
+<br />
+WHAT IS LOVE - haddaway (y bailar como el de la propaganda mientras)
+<br />
+
+<br />
+Los piratas - autenticos decadentes (con amigos)
+<br />
+
+<br />
+body languaje - m.a.n.d.y vs booka shade
+<br />
+
+<br />
+Disco lies - Moby
+<br />
+
+<br />
+New york, new york - Moby
+<br />
+
+<br />
+My chemical romance, pero sin escuchar las letras, porque sino, vas directo a la ventana y haces una demostracio de tus dotes de salto)
+<br />
+
+<br />
+In my arms - Mylo tocadisco mix edit
+<br />
+
+<br />
+Nine in the afternoon - panic! at the disco
+<br />
+
+<br />
+The Only Difference Between Martyrdom And Suicide  Is Press Coverage - Panic at the disco (sisi, el nombre es muy corto)
+<br />
+
+<br />
+Yhe girl you lost to cocaine - Sia (muy bueno)
+<br />
+
+<br />
+Chelsea dagger - The fratellis
+<br />
+
+<br />
+A little more for little you- The hives
+<br />
+
+<br />
+walk idiot walk - the hives
+<br />
+
+<br />
+Hey little world - hives
+<br />
+
+<br />
+Well allright - siis, tambien the hives
+<br />
+
+<br />
+Ramones siempre viene bien
+<br />
+
+<br />
+PORQUE TE VAS - the springlove<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 13 Jun , 2008 1:20 am</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm441.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=441"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15443"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3994<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15443.html#15443"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15443"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">NWA es terrible!! me cago de risa con cualquier canción <img src="images/smiles/icon_lol.gif" alt="Laughing" border="0" /> BITCH! old skool gangsta
+<br />
+
+<br />
+les dejo otra re linda:
+<br />
+
+<br />
+
+<br />
+She Swallowed It
+<br />
+
+<br />
+
+<br />
+Lesson 2 : Gently place the balls into the mouth
+<br />
+and ..
+<br />
+HAMMMMMMMMMMMMMMMMM..
+<br />
+
+<br />
+get it all baby ..
+<br />
+get it all baby ..
+<br />
+get it all baby ..
+<br />
+&quot;what you want me to do with it?&quot;<span style="font-weight: bold">
+<br />
+don't matter just don't bite it</span>
+<br />
+she swallowed it ..
+<br />
+suck this dick for daddy
+<br />
+she swallowed it ..
+<br />
+usin' that lips
+<br />
+she swallowed it ..
+<br />
+it's the world's biggest dick
+<br />
+&quot;what do you want me to do with it?&quot;
+<br />
+don't matter just don't bite it
+<br />
+
+<br />
+Slow is the tempo
+<br />
+Now talkin' about a nympho
+<br />
+So peep it up here goes the info
+<br />
+This is the bitch who did the whole crew
+<br />
+She did it so much we'd make bets on who's the ho's
+<br />
+we'd love to go through
+<br />
+And for the shit that she does give her a drum role
+<br />
+Because the dumb bitch licks out the asshole
+<br />
+And'll let you video tape her
+<br />
+And if you got a gang of niggaz, the bitch would
+<br />
+let you rape her
+<br />
+She likes suckin' on dicks, and lickin' up nut
+<br />
+And she even take de broomstick at the butt
+<br />
+Just to say that she did it with a rapper
+<br />
+But the pussy was more fishy than red snapper
+<br />
+&quot;But how many licks would it take&quot; She asked
+<br />
+&quot;To make MC Ren start gooshin' up vanilla shake&quot;
+<br />
+She took her tongue out her mouth, put it on top
+<br />
+Like a cherry, started movin' it like a snake and
+<br />
+it was very Irresistable
+<br />
+I could'nt pay the bitch to quit
+<br />
+Cuz the ho' was doin' some ole' crazy shit
+<br />
+That made me start havin' a fit'
+<br />
+Cuz the bitch sucks de hellified dick .. [suck this
+<br />
+dick]
+<br />
+
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;What do you want me to do with it?&quot;
+<br />
+Don't matter just don't bite it
+<br />
+She swallowed it .. Get it all baby!
+<br />
+
+<br />
+Now one night night I was at a drive-in
+<br />
+And a car full of niggaz straight drove in
+<br />
+I thought they wuz commin' to start trouble but no
+<br />
+Five niggaz in a bucket with de neighborhood ho'
+<br />
+Now what do you expect they're gonna dogg her like
+<br />
+a doggy
+<br />
+Thirty minutes later and the windowz are all foggy
+<br />
+And I was in my car havin' a fit' cuz de bitch that
+<br />
+I'm with
+<br />
+Sayz no fuckin' on the 1st date shit
+<br />
+Now I'm like - Damn! I wish I was in the bucket
+<br />
+To be with 6th nigga with the ho' and I can fuck it
+<br />
+So I told de bitch I was with that I'm goin' to de
+<br />
+snack bar -
+<br />
+And got de fuck out de car.
+<br />
+Went to the bucket and I looked through the window
+<br />
+It was some niggaz that I knew they let me in yo
+<br />
+And my turn was like next
+<br />
+I could'nt see a face, all I saw was de pussy and
+<br />
+the chest
+<br />
+I wanted to see the face, I felt the order
+<br />
+Peep over the seat - OH SHIT! it's the preacher's
+<br />
+doughter!
+<br />
+And she's only 14 and a ho'
+<br />
+But the bitch sucks dick like a specialized pro
+<br />
+She looked at me, I was surprised
+<br />
+But was it passin' up the chance of my dick gettin'
+<br />
+baptised
+<br />
+I told the bitch to do it quick :
+<br />
+&quot;You little ho' hurry up and suck my dick!&quot;
+<br />
+
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;What do you want me to do with it?&quot;
+<br />
+Don't matter just don't bite it
+<br />
+She swallowed it .. Get it all baby!
+<br />
+
+<br />
+Now I'm a break it down with a fact -
+<br />
+Since the last &quot;Just don't bite it&quot; girls don't
+<br />
+know how to act
+<br />
+Sayin' that they never would suck a dick
+<br />
+But when they've tried it they could'nt quit
+<br />
+Cuz ninty percent of ' the bitches today they love
+<br />
+the shit
+<br />
+And those are the main one's that say they don't do
+<br />
+it
+<br />
+But MC Ren knowz the bitches are used to it
+<br />
+So fellows, next time they try to tell a lie
+<br />
+That they never suck a dick punch the bitch in the
+<br />
+eye
+<br />
+And then the ho' will fall to the ground
+<br />
+Then you'll open up her mouth -
+<br />
+Put your dick in and move the shit around
+<br />
+And she'll catch on and start doin' it on her own
+<br />
+Actin' like she's tryin' to suck a meet off a
+<br />
+chicken bone
+<br />
+And then she won't let go
+<br />
+Because bitches suck nutt out of a dick just like
+<br />
+dreino
+<br />
+Get the last drop, unclogging the pipe
+<br />
+Then the stupid bitch is at that with the same shit
+<br />
+de next night
+<br />
+Because she just can't quit
+<br />
+Cuz she's addicted, addicted, addicted, addicted
+<br />
+she's addicted, addicted, she's addicted to suck a
+<br />
+good dick
+<br />
+
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;What do you want me to do with it?&quot;
+<br />
+Don't matter just don't bite it
+<br />
+She swallowed it .. Get it all baby!
+<br />
+
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;It's the world's biggest dick&quot;
+<br />
+Don't matter just don't bite it
+<br />
+&quot;What do you want me to do with it?&quot;
+<br />
+Don't matter just don't bite it
+<br />
+She swallowed it .. Get it all baby!<br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 13 Jun , 2008 1:25 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15465"></a>Alive</span><br />
+			<span class="posterrank">Moderador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/moderador.png" alt="Moderador" title="Moderador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/171910304148e1e593d6509.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 2357<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15465.html#15465"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15465"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">jajajjajaj, hay gente que tiene mas idea de mode one de lo que uno puede imaginarse<br /><br />_________________<br />&quot;Sitting quietly, doing nothing, spring comes and the grass grows.”
+<br />
+
+<br />
+Days of Being Wild <a href="http://www.youtube.com/watch?v=6jk_lGPP5O0" target="_blank">http://www.youtube.com/watch?v=6jk_lGPP5O0</a><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 13 Jun , 2008 6:20 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm16.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=16"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15485"></a>Spray</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/831704908483f9894186ee.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 12 May 2008<br />Mensajes: 378<br />Ubicación: Almagro, Capital Federal</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15485.html#15485"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15485"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Jajaja... NWA!!! jajaja... qué buena onda!<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Vie 13 Jun , 2008 10:23 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm416.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=416"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="15982"></a>snake</span><br />
+			<span class="posterrank">Player Copado<br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/492673149b9d43671669.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 02 Ene 2008<br />Mensajes: 302<br />Ubicación: Buenos aires</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp15982.html#15982"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=15982"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody"><a href="http://www.youtube.com/watch?v=lAam_B4uHPo&amp;feature=related" target="_blank">http://www.youtube.com/watch?v=lAam_B4uHPo&amp;feature=related</a><br /><br />_________________<br /><span style="color: blue">Si crees que puedes o si crees que no puedes de cualquier forma estás en lo correcto</span>
+<br />
+
+<br />
+<span style="color: orange"><span style="font-style: italic">¿Cómo me vuelvo exitoso con las mujeres en general?
+<br />
+Calle, papá, mucha calle. Field, Field, Field, Field.Rebote tras rebote, éxito tras éxito, frustración, indiferencia, Glory, Doom, vergüenza, cara de piedra.</span></span>Dr Saint<span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mie 18 Jun , 2008 10:34 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm164.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=164"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16410"></a>Nicolas Rodrigo</span><br />
+			<span class="posterrank">Administrador<br /></span>
+			<img src="http://www.clubvenox.es/foro/images/ranks/admin.png" alt="Administrador" title="Administrador" border="0" /><br /><img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/1159147841491d86ebe0943.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 25 Oct 2007<br />Mensajes: 3994<br />Ubicación: Buenos Aires, Argentina</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16410.html#16410"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16410"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Temazo para los guitarristas:
+<br />
+
+<br />
+<a href="http://www.goear.com/listen.php?v=b4c3f77" target="_blank">http://www.goear.com/listen.php?v=b4c3f77</a>
+<br />
+
+<br />
+<img src="images/smiles/icon_smile.gif" alt="Smile" border="0" /><br /><br />_________________<br /><span style="color: yellow"><span style="font-style: italic">La felicidad llega cuando estamos haciendo algo que amamos de verdad y no porque lo que hacemos nos dé riquezas o nos haga una persona destacada.</span></span> Krishnamurti
+<br />
+
+<br />
+<span style="color: yellow"><span style="font-style: italic">&quot;Una aventura es una experiencia de naturaleza arriesgada normalmente compuesta de eventos inesperados&quot;</span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 24 Jun , 2008 2:18 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm38.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=38"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="16437"></a>Rambler</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/197811227486268dbabc9b.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 04 Feb 2008<br />Mensajes: 80<br />Ubicación: mar del plata</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp16437.html#16437"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=16437"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">bueno, ultimamente estoy rollinga (pero sin flequillo, y lo que pueda de limpio) y hay un par de temas de los stones que a mi me ponen...
+<br />
+
+<br />
+LET IT BLEED
+<br />
+
+<br />
+Well, we all need someone we can lean on
+<br />
+And if you want it, you can lean on me
+<br />
+She said, &quot;My breasts, they will always be open
+<br />
+Baby, you can rest your weary head right on me
+<br />
+And there will always be a space in my parking lot
+<br />
+When you need a little coke and sympathy&quot;
+<br />
+Yeah, we all need someone we can dream on
+<br />
+And if you want it, baby, well you can dream on me
+<br />
+Yeah, we all need someone we can cream on
+<br />
+And if you want to, well you can cream on me
+<br />
+I was dreaming of a steel guitar engagement
+<br />
+When you drunk my health in scented jasmine tea
+<br />
+But you knifed me in my dirty filthy basement
+<br />
+With that jaded, faded, junky nurse
+<br />
+Oh what pleasant company
+<br />
+We all need someone we can feed on
+<br />
+And if you want it, well you can feed on me
+<br />
+Take my arm, take my leg, oh baby don't you take my head
+<br />
+Yeah, we all need someone we can bleed on
+<br />
+Yeah, and if you want it, baby, well you can bleed on me
+<br />
+Yeah, we all need someone we can bleed on
+<br />
+Yeah, yeah, and if you want it, baby, why don'cha bleed on me
+<br />
+All over, Ahh, bleed it alright, bleed it alright, bleed it alright
+<br />
+You can bleed all over me
+<br />
+Bleed it alright, bleed it alright, you can be my rider
+<br />
+You can cum all over me
+<br />
+
+<br />
+sino el primer disco de los ratones paranoicos sube el clima enseguida... letras misógenas de temas que he puesto de fondo en previas con chicas y ninguna nunca se quejó
+<br />
+
+<br />
+MOVAMOS
+<br />
+
+<br />
+Quiero ver lo que me dice ese cartel
+<br />
+yo ya lo se
+<br />
+no me dijiste que estabas con el
+<br />
+voy a estar
+<br />
+todo el día en ese lugar
+<br />
+en el auto hay dos chicas mojadas
+<br />
+son negras fumaban ya de acá
+<br />
+no tengo
+<br />
+tiempo para darles mi entrada
+<br />
+tranquila tu padre llegará
+<br />
+
+<br />
+JUANA DE ARCO
+<br />
+
+<br />
+En un lugar azul
+<br />
+donde mujeres bailan blues
+<br />
+arde la llama
+<br />
+del juicio final. 
+<br />
+
+<br />
+No me digas mi amor
+<br />
+ustedes son como el dolor
+<br />
+dame la espalda
+<br />
+y empieza a rogar. 
+<br />
+
+<br />
+A Juana de Arco
+<br />
+la hicieron quemar
+<br />
+su cuerpo desnudo
+<br />
+no pudo escapar. 
+<br />
+
+<br />
+La, la, lara, la. 
+<br />
+La, la, lara, la. 
+<br />
+
+<br />
+CEREMONIA EN EL HALL
+<br />
+
+<br />
+Ceremonia en el hall
+<br />
+hay que ver por donde voy
+<br />
+ceremonia a mil pies
+<br />
+creo que me quedare
+<br />
+hoy que todo se recarga
+<br />
+en mis espaldas
+<br />
+cuando tiende a comenzar a ser normal
+<br />
+el momento en que la vi no me hizo falta
+<br />
+ahora puedo gritar
+<br />
+ceremonia en un bar
+<br />
+no me gusta entregarme
+<br />
+ceremonia a mil pies
+<br />
+creo haberlo visto a aquel
+<br />
+cuando salgo a caminar por la cornisa
+<br />
+mis amigos que me obligan a saltar
+<br />
+esta claro ya no tengo alternativa
+<br />
+que agradable es ser de acá
+<br />
+cuando nadie se hace cargo de mi imagen
+<br />
+los sonidos no me dejan respirar
+<br />
+solamente de pensar en ser amable
+<br />
+me dan ganas de saltar
+<br />
+ceremonia... ceremonia
+<br />
+
+<br />
+y el rock del gato, que ya me pudrió de tanto escucharlo... o me gustas mucho de viejas locas... en fin... ah.. nunca escuchen She´s so cold de los rolling!! y si no averiguen por qué...
+<br />
+
+<br />
+Para empezar la noche con calma, escuchando buena música (siempre hablando de escuchar haciendo una previa solo) hay un disco de Grateful Dead en vivo muy bueno... Europe '72... muy buena musica. Y despues hablando de Grateful, el himno CASEY JONES
+<br />
+
+<br />
+Driving that train, high on cocaine,
+<br />
+Casey jones is ready, watch your speed.
+<br />
+Trouble ahead, trouble behind,
+<br />
+And you know that notion just crossed my mind.
+<br />
+
+<br />
+This old engine makes it on time,
+<br />
+Leaves central station bout a quarter to nine,
+<br />
+Hits river junction at seventeen to,
+<br />
+At a quarter to ten you know its travlin again.
+<br />
+
+<br />
+Driving that train, high on cocaine,
+<br />
+Casey jones is ready, watch your speed.
+<br />
+Trouble ahead, trouble behind,
+<br />
+And you know that notion just crossed my mind.
+<br />
+
+<br />
+Trouble ahead, lady in red,
+<br />
+Take my advice youd be better off dead.
+<br />
+Switchmans sleeping, train hundred and two is
+<br />
+On the wrong track and headed for you.
+<br />
+
+<br />
+Driving that train, high on cocaine,
+<br />
+Casey jones is ready, watch your speed.
+<br />
+Trouble ahead, trouble behind,
+<br />
+And you know that notion just crossed my mind.
+<br />
+
+<br />
+Trouble with you is the trouble with me,
+<br />
+Got two good eyes but you still dont see.
+<br />
+Come round the bend, you know its the end,
+<br />
+The fireman screams and the engine just gleams...
+<br />
+
+<br />
+igual ojo que no tomo merca.. jaja. Pero es un himno... dedicada a Casey Jones, un ferroviario que murió estrellando su tren por no seguir consejos que desvien su camino... igual muy sacada, tengo que dejar de escucharla.. jaja
+<br />
+
+<br />
+Y por supuesto Bob Marley... sobre todo si pitas algo antes de salir...
+<br />
+
+<br />
+En una epoca escuchaba Infame de babasonicos... pero ya no da. Estoy grandecito..jeje<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Mar 24 Jun , 2008 8:42 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm223.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=223"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>     <a href="vm223.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=365&amp;start=30">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=365"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="media-y-sitios-de-interes-vf26.html" class="nav">Media y Sitios de Interés</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav">Ir a página  <a href="anterior-vt365.html?postdays=0&amp;postorder=asc&amp;start=15">Anterior</a>&nbsp;&nbsp;<a href="1-vt365.html?postdays=0&amp;postorder=asc&amp;start=0">1</a>, <a href="2-vt365.html?postdays=0&amp;postorder=asc&amp;start=15">2</a>, <b>3</b>, <a href="4-vt365.html?postdays=0&amp;postorder=asc&amp;start=45">4</a>, <a href="5-vt365.html?postdays=0&amp;postorder=asc&amp;start=60">5</a>, <a href="6-vt365.html?postdays=0&amp;postorder=asc&amp;start=75">6</a>, <a href="7-vt365.html?postdays=0&amp;postorder=asc&amp;start=90">7</a>, <a href="8-vt365.html?postdays=0&amp;postorder=asc&amp;start=105">8</a>&nbsp;&nbsp;<a href="siguiente-vt365.html?postdays=0&amp;postorder=asc&amp;start=45">Siguiente</a></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>3</b> de <b>8</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26"selected="selected">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="27fa96b1a15d7a46bcc9fce17c94f884" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

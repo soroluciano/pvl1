@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="foro gratis, foro php, hospedaje gratis, hosting gratis, crear foro, foro gratuito, crear comunidad">
+<meta name="description" content="--Mucho mas que un simple foro de Seduccion--">
+<meta name="abstract" content="Foro de discusión gratuito.">
+<meta name="revisit-after" content="3 days">
+<meta name="rating" content="General">
+<meta name="author" content="tu-foro-gratis.com">
+<meta name="owner" content="tu-foro-gratis.com">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+
+
+<script>
+
+// Amazing Frameless Popup Window - Version I
+// (C) 2000 www.CodeLifter.com
+// Free for all users, but leave in this  header
+
+// set the popup window width and height
+
+var windowW=310 // wide
+var windowH=220 // high
+
+// set the screen position where the popup should appear
+
+var windowX = 260 // from left
+var windowY = 100 // from top
+
+// set the url of the page to show in the popup
+
+var urlPop = "http://www.tu-foro-gratis.com/ayuda/"
+
+// set the title of the page
+
+var title =  "Ayuda"
+
+// set this to true if the popup should close
+// upon leaving the launching page; else, false
+
+var autoclose = true
+
+// ============================
+// do not edit below this line
+// ============================
+
+s = "width="+windowW+",height="+windowH;
+var beIE = document.all?true:false
+
+function openFrameless(urlPop){
+  if (beIE){
+    NFW = window.open("","popFrameless","fullscreen,"+s)     
+    NFW.blur()
+    window.focus()       
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+    var frameString=""+
+"<html>"+
+"<head>"+
+"<title>"+title+"</title>"+
+"</head>"+
+"<frameset rows='*,0' framespacing=0 border=0 frameborder=0>"+
+"<frame name='top' src='"+urlPop+"' scrolling=auto>"+
+"<frame name='bottom' src='about:blank' scrolling='no'>"+
+"</frameset>"+
+"</html>"
+    NFW.document.open();
+    NFW.document.write(frameString)
+    NFW.document.close()
+  } else {
+    NFW=window.open(urlPop,"popFrameless","scrollbars,"+s)
+    NFW.blur()
+    window.focus() 
+    NFW.resizeTo(windowW,windowH)
+    NFW.moveTo(windowX,windowY)
+  }   
+  NFW.focus()   
+  if (autoclose){
+    window.onunload = function(){NFW.close()}
+  }
+}
+
+</script>
+
+
+
+<link rel="top" href="./index.php" title="Índice del Foro *Proyecto Vagner Lover*" />
+<link rel="search" href="./search.php" title="Buscar" />
+<link rel="help" href="./faq.php" title="F.A.Q." />
+<link rel="author" href="./memberlist.php" title="Lista de Miembros" />
+<link rel="prev" href="viewtopic.php?t=27&amp;view=previous" title="Ver tema anterior" />
+<link rel="next" href="viewtopic.php?t=27&amp;view=next" title="Ver siguiente tema" />
+<link rel="up" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=1" title="Presentaciones y Activaciones de cuenta" />
+<link rel="chapter forum" href="viewforum.php?f=2" title="Normas del Foro" />
+<link rel="chapter forum" href="viewforum.php?f=7" title="Dudas y Sugerencias sobre el Foro" />
+<link rel="chapter forum" href="viewforum.php?f=42" title="Novatos" />
+<link rel="chapter forum" href="viewforum.php?f=43" title="Treasure Chest" />
+<link rel="chapter forum" href="viewforum.php?f=28" title="Misiones" />
+<link rel="chapter forum" href="viewforum.php?f=5" title="Mystery Method" />
+<link rel="chapter forum" href="viewforum.php?f=23" title="Rutinas y Tests" />
+<link rel="chapter forum" href="viewforum.php?f=4" title="Direct Game" />
+<link rel="chapter forum" href="viewforum.php?f=24" title="Openers" />
+<link rel="chapter forum" href="viewforum.php?f=22" title="Natural Game" />
+<link rel="chapter forum" href="viewforum.php?f=32" title="Inner Game" />
+<link rel="chapter forum" href="viewforum.php?f=33" title="Phone Game" />
+<link rel="chapter forum" href="viewforum.php?f=26" title="Media y Sitios de Interés" />
+<link rel="chapter forum" href="viewforum.php?f=34" title="Traducciones" />
+<link rel="chapter forum" href="viewforum.php?f=8" title="General de Relaciones" />
+<link rel="chapter forum" href="viewforum.php?f=9" title="General de Seducción" />
+<link rel="chapter forum" href="viewforum.php?f=12" title="Field Report" />
+<link rel="chapter forum" href="viewforum.php?f=18" title="Cyber FR" />
+<link rel="chapter forum" href="viewforum.php?f=35" title="Historias de Vida" />
+<link rel="chapter forum" href="viewforum.php?f=25" title="Sexualidad" />
+<link rel="chapter forum" href="viewforum.php?f=13" title="Salidas" />
+<link rel="chapter forum" href="viewforum.php?f=19" title="Conociendo gente cerca de donde vivís" />
+<link rel="chapter forum" href="viewforum.php?f=40" title="Venue Guide" />
+<link rel="chapter forum" href="viewforum.php?f=3" title="Programación Neuro-Lingüistica" />
+<link rel="chapter forum" href="viewforum.php?f=21" title="Estilo y Moda" />
+<link rel="chapter forum" href="viewforum.php?f=27" title="Fotografía" />
+<link rel="chapter forum" href="viewforum.php?f=37" title="Hobbys" />
+<link rel="chapter forum" href="viewforum.php?f=6" title="Varios" />
+<link rel="chapter forum" href="viewforum.php?f=11" title="Magia" />
+<link rel="chapter forum" href="viewforum.php?f=38" title="Olimpiadas PVL" />
+<link rel="chapter forum" href="viewforum.php?f=30" title="Cyber-Games" />
+<title>*Proyecto Vagner Lover* :: Ver tema - Kamasutra</title>
+<link rel="stylesheet" href="templates/AcidTech/AcidTech.css" type="text/css">
+<script language="javascript" type="text/javascript" src="templates/AcidTech/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="templates/AcidTech/formStyle.js"></script>
+<link rel="icon" href="templates/AcidTech/images/favicon.ico" />
+</head>
+<body>
+<a name="top"></a>
+<img id="formStyleTestImage" src="templates/AcidTech/images/spacer.gif" />
+<table width="800" cellspacing="0" cellpadding="0" border="0" align="center" id="maintable">
+<tr>
+	<td valign="top" class="content-row"><table border="0" width="100%" cellspacing="0" cellpadding="0" id="logotable">
+	<tr>
+		<td align="center" class="logorow1"><div class="logorow2"><a href="/"><img src="logos/proyectovagnerlover.tu-foro-gratis.com/proyectovagnerlover.jpg" border="0" /></a>
+ </div></td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" id="buttonstable">
+	<tr>
+		<td align="center" valign="middle" width="100%" id="header-buttons">
+			 
+			<a href="profile.php?mode=register">Regístrese</a> &#8226; 
+			 
+			 
+			<a href="search.html">Buscar</a> &#8226; 
+			<a href="faq.html">F.A.Q.</a> &#8226; 
+			<a href="memberlist.html">Lista de Miembros</a> &#8226; 
+			<a href="groupcp.php">Grupos de Usuarios</a> &#8226; 
+			<a href="login.php">Conectarse</a> 
+		</td>
+	</tr>
+	</table>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="content">
+	<tr>
+		<td class="content" valign="top">
+
+	</br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Top
+google_ad_channel = "0429936193";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br><table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" colspan="2"><a class="maintitle" href="kamasutra-vt27.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Kamasutra</a><br />
+	  <span class="gensmall"><b></b><br />
+	  &nbsp; </span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0">
+  <tr> 
+	<td align="left" valign="bottom" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=27"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="sexualidad-vf25.html" class="nav">Sexualidad</a></span></td>
+	 <td align="right" valign="middle" nowrap="nowrap"><span class="gensmall"><a href="ver-tema-anterior-vt27.html?view=previous">Ver tema anterior</a><br /><a href="ver-siguiente-tema-vt27.html?view=next">Ver siguiente tema</a></span></td>
+  </tr>
+</table>
+
+<table class="forumline" width="100%" cellspacing="0" cellpadding="3">
+<thead>
+	<caption><table border="0" cellspacing="0" cellpadding="0" width="100%" class="forumheader">
+	<tr>
+		<td align="left" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_left.gif" width="25" height="27" alt="" /></td>
+		<td align="center" class="forumheader-mid"><a href="kamasutra-vt27.html?start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">Kamasutra</a></td>
+		<td align="right" valign="bottom" width="25"><img src="templates/AcidTech/images/hdr_right.gif" width="25" height="27" alt="" /></td>
+	</tr></table></caption>
+</thead>
+<tbody>
+	 
+	<tr>
+		<th class="thLeft" width="150" height="26" nowrap="nowrap">Autor</th>
+		<th class="thRight" nowrap="nowrap">Mensaje</th>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="64"></a>loverstar</span><br />
+			<span class="posterrank"><br /></span>
+			<br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 22 Oct 2007<br />Mensajes: 91<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp64.html#64"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> Kamasutra</span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=64"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">POSTURAS SEXUALES
+<br />
+
+<br />
+Esto lo saque de un blog que tiene una mina 
+<br />
+
+<br />
+ Cara a cara Postura clásica y universal, pero no por eso aburrida, el cara a cara permite una infinidad de variantes para hacerla más atractiva y excitante. La movilidad de las manos, la cercanía de los rostros y la comodidad de los cuerpos son las ventajas que la hicieron famosa. No hay que temer probar nuevos tipos de contacto durante el coito: que ella toque los glúteos y el ano de su compañero, que él frote el clítoris de la mujer o que ella misma lo haga, que las piernas de ambos estén más cerradas para sentir cierta dificultad en la penetración.... Es una posición que muchos identifican con el amor y el romance, los comienzos de una pareja, la adolescencia... pero vale la pena experimentarla en todas las etapas de la vida sexual y sacarle el jugo a sus ventajas.
+<br />
+
+<br />
+El arco Variante del &quot;Cara a cara&quot;, el arco es una posición que, a través de una pequeña variante, modifica las sensaciones al extremo. La mujer permanece acostada boca arriba con las piernas abiertas y flexionadas, apoyando sus brazos detrás de los hombros. Cuando su compañero esté listo para penetrarla, eleva sus caderas y se posa sobre las piernas flexionadas del compañero. El placer que ella recibe se centra en la penetración profunda y en la particularidad de sentir toda la zona vaginal y abdominal envuelta de la piel del hombre. El cansancio que se experimenta al mantener la posición se ve recompensado con la potencia del orgasmo que puede provocar.
+<br />
+
+<br />
+Clásica Mujer dominanteEsta postura clásica también se realiza con la mujer en la posición dominante, lo que resulta muy excitante para muchos ya que modifica sustancialmente lo tradicional en la &quot;Cara a cara&quot; que es el hombre sobre la mujer. De esta forma ella puede frotar su clítoris en el vientre de su compañero con más facilidad y según su antojo. Es ideal para las mujeres a las que les cuesta llegar al orgasmo y necesitan una estimulación muy directa del clítoris y los labios vaginales. Además el hombre puede tocar impunemente los glúteos de su compañera, meter sus dedos en el ano de ella y atraerla hacia su cuerpo con fuerza tomándola de las nalgas.
+<br />
+
+<br />
+Profundidad Esta es una posición de penetración total, de allí su nombre. Con las piernas elevadas y abiertas, ella aguarda a que su compañero introduzca el pene en su vagina para calzar sus piernas en los hombros de él, que apoyará sus manos para regular el movimiento. A muchas mujeres puede parecerles complicada, incómoda o dolorosa la visualización de esta postura, pero vale la pena probarla porque ofrece la penetración absoluta y un contacto genital único: los testículos se posan suavemente entre los glúteos y el clítoris se encuentra presionado por la abertura de las piernas. La dificultad para besarse y la distancia de los rostros pueden ser ampliamente excitantes para ambos.
+<br />
+Deleite Ella se arrima al borde de la cama o de una silla. El se arrodilla para dejar su pene a la misma altura que la vagina de ella, que se abre de piernas para recibir el sexo de su compañero y echar su cuerpo para atrás en una sutil relajación. Al mismo tiempo, el cuerpo de él es envuelto por las piernas de ella mientras se ocupa de marcar el ritmo de la penetración.
+<br />
+
+<br />
+El abrazo La pareja está de pie, desnuda y enfrentada. Ella trepa a su compañero por los hombros y abraza su cuerpo con las piernas. El toma a la mujer de los glúteos y la atrae a su cuerpo para penetrarla. El abrazo total es parte de un sexo pasional y creativo, donde el contacto corporal es muy completo. El ritmo del coito puede ser de dos maneras: de arriba hacia abajo o de atrás para adelante, dependiendo de la intensidad de placer que ambos experimenten con cada opción.
+<br />
+
+<br />
+La butaca Recostado sobre una almohada o almohadón confortable, el hombre se sienta con las piernas flexionadas y un poco abiertas. Esta posición permite la postura que consiste en que ella se siente cómodamente en el espacio que él forma con su cuerpo. Con la ayuda de sus manos, el hombre acomoda a su compañera en su erección, controlando ambos el ritmo y la intensidad de la penetración. Las piernas de ella se apoyan suavemente en los hombros del hombre, quien tiene su cabeza atrapada y envuelta en los muslos de su compañera. El hombre puede tocar el clítoris de ella al tiempo que la sostiene de la cintura con fuerza. La dificultad que reside en acercar los rostros y lo osado de la propuesta, convierten a &quot;La butaca&quot; en una postura diferente y extremadamente sensual.
+<br />
+
+<br />
+Sorpresa Esta postura es ideal para los amantes del sexo más salvaje y primitivo. El hombre, de pie, toma a la mujer por detrás y la penetra tomándola de la cintura. Ella, relaja todo su cuerpo conforme la gravedad hasta apoyar sus manos en el piso. El hombre &quot;sorprende&quot; a la mujer por detrás y marca la cadencia del coito. Para ella, el placer se concentra en el ángulo de abertura de la vagina que, al ser limitado, provoca una sensación de estrechez muy placentera para muchas mujeres. Para él, la sensación más poderosa se expande desde el glande, que entra y sale de la abertura vaginal a su antojo y acaricia el clítoris en las salidas más audaces. Además, el campo visual del hombre abarca el ano, los glúteos y la espalda, zonas altamente erógenas para muchos. La dominación que él ejerce y la relajación total de ella pueden favorecer el jugueteo del hombre con el ano de ella: introducir un dedo durante el coito puede ser enormemente excitante.
+<br />
+
+<br />
+La carretilla Al borde de la cama y con los antebrazos apoyados, la mujer se dispone a ser &quot;levantada&quot; de las piernas por el hombre, quien de pie detrás de ella, la penetra sosteniéndola de los muslos. El estímulo y el placer se concentran en los genitales de ambos, pero es el hombre quien lleva el ritmo atrayendo el cuerpo de ella hacia el suyo. La variedad de movimientos y sensaciones que permite la postura es asombrosa: circulares, ascendentes y descendentes, con las piernas de ella más cerradas o bien abiertas... 
+<br />
+El trapecio El hombre se sienta con las piernas abiertas y su compañera (ya penetrada) arriba de él. Tomándola de las muñecas, ella se va relajando hacia atrás hasta caer por completo: debe estar súper relajada y entregada a la fuerza de su compañero que la atrae a su cuerpo con sus brazos provocando la embestida necesaria para el coito. Es una postura complicada ya que requiere la liviandad de la mujer, bastante equilibrio de ambos y la fuerza y habilidad del hombre. Ideal para cambiar la rutina y probar nuevas emociones... 
+<br />
+
+<br />
+El tornillo Nada más recomendable para una mujer con dificultades para llegar al orgasmo que las posturas que presionan el clítoris mientras la vagina es penetrada. En &quot;El tornillo&quot; esto se cumple a rajatabla. Ella se acuesta en el borde de la cama y tiende sus piernas flexionadas a un costado de su cuerpo (cada mujer sabrá cuál cuál de los dos lados le resulta más confortable). Esto permite mantener el clítoris atrapado entre sus mejores aliados para llegar al preciado orgasmo: los labios vaginales. La mujer puede contraer y relajar toda la zona, mientras él la penetra arrodillado frente a ella y tocando sus pechos. Un manjar.
+<br />
+
+<br />
+La fusión Para esta postura, el hombre se sienta echando su cuerpo levemente hacia atrás y apoyando sus manos al costado del cuerpo. Las piernas pueden estirarse o flexionarse según la comodidad que se disponga y la cabeza puede estar relajada. La mujer, asumiendo el rol activo de la ocasión, pasa sus piernas por encima de su compañero y apoya sus brazos atrás del cuerpo. La estimulación previa debe ser intensa, ya que durante la penetración esta postura impide el acercamiento manual y el contacto de las bocas. La mujer marca el ritmo o se pacta un encuentro pene-vagina con un movimiento de ambos hacia el centro. De cualquiera de las dos formas, es esencial que el clítoris aproveche los impactos con el cuerpo de él. La mirada tiene un componente fundamental y la palabra puede ser un increíble arma para gozar la fusión por completo.
+<br />
+
+<br />
+La fusión 2 Si el hombre se relaja y apoya todo su cuerpo y la mujer se incorpora levemente, la fusión adquiere una variante donde la penetración es más profunda. El ritmo lo sigue llevando ella y el movimiento que sale con más facilidad es el arriba-abajo que la mujer debe realizar sobre su compañero. Las manos de ella pueden tocar el pecho de él o tomar su pene como si lo masturbara para aumentar el placer de ambos.
+<br />
+La somnolienta La mujer se tiende de costado y el hombre se ubica en su espalda para penetrarla. Ella estira una pierna hacia atrás y la enrosca en la cintura de él. Ideal para hombres dotados y mujeres flexibles, &quot;la somnolienta&quot; cumple varios anhelos de las mentes fantasiosas: en primer lugar, que ella esté de espaldas a él, y al mismo tiempo acceda a su rostro y cuello. Además, que él tenga cómodo acceso al clítoris y los pechos de su compañera. La apertura de la pierna posterior de ella para recibir al pene y el abrazo de esa misma pierna alrededor del compañero es quizás lo más sexy de esta postura. Anímate!
+<br />
+
+<br />
+La hamaca El hombre está sentado (preferentemente en una superficie dura, no la cama), con las piernas flexionadas y se toma la parte posterior de sus rodillas. De esta manera, recibe a la mujer que se hace penetrar acomodándose en el espacio que queda entre las piernas de él y su tronco. El presiona con las rodillas el cuerpo de su compañera, la atrae hacia el suyo provocando el vaivén de ambos mientras, por ejemplo, le besa los pechos que están a la altura de su rostro. Una sensación única que recuerda el tierno ir y venir de las hamacas de la infancia.
+<br />
+
+<br />
+El espejo Ella se acuesta de espaldas, boca arriba. Levanta sus piernas y deja que él las sostenga arrodillado al final de su cuerpo y apoyando el otro brazo en el piso. El hombre penetra, domina y posee elcontrol. La postura permite variar el sentido de la penetración y la apertura de las piernas. Los rostros no pueden acercarse y las manos poco pueden hacer en esta posición, lo cual genera una ansiedad sumamente excitante: ambos cuerpos corren juntos la carrera para llegar al orgasmo y reflejan en el otro los más variados gestos de placer y lujuria. 
+<br />
+
+<br />
+El moldeCon las piernas juntas y recogidas (para que presionen bien al pene), la mujer se tiende de costado y relaja su cabeza hacia atrás mientras él la penetra, ya sea por la vagina o por el ano (excelente posición para sexo anal) Los movimientos deben ser suaves y coordinados y la penetración lenta y profunda: ambos cuerpos se amoldan como dos piezas perfectas de un rompecabezas... &quot;El molde&quot; es ideal para mujeres que tienen problemas en alcanzar el orgasmo y/o gustan de causar la fricción del clítoris durante el coito: las piernas juntas logran este efecto tan placentero: aprovéchalo.
+<br />
+
+<br />
+La amazona En este caso, es el hombre quien se relaja y se acuesta boca arriba, con las piernas levemente abiertas y flexionadas hacia su pecho. La erección la espera a ella, que se acomoda en cuclillas amoldándose a la postura adoptada por él. La mujer se &quot;sienta&quot; literalmente en el pene de su compañero. Debe hacerlo lentamente. Sus muslos impulsarán todo el movimiento que necesita esta postura, donde la penetración se da en sentido arriba-abajo. Sólo apta para espíritus arriesgados y mentes abiertas, &quot;La amazona&quot; es la mujer que cabalga a su hombre de la manera más salvaje y primitiva.
+<br />
+
+<br />
+La libélula Ambos tendidos de costado, en un lugar cómodo y flexible, como la cama. Ella de espaldas a él, los cuerpos amoldados... En un alarde de destreza, la mujer pasa su pierna externa flexionada abriendo la puerta al placer: el hombre la penetra haciendo palanca con la pierna de ella, que se apoya en la cadera de él. Los secretos que el hombre puede propiciarle a su compañera por la cercanía de su oreja son el condimento perfecto para alcanzar el máximo de placer. La penetración llega hasta la mitad del camino, por lo que el goce viene de la mano del deseo de que se haga profunda y estalle en el orgasmo más excitante...
+<br />
+
+<br />
+El sometido El hombre se acuesta cómodamente entregando su placer a la voluntad de su compañera. Aprovechar este juego de sometimiento masculino puede ser un estimulante total para ambos: el encuentro puede empezar con caricias y besos de ella a él, que permanece siempre en la misma posición, para terminar en la penetración profunda que permite la posición, donde ella se coloca de espaldas y controla los movimientos ayudándose de los brazos. Muy erótico para el hombre resulta que ella asome su rostro por sobre su hombro. Además, el hombre tiene un fácil acceso al ano y los glúteos de su compañera, quien puede disminuir la velocidad de los movimientos para disfrutar del estímulo anal o de que su pareja toque sus pechos.
+<br />
+
+<br />
+El sometido 2 Otra forma de probar esta postura es que la mujer extienda su cuerpo hacia atrás, apoye sus brazos en los de su compañero y extienda sus piernas hacia adelante. De esta manera, el hombre podrá llegar a sus pechos con facilidad y la mujer podrá apoyar sus glúteos en el vientre de su compañero y realizar movimientos circulares. El pene no puede penetrar tanto en la vagina, lo cual puede ser sumamente excitante para ambos.
+<br />
+
+<br />
+La catapulta Elevar las caderas, en el caso de las mujeres, es una valiosa fuente de placer, ya que pone en contacto con el cuerpo del hombre áreas de su cuerpo que, en posiciones más tradicionales, no se tocan. En este caso, el hombre se arrodilla y recibe la vagina de su compañera dejando que ella apoye los glúteos en sus muslos. La mujer puede extender sus piernas en el torso del varón o flexionarlas apoyando las plantas de los pies en su pecho. El hombre tiene fácil llegada al clítoris, por lo que puede estimular la zona con las manos y mirar la vagina en primer plano. El ritmo lo marcan juntos, acorde al deseo de ambos y a la flexibilidad de la mujer.
+<br />
+
+<br />
+La doma El hombre cómodamente sentado recibe a su compañera que se encaja a su cuerpo sentándose también sobre la erección de él. La mujer puede hacerse desear tomando el pene con la mano y posándolo sobre su vagina haciendo movimientos suaves sobre ella, pero sin introducirlo. El hombre puede imponer su voluntad presionando a la mujer hacia su miembro lentamente, mirándola a los ojos. La pasión del abrazo, los juegos de lengua y las espaldas de ambos al alcance de la mano para causar escalofríos en el otro son algunas de sus bondades. La doma puede ser un camino hacia un orgasmo intenso e inolvidable.
+<br />
+
+<br />
+La doma 2 La mujer también puede &quot;domar&quot; a su potro colocándose de espaldas a él y marcando el ritmo apoyando sus pies en el piso. El, a su vez, puede tocar sus pechos, besar su cuello y tirar del cabello de su compañera mientras ella se mueve. El ángulo de visión que ofrece esta variante es uno de los más excitantes para el hombre, ya que permite ver en primer plano cada embestida que realiza su compañera.
+<br />
+
+<br />
+Variante de La medusa Si el hombre está dotado de flexibilidad y resistencia, esta posición tiene una variante muy atractiva para los amantes del balanceo durante el coito. En cuclillas, el hombre recibe a la mujer preparado para quedar realmente extasiado: sus movimientos pueden imitar los de una hamaca, yendo de atrás para adelante con los pies bien apoyados en el piso. De otra manera, él puede quedarse inmóvil y dejar que ella se mueva hasta el final.
+<br />
+
+<br />
+La posesión Las piernas se entrelazan en esta postura sensual y placentera, donde la mujer permanece acostada y con las piernas abiertas esperando que su compañero la penetre sentado y tomándola de los hombros para regular el movimiento. El pene entra y sale desviando su movimiento hacia abajo, ya que la altura del vientre de la mujer queda levemente más arriba que la del hombre.
+<br />
+
+<br />
+La acrobática No apta para cuerpos entumecidos, esta posición puede parecer incómoda, pero si la flexibilidad lo permite puede resultar muy excitante. El se acuesta relajado y erecto. Ella se coloca de espaldas a él, se hace penetrar, flexiona sus rodillas y se inclina hacia atrás, lentamente para que el pene no se salga de la vagina. Para activar el movimiento necesario para el coito, ella debe levantar su vientre y relajarlo sobre el de su compañero. El tiene fácil acceso al clítoris y los pechos de su compañera. Ella no puede estar más cargada de ocupaciones, con lo cual no tiene más que relajar el resto del cuerpo hasta acabar más cansada que nunca, lo que hace más excitante el orgasmo. Según el Kama Sutra muchas de estas posiciones están tomadas del hatha yoga, por lo cual pueden resultar difíciles para los no iniciados.
+<br />
+furor salvaje También conocida como &quot;perrito&quot;, esta posición es apasionada y salvaje. Ambos en cuatro patas, concentra una cantidad de ventajas que pocas posturas tienen: la comodidad del hombre para tocar el clítoris o el ano de su compañera, la variedad de movimientos que permite, la posibilidad de que la mujer tome con una mano los testículos del hombre y la facilidad para intercalar sexo anal y vaginal. Además, la posición permite al pene &quot;atraparse&quot; entre los glúteos, lo cual suele ser muy excitante para el hombre. En pocas palabras, el encuentro sexual que incluye esta postura suele ser salvaje y hacer furor entre sus protagonistas. Dice el Kama-Sutra: &quot;En el ardor de la cópula, una pareja de amantes enceguece de pasión y prosigue con gran impetuosidad, sin prestar la menor atención a los excesos&quot;.
+<br />
+
+<br />
+El molino Boca arriba, la mujer se tiende con las piernas abiertas a recibir a su compañero que, en esta posición, la penetra de frente a las piernas de ella. La diferencia de sensaciones es notable en este tipo de penetración: el clítoris y los labios vaginales están en pleno contacto con la pelvis y los alrededores del pene del compañero y la penetración más accesible es a través de movimientos circulares. El hecho de no poder verse cara a cara le da un encanto especial a la postura. La novedad de las caricias sorprende gratamente: la mujer puede acariciar las nalgas de su compañero, clavar suavemente sus uñas en la parte posterior a las rodillas, asir los testículos de su compañero. El hombre; chupar los pies de ella, morder sus dedos, acercar su mano a los genitales de ambos que se están fundiendo y tomar su pene para penetrarla mejor.
+<br />
+
+<br />
+saludos<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Lun 22 Oct , 2007 7:47 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm19.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=19"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>      </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+	
+<tr><td class="spaceRow" colspan="10"></br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Inline
+google_ad_channel = "2034776051";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></br></td></tr>
+	<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2991"></a>Diego</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/186218167475eacd18a612.gif" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 27 Nov 2007<br />Mensajes: 161<br />Ubicación: Santa Fe</td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row2" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2991.html#2991"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2991"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">Esta página esta copada, es ilustrativa y pueden captar todos los detalles que se les canten:
+<br />
+
+<br />
+<span style="font-weight: bold"><a href="http://www.kamasutra.to/es" target="_blank">Exposición virtual de esculturas del Kamasutra</a></span>
+<br />
+
+<br />
+<span style="font-weight: bold">Un Abrazo...</span><br /><br />_________________<br /><span style="font-size: 14px; line-height: normal"><span style="font-weight: bold"><a href="http://diariodeunades.blogspot.com" target="_blank">Diario de un AdeS</a></span></span>
+<br />
+
+<br />
+<span style="color: green"><span style="font-size: 14px; line-height: normal"><span style="font-weight: bold">Nihil Fieri Non Potest Nobiscum</span></span></span><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 09 Dic , 2007 8:28 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm109.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=109"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>  <a href="http://diariodeunades.blogspot.com" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm109.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr> 
+		<td width="150" align="center" valign="top" class="row1"><span class="gen">
+			<span class="postername"><a name="2992"></a>Eduz</span><br />
+			<span class="posterrank"><br /></span>
+			<img src="images/avatars/proyectovagnerlover.tu-foro-gratis.com/2904797384720d196ea8c3.jpg" alt="" border="0" /><br /><br />
+			<table border="0" cellspacing="0" cellpadding="2" width="95%">
+			<tr>
+				<td align="left" class="posterprofile">Registrado: 23 Oct 2007<br />Mensajes: 361<br /></td>
+			</tr>
+			</table></span><br />
+		</span></td>
+		<td class="row1" width="100%" height="28" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="100%" style="padding: 3px 0;"><span class="postsubject"><a href="vp2992.html#2992"><img src="templates/AcidTech/images/post_old.gif" width="12" height="9" alt="Mensaje" title="Mensaje" border="0" /></a> </span></td>
+				<td valign="top" nowrap="nowrap"><a href="posting.php?mode=quote&amp;p=2992"><img src="templates/AcidTech/images/lang_english/icon_quote.gif" alt="Responder citando" title="Responder citando" border="0" /></a>   </td>
+			</tr>
+			<tr>
+				<td colspan="2" class="postbody">qué página sinn?<br /><span class="gensmall"></span></td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr> 
+		<td class="postbottom" align="center" valign="middle" nowrap="nowrap">Dom 09 Dic , 2007 8:51 pm</td>
+		<td class="postbottom" width="100%" valign="middle" nowrap="nowrap"><a href="vm32.html"><img src="templates/AcidTech/images/lang_english/icon_profile.gif" alt="Ver perfil del usuario" title="Ver perfil del usuario" border="0" /></a> <a href="privmsg.php?mode=post&amp;u=32"><img src="templates/AcidTech/images/lang_english/icon_pm.gif" alt="Enviar mensaje privado" title="Enviar mensaje privado" border="0" /></a>  <a href="http://eduz7.jottit.com" target="_userwww"><img src="templates/AcidTech/images/lang_english/icon_www.gif" alt="Visitar sitio web del autor" title="Visitar sitio web del autor" border="0" /></a>   <a href="vm32.html"><img src="templates/AcidTech/images/lang_english/icon_msn.gif" alt="MSN Messenger" title="MSN Messenger" border="0" /></a> </td>
+	</tr>
+	<tr> 
+		<td class="spaceRow" colspan="2"><img src="templates/AcidTech/images/spacer.gif" alt="" width="1" height="1" /></td>
+	</tr>
+		<tr align="center"> 
+		<td class="catBottom" colspan="2" height="28"><table cellspacing="0" cellpadding="0" border="0">
+			<tr><form method="post" action="viewtopic.php?t=27&amp;start=0">
+				<td valign="middle"><span class="gensmall">Mostrar mensajes anteriores:&nbsp;</span></td>
+				<td valign="middle"><select name="postdays"><option value="0" selected="selected">Todos los mensajes</option><option value="1">1 Día</option><option value="7">7 Días</option><option value="14">2 Semanas</option><option value="30">1 Mes</option><option value="90">3 Meses</option><option value="180">6 Meses</option><option value="364">1 Año</option></select></td>
+				<td valign="middle"><span class="gensmall">&nbsp;<select name="postorder"><option value="asc" selected="selected">El más antiguo primero</option><option value="desc">El más reciente primero</option></select>&nbsp;</span></td>
+				<td valign="middle"><input type="submit" value="Ir" class="liteoption" name="submit" /></td>
+			</form></tr>
+		</table></td>
+	</tr>
+</tbody>
+</table>
+
+<table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
+  <tr> 
+	<td align="left" valign="middle" nowrap="nowrap"><span class="nav"><a href="posting.php?mode=reply&amp;t=27"><img src="templates/AcidTech/images/lang_english/reply.gif" border="0" alt="Responder al Tema" align="middle" /></a></span></td>
+	<td align="left" valign="middle" width="100%"><span class="nav">&nbsp;&nbsp;&nbsp;<a href="/" class="nav">Índice del Foro *Proyecto Vagner Lover*</a> 
+	  &raquo; <a href="sexualidad-vf25.html" class="nav">Sexualidad</a></span></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Todas las horas están en GMT</span><br /><span class="nav"></span> 
+	  </td>
+  </tr>
+  <tr>
+	<td align="left" colspan="3"><span class="nav">Página <b>1</b> de <b>1</b></span></td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="2" border="0" align="center">
+  <tr> 
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><span class="gensmall"></span><br />
+	  &nbsp;<br />
+	  </td>
+	<td align="right" valign="top" nowrap="nowrap"><form method="get" name="jumpbox" action="viewforum.php" onSubmit="if(document.jumpbox.f.value == -1){return false;}"><table cellspacing="0" cellpadding="0" border="0">
+	<tr> 
+		<td valign="middle" nowrap="nowrap"><span class="genmed">Saltar a:&nbsp;</span></td>
+		<td valign="middle"><select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ forms['jumpbox'].submit() }"><option value="-1">Seleccione un foro</option><option value="-1">&nbsp;</option><option value="-1">Bienvenido</option><option value="-1">----------------</option><option value="1">Presentaciones y Activaciones de cuenta</option><option value="2">Normas del Foro</option><option value="7">Dudas y Sugerencias sobre el Foro</option><option value="-1">&nbsp;</option><option value="-1">Empezando</option><option value="-1">----------------</option><option value="42">Novatos</option><option value="43">Treasure Chest</option><option value="28">Misiones</option><option value="-1">&nbsp;</option><option value="-1">PickUp</option><option value="-1">----------------</option><option value="5">Mystery Method</option><option value="23">Rutinas y Tests</option><option value="4">Direct Game</option><option value="24">Openers</option><option value="22">Natural Game</option><option value="32">Inner Game</option><option value="33">Phone Game</option><option value="26">Media y Sitios de Interés</option><option value="34">Traducciones</option><option value="-1">&nbsp;</option><option value="-1">Dudas y General</option><option value="-1">----------------</option><option value="8">General de Relaciones</option><option value="9">General de Seducción</option><option value="-1">&nbsp;</option><option value="-1">Experiencias</option><option value="-1">----------------</option><option value="12">Field Report</option><option value="18">Cyber FR</option><option value="35">Historias de Vida</option><option value="-1">&nbsp;</option><option value="-1">Sexo</option><option value="-1">----------------</option><option value="25"selected="selected">Sexualidad</option><option value="-1">&nbsp;</option><option value="-1">Juntadas</option><option value="-1">----------------</option><option value="13">Salidas</option><option value="19">Conociendo gente cerca de donde vivís</option><option value="40">Venue Guide</option><option value="-1">&nbsp;</option><option value="-1">Estilo de Vida</option><option value="-1">----------------</option><option value="3">Programación Neuro-Lingüistica</option><option value="21">Estilo y Moda</option><option value="27">Fotografía</option><option value="37">Hobbys</option><option value="-1">&nbsp;</option><option value="-1">Off Topic</option><option value="-1">----------------</option><option value="6">Varios</option><option value="11">Magia</option><option value="-1">&nbsp;</option><option value="-1">Game Olímpico</option><option value="-1">----------------</option><option value="38">Olimpiadas PVL</option><option value="30">Cyber-Games</option></select><input type="hidden" name="sid" value="ca71bbca49d60f04a5aeb1cc2a0ac98e" /></td>
+		<td valign="middle"><input type="submit" value="Ir" class="liteoption" /></td>
+	</tr>
+</table></form>
+<span class="gensmall"><b>No puede</b> crear mensajes<br /><b>No puede</b> responder temas<br /><b>No puede</b> editar sus mensajes<br /><b>No puede</b> borrar sus mensajes<br /><b>No puede</b> votar en encuestas<br /></span></td>
+  </tr>
+</table>
+<br><div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0837526089384640";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+//2007-10-24: TFG Bottom
+google_ad_channel = "5708604886";
+google_color_border = "191919";
+google_color_bg = "191919";
+google_color_link = "2370b6";
+google_color_text = "d0d0d0";
+google_color_url = "d0d0cf";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><br>
+<div align="center"><span class="copyright"><br /><br />
+Powered by <a href="http://www.phpbb.com/" target="_phpbb">phpBB</a> &copy; 2001, 2005 phpBB Group<br />Design by <a href="http://www.freestylexl.com">Freestyle XL</a> / <a href="http://www.musiclyrics.tv">Music Lyrics</a>.</span></div>
+		</td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<center>Foro hospedado por <a href="http://www.tu-foro-gratis.com" target="_blank">tu-foro-gratis.com</a> / <a href="http://www.tu-foro-gratis.com/get-free-forum.html" target="_blank">Obtenga su propio foro gratis</a> / <a href="http://www.elbigbang.com" target="_blank">Aumente su tráfico</a> / <a href="http://www.tupincho.net" target="_blank">Culturismo y Musculación</a></center>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-817035-4";
+urchinTracker();
+</script>
+
+</body>
+
+</html>
