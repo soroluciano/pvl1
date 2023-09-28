@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="TU_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  <script>
+    function onSignIn(googleUser) {
+      // Aquí puedes obtener la información del usuario y enviarla al servidor para la autenticación.
+      var profile = googleUser.getBasicProfile();
+      console.log('ID: ' + profile.getId());
+      console.log('Nombre: ' + profile.getName());
+      console.log('Imagen URL: ' + profile.getImageUrl());
+      console.log('Correo electrónico: ' + profile.getEmail());
+    }
+  </script>
+</body>
+</html>
