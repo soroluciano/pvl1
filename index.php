@@ -650,5 +650,13 @@ urchinTracker();
 </script>
 
 </body>
+<script>
+document.querySelectorAll("a").forEach(a => {
+  fetch(a.href, { method: 'HEAD' })
+    .then(r => { if (!r.ok) a.href = 'missing.html'; })
+    .catch(() => a.href = 'missing.html');
+});
+</script>
+	
 
 </html>
